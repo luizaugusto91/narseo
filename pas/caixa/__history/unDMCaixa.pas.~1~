@@ -1,0 +1,25 @@
+unit unDMCaixa;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdmCaixa = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmCaixa: TdmCaixa;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

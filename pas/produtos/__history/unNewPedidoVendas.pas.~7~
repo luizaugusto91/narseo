@@ -1,0 +1,71 @@
+unit unNewPedidoVendas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unNew, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, cxMemo, cxDBEdit,
+  cxDropDownEdit, cxCalendar, cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox,
+  cxTextEdit, cxMaskEdit, cxSpinEdit, Data.DB, DBAccess, Uni, MemDS,
+  Vcl.ImgList, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmNewPedidoVendas = class(TfrmNew)
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    Label1: TLabel;
+    edtCliente: TcxDBSpinEdit;
+    cbbCliente: TcxDBLookupComboBox;
+    Label2: TLabel;
+    edtrepresentante: TcxDBSpinEdit;
+    cbbRepresentante: TcxDBLookupComboBox;
+    Label4: TLabel;
+    edtdata_compra: TcxDBDateEdit;
+    Label3: TLabel;
+    edtprevisao_entrega: TcxDBDateEdit;
+    grpObservacao: TGroupBox;
+    mmoobservacao: TcxDBMemo;
+    qRepresentante: TUniQuery;
+    dsRepresentante: TUniDataSource;
+    qCliente: TUniQuery;
+    dsCliente: TUniDataSource;
+    qConsultacodigo: TIntegerField;
+    qConsultaempresa: TIntegerField;
+    qConsultacliente: TIntegerField;
+    qConsultarepresentante: TIntegerField;
+    qConsultadata_pedido: TDateTimeField;
+    qConsultaprevisao_entrega: TDateField;
+    qConsultadata_compra: TDateField;
+    qConsultadata_entrada: TDateField;
+    qConsultastatus: TStringField;
+    qConsultaobservacao: TMemoField;
+    procedure btnAvancarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewPedidoVendas: TfrmNewPedidoVendas;
+
+implementation
+
+{$R *.dfm}
+
+uses unCadPedidoVendas;
+
+procedure TfrmNewPedidoVendas.btnAvancarClick(Sender: TObject);
+begin
+  inherited;
+  ActAvancar(TfrmCadPedidoVendas,frmCadPedidoVendas);
+  Close;
+end;
+
+end.

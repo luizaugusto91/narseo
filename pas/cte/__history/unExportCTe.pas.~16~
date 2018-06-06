@@ -1,0 +1,134 @@
+unit unExportCTe;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unExport, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxStyles, dxSkinsCore, dxSkinDarkSide,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinOffice2007Black,
+  dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink,
+  dxSkinOffice2007Silver, dxSkinOffice2010Black, dxSkinOffice2010Blue,
+  dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
+  dxSkinOffice2013White, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, cxContainer, DBAccess,
+  Uni, cxClasses, Vcl.ImgList, MemDS, Vcl.StdCtrls, dxGDIPlusClasses, cxImage,
+  Vcl.ExtCtrls, cxGridLevel, cxGridCustomView, cxGridCustomTableView,
+  cxGridTableView, cxGridDBTableView, cxGrid, cxImageComboBox, cxTextEdit,
+  cxMaskEdit, cxDropDownEdit, Vcl.ComCtrls, unSystem, unSEFAZ;
+
+type
+  TfrmExportCTe = class(TfrmExport)
+    lbl3: TLabel;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    dtpInicial: TDateTimePicker;
+    dtpFinal: TDateTimePicker;
+    cbbStatus: TcxImageComboBox;
+    btnSearchNFe: TButton;
+    lbl6: TLabel;
+    edtDiretorio: TEdit;
+    btnBuscar: TButton;
+    ColumnViewcodigo: TcxGridDBColumn;
+    ColumnViewdata_registro: TcxGridDBColumn;
+    ColumnViewconhecimento: TcxGridDBColumn;
+    ColumnViewstatus: TcxGridDBColumn;
+    ColumnViewchave: TcxGridDBColumn;
+    btnLimpar: TButton;
+    pb: TProgressBar;
+    procedure btnSearchNFeClick(Sender: TObject);
+    procedure btnBuscarClick(Sender: TObject);
+    procedure btnLimparClick(Sender: TObject);
+    procedure btnExportarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmExportCTe: TfrmExportCTe;
+  sSQL: String;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmExportCTe.btnExportarClick(Sender: TObject);
+var
+  sCTe: String;
+begin
+  inherited;
+  try
+    try
+      pb.Visible := True;
+      pb.Max := ds.DataSet.RecordCount;
+      ds.DataSet.First;
+      while ds.DataSet.Eof = false do
+        begin
+          with sefaz.ACBrCTe do
+            begin
+              // Obtem o Nome do arquivo, a chave do CTE e salva o mesmo na devida pasta.
+              Conhecimentos.Clear;
+              Conhecimentos.LoadFromString(qXML.FieldByName('xml_cte').AsString, False);
+              sCTe := copy(Conhecimentos.Items[0].CTe.infCTe.ID, (length(Conhecimentos.Items[0].CTe.infCTe.ID)-44)+1, 44)+'-CTe.xml';
+              Conhecimentos.Items[0].GravarXML(sCTe);       //SaveToFile;
+              pb.Position := pb.Position + 1;
+              ds.DataSet.Next;
+            end;
+        end;
+    finally
+      Aviso('INFO','Informação','A exportação foi concluida com sucesso!')
+    end;
+  except
+    Aviso('STOP','Informação','Não foi possivel exportar os registros selecionados.')
+  end;
+end;
+
+procedure TfrmExportCTe.btnLimparClick(Sender: TObject);
+begin
+  inherited;
+  qConsulta.Close;
+  qConsulta.SQL.Clear;
+  qConsulta.SQL.Text := sSQL;
+  btnBuscar.Enabled := True;
+  btnExportar.Enabled := False;
+  btnLimpar.Enabled := False;
+end;
+
+procedure TfrmExportCTe.btnBuscarClick(Sender: TObject);
+begin
+  inherited;
+  if ds.DataSet.Active then
+    begin
+      ds.DataSet.Close;
+      qConsulta.SQL.Clear;
+      qConsulta.SQL.Text := sSQL;
+    end
+  else
+    begin
+      sSQL:= qConsulta.SQL.Text;
+    end;
+  if cbbStatus.Properties.Items[0].Value = 'A' then
+    qConsulta.SQL.Add(' and status in (' + QuotedStr('E') + ',' + QuotedStr('C') + ') ');
+  if cbbStatus.Properties.Items[0].Value = 'E' then
+    qConsulta.SQL.Add(' and status = ' + QuotedStr('E') + ' ');
+  if cbbStatus.Properties.Items[0].Value = 'C' then
+    qConsulta.SQL.Add(' and status in ' + QuotedStr('C') + ' ');
+  qConsulta.SQL.Add(' and data_registro between ' + QuotedStr(FormatDateTime('YYYY-MM-DD',dtpInicial.Date)) + ' and ' + QuotedStr(FormatDateTime('YYYY-MM-DD',dtpFinal.Date)) + ' ');
+  qConsulta.Open;
+  btnLimpar.Enabled := True;
+  if ds.DataSet.RecordCount > 0 then
+    begin
+      btnExportar.Enabled := True;
+      qXML.Open;
+    end;
+end;
+
+procedure TfrmExportCTe.btnSearchNFeClick(Sender: TObject);
+begin
+  inherited;
+  edtDiretorio.Text := GetDir;
+end;
+
+end.

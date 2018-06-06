@@ -1,0 +1,52 @@
+unit unCadPessoaSaldos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unCad, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.ImgList, Data.DB, MemDS,
+  DBAccess, Uni, Vcl.StdCtrls, dxGDIPlusClasses, cxImage, Vcl.ExtCtrls,
+  cxTextEdit, cxMaskEdit, cxSpinEdit, cxDBEdit, cxCurrencyEdit;
+
+type
+  TfrmCadPessoaSaldos = class(TfrmCad)
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    qConsultacodigo: TIntegerField;
+    qConsultapessoa: TIntegerField;
+    qConsultadata_registro: TDateField;
+    qConsultatipo_receita: TIntegerField;
+    qConsultavalor: TCurrencyField;
+    qConsultaparcial: TBooleanField;
+    qConsultaorigem: TIntegerField;
+    qConsultadescricao: TStringField;
+    qConsultamovimento: TIntegerField;
+    qConsultaobservacao: TStringField;
+    lblTipReceita: TLabel;
+    edttipo_receita: TcxDBSpinEdit;
+    lblValor: TLabel;
+    edtvalor: TcxDBCurrencyEdit;
+    lblOrigem: TLabel;
+    edtorigem: TcxDBSpinEdit;
+    lbldescricao: TLabel;
+    edtdescricao: TcxDBTextEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadPessoaSaldos: TfrmCadPessoaSaldos;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,24 @@
+unit unRelatorios;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unMaster;
+
+type
+  TfrmReport = class(TFMaster)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmReport: TfrmReport;
+
+implementation
+
+{$R *.dfm}
+
+end.

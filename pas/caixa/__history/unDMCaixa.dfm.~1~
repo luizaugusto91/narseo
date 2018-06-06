@@ -1,0 +1,5 @@
+object dmCaixa: TdmCaixa
+  OldCreateOrder = False
+  Height = 531
+  Width = 854
+end

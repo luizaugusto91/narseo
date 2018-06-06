@@ -1,0 +1,499 @@
+inherited frmCadDespesasFixas: TfrmCadDespesasFixas
+  Caption = 'Despesas Fixas'
+  ClientHeight = 458
+  ClientWidth = 716
+  ExplicitWidth = 722
+  ExplicitHeight = 487
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 423
+    Width = 716
+    inherited btnCancelar: TButton
+      Left = 439
+    end
+    inherited btnSalvar: TButton
+      Left = 532
+    end
+    inherited btnFechar: TButton
+      Left = 625
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 706
+    Height = 371
+    object lblCodigo: TLabel
+      Left = 10
+      Top = 24
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtCodigo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl1: TLabel
+      Left = 111
+      Top = 24
+      Width = 55
+      Height = 15
+      Caption = 'Descri'#231#227'o:'
+      FocusControl = edtdescricao
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl2: TLabel
+      Left = 10
+      Top = 53
+      Width = 77
+      Height = 15
+      Caption = 'Tipo de Conta:'
+      FocusControl = edttipo_conta
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl3: TLabel
+      Left = 304
+      Top = 53
+      Width = 107
+      Height = 15
+      Caption = 'Tipo de Pagamento:'
+      FocusControl = edttipo_pagamento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl4: TLabel
+      Left = 10
+      Top = 82
+      Width = 92
+      Height = 15
+      Caption = 'Centro de Custos:'
+      FocusControl = edtcentro_custo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl5: TLabel
+      Left = 533
+      Top = 82
+      Width = 103
+      Height = 15
+      Caption = 'Dia de vencimento:'
+      FocusControl = edtdia_vencimento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl6: TLabel
+      Left = 72
+      Top = 176
+      Width = 72
+      Height = 15
+      Caption = 'total_parcelas'
+      FocusControl = edttotal_parcelas
+    end
+    object lbl7: TLabel
+      Left = 232
+      Top = 184
+      Width = 26
+      Height = 15
+      Caption = 'valor'
+      FocusControl = edtvalor
+    end
+    object lbl8: TLabel
+      Left = 72
+      Top = 224
+      Width = 69
+      Height = 15
+      Caption = 'parcela_atual'
+      FocusControl = edtparcela_atual
+    end
+    object lbl9: TLabel
+      Left = 224
+      Top = 232
+      Width = 69
+      Height = 15
+      Caption = 'valor_parcela'
+      FocusControl = edtvalor_parcela
+    end
+    object lbl10: TLabel
+      Left = 64
+      Top = 272
+      Width = 47
+      Height = 15
+      Caption = 'juros_dia'
+      FocusControl = edtjuros_dia
+    end
+    object lbl11: TLabel
+      Left = 192
+      Top = 272
+      Width = 55
+      Height = 15
+      Caption = 'juros_porc'
+      FocusControl = edtjuros_porc
+    end
+    object lbl12: TLabel
+      Left = 320
+      Top = 280
+      Width = 26
+      Height = 15
+      Caption = 'juros'
+      FocusControl = edtjuros
+    end
+    object lbl13: TLabel
+      Left = 497
+      Top = 24
+      Width = 67
+      Height = 15
+      Caption = 'Documento:'
+      FocusControl = edtdocumento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 57
+      Top = 21
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtdescricao: TcxDBTextEdit
+      Left = 172
+      Top = 21
+      DataBinding.DataField = 'descricao'
+      DataBinding.DataSource = ds
+      TabOrder = 1
+      Width = 319
+    end
+    object edttipo_conta: TcxDBSpinEdit
+      Left = 93
+      Top = 50
+      DataBinding.DataField = 'tipo_conta'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 2
+      Width = 50
+    end
+    object edttipo_pagamento: TcxDBSpinEdit
+      Left = 417
+      Top = 50
+      DataBinding.DataField = 'tipo_pagamento'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 3
+      Width = 50
+    end
+    object edtcentro_custo: TcxDBTextEdit
+      Left = 108
+      Top = 79
+      DataBinding.DataField = 'centro_custo'
+      DataBinding.DataSource = ds
+      TabOrder = 4
+      Width = 101
+    end
+    object edtdia_vencimento: TcxDBSpinEdit
+      Left = 641
+      Top = 79
+      DataBinding.DataField = 'dia_vencimento'
+      DataBinding.DataSource = ds
+      Properties.MaxValue = 31.000000000000000000
+      Properties.MinValue = 1.000000000000000000
+      Properties.SpinButtons.Visible = False
+      TabOrder = 5
+      Width = 50
+    end
+    object edttotal_parcelas: TcxDBSpinEdit
+      Left = 72
+      Top = 192
+      DataBinding.DataField = 'total_parcelas'
+      DataBinding.DataSource = ds
+      TabOrder = 6
+      Width = 121
+    end
+    object edtvalor: TcxDBCalcEdit
+      Left = 232
+      Top = 200
+      DataBinding.DataField = 'valor'
+      DataBinding.DataSource = ds
+      TabOrder = 7
+      Width = 121
+    end
+    object edtparcela_atual: TcxDBSpinEdit
+      Left = 72
+      Top = 240
+      DataBinding.DataField = 'parcela_atual'
+      DataBinding.DataSource = ds
+      TabOrder = 8
+      Width = 121
+    end
+    object edtvalor_parcela: TcxDBCurrencyEdit
+      Left = 224
+      Top = 248
+      DataBinding.DataField = 'valor_parcela'
+      DataBinding.DataSource = ds
+      TabOrder = 9
+      Width = 121
+    end
+    object edtjuros_dia: TcxDBCalcEdit
+      Left = 64
+      Top = 288
+      DataBinding.DataField = 'juros_dia'
+      DataBinding.DataSource = ds
+      TabOrder = 10
+      Width = 121
+    end
+    object edtjuros_porc: TcxDBCalcEdit
+      Left = 192
+      Top = 288
+      DataBinding.DataField = 'juros_porc'
+      DataBinding.DataSource = ds
+      TabOrder = 11
+      Width = 121
+    end
+    object edtjuros: TcxDBCalcEdit
+      Left = 320
+      Top = 296
+      DataBinding.DataField = 'juros'
+      DataBinding.DataSource = ds
+      TabOrder = 12
+      Width = 121
+    end
+    object edtdocumento: TcxDBTextEdit
+      Left = 570
+      Top = 21
+      DataBinding.DataField = 'documento'
+      DataBinding.DataSource = ds
+      TabOrder = 13
+      Width = 121
+    end
+  end
+  inherited pnlHelp: TPanel
+    Width = 707
+    inherited mmoHelp: TMemo
+      Width = 660
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO despesas_fixas'
+      
+        '  (empresa, data_registro, descricao, dia_vencimento, tipo_conta' +
+        ', tipo_pagamento, centro_custo, valor, total_parcelas, parcela_a' +
+        'tual, valor_parcela, juros_dia, juros_porc, juros, desconto_porc' +
+        ', desconto, documento, ultimo_registro, pessoa, observacoes, nfe' +
+        ', cd_nfentrada, chave_nfe, serie, compra, quitada, despesa, inat' +
+        'ivo)'
+      'VALUES'
+      
+        '  (:empresa, :data_registro, :descricao, :dia_vencimento, :tipo_' +
+        'conta, :tipo_pagamento, :centro_custo, :valor, :total_parcelas, ' +
+        ':parcela_atual, :valor_parcela, :juros_dia, :juros_porc, :juros,' +
+        ' :desconto_porc, :desconto, :documento, :ultimo_registro, :pesso' +
+        'a, :observacoes, :nfe, :cd_nfentrada, :chave_nfe, :serie, :compr' +
+        'a, :quitada, :despesa, :inativo)')
+    SQLDelete.Strings = (
+      'DELETE FROM despesas_fixas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE despesas_fixas'
+      'SET'
+      
+        '  empresa = :empresa, data_registro = :data_registro, descricao ' +
+        '= :descricao, dia_vencimento = :dia_vencimento, tipo_conta = :ti' +
+        'po_conta, tipo_pagamento = :tipo_pagamento, centro_custo = :cent' +
+        'ro_custo, valor = :valor, total_parcelas = :total_parcelas, parc' +
+        'ela_atual = :parcela_atual, valor_parcela = :valor_parcela, juro' +
+        's_dia = :juros_dia, juros_porc = :juros_porc, juros = :juros, de' +
+        'sconto_porc = :desconto_porc, desconto = :desconto, documento = ' +
+        ':documento, ultimo_registro = :ultimo_registro, pessoa = :pessoa' +
+        ', observacoes = :observacoes, nfe = :nfe, cd_nfentrada = :cd_nfe' +
+        'ntrada, chave_nfe = :chave_nfe, serie = :serie, compra = :compra' +
+        ', quitada = :quitada, despesa = :despesa, inativo = :inativo'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM despesas_fixas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, data_registro, descricao, dia_vencimento, tipo_c' +
+        'onta, tipo_pagamento, centro_custo, valor, total_parcelas, parce' +
+        'la_atual, valor_parcela, juros_dia, juros_porc, juros, desconto_' +
+        'porc, desconto, documento, ultimo_registro, pessoa, observacoes,' +
+        ' nfe, cd_nfentrada, chave_nfe, serie, compra, quitada, despesa, ' +
+        'inativo FROM despesas_fixas'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM despesas_fixas'
+      ''
+      ') t')
+    SQL.Strings = (
+      'SELECT df.codigo, '
+      #9'df.empresa, '
+      #9'df.data_registro, '
+      #9'df.descricao, '
+      #9'df.dia_vencimento, '
+      #9'df.tipo_conta, '
+      #9'df.tipo_pagamento, '
+      #9'df.centro_custo, '
+      #9'df.valor, '
+      #9'df.total_parcelas, '
+      #9'df.parcela_atual, '
+      #9'df.valor_parcela, '
+      #9'df.juros_dia, '
+      #9'df.juros_porc, '
+      #9'df.juros, '
+      #9'df.desconto_porc, '
+      #9'df.desconto, '
+      #9'df.documento, '
+      #9'df.ultimo_registro, '
+      #9'df.pessoa, '
+      #9'df.observacoes, '
+      #9'df.nfe, '
+      #9'df.cd_nfentrada, '
+      #9'df.chave_nfe, '
+      #9'df.serie, '
+      #9'df.compra, '
+      #9'df.quitada, '
+      #9'df.despesa, '
+      #9'df.inativo'
+      '   FROM despesas_fixas df'
+      '  WHERE df.codigo = :codigo;')
+    object FieldConsultacodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object FieldConsultaempresa: TIntegerField
+      FieldName = 'empresa'
+    end
+    object qConsultadata_registro: TDateTimeField
+      FieldName = 'data_registro'
+    end
+    object FieldConsultadescricao: TStringField
+      FieldName = 'descricao'
+      Required = True
+      Size = 250
+    end
+    object FieldConsultadia_vencimento: TIntegerField
+      FieldName = 'dia_vencimento'
+      Required = True
+    end
+    object FieldConsultatipo_conta: TIntegerField
+      FieldName = 'tipo_conta'
+      Required = True
+    end
+    object FieldConsultatipo_pagamento: TIntegerField
+      FieldName = 'tipo_pagamento'
+    end
+    object FieldConsultacentro_custo: TStringField
+      FieldName = 'centro_custo'
+    end
+    object FieldConsultavalor: TFloatField
+      FieldName = 'valor'
+      Required = True
+    end
+    object FieldConsultatotal_parcelas: TIntegerField
+      FieldName = 'total_parcelas'
+      Required = True
+    end
+    object FieldConsultaparcela_atual: TIntegerField
+      FieldName = 'parcela_atual'
+    end
+    object FieldConsultavalor_parcela: TCurrencyField
+      FieldName = 'valor_parcela'
+    end
+    object FieldConsultajuros_dia: TFloatField
+      FieldName = 'juros_dia'
+    end
+    object FieldConsultajuros_porc: TFloatField
+      FieldName = 'juros_porc'
+    end
+    object FieldConsultajuros: TFloatField
+      FieldName = 'juros'
+    end
+    object FieldConsultadesconto_porc: TFloatField
+      FieldName = 'desconto_porc'
+    end
+    object FieldConsultadesconto: TCurrencyField
+      FieldName = 'desconto'
+    end
+    object FieldConsultadocumento: TStringField
+      FieldName = 'documento'
+      Size = 15
+    end
+    object FieldConsultaultimo_registro: TDateField
+      FieldName = 'ultimo_registro'
+    end
+    object FieldConsultapessoa: TIntegerField
+      FieldName = 'pessoa'
+    end
+    object qConsultaobservacoes: TMemoField
+      FieldName = 'observacoes'
+      BlobType = ftMemo
+    end
+    object FieldConsultanfe: TIntegerField
+      FieldName = 'nfe'
+    end
+    object FieldConsultacd_nfentrada: TIntegerField
+      FieldName = 'cd_nfentrada'
+    end
+    object FieldConsultachave_nfe: TStringField
+      FieldName = 'chave_nfe'
+      Size = 60
+    end
+    object FieldConsultaserie: TIntegerField
+      FieldName = 'serie'
+    end
+    object FieldConsultacompra: TIntegerField
+      FieldName = 'compra'
+    end
+    object FieldConsultaquitada: TBooleanField
+      FieldName = 'quitada'
+    end
+    object FieldConsultadespesa: TBooleanField
+      FieldName = 'despesa'
+      Required = True
+    end
+    object FieldConsultainativo: TBooleanField
+      FieldName = 'inativo'
+      Required = True
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+end

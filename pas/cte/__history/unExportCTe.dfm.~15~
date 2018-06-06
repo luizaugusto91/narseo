@@ -1,0 +1,252 @@
+inherited frmExportCTe: TfrmExportCTe
+  Caption = 'Exportar CT-e XML'
+  ExplicitTop = -16
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited grpContent: TGroupBox
+    Height = 117
+    ExplicitHeight = 117
+    object lbl3: TLabel
+      Left = 13
+      Top = 24
+      Width = 59
+      Height = 13
+      Caption = 'Data inicial:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl4: TLabel
+      Left = 221
+      Top = 23
+      Width = 52
+      Height = 13
+      Caption = 'Data final:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl5: TLabel
+      Left = 418
+      Top = 24
+      Width = 77
+      Height = 13
+      Caption = 'Status do CT-e:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl6: TLabel
+      Left = 13
+      Top = 52
+      Width = 106
+      Height = 13
+      Caption = 'Diret'#243'rio de destino:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object dtpInicial: TDateTimePicker
+      Left = 78
+      Top = 19
+      Width = 137
+      Height = 23
+      Date = 43088.048123379630000000
+      Time = 43088.048123379630000000
+      TabOrder = 0
+    end
+    object dtpFinal: TDateTimePicker
+      Left = 279
+      Top = 19
+      Width = 133
+      Height = 23
+      Date = 43088.048123379630000000
+      Time = 43088.048123379630000000
+      TabOrder = 1
+    end
+    object cbbStatus: TcxImageComboBox
+      Left = 503
+      Top = 19
+      Properties.Items = <
+        item
+          Description = 'Todos'
+          ImageIndex = 0
+          Value = 'A'
+        end
+        item
+          Description = 'Emitidos'
+          Value = 'E'
+        end
+        item
+          Description = 'Cancelados'
+          Value = 'C'
+        end>
+      TabOrder = 2
+      Width = 274
+    end
+    object btnSearchNFe: TButton
+      Left = 754
+      Top = 48
+      Width = 23
+      Height = 23
+      HotImageIndex = 14
+      ImageIndex = 14
+      Images = ImageList16
+      TabOrder = 4
+      OnClick = btnSearchNFeClick
+    end
+    object edtDiretorio: TEdit
+      Left = 125
+      Top = 48
+      Width = 623
+      Height = 23
+      ReadOnly = True
+      TabOrder = 3
+      Text = 'Selecione o diret'#243'rio para salvar os arquivos...'
+    end
+    object btnBuscar: TButton
+      Left = 684
+      Top = 77
+      Width = 93
+      Height = 27
+      Hint = 'Busca os registros de acordo com o filtro selecionado.'
+      Anchors = [akTop, akRight]
+      Caption = 'Buscar'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      HotImageIndex = 5
+      ImageIndex = 5
+      ImageMargins.Left = 10
+      Images = ImageList16
+      ParentFont = False
+      TabOrder = 5
+      OnClick = btnBuscarClick
+    end
+    object btnLimpar: TButton
+      Left = 585
+      Top = 77
+      Width = 93
+      Height = 27
+      Hint = 'Limpa o registros encontrados da consulta anterior.'
+      Anchors = [akTop, akRight]
+      Caption = 'Limpar'
+      Enabled = False
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      HotImageIndex = 6
+      ImageIndex = 6
+      ImageMargins.Left = 10
+      Images = ImageList16
+      ParentFont = False
+      TabOrder = 6
+      OnClick = btnLimparClick
+    end
+    object pb: TProgressBar
+      Left = 13
+      Top = 77
+      Width = 566
+      Height = 27
+      TabOrder = 7
+      Visible = False
+    end
+  end
+  inherited grpItens: TGroupBox
+    Top = 175
+    Height = 290
+    Margins.Bottom = 0
+    inherited Grid: TcxGrid
+      Height = 263
+      inherited View: TcxGridDBTableView
+        object ColumnViewcodigo: TcxGridDBColumn
+          Caption = '#ID'
+          DataBinding.FieldName = 'codigo'
+          Width = 70
+        end
+        object ColumnViewconhecimento: TcxGridDBColumn
+          Caption = 'CT-e'
+          DataBinding.FieldName = 'conhecimento'
+          Width = 100
+        end
+        object ColumnViewchave: TcxGridDBColumn
+          Caption = 'Chave'
+          DataBinding.FieldName = 'chave_cte'
+          Width = 280
+        end
+        object ColumnViewdata_registro: TcxGridDBColumn
+          Caption = 'Data do registro'
+          DataBinding.FieldName = 'data_registro'
+          Width = 120
+        end
+        object ColumnViewstatus: TcxGridDBColumn
+          Caption = 'Status'
+          DataBinding.FieldName = 'status'
+          PropertiesClassName = 'TcxImageComboBoxProperties'
+          Properties.Items = <
+            item
+              Description = 'Emitido'
+              ImageIndex = 0
+              Value = 'E'
+            end
+            item
+              Description = 'Cancelado'
+              Value = 'C'
+            end>
+          Width = 80
+        end
+      end
+    end
+  end
+  inherited pnlBotton: TPanel
+    inherited btnExportar: TButton
+      Top = 3
+      OnClick = btnExportarClick
+      ExplicitTop = 3
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT codigo, chave_cte, data_registro, conhecimento, status'
+      '  FROM cte'
+      ' WHERE 1=1')
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  inherited StyleRepository: TcxStyleRepository
+    PixelsPerInch = 96
+  end
+  inherited qXML: TUniQuery
+    SQL.Strings = (
+      'SELECT codigo, cte, xml_cte, xml_cancelamento'
+      '  FROM cte_xml'
+      ' WHERE cte = :codigo;')
+    MasterSource = ds
+    MasterFields = 'codigo'
+    DetailFields = 'cte'
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'codigo'
+        ParamType = ptInput
+        Value = nil
+      end>
+  end
+end

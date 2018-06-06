@@ -1,0 +1,29 @@
+unit unEstoqueMovimentoManual;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unSystem, unParametros, unConnection,
+  unMaster;
+
+type
+  TfrmEstoqueMovimentoManual = class(TFMaster)
+  private
+    { Private declarations }
+    procedure OpenQuery;
+  public
+    Settings: TFormMode;
+    QueryID: Integer;
+    { Public declarations }
+    procedure ValidaCamposObrigatorios(Query: TUniQuery);
+    procedure Focus;
+
+var
+  FMaster1: TFMaster1;
+
+implementation
+
+{$R *.dfm}
+
+end.

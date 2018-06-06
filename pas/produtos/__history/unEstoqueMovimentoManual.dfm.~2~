@@ -1,0 +1,12 @@
+inherited frmEstoqueMovimentoManual: TfrmEstoqueMovimentoManual
+  Caption = 'Movimenta'#231#227'o manual de estoque'
+  ExplicitWidth = 488
+  ExplicitHeight = 282
+  PixelsPerInch = 96
+  TextHeight = 15
+  object qSQL: TUniQuery
+    Connection = Connection.Conn
+    Left = 24
+    Top = 15
+  end
+end

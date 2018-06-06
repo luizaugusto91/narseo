@@ -1,0 +1,139 @@
+unit unBaixaContasReceber;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unBaixa, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.ImgList, Data.DB, MemDS,
+  DBAccess, Uni, Vcl.StdCtrls, dxGDIPlusClasses, cxImage, Vcl.ExtCtrls,
+  cxCurrencyEdit, cxDBEdit, cxDropDownEdit, cxCalendar, cxTextEdit, cxMaskEdit,
+  cxSpinEdit, cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxMemo, unSystem;
+
+type
+  TfrmBaixaContasReceber = class(TfrmBaixa)
+    qConsultacodigo: TIntegerField;
+    qConsultacaixa: TIntegerField;
+    qConsultaturno: TIntegerField;
+    qConsultadata_movimento: TDateField;
+    qConsultaoperador_sistema: TIntegerField;
+    qConsultamotivo: TStringField;
+    qConsultavalor: TCurrencyField;
+    qConsultacupom: TIntegerField;
+    qConsultadata_hora: TDateTimeField;
+    qConsultatipo: TStringField;
+    qConsultaoperador_caixa: TIntegerField;
+    qConsultatipo_pagamento: TIntegerField;
+    qConsultaconta: TIntegerField;
+    qConsultaobservacao: TStringField;
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    Label9: TLabel;
+    edtconta: TcxDBSpinEdit;
+    Label3: TLabel;
+    edtdata_movimento: TcxDBDateEdit;
+    Label4: TLabel;
+    edtoperador_sistema: TcxDBSpinEdit;
+    Label1: TLabel;
+    edtvalor: TcxDBCurrencyEdit;
+    Label2: TLabel;
+    edtdata_hora: TcxDBDateEdit;
+    Label6: TLabel;
+    edtoperador_caixa: TcxDBSpinEdit;
+    Label7: TLabel;
+    edttipo_pagamento: TcxDBSpinEdit;
+    qPessoas: TUniQuery;
+    dsPessoas: TUniDataSource;
+    cbbOperador: TcxDBLookupComboBox;
+    cbbCaixa: TcxDBLookupComboBox;
+    grpObservacao: TGroupBox;
+    mmoobservacao: TcxDBMemo;
+    qTipoPagamento: TUniQuery;
+    dsTipoPagamento: TUniDataSource;
+    cbbTipoPagamento: TcxDBLookupComboBox;
+    qContas: TUniQuery;
+    qCedente: TUniQuery;
+    qSaldo: TUniQuery;
+    procedure FormShow(Sender: TObject);
+    procedure edtvalorEnter(Sender: TObject);
+    procedure btnBaixarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmBaixaContasReceber: TfrmBaixaContasReceber;
+
+implementation
+
+{$R *.dfm}
+
+uses unDMCaixaAdm, unParametros;
+
+procedure TfrmBaixaContasReceber.btnBaixarClick(Sender: TObject);
+begin
+  if ds.DataSet.FieldByName('valor').AsCurrency = 0 then
+    begin
+      Aviso('STOP','Informação','Não é possivel realizar baixa com valor zerado. Operação cancelada.');
+      Abort
+    end
+  else
+    begin
+      //inherited;
+      ds.DataSet.Post;
+      qSaldo.Close;
+      qSaldo.ParamByName('baixa').AsInteger := ds.DataSet.FieldByName('codigo').AsInteger;
+      qSaldo.ParamByName('pessoa').AsInteger := qCedente.FieldByName('cd_pessoa').AsInteger;
+      qSaldo.Open;
+    end;
+end;
+
+procedure TfrmBaixaContasReceber.edtvalorEnter(Sender: TObject);
+begin
+  inherited;
+  if ds.State in [dsInsert] then
+    begin
+      if (edtvalor.Text = '') or (edtvalor.Value = 0) then
+        begin
+          ds.DataSet.FieldByName('valor').AsCurrency := qContas.FieldByName('valor_corrigido').AsCurrency;
+        end;
+    end;
+end;
+
+procedure TfrmBaixaContasReceber.FormShow(Sender: TObject);
+begin
+  inherited;
+  if ds.State in [dsInsert] then
+    begin
+      ds.DataSet.FieldByName('caixa').AsInteger := dmCaixaAdm.GetCaixa;
+      ds.DataSet.FieldByName('turno').AsInteger := dmCaixaAdm.GetCaixaTurno;
+      ds.DataSet.FieldByName('conta').AsInteger := NConta;
+      ds.DataSet.FieldByName('operador_sistema').AsInteger := Parametros.cdsParametros.FieldByName('pessoa').AsInteger;
+      ds.DataSet.FieldByName('operador_caixa').AsInteger := dmCaixaAdm.GetCaixaOperador;
+      ds.DataSet.FieldByName('tipo').AsString := 'F';
+      ds.DataSet.FieldByName('tipo_pagamento').AsInteger := 1;
+      qContas.Close;
+      qContas.ParamByName('codigo').AsInteger := NConta;
+      qContas.Open;
+      if Settings.Modo = 'SALDO' then
+        begin
+          qCedente.Close;
+          qCedente.ParamByName('codigo').AsInteger := qContas.FieldByName('cd_pessoa').AsInteger;
+          qCedente.Open;
+          if qContas.FieldByName('valor_corrigido').AsCurrency < qCedente.FieldByName('valor').AsCurrency then
+            ds.DataSet.FieldByName('valor').AsCurrency := qContas.FieldByName('valor_corrigido').AsCurrency
+          else
+            ds.DataSet.FieldByName('valor').AsCurrency := qCedente.FieldByName('valor').AsCurrency;
+          edtvalor.Enabled := False;
+        end;
+    end
+end;
+
+end.

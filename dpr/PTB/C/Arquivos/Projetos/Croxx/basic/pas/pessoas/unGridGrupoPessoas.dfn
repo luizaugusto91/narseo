@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridGrupoPessoas.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridGrupoPessoas.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0943055556</prop>
+        <prop prop-type="OrigDateTime">42759.0440277778</prop>
+        <prop prop-type="XlatDateTime">42759.0440277778</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">94</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmGridGrupoPessoas.Tag" resname="I:frmGridGrupoPessoas.Tag">
+        <source>2104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.Caption" resname="I:frmGridGrupoPessoas.Caption">
+        <source>'Grupo de Pessoas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.ClientHeight" resname="I:frmGridGrupoPessoas.ClientHeight">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.ClientWidth" resname="I:frmGridGrupoPessoas.ClientWidth">
+        <source>1038</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.ExplicitWidth" resname="I:frmGridGrupoPessoas.ExplicitWidth">
+        <source>1054</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.ExplicitHeight" resname="I:frmGridGrupoPessoas.ExplicitHeight">
+        <source>461</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.PixelsPerInch" resname="I:frmGridGrupoPessoas.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.TextHeight" resname="I:frmGridGrupoPessoas.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfrmGridGrupoPessoas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.Top" resname="I:frmGridGrupoPessoas.I:pnlBotton.Top">
+        <source>382</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.Width" resname="I:frmGridGrupoPessoas.I:pnlBotton.Width">
+        <source>1038</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.ExplicitTop" resname="I:frmGridGrupoPessoas.I:pnlBotton.ExplicitTop">
+        <source>382</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.ExplicitWidth" resname="I:frmGridGrupoPessoas.I:pnlBotton.ExplicitWidth">
+        <source>1038</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.Left" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.Left">
+        <source>653</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.OnClick" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.OnClick">
+        <source>btnNovoClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnNovo.ExplicitLeft">
+        <source>653</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.Left" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.Left">
+        <source>749</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.OnClick" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.OnClick">
+        <source>btnVisualizarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnVisualizar.ExplicitLeft">
+        <source>749</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.Left" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.Left">
+        <source>845</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.OnClick" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.OnClick">
+        <source>btnEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnEditar.ExplicitLeft">
+        <source>845</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.Left" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.Left">
+        <source>941</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.OnClick" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.OnClick">
+        <source>btnExcluirClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:pnlBotton.I:btnExcluir.ExplicitLeft">
+        <source>941</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Left" resname="I:frmGridGrupoPessoas.I:grpLista.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Top" resname="I:frmGridGrupoPessoas.I:grpLista.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Width" resname="I:frmGridGrupoPessoas.I:grpLista.Width">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Height" resname="I:frmGridGrupoPessoas.I:grpLista.Height">
+        <source>375</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Margins.Left" resname="I:frmGridGrupoPessoas.I:grpLista.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Margins.Top" resname="I:frmGridGrupoPessoas.I:grpLista.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.Margins.Right" resname="I:frmGridGrupoPessoas.I:grpLista.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:grpLista.ExplicitLeft">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.ExplicitTop" resname="I:frmGridGrupoPessoas.I:grpLista.ExplicitTop">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.ExplicitWidth" resname="I:frmGridGrupoPessoas.I:grpLista.ExplicitWidth">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.ExplicitHeight" resname="I:frmGridGrupoPessoas.I:grpLista.ExplicitHeight">
+        <source>375</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Left" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Left">
+        <source>684</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Height" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Height">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Margins.Bottom" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244213</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.ExplicitLeft">
+        <source>684</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.ExplicitHeight" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFuncoes.ExplicitHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Left" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Width" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Width">
+        <source>675</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Height" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Height">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Margins.Left" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Margins.Bottom" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitLeft">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitWidth" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitWidth">
+        <source>675</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitHeight" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.ExplicitHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.OnDblClick" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.OnDblClick">
+        <source>ViewDblClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.Caption" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.Caption">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.DataBinding.FieldName" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.DataBinding.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.Width" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewID.Width">
+        <source>60</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.Caption" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.Caption">
+        <source>'Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.DataBinding.FieldName" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.DataBinding.FieldName">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.Width" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewNome.Width">
+        <source>260</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.Caption" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.Caption">
+        <source>'Tipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.DataBinding.FieldName" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.DataBinding.FieldName">
+        <source>'tipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.Width" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewTipo.Width">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.Caption" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.Caption">
+        <source>'Bloqueado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.DataBinding.FieldName" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.DataBinding.FieldName">
+        <source>'bloqueado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.Width" resname="I:frmGridGrupoPessoas.I:grpLista.I:Grid.I:View.O:ColViewBloqueado.Width">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Left" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Left">
+        <source>715</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Height" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Height">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Margins.Right" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Margins.Bottom" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.ExplicitLeft" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.ExplicitLeft">
+        <source>715</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.ExplicitHeight" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.ExplicitHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Height" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Height">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Margins.Left" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Margins.Bottom" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight" resname="I:frmGridGrupoPessoas.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:ImageList16.FormatVersion" resname="I:frmGridGrupoPessoas.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[0]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[0]">
+        <source>'SELECT vpg.codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[1]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[1]">
+        <source>#9'vpg.empresa, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[2]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[2]">
+        <source>#9'vpg.nome, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[3]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[3]">
+        <source>#9'vpg.tipo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[4]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[4]">
+        <source>#9'vpg.bloqueado, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[5]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[5]">
+        <source>#9'vpg.motivo_bloqueio, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[6]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[6]">
+        <source>#9'vpg.tabela_preco, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[7]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[7]">
+        <source>#9'vpg.forma_pgto, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[8]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[8]">
+        <source>#9'vpg.tabela_preco_fatura, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[9]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[9]">
+        <source>#9'vpg.bloqueia_geracao_ponto, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[10]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[10]">
+        <source>#9'vpg.limite, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[11]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[11]">
+        <source>#9'vpg.desconto_pedido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[12]" resname="I:frmGridGrupoPessoas.I:qConsulta.SQL.Strings[12]">
+        <source>'   FROM vw_pessoa_grupos vpg ;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].DataType" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].Name" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].Name">
+        <source>'colunas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].ParamType" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].Value" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[0].Value">
+        <source>#39#39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].DataType" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].Name" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].Name">
+        <source>'tabela'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].ParamType" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].Value" resname="I:frmGridGrupoPessoas.I:qInfo.ParamData[1].Value">
+        <source>'vw_pessoa_grupos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridGrupoPessoas.I:StyleRepository.PixelsPerInch" resname="I:frmGridGrupoPessoas.I:StyleRepository.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943244444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

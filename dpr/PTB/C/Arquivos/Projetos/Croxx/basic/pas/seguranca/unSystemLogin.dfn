@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\seguranca\unSystemLogin.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\seguranca\unSystemLogin.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0943981481</prop>
+        <prop prop-type="OrigDateTime">42769.0816203704</prop>
+        <prop prop-type="XlatDateTime">42769.0816203704</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">275</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:frmSystemLogin.Left" resname="O:frmSystemLogin.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Top" resname="O:frmSystemLogin.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Caption" resname="O:frmSystemLogin.Caption">
+        <source>'.:: Autenticação de Segurança ::.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.ClientHeight" resname="O:frmSystemLogin.ClientHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.ClientWidth" resname="O:frmSystemLogin.ClientWidth">
+        <source>489</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Color" resname="O:frmSystemLogin.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Font.Charset" resname="O:frmSystemLogin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Font.Color" resname="O:frmSystemLogin.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Font.Height" resname="O:frmSystemLogin.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Font.Name" resname="O:frmSystemLogin.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Font.Style" resname="O:frmSystemLogin.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.OldCreateOrder" resname="O:frmSystemLogin.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.Position" resname="O:frmSystemLogin.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.OnShow" resname="O:frmSystemLogin.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.PixelsPerInch" resname="O:frmSystemLogin.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.TextHeight" resname="O:frmSystemLogin.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TfrmSystemLogin</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.Left" resname="O:frmSystemLogin.O:pnlBotton.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.Top" resname="O:frmSystemLogin.O:pnlBotton.Top">
+        <source>303</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.Width" resname="O:frmSystemLogin.O:pnlBotton.Width">
+        <source>489</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.Height" resname="O:frmSystemLogin.O:pnlBotton.Height">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.Align" resname="O:frmSystemLogin.O:pnlBotton.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.BevelOuter" resname="O:frmSystemLogin.O:pnlBotton.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.ParentBackground" resname="O:frmSystemLogin.O:pnlBotton.ParentBackground">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.TabOrder" resname="O:frmSystemLogin.O:pnlBotton.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.DesignSize[0]" resname="O:frmSystemLogin.O:pnlBotton.DesignSize[0]">
+        <source>489</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.DesignSize[1]" resname="O:frmSystemLogin.O:pnlBotton.DesignSize[1]">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Left" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Left">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Top" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Width" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Width">
+        <source>94</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Height" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Height">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Caption" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Caption">
+        <source>'Jovemti - © 2017'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Charset" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Color" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Color">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Height" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Name" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Name">
+        <source>'Laconic'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Style" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:lblCopy.ParentFont" resname="O:frmSystemLogin.O:pnlBotton.O:lblCopy.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Left">
+        <source>277</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Top" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Top">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Width" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Width">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Hint" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Hint">
+        <source>'Login no sistema.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Anchors" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Anchors">
+        <source>[akTop, akRight]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Caption" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Caption">
+        <source>'Login'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Charset" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Color" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Name" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Style" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ImageIndex" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ImageIndex">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ImageMargins.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ImageMargins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Images" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ParentFont" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ParentShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.TabOrder" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnLogin.OnClick" resname="O:frmSystemLogin.O:pnlBotton.O:btnLogin.OnClick">
+        <source>btnLoginClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Left">
+        <source>383</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Top" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Top">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Width" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Width">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Hint" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Hint">
+        <source>'Sair do sistema.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Anchors" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Anchors">
+        <source>[akTop, akRight]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Caption" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Charset" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Color" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Name" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Style" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ImageIndex" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ImageMargins.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ImageMargins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Images" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ParentFont" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ParentShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.TabOrder" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.OnClick" resname="O:frmSystemLogin.O:pnlBotton.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Left">
+        <source>153</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Top" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Top">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Width" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Width">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Hint" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Hint">
+        <source>'Configurações de Conexão.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Anchors" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Anchors">
+        <source>[akTop, akRight]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Enabled" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Charset" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Color" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Height" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Name" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Style" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.ImageIndex" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.ImageMargins.Left" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.ImageMargins.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.Images" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.Images">
+        <source>ImageList24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.ParentFont" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.ParentShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.ShowHint" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.TabOrder" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlBotton.O:btnConn.OnClick" resname="O:frmSystemLogin.O:pnlBotton.O:btnConn.OnClick">
+        <source>btnConnClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.Left" resname="O:frmSystemLogin.O:pnlLeft.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.Top" resname="O:frmSystemLogin.O:pnlLeft.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.Width" resname="O:frmSystemLogin.O:pnlLeft.Width">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.Height" resname="O:frmSystemLogin.O:pnlLeft.Height">
+        <source>303</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.Align" resname="O:frmSystemLogin.O:pnlLeft.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.BevelOuter" resname="O:frmSystemLogin.O:pnlLeft.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.TabOrder" resname="O:frmSystemLogin.O:pnlLeft.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Left" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Top" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Align" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Enabled" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Picture.Data" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Picture.Data">
+        <source>0D546478536D617274496D61676589504E470D0A1A0A0000000D49484452000000960000012C080600000021274A450000000467414D410000B18F0BFC6105000000097048597300000F3900000F39013A80FAAF0000001C74455874536F6674776172650041646F62652046697265776F726B7320435336E8BCB28C0000552A49444154785EEDDD677C5467962E7ACF74CFCC999EE934DDED8001892801069BA49C13886430D82463A2B131D9E42872105942999C2532484802A19C73CE0291A3B1A7CFFD72EEBDBFFBDC676D6917552030D098EE41EF87A777D5AE5D6569D7BFD75AEF9654BCF3D34F3FE16FC98F3FFE6892478F1E99E4871F7E30E4E1C3872679F0E08149EEDFBF6F927BF7EE99E4EEDDBB26B973E78E21B76FDF36C9AD5BB74C72F3E64D93DCB871C324D7AF5F37E4DAB56B26A9AFAF37C9D5AB574D72E5CA1593D4D5D599A4B6B6D6909A9A1A935457579BA4AAAACA249595958654545498A4BCBCDC2465656526292E2E467C7CBC964B972EA1A8A8082525255A7273739198986838263D3D1D7DFAF4D192919181D4D4541C3E7C18B366CD426161210A0A0A4C929F9F8FDDBB77E3ECD9B3C8CCCCD45E7FDBB66D58B06001FCFCFCA060BDC5B04A4B4B0DC9CBCB33C125A004D7850B173454725F1E3B7FFE3C468E1C898B172F6AA004585C5CDC53B07454024C2218E5F5478D1A85E9D3A72B58CD05966032C6A557AAE4E46443E592FD696969080F0FD78008381D973C4F47151A1A8A83070F1A5049E4B525826AD3A64D0A567382A5E38A8D8D454C4C8C0646AF5C822B252545AB42972F5FC6B973E74C700940D9276DEEC489135AFB934AF6242C79DD7DFBF62958CD0D96448723380496446E0BB8C0C040CC983143C3648C4BD008A82953A668554D3019E392C7059F44A02A58CD109644DE7C99A364ABE39256A8CF59F37C5662F0D9026CF00BD070493593082A8127D5CE18978E4A806567672B58CD15964092AA648C4B87959A5F844E470BF0CF7B0AF01FBEE7702AFAA2864A9FB1049760D3DBA0C0F2F7F7D750E5E4E468954FC16AC6B09EC4A5C39A125DA8A1D2B3353EDF804AB270E142C38A502A970CEC1B376ED470C98CA52A563387A583D27149B5D15B616B9F3D1AAA99E1711A246354327B19A392AD54AB152B5660C488111833668C82D59C61C94CA45F6A105CD2C264D5377AF4686D600F4DCED78E1148C6B824C6A804990E4B2A97BADCD0CC6149A462E9B8E422A75C69978A25D02482E6495C326319A3D2619D397346DBFFDD77DF2958CD1D968E4B2E9626242418E62C1D96441E970BA43AAE63C78E213A3ADA804A872591E3A4DA29580AD67361091A59F5091AA956824B2E3748157BF202A9A092AA278F2958CD1C96712B94E15DC7A5572A1D8F3E5BC9C5D503070EA067CF9E2617487554026CD7AE5D0A567385257004868E4A22A0745C7AB5125C725B47258F3D798154DAA28E4A72E4C81105ABB9C2D207721D950E4BC725AD5140E93146A5FF48478F5CB7D2514922222214ACE60A4BAF464DC19208161D97B43B635452BD8C6149745482F59B6FBE51B09A2B2C63504DC112503A2E59E519A37A125645C251FC9F8D2D907074BB864A0DEF0AD67361494E9E3C89C993276B154B47650C4B50FDBF6B7E0BF8BC83BF2EFE15F2A2766B9550C152B09E0B4BAE5B2D5BB64CFB196053B0EACFACD05049FEEF55FF819CF3610A9682F5F3B064F5273FA6D9B9736793B0E4F123F3FB68552B297C074E9D3AA5ED53B014AC67C2122032B8CB6D81658C4B47A5FF68472E37C8EFCFCBF5ACA4A424054BC16A1A96312A896032C6658C4AAE65092AB94C212B43054BC16A1296ACFE8C51E9B0745CBEBEBE26A8E402A98E4A7E10EDE3E3A3602958A6B004955C0C3546650C4B1E97DF1E155C3A2A19D6F5EB58F2AB33F3E7CF57B014ACC7914B0A824A8035054B50E9D7B3B66FDF8E75EBD669A864DED261492553B0142C93483B135882C818955C729834699256A9045556569656A9E49702A535EAB0E4AFA0A515AACB0D0A9649A452092AC125587458024A7E9B4170092AB9A6A5572AC13478F060383A3A6A3F7C16600A9682F5142C1D97FEEB30024B4049E4731DE48F51058F3C2691994A70093E054BC17A2E2C89A031C625954ADA9C00921F34EBB0E4AF756490175CF227620A9682F55C588249C725AB3F697F82465F151A7F2088441ED3A3602958CF852511548248067B6991FAEAD01897401278FAB52C054BC17A2E2CF9B519F9933081223FAA11343A2EB9382AB8E4715921CAAFCAE857DFD5AFCD2858CF84A5A3928A24C804958EAB64E542A4471CC5D4A953B58F3392AA26FBE5BAD6CC9933B56B590A968265024B804445456955484725912A258FE5CE9E8C0A8F5EC873EF85A890400D953E63C99FD84B1553174815AC2661C91FAC4646463E05AB28EA9C864A4FE9CC49DA313A2CA954F2497F8B172F56B0142C5358CF6A85FAD01E3C7EB486AAECAB21284833FD4B68B9DCA0AEBC2B58CF8525988C71C95F3FCBD577C1557C708F092A1D961E799E82A5603D1396312EA946824B5F151AA3328625AB42395EC152B09E0B4BC7A55F207D1E2C41251F87A42A9682F542B024FA0F9F755C4FC2D251C956CD580AD60BC31250720154803D094B20E9A8E438054BC17A21588247AA958ECA1896B43DB970AAA352B014AC1782257864183746650C4BFE4A5A70E9A8142C05EB6761E9A8048E312A63587A142C05EB8560C90F997554824CC152B05E0B2CF99518F9EC2CBD252A580AD66B812538048C82A560BD56583A28054BC152B0142C05EB67A36029580A9682A56029580A9682A56029580A9682A56029580A9682F592B04E5DA9453CDF88BB3FFE77938F2B580AD62BC10AE71B1870E30EC26FFD80B207C4F1E32393C7152C05EB9560A5DCFB013BAF3FC4961B3F12D86D44DDBC851A027BD4F8B882A560BD12ACAA070FB1F7DA03ECB8F2BF89EB27E63EA1DD43E4AD8704C6EAA5602958AF02EB3A711C22A42DD7FF1B5BAFFD15BEAC5C1B99ED577F4458DD03C4DDBC83EB0F1F28580AD6CBC17A442CA76EDFC146CE585BAFFF04BFAB8FE057C7CA55FF13365F659BBC7A0F7BEBEF70C0BF87DB3F98A252B014AC67E647E6D29D47AC500FB1B5FE1141717B85C8B8DD7CF501365D11603F612B6FEFAFBF8D949BF7F1D0089882A5603D3345F739B85F79888DAC521BAE3FC01622DBCEFB5B19A95A9BAE3CC2E6BA87D856CB59ACE6018ED7DE41E9ED06600A9682F5CC5CFBE12176D6DF856F2D07780DD35D6EA55A3DD4E2CB596BB3EC6FBCBD89B8FCABEFE344DD4D5410C47D2252B014ACA7F290735644FD3D6CBCF223D67168DF54779F15EA8186C897B765BBB1B661EB5BC36DCD1D6CA8BD8B8D35F7E0CFDB6708B1EAEE03FCA06029584F26EF16C170505F71ED47C261FBAB7D880D1AA8866C6095125C1BAB04D76D6CACBE8DB5353F6155CDFF854D953F20A8FC2662AEDF44158128580A962175F7EE7386BA0E1FCE541BAA1FC197AD6E2D21AD27B0F5BCBD8191EDFA2ADEAE6275E3767DD50FD858F1887988B51577B1AEE616B6D75DC3A5FA9BB8C3D753B0142CDC7DC8555FED55AC22A4B5D53F6A156AAD16B9FF00EB24AC566B2BEF6175B5ECFB01EB2BEF6243E52DAC6364FF86B247585D719FF76FE240D50D24D6DF52B09A3BAC9F7EFA11A9376E13CF7DAC64C55A2B158B80D610D46A825AC3ACAB14584C85DC97E3EE6205B3A6FC2ED697B192953EC0FAF21FB0AAFC21560A30B6C77D15D79075ED161E2A58CD15D64FA8BCFF03B6109254A855D5F7981F0889112C6C7792D582AAE21EF73165BCCFC756323E04B79C156C251F5B4360AB4B88AB84AF53761B9B4AAEE260F935E4DEB88B7BF71F0353B09A09ACBB3FFC88B09A9B584654AB6B1E6105B1AC60E559C90AB49A5955DE707F05B7AB886A5529F1B052AD94FD651CFC9995A504594A60258DE1ED1592E23BD8587413C72A6EA1F836112958CD0796E468693906A516634631DB60D5232CE7CCB5B8FA0E9697DFD6C0AC28BD8F65E5F7B184956929ABD652625ACEFD3E3AA4E28608A48634DE2EBA8BE54577E053740BBE45D771A6FA16AA6EDE61E552B09A05AC22BEC15E7105F828A6044333EAF03DABD14AA95E35F709E9369617DFC6B2D23B585C7E074BCAEE606929EF97DC61EE6219112D272201B4BC88FB8DB6CB0A6F6349C92DE62696E4F175F26E6243F1759CE74AB4FAA68225297F9B61FDF5AF7FC55AE2318F2E43CBE852F4B8588E2FD2AF6351E92356B01FB19C156A49F12D561E41738B686E62298F5F52721B0B886B11912DE1637A1613949E453C7649C135ACC8E773886B41DE0DF8E45CC3F682BB88AFBD83EBB7EE344B5835D55588CC8E4150FC7EEC4B3A86BCF2BCB70F9624F3CE0F708B2FC78731B568115D01F3C822D8C794614CC6752C2C7B049FF21FB1B49015AC9055AAF016B737B198D8E6B3622D60CB5B544044CC4249BEE45643F2EE6151FE7D6DDF92BCEB589E7B1D4BB26F626E365F27F726820BAF228915EC6E63F57ADB61C9FDC8AC58CC39BE0A7D778D84CDAE2170DE350233C31723AF24EFED83F5E37FFF3751D4C222AA1816D135681553830F58C1DA4516C2E96219C665DFC21C029B5FF6000B59B51615DE20A41B7CCE1DA231CD0289569D6E637EEE1D86F8726E635EEE0D7C5FC0D7C9BF8E0559D7B0408011DAB29C2B08E30C967EA5A13DBEADB0328B73E073623DFA858CC2C7417DD125D8055D429DD121CC19CEC19F635FDC91B70F9624F1EE2378C416A203AB553BC2328FA9875954355A119745541E5CE358C15865BE2F7980C5D2F2D8D6A4B5CDE5EC349715699E40328480B87F0EABD4BCDC7A22BA8EF959B7F03DA1CD26B239393778FF5AC3BE2CEECB64ABCDBC8ABDF957905F4F58AC5E6F0BACB2AA72ECBCBC179F864EC647DBFAA063204185B9A3478817EC02BDD07D97077A86786365D41654549AB6C3B702D67FB36A2DCFA94587F3D968135385F617EAD0F17C35DA5E2847EB0B656873B6085DCE14A04F5C0DBE161C6C810B0A6E1294E021AE1C62CA6DC8F7393709E83A0149DBBB659239590427C97CBC9D9DC96A965E8F792975F0C9A8C7FE921B28BE76F37F34ACCAAA4A9C4EBF80AF76CF46CF2D03D071AB0B3EF277C7470152ADFAE193606FF40E1A844F42BDD12BD41D73CEF9A0B0BCE4ED8325C9BB7D1F1EAC50EF4755A1035B61E773AC5EE7CBD1F16C153A9DA9449B73256879261796E7F2D0F7720DBEC9BC8F05B99CA10413DBDA3456A7A9843653C0A41351C62D0D8D16CE6B862DF37D063131B30CF7AF11D735CC4EADC7CCA45AAC4CBF82A8F2ABA8BA7EE37F142C4962412AE685AF85F3E6E168BFC103ED76B8A3B39F1B7A6C7545EFED1EF864A7173E0EEE8B9E41FDF171681FF40C76C5DC332B51545EFA76C292ECE4ECD4FE6C293E6495EA486496E708EB740DF755C2FC7C255A135AEBD345300FCF45B753A518187F55AB60B3B8D2FB9E2DEEFBF4AB1A92D999773093D56806D1CC6466108DBED56EA75DC72C66A6DCD6EED7638624F52A66A4DCC47749B7308B156C656615622AAFA29AC0FED1611596172320663FDCFCBF44EBB58E30DFE080B644D57E87073A1354D76D0C817D14E0C139CB139F70D6EA16E2811E01AE581EBD09155C2DBEB5B0EA1F3CC2E7972BF0A73315681D5D058BD3E56877AE0A66E739CC9F2985E5A932743A558E36BCFDDE9942B43C51801EBC3D24A11ED3B239B84B9B24ACE96C69D309691A339D95692A5B9DDC9E962EB986A944348DD5697AEA356EAFE13B494A3DA648D2AE620A1F9B4A5C53136E600E2BD8A68C0A5CAEBC82AB37EFFCC3C1AABB760587924F6348E8347458E78D77573BC0DCD7191D37B9A0E31677586E66FBDBEA4D5C7DD081D5CA22B00FBA0578B26A7912963B7A0578C1F79CDF53971CDE2A58F2973911D5B7D0E354313E202EA9541D4F97A0FD991274E056BBCDB4615A9D2D81F9C972B43D5A8C0EC7F261CD56F9590A817025388B98A6A55EC777AC4A53190D0E3109986F53AE32DC26F3BE21D779FF3ABE49912DD1255DC1B444024BBE8A6F126BF15D7C0DBEE7764BE6352456DDC6CDDB77FFEEB0E476745602261F5A81CEBE03F19795D668B1DA16EDD6BBA3ED462F986D7643FB4D1EB0DCD4079D89EBA3ADCC766F74DDC11058B7200F562F1738870CC1DE4B874C50BD95B01EFEF4DF589ACA16189E830FD9FA045247B6BDB6A74B614660AD99B684D7E104739CD04E94A1F5F152B40C2F40FBF07CD89D2DC31789D73085339654A3291AA46B444324028599CCDB926F93888AC77E974868DC4E4EBC816F13783FFE0AB7B5F83AB10693896C221F9B10771D932FD7634E423502D22B915D7DEDEF06AB84ABBD956703D17BED30B45CEC8A3FF938A0C51A67B45DEB8276EBDC60B6D11366BE5E68E7EB810EC46521956B1B87F76D9EE8BE8DC0FCFAA04BA007BAF9BBC13D6418A2B22FBEFDB0247937EFA27F34619D2C20A67274600B6CC71628B7CD4E173345E84858ED8F17A2CDC942B43D51CAB98BD52B9CC71D2E80C5B13C389D2BC5E8CB57F03567A629C9D708A70EDF10C9A4644249AEC344DEFE9A55E96B429A9C4834F1DC321379DC4456A7C997898F98264A08EA5BBED684B86A7C75B98AFB2AB120BE12BB3239DB5C1158A6B87E295835576AB1FBF271786EFD16EF2F75C59F97D9E23DA26AB9C20DAD56BAA3D51A7798AD73419B75AEAC5C9EE8B0C19DB05CD17E9B0B672D175870E6EAB283A8084B507DE2E789E147A621A334A779C0921CA9BA0AAB53F96871A21C164424313B534648D20A599D4E125704ABD7F162B48D789C76C78AD0F608411ECA4727B649D7B3D5F832FE265BDA0D4C4EB8AAC119CF4A348178C6F3FE38621A177F1DE30969C2E55AA68E213EB91F2798785B0B9FC7D5E884B81A4CBC588F71B1F598105B8505974B7130B70EE5571FE37ADDB06A99F8FC348C0C9803B3059EF8FD427BFC719903DEF571262C67B458E98C962B5DD072B50B0777379813561BA26ABBD18D558BB836B36A6DF5442756AC8E7E5E1AAE1EDB9CF1F10E2F2C3ABF09D5B535CD07D6A31FFF8AF96915303B5588D6AC561D4E66A31D51753C568B2E4789EB443E5A9F60B53242D546501DE53EA6CD51AE1E05D8812C746605738BAAC208E29A9478135FC7D76B50265ED2C1D4612C517DC9596A0CEF8F955CE2FE8B7518779100B5F0F8981A7C73A106DF46F17EF4558C24BE11172B3139B2188B634B70BA8895852BC8D7054BEE17D79460F5197F982FF1C67FCC71C0EF1738A1C522577CB0D8197F59E68477973BE3031FA222AE56AB5DD17A0D61AD7585F97A370D573BE26ABFD91D1D994E5B39736DF742A71D9EDC3AC136600876271E7D3B7F56681C635892FC3B6C89170AF19EA02124CBF042B40BE76AF16815DA4510DCF17CB4092F6AC8313ED688AAEDD10256AD7CC2CA472BEE7FEF70215AECCF4137B6C97E676BF065DC2D4C60159B10C7AA74B19A682AF0D5C52A8C64351A45546388E8CB8B44165B8BAF24310D1913C356185D8D7117AA319619115D8BE1043626F21AC69CADC2D7D1C5D8985C85922BB7FE665875D76A71BA3206FD4227E14F736DF0EB393DF1BB05F6F8CB0267FC9EB0FEB0CC85B01CF1170D96333E94CAB54A7071C65AE3CA9628554B70B1156E72E32AD10D9684A5E1D22E43B8C13B641CD28A329B1F2CF9EBE7D395B7E14854EF4554A02D672E7356AE361195E87044662A56A670BD5235A4CD11EE63DA1ECE439BC3C47598ABC74315303FC8F96C4F2EDAECCE40773EDE37AA0E23126E7066BA4234950453453804155B87D1C42419C50A352A9A101B33828F0D8BB9829104F5E5850A7C1925A9C157E7D952CFD7E2F3A86A0C63EB5D19CBE1BEBCFE956165D5E4624D9A2FAC023EC53BD33EC1BFCDEE853FCEB3C7EFE73BE0778B1CF1DBC58EF8C35227FC7929AB16B7EF2D77418B15C4A5B7C34658E6EB894B6B87AE6C87EE1CE2659077635B74E530DF0FF38F6FD450354B588F7EFC89CBFC3A569F3CBC7F3217ED4EA4718E622B3C5A09736EDB4A384B49DA1CE1F630811D22B043AC5A070BD0E140313AEE670BDD578A36078BF1C141CE6D7BB3D06E4F267AB1D279B3B50D8FBB4648F5184D6C826604118D144852958845325212C9C7886814118D3E5FC99461545439BE88ACC0B0483E7E96CF3F538D4F39FF2DB8508682CABB2F0D2BAE22099393E7C2628F13DE99DE01FF32D3117F9CED843FCE72C47F2E70C4BF2F663B5C6887771739E0BF9638E14FC4F5DEB286AAD562858B86ABD52A862DB13557885A4BD470B9719017540D71D836021169E79B312CE6D6C347989D5086960732D18A18DA1DCB85D9310EF347CB1A4069954A07C58AC5981FE496B0DA1C64E562DA1EC883F9FE7C98ED2F82D95ECE5EBB73D12A2C1BED59C57A8797A2DF7956B0987A62AA63E5A9C117842419CEDBC3657B9E39C739ED9C6CF9D8F92A0C67FBFB9CFB3E23B2C182EE4C0DC69E2AC260821B74BA1A8BA22A515A7DE58561255524626CEC34743DED8D7F5BFA31FEF9DBDEAC560EF8CD2C3BFC76362BD65CA29ACFED4207FC5160B172FD89B8DE65D57A9FB8DEF7E1FCC5CA25837CC3BCD5D812D773D6624BEC20B8B6B8A01D578A13F7CE43657555F38625A9B8F308E359413E385088F723D8D28E120B51991354BB435C0D32DAB0CE394A2A559B036C9B8CD9A13CB43E9C83D607B3D0767F2E21E5337C5C70ED2944ABDDC4169605CB5D99B0674BED7FAE06C3886B18A10C15408CE0197AAE1243CE956B197CBE0283B9FF33421A768AED8FF9E2740D3E3F5581A1674AF0F9E9720CE0FD41E139D87CB91835D76FFD2CACBCBA22AE36A7C129AA0F2C42DCF1ABC9D6F85F5358A166D9E057733863CDB3C37FCEB5C77FCD65059BE7843F2C641563F592AAF51746AA96C0FA4087C5B4E6BCD59AB05A6F7069582172E66AB7D9155D36F54350FC4103AA660D4B5278F3077C19538EF7597D3E94598A43BA39B7ED0F94A0C37EB63AA23223A236077359A1888715AAAD1656AD7D84B8B721E6C465C86EDE67DA84E5C02C3407967B73601F5E82FE676B5989AEE073B6B721672AF1E9D94A0C62851ACC5637F84C153E3DCD7D6708EC14C111D46727B93DC17DDC0E969C28C7A063051877BA10674A6E3C1756DDD52B5896EE871E91DEF0B8D80FE66B6CF1CEA4DEF8D5747BFCEB4C5BFCDB4C3BFC2F56ACFFF8DE1EBF65D5FADD3C47AE0E396771DEFAE32267AD6AFD85B0DE95B01D4A4B6CCDB45AE58E0FD7B9A32561B55BEF84F6C465C615E317BBA6A3B8AA54C1324EDAAD9F38DB14E3DD3DD968C9CAD48E15A9A14A15C29215C9621F877BAD5A7180175C0465C85E563AB63EF33DBCDD88CA4C60ED22C45D828BF759BD5A87A4A2F3EE6C388597A3FF995A42222E56A54F4F56609084980611D3A053E5187852C2D64748838F5760C0890AF463061E2FC390E3A518C42A3AEF6C2E6AAE5C7D26ACC4CA1456B8B1B0897545BF586FBCBBDC4183F5EB69B6F8D7198435C30EFF3EDB8EB058B5745CF3894B6B894E6C899CB5345CAC5C9CB5DE5DC9EA25971F56B9A1E55A77427586E55A27B45AEF82AE1B07617F52B809AA660F4B3E6546B6A9F58F384C97E1C37D199CBB08E520E72B426A772007EDF6337B797B2FF7EDCD272802922D2B551B0D5443F44A2555AB0D519987111D63169A8B96DCB60CCE44EBC03474D99503E7A3C473A296B0AA0987D888A6216C798CB68DE031DCF6E3D63BA28CE1FEF032F4E31C38FC682E220BEB9E096B55EA06D89CF58473AC3BFAC7F5458BD5CE7867A2357E3DD51EFF32BD11D72C5BFC86B8FE93B87ECB96F85BB6C4DF6B2D51AA96CC5A8E86EB5A7F613B145C2D57B242ADE29CB5D69943BCDC77C698DD73515E59AE603D09CB80EBC6230C8B2AC407BB3260B6AF90B354295A7025D89A6DB00311E9739479E356AF50C669A85652A9888A6DD03C94D52E84D098D6A1F9F83024071F06A4A26D602A3EE17102CC9B6DAE1F2B565FE2E94338DEAC6A7DB932ED7B8CB78FF136F7F53956AA3DE6C57D7DF91CF74325581E5BD124ACB26B951873F13B58457AC231AA3FBC53FAA37BA82BFE69BC15FEE95BFBC6AA65DFD00E39C4FF86B01A5AA23D5B22612DE0ACC5794BAA9676F981B8DE5BCE594B2E9AAE70455B1F57B4602BFCB7353670DDFC25E2B213DFFE3FFF7A322F0A4BC71577ED478CBB50CA3696A45D46687D40AA14A1EC6315934A25D5A8313AA6366C7BDAEDC62A654E501AAC906C980767A35D1007FC201E1F948756C1B91AAE96015968E99F86763BD3D09DCF773A5601CF1335F03C5E05CF23A5F03A5A02AF2384C4781E2DE5BE122D1EB23D5C06A743159874826F42DD8DA76045975FC2800B5FC22EB23F6C2387C225BE0F065FEA8F3FCCB1C63B13BAE357D36C58B5ECB4FC2F56AEDFB072494BFC8FEF65D692386957E3FF8B2D5160FD8973D67B4B5DF0E13286B0CC39C4FF71B5FC90BA0F369E0DD17E075EC17A0E2CF9E822D9665CBF8FB1519CB576A7A1F5AE7CB4DB530C33B63EB37D8FAB9456991A510922C1A4816ADC0AA8C7C98279202B17631E900D336DCBC19E69B583ED71471ADAFB65A0FBEE023813581FC6EB48313C0E17C39D88DCB83A753B54C8FB8570E7DCE74EECAEFBCB308CB3564C61E553B08E641D87FBD9C1B08AEE0BBBA8C17039EF89416903E17CA21FFEF59B4E78E76BB644A2FAF534AE1239C8FF7B634B94AAF59F73084BE6AD050EDA20FF78D672C1FBCB9CD0926DF1DD950EF860B92326EF5B8CD2AA0AC3DF152A58CF81A527FDD6234CBD54050B0EE6EF8516A2F5EE6286158CF7DBB132B50B63D50A9596C755A16C3947993366AC46668D954A8F1961B5E67C651698495C8C3FF7FB49B260C6DBADFCF9F876B6DF6D29B0F44F8515B1BA1C2C851B51B9B21DBB08242E1ADC0EE4C38D2B52D7FD8570DDCBCAC5D96F5F66C553B0023277C3F9747F585D642B8CF186D7D9BE70B8E886CFD207C1795F7FFCEB94EE7867722FFCCB3407B6443BFCEB2C1B6D90FF0D61FDC71C562FAE107F3BCF157F9CEF823F2F74C61F89EB0F84F49765F65A4BFCF35227786D1987E4BC34032A05EB0561494AEFFC009FB46BE875A808EF11CBFB7B586108AB6308578AC18249567C8415CCAAC6FBE66C737ACC0259BD18A950C669B39321247346DBFA119C9E1D1904968656DB5259C1B258C18AE048602E9CA75C88C98555D389B39DD3BE626E8BE0C205C3F6F8A72BD6F6AC10389C1B007BCE574E8CEB85BE70B9E005D7682F0C4FFD8C6DD613BF9BF931DE196F877F9AE28C5FCFE4BC25158BC07E37DB06BF99EB8CDFCC73C77FCD75C55FE672DE5AE4823F2CE56A7199B57685DE75E3049C4E8D31B44005EB2561C967625D7DF02376E65EE3ECC35618C4EA134048C4D47A57365AEE621B0BCB64C5E21C658C2A88A8D8E6DA3C81CA7C6703288940D2501193715AEF4867E54A47EB2D6930DF9282CE6C91D604E674A094980AE1B887D888CA714F219C583937C5963D056B8706AB3F1C2E1016E34258EE6C8BEE317DE079C1132353866048DC40AEEC7AE39F27F5E66AD106FF36DD06FFC941FEF7331DF13B6D90E74A719E1DFE6BA13DFEBC88FB1758E10FF3EDE0B2691C8EA7451BFEBE50C17A4558927BBC7DBCE21EC645D6A0536826DE0B4AC3FBBBA5F51119B1B50DCE2028A2E3902EA82402C94C424C121D5453A85A6F27248980DA9A06B3ADE930E76D33B9ED9B8CB69B53F0095795766C7F76BB0B61C7B9CF8EADD891B39D6F6CE9D3B03243E0C88AE570C11BCE8CC07263C5728FF182470C8145F5C5B0B4BE9858D80F6EC76DF0EEA24FF04FE37AE19D6FECF0ABB98EF8CFEF39BC73D6FAF745B6F8972556F8F7B9BDF0C17C37F4F1FD0617B2E30DA814ACBF1196E4D10F8F9074ED21662656A2F78134FCD7CE74B4082841DB8052B421AAD69CA33454D2FEA40D36A26AC0C46AC598E9A838B04B5A6F232AE36C25340D55C3B6D566A95C1968E59B82D61B93F1115FC37A5711ACC30A604DD4765C246C8829690256309C58B11CA3FBB1FD79C32DBA8F86CA9DADD023D613EEB11EF088F2E44AD113DF14F4C7C49CFEB0DFE3C5E19DABC66FBAE25FA739E1B773DCF0CFF37AE0D7B3BAA1ED824158782C1099C5F926A814ACD7004B221FB65675FB3EFC73EA3148FE3823200B7FE110DE3288D58791959EA1E535A2D22069A8B87F07EF33C698CCF42D21490B94ADB4C1D69B59AD98D69B789F5BC1D56A63123EE28C66B5AB18BD430A6045D02BCEE635012B90B0FAC15983D58FA01A6079B2157A1196E7450FF48DED0FEFC801E87FDE1DA352BDF04DF1108C491A04AB1DB6F8DD54CE5FAC60BFE7FCF5D9F669088F8FD47E2F5EFE7055C16ACCEB8625B97DFF21A26AEE605A5C393EDE9B8677FD92D192B390606A4D6CADFD05136149BB635AB33A996DD763844A306991DB0DF75B6FE17DA9549B086B530ACCD90ACD7C53795F60F1F6862474DD99835E4105E815988DA527339B84E57C565AA07743C5622BF48CF624AA3EE813EB05EF586F78C77C8A7E97BCD12FCE0DFDA29D31F8A20B2665F4C3ECFCA1187CC61D2EDB0660C7858328282B31FC35B48265945F029644EE97DF7E80EDF937F1F9B932588464A145231E73226BEDCF56B693D8B42AD5886A9B84E0B67245C816D78688CCB935DB427C9BF91C01C598499562CC37A5A20D2B95F9C654986921AE758968C36DB7805CF464155C14F1342C3FB642E7B3FD1A662BCE54325F79325E44D597F7FB0BAC8BBC7D89C82E7B61509C2706B1920D64451B92E481B1398E5855341CF137F6E2EAD54A05ABA9FC52B024DAA7C93C7888CB576E6371EA15F4892885C5CE347CB03D151FFA130A07F23684D466BB5CA7222A8232DFCAB6B8391B6D366736C22224B6BE86B62795299555AA210D98B87F03F73372DB6C7D0A5AAE4D460756B89E7E59581091F534ACF460B89CE16A5050B105BA118C875CCFE2B60F0179C7F625AC3EE8CF0C640611989E4FE3E42ABD1786273AE1BB4C57F8954C4362DD09D4D657687FCCAA6035E69786A5E7DADDFB3855267FED5C05DB632530174C1BD2D192705AC925046DD54724DB888EDB16BCFFDE8E347C282B3F235412A94C121D542B629298ADE7FD7584B52689C37C12BA11EB8213394FC10A49DB03D7D303B436E8C21628554B60491BECCB4AE57D5160F5C50066D02581259161DE03C32E7AE3F38BC3F0D9C52118C2F638F6B20396660CC681AA85C8BE1189AA9A0A054BF2A66049E4C3D64AD81E0F95DCC1D7D1E5E8B92F137FDA9A823FCB8CC41667AECD5184B4855858A55AF2764B19D4394FE969687B8F61E9A85A6F60E436AB55EBB52968B13601967CDD79114FC33A907204EE270773F53740AB587289C18BEDAFAF365F35C2BA24B01EA3FA94EDF0B3CB6E181AEF84CFB9FD22CE1BC3E2FBE3B3782F0CBB6C8789497658973F1CE76BB7A3FC6A96A12D2A586F0896446EE75FBF09FFA27A8C8C2C677BE4EA71035BA4AFCC50D20A33D176633ADA735F5BD9273315B76612A3D6D79A15AAE53A426295D240C9760DB74C8BD58968C77D53F7A73C056B5FF211381F1D44501241252D9098B89516A8572B813590B0A4F50D8EF3C0E0CB9CB1E2FB1094E072C017F11E84D60F431364EBC4FB369893EE8990B24948BABA07E557F214AC37094B8FFCB329699CBF96A75F43DFF042986F8BC71F37C4E32F6C7D2D89CB9C55A98D54A827409911904430B56ADC4AFB6B2559DD9016AB1261BE2A195F87C53701EB281CF6F78747E42082EAA7CD5632B4F723ACFEAC58325BE9A806C511152BD610814544432E0FC217AC662358C1465E966D1F8C8A77C1C864170C4D76C7D038478C49E88D6579FD70B07A0E72AF9F464D9D82F56661357E4CE4D5BB0F70BEE616E6C695C1F14026DEDB92823FAC4F424B59F1C9C54FC164A852BC4F4C7A04941E01D592A0241FAE22CA152998181CF714ACFDC9C760BB6F001C4F12D425C2D25A202B94162F0DD500A21A4854DAC07E99B098A15A85F2C470621AC9E78D8CF7C688044F8C66251BC37C99E88E2F797F389F378215ECBB14476C2A188EB3B56B50782D461BEE15AC37084B22F76BEEDCC741CE5F632FD4E1E3D01CB460F5FA706D3C41718827AA969CA3CC589DCCD74895222446DA5E4B6E355C8DA81A42942B923121E86958FB08CB6EEF00F43EE40CCF2856AA4BDE5A1B1CC0C82A70202B9256AD041523A83EBBCCC19D55EB0BA2192E158B2D7178A21BE38251095EF82AAE2F26F0B80997BD302EC11D6358C14627DAE3AB443BCCCB724550C5285CBEE18FF2FA2C05EB4DC2327C44246F97DE798080B2FB1876AE0E9D830B092C151FAC637B5B9BC82A95043322325B930033023297D6B72A091F72A66A08EF13544B56AB563E973136E06293B0ECF70C40CF3D2E708EF024A6416C810DD7AF1A56828DAB41221B4248432597DD39A40BAC3E9CA5A42279B2057A60341149C670CEFA8A91EDD8440F8C27BAF149EE9890E4867149CEF83AC51ECB72DD70A87A32726E1D44F515D38F8954B07E61587AE2D32B31DC3711CE6115700BAFC3277ED9AC4E9CBF241CD85BAEE140BF9273D74A563146B6AD57B08231E63EC9F870A5DC8EC797FE314FC1DACF19CB7E6F7FC27243EFBDAEF03CDB9FB3D44056296F6EA55211162BD0A7CC10021BCA7DC3384F0D6335FA822D4F608D9416485CA309E9CB46580DF1C438B6C409843531D9039388EB6BE69BA4BEF83AC10DD309CCB7701022AFF9A0FC4612578E8F2B9782F50BC2AAA8AA43D89174388DD887962E3BD07670001C9644A3FFA16AD81FAB459B1D59F833C1BC47402D56B33DAE26AE159CC17CD8FA24CB09CA27111FF824A0E5B2388C0F4940FD8D9B4FC03A4258FD88CA0B3D777BC06A9F1BBCA30672381FD07095FD9287B61D2C9718A45A11DAB0386FAE04898AB8A45A8D6CAC58634C5035542B81359E83FCA464B74654CE98C2D6F8754A7F8C65C625596351A62DF6578E47EEDDFDA8AE69F82C5205EB1782753E291F23161D86C5F030980DD907CBCF0EA253BF5098BB6C41DBCFC360B7260D7D8F5D87DDA13A9873B8FFCBD218BCC7CAD452AA950F07FBE5D2FE58AD5624A0C58A44B4587C09E342535077FB8109AC7D498761BBA71F2B565FF4E6B647182BD77E67F4BDC00A95C8EAC559E9D33837CE56B2CA7363A572C7E74426A846F2B191B2D5DA20AB55BCC072C35704348EF73554C43541AB546E98CCAA353985DB14574C4CF5C0D7A96EF836DD05DF26D96266722FF8950C44F2CD4DA8BC91AB60BD6E58D76FDDC7CEA3A9709A1281F6C38FA1E3F0FDE8F245183A7D76089D071D45D70144E61C0073BBADE83CEA10DC3665A13FABD72701B97877590CDEF7E1904F5C2D385B7DB832192D58AD3E584E5C8BE3F1554832EA6EDE6B0296377AEEF244AFB03EE8BDDB0B3D7639C36AAF13FA9CEBCB41BDBF76BD6A30510DBDECC24AC5C4BB6038318D9436A8B5404FA222AE78378C61DB13507A04D5240D15AB15ABD6A4140F0DD5B7294E6C854E98C50A362B85558CFBBF4D72C2FA7C579CBF390B65D71215ACD705EBE69DBBF0D997819E138FA3DD88E3B0187D015D479EC4279F1F44B7A187D169F011741E4868FDF7A0AB47083ADA6D8399D3167C34F118FA8694C26177193E5C168BF796C6E103E2FAD08783FDB278B64156AC459CB18253507BCB14D6FEA423B0DBDD8F6DD01D3D59ADACA41DEEE2ED5037F4DAED02D7700F0CE640FF45C2000C239E6184F5050119B7C0C7B3951BC632E393F46A4558AC525F13D464E61B56AB6F529D31394D20B96306B1CDE2BE593C663AB14D4DF3609B74C0B2CCEE88B8320625772F6857EC15ACBF01D6F5BB0FB1E6702A7A4F398476E34FA0C3A408588E0D47E7D127D169E471580E3F00CB61AC568399817BD0B9FF2E74EE1B8A0E6E01686FB30DEDFB05C19EB3965B6805ABD565E2BA8CD60465BE84B0967285B8F032C6043D0DEB48FA0938EFFD14BDC33C58AD041351EDF66405EBC30A2655CC05B6075CD1F73487F6B8011891D88FB03C3182AB4241354A06770D16E72A42D261490B94ADD606A50536C2FA9698A6F0FE9434174272C534829A9EEA8959A9AC5EE98E989EE1861969B65890D61DFBAB4623F7CE7ED4D6952B58AF0A2BF86C1EAC679D41DB49A76139F92C2C269D82E5B80874FE2A029D461D43A7E1AC58AC5C969F11D8A77B6139600F2CBD89CB2B041FB907A3A3FD0E58D86D47EF059760B3BB9C552A16AD165DC48744F5DEF254B49A7F095F0525A2E60958A70B2EC06BEF50D80579A20751F560B5EA4E58BDD8126DC3BCD08BF77B1057EFDDCE703CEC8201915E189EE08D91895E04259717049527C610DB5789B20A9456E8C695A03B262679B20D7A623281492B94D9EA5BE2FA8EB7BFE3765AAA2B11B9612667AD9944362B5DE284D999CE98C9C7E7A4F640708927726F07A2FA4AB182F5B2B0CE64D6C17EC139584C3E8ECEDF45A1D3B7E7D0E9EB33B064E5EA3496B8461F43E7116C835F1C41A7A18758B5F6A3D3A0BD1CE677A34B9F5074F60C4267B76074B6F3C3FB4E9B6135FF221C834AF1E7A5C4B5209EF3550A5A2E4AC057FEB14FFD35746A6D3A061FF8129F84082A56AC305774DFE341589EB062C5EAD998DEBBB86F1781EDB285CB51270C89E98351897D3126A96F43B5627B1C475813B4345CB3924B0C5AB5D266AC868A354560B10D4AA61394C09AC1ED2C56B0396C8573D23C3127C30173333C3137AD1FE625D9616B9E0B921EAC42CD8D7C05EB456195D6DEC4E00D09309B168B4E33A2D165EA59749A721E96DF703BE9243A8F27B631D2128F1217F3F961AD6A75FE743F3AB36A75EE1786CE7D42D09955EB23974074B2D90A0BA7EDB0DF988D365BB2F1E19C8B68B5300DEF2D8AC38CFDC926A82435D7AB31F1F80C740871650B748135B73DD8167B68A00493542D698B7D397B79111BE7B05067D8EEB687D709178C88EB8F71C9FD394B7935CC54AC5E52A52626BB6252B20B51B96A954AAF56325B7DC7417D5AEA635852B1BE67C59AC3DB7399F9E9CE58A0E172C3BC8C3E9893DE8343BD0D12EFADD37029583F034BF6FB8417C17246142C66C5C272F645749C710196DF451216ABD6E453E834E104BAB01D6A556BA4B4C423B0644BEC34649F56B53A0FD8854E9CB5BA70989796D88D2B46CB1E1BD0717C383EDE59A255AAF71626A3F5A24804C73FFD573AF2A120EB2E6EC747216C855C0DDAB272F5E4EAB027DB60CF5DAE5A059376D85BDA62A8C0EA036BDEB60A7547AF6017D873F538F0AC1BDBA037BE4E6358A11A2E88CA6A90B0929D59A95C1AAB9587866A2A214D33A072C76C4195CED697E18CEFD90617A47B6271860D16647F8C05BCBF30C31B0B929DB029DB01C90F96A2EE7AA182F53C58B1853760B32201ED09AAE7F784342786B7E360399DD0A610D7E433AC5A6C87D212B5AA45601A2ECE5B43898B2DB1CB80DDAC5A84E5C5CA455C169EAC5AD69BD08EFBBAFBE6A1E5AA34FC6E4E34BC364421AFFA7A93B0124BD2B40FF2EF1AE4006B82E919E2851EA1AC5AAC4C3D439D1A4360B2520C233242B36205EB15DA1FBD08D12AC4062E07ACF159942BC6A77863727A7FC2EAC38AE5CE5560032EB928AA552A462A9556AD985969EE5AB59A9BCE564844B3333D309F2D7031ABD6E24C2B2C62D55AC6B6E893E988C5A99F60736E0FA43C5889ABD71FB74405CB2837EEDCC7B8D04CB49ACB4AB538111FCDBB88CE732FC172D625AD255A4E95598BED9055ABF344B6C471D21299D1E1E8C4794B06F92E430EE0230EF29D07728897419EF35627AF207C64BB1D96EE81E8BC32152D5667E0FDD9E7E073345DFB0CF8A660C907DACE8A58888F031CD09DB03E09E9AB6D7B85348292AAC516A8479BB7B415A3176F4B1523B62047A2B481DB11470C8FE98BC9A9DEF836AD0F5781325B35C09A4A683A2C41252D7036ABD61C0EED026B6E86C49515CB8B55CAADB15A79605996037CB2ACB18CB8E6A777C7E60247A43FD8C0D5A282F514AC9339D760BD32061D96C6A3FDD224B4E780DD655E3CBACC8E212E466B89E7D0F99B33E8CC1562A7F12739C837CE5B238FA20B67ADCE1CE4BB48D51AD830C85B7A87B17205E113DB2DE8C6D56297F519F8F39244D871859855D6F059A44DC1925C2A8F43DF7D9FA31371492B6C80C5413EC483154CAA989BB6957F5FB05728877962B262EBEC2DD0E4C26A481F562E798E33EC39E00F88B0C3B8F8BEF82EBD1FBE23A0EF886B3AE7ACE95C091A5683AC56B3F9D85CC29ACFAA25B3D5FC0C7BCE572E5AE6673B617E0E2B559633964BE5CA74C7E26C81D71D3BF29D91F36007EA884BC16ACCCDFB3FE0DBBD69E8BC341A1D56A6C36259123A2D8E43A7056C83F358B504D74C56AD69D212CFB36A9D85E5A4B3B0981001CBAFB83A1C158E2E5F70E6FA9C2BC4A107D0E9530EF3FDF6A23DE72DCBBEC1E86ABF01DD39E89BAFCE439BC517107CA14843F53C58F5D7EAB135361056FE9EE812668B4FC25C88CA5303D6438B1B23EDD015BDD92665C6B2E23E6B02D363C3FD122B22B462FB74D86B87C1675CF135578E3332BC58A59C3123C5895B17A262B54A671BCC70D706F60544B680DB86C1DD852DD085AD90C972C252C25A9AE5CEAAE58655D97658C90AB628A30776147BA2F0877DA8AC2C55B024A773EBE1B8211E1D57A7A3CDEA5C582C4FC6478B2FA1F342C29A4F60DF7385C8AAD589B39665E30A51E62D8B092761C9AAD585B3561756AD4EC30FC0E2F37DB0E420DF79E01E74EDBF07DDDCC3D0B66F08DACD65155C9E84B947335157FF629F9A5C5C59846FC3BF47C760F9F79AEDD9DE58A582D9F298DE5A882658D0B8322E1A2C3DD6AC5C329FD948B89AD4B0053BC236D81A1EFB6D30EABC5CBFEA8F591CC4A5F57D9FC6413DCD89A89CB536388FC8E6A57B18AAD52241C534A072C6B26C56AC1C27ACCEB2C11ACE612B733CB12CFD63ECCA1F828A7BE7B41F5C376F580F7FC09C93C568BF360B6D3614A2ED9A5C58AE4841D7A504B5381E960B13D049AAD61CCE5E332FA0D3B448749A72AE01D7440EF3E3D91A659538E6302C4611D688FDAC5AFB39C81FC0C77DF7A3A35B18DE1F7B023DD7A56045440EAED63FFE60DB9F8325C92CCFC15787A67145E98A8F82ECF18954AA60B6B820C20A6482A46A39334EAC4C02AC01566FDEEE1DEC0A6B562B1B81C6D8B27AD9B195DA0671B51964853E871C3186F3D7CC746FCCCBF4C23CC29A9FC6D697EEA8CD57F33259B99E80B544DA60960B966733390E58956385B584B52A6B0056E7D96355BA258E568C46F583B8E60D2BABF60EBC43B2D17E631EDA6F60B55A93894E2B13D17979023A2E4D41C745C9AC5A976031F7225B6234AB16672DE2B2E0206FF93587790D1707F8AF8EA2E397E1E8388273D75056B04FC3D1CA230C1663F6E0D36D7108BB5488DBB71E7F0CF78BC292413EBB240BDF1C9E894F88CB22A837BAEE72C4C7AC52DDF5192BC4855B97064C46B80455439C59B558AD58C56C83FBC29EB193FDC176C4D60BFDC21D3029A11FE666F6C3926C0F2C4A175C4CA613877582E200BF38CB154B086B3907789F2C47C6153EC4B53AD70AEBB21DB136CB8BB058C10A7A615566679CAD9E8EDA6B45CD17564852253EDE92060BDF0C74DA988E2E6B53D179750AAB562A3A2C4F47C765296C899761415C967364D6624B9C465C6C8916DA15F9D3C415AEFDB8A7E3E8336C89E7D0E5B36368DB2704BD271DC28AE369C8AEA8FB9BFF2D9DDCCA3C2C3CE703A7002F74DD618BAE210EF878971B2B180779B648A94E721D4B4F6F42135456DC2F1750AD42ECD90E9D1B2A1867351B99C178DF2AD411DD836C61BFDB16434FB96266F2002CCDEDAFB5BBC584B5848016670A2A57EE73222C270DD60ACE572BB23C08CB166B726DB096B8D6E438F3B633F7D9616B961512EB5773DE2A6B7EB06E3E7884C9274B60B12D071DB664A1D3A64C74DE9009CB3559B058C52D71755E9A80CE8B1360B9886D9155AB1307F9CE33A261C1AA6539856D91B356E7AF2388EB042CC79C47FBA147D075E84E0C5B7C02A7326AB57FDA5747F5B7C092545EA9C4BEE48318B36B22ACB6BBC332C0161F8538B21D72D6628C6169B8823877092C5634AB1069954E6C89C445743661AEAC566EB02330D95AB13D5A1198EB5E5B7CC9F96B6E667F2CCFED8B658DC096B2FD4996F3FE0A025BADC595C3BB3356E539606DAE3DD673C5B821C7051BF3DC78BB1702F3DD91591FDEFC60A5D5DC86DBAE02B4DB5188F64CC7ADF9AC5C79E8B83E4FC3D5656512BA2C23AC2509F86811672E56AD4E7339D41397055BA285D1B5AD8EE34FA2E3C843709D72185B8FA4A3A4A6E15F5C7DDDFF5EA1ECCBABC887EFC51DE8BF6B187AECB0E7FCE5A0CD5A56DA70EF821E6C7D72BF77A0B44999B7A472C996554C7EFCC3D8F1B61D5BA93DE7350702B4E3E3D6BCDF3BC80136C1BDD1F7A00D2646BB73B6EA43607D084C2A950356643BB00512152BD47A56AE555C1DAECC75C7DA3C476CCCB1C36602DBC259CB37DF01EB787F4FE158E4965F6A5EB08E7235681D520873A2B2D851C0CA958F8E9B73D171630E2CD665C26235DBE10AB649AE123B2FBE88AE0BA3B5556287396C8DC4D591B83AB025B61F1F81DE5F1FC6ACAD979059C4B6F7C43FDFFB3A6119FE75D5BA5A64976663E5D955E81BFA29BAFBDBA357A023077B17ED1A57EF40AE04995ED2223558328FC98554AE0EA552F1385BE2B225427D6BC7B94D62CB858075B03D6FDB61E051677C17EFCD41DD536B712BB3ADB142DA5DB63BD671E65ACB8AB53AD7517B6C3D516DCE75C256DEDE9C6F850D058ED8C2F678B660394A4A0B9B07AC073C66634215BA0572251850024BBF42586E27AE2D79AC5A39B05C9FCDAA95810EAB189F54582C4D44978597D0657E2C3ACDB9888EB362D17E7A0CBA4E3B8D31EB2271E252312B54C3BF686F8CEA978265C8953A44E647E3BBE3B3597DFAA0871FE7AE9DC4C5CA632538029C60BF93437B10672A592532B6AC66766C7DD212E532C563608F63C7AA66C3F9CB26D80ACEA13D31E2B813E671FE5A9DDB8FD589B314DBDE1AB6426DB6E29CB52ECF161B086A639E0B36E5BA623307F94D050EDC5A23386308124A0E340F5857EEDCC3B4B3A5B00C2A45BB900A58EC2C86057149D5B2D8C48AB581731671755E958A8F565C86255B6287656968BF28091D669E47975991E8BB2C12DB8EA5A1A2AE01D4DFEB1F1BD7426007928F60ECC1C9706445EABEB3377AEEB4637B74D2662D6B4930C110947D005788DCF6261EB95461C3FD922761D911965D983D57927C7CA7233C821D30F68C1B966478605D21AB152BD2DA1C07B64047F8B23D6E64E5DA50C8598BFB3771CEDAC6D96B47A12D5B634FEC2F1A83BCF2A4B71F5669FD2D0C0F2F47C75D5568BF8BB00239C4EF2C82E58E22586C6DA85A165A4BE46A91B83AFB24A3FDE24498CF4B40AFA597307F4F1A320BABB4E1DC18D5DF0D16237FCD5C52578CE0A4607CBE7B38AB952B3A05D8A12BDB5E7762E9114C641CF66D021DF898232B9A0CF5AC56DA75ADC6083E81C5384804222B9C7D481F3E4F80F580F7DE9EF826468676776C2AEAC3AAC42A95C9D92AC79E55CA16BE05D20A898A554B7ED4E35BF2098FE98D98F2F528AF287DBB6165D6DE82A7FCC9D6EE6A74D8C5CA15CC082E3F56AEEDF9B0DCCC76B8311BED7C0B60BE2E1FE64B12D175492C86EF48C6B1E44AED8F5705D53F1A2C3DE925E9D816BD1D03C386C2CACF15DD7638A03BDB60F760820A125C4E0C5787326B19C36285B3D370B968A89C035CE0C8AD56C1763969F3576FADBDDAE2F303369873D90D1B8B3CB0AD946D2FDF9AB85CB125DF0D5B0A7A6BA8B6E5F37E311F2BF8047B720721AFEEFCDB0D2BA1E60E9CC2EBD122AC12967B38638596C322985BB6C44E32CC6F95792B1FED3666A1ED8A44B86C4AC6D6C86294D55E3780FA478625918F2B8A2F88C3D2334BD1D77F007A6CB64777562AB9C66582AB313A2E6DBF60223007C69E18ED43EC884B067A594D7AF1380FD8EEB0834B502F8C3861A3FD3ACD96D2BEF023B2ED6C8FDB39736D615BDC52E00C3FCE644105F6F0CFB5C689D2EF51CC41FEAD8595587B0F0E113708AB029DF615B12596A14348393A0495B1251610570ECC3764A3C7C6244C3B928B84D26BDAEF6CC9DF18FE4F822529AB2AC3A9BC93987A741A1C77B8B37A71FE0A6A98BFAC0514AB925D20877AB64EFB400EFA6C79B6024F2EAAB275DA8648157364057362F5726458B1D8266DE5822BDBA48D9FCC5F369870DA11ABB2DDE05FC2143811950DB6163A2120DF05A19CB7FCD92603F3FA21B332E2ED859573E51E3C4FD4E383FD35E8B29773D51EA20AAB41DBE05AB40A60D5DA9A88E17BB2712CE30AEA6FDE36FC35F4FF445812B95F525582FDA9FBF1E5BE2F61EFC7998BC37DAF000758139636DCB34AD9B35A393076028B8004995D6304963CE61028C81C345C0E21C418ECA62D081C77F642DFDD36F8E6823B7CD90EFD4B5CB0B3D001815C1D0671A0DF59E8485CBD71BA7C1A4A2AF3DF4E587537EF626C6425CC0ED7A2FDBE7A56AC1AB4E7EAB00BE72C97E07CF85CA842F98DFB86BF84FE9F0E4BA27F4464714531FC2F04E0F3B02F60EFCF9949AE7F85D8A277981531F5E6FCC4E1DECF0336FE9E1CD6898B3395AC2665E07710408D95CB49DB36B44B41E74C6CCE01565A3E3DE08439F12ED85E6C8FB0521B847275185864839DC556D855301029E587DF4E5872CC9EE26BB03D5A84F6076A60B9BF1ABD0F1460C6F9422455DCD0DA9EFED7D06F1B2C3DA925A958756E0506840C80F53607F4F0B3E360CE4A454CD6B20294EC642B242C0D97542A6EA562397265A9C37264B5D3C26AE61C64CFFD3CCECF054EFEBDF1F9B15E589AE980800A67EC2D27B2623B56305B9C2DFE1E6504FED6C1922BEFD7EFDEC3FEBC2B58105D8155976BF8CDD6E3FE83FB26A8DE6658FAC74446659EC7C2080EF84143D1950379D7805EB00AB6659572D040D96861EB6B6C93D2F61C02EC0989C0F89823F139ED242442946AE6CC63DC76CA6D2E1476DA706B85F1279DB031C31DFB2B5CB1AFDC16470BBD9155D950B5DE3A587AE4BE60324E738225A9BE5283E319A730EDE034F4D9EE859E3BACB882B46A80453836C464CF2A65CFDBDA8CC5DB1A2AC681FB1C0552232C47827462E572615CB92870DEE101FBCDB6E813D21353A3ECB033CF1507CADD1057BB1815D5456F2F2C497387A57F929F5C0A387AF130BE0AFB0AB6DB9DF0098159B13AD91296CC58B6327F3152B10499542F276E9DB975D4AA981D672E26C8162EDCE7EEEF0C4FE27323381B7F5BD872453A6C4F4FCCBBE48423155FA3A8F69282D51C60E9C9CCCFC4F6683F0C0AFD0CD6DB1DD133902882ECE0E84F3CFE828C50A435B2453A719FD34E5BC2B2D5C03911948B86CD9695CB469BB99C59B9DCB4E1DE960B06EEF7EF8E71871C7032CB5FFB318F82D54C60C9EFAC975794232137014B4FAC84FBCEBE6C8F3DD9167B6BADCFCEDF45AB5EF6FEAC5EFEAC508CCC5A8E52B9D82A9DB4B01DB265CACCE5C236E92AE088D38533970B170AD6DBAD31FDD8786417A62958CD0A56634ACB4A7121350ADF1F990BB7406FF4E06ACFDABF076727A93E5C417270978BACD2121D036C604F385AE51254AC681217421358AEC4E61A68C3D7E1F3FCAD312C780022D34E2B58CD1196443E13ABB2B20A87E30F63F2DEC9C4E282DEC465E347440465CB594A2E5338F939C095AD516069B8763644C3C50AE7B6D38E695851DA05F684879F0B7644F9B21D3E5E1D2A58CD0C9621A565088E0BC3C83D23E1BADD15361CC8AD77F6E2EC650B670EFCCE7ECE26B0F4AAE54458EE6C81AE7E4EDA0AD339A8171CFCAC3169FF48A4E7262958CD1E16231F5F949C9B884DA7B6A0BFFF20CE4B56E8EED795433DB1340EF1B24AD42B9693C06225736545736175930BACAE5C10D8EFB4C2A0003744259F55B0142CD38F8A8C498BC5B2932BD02F7820ACB6CB80DF836038D0338E32D4334E8C33613973D87766E5720E60E5DAE9AC5D9DF7E4BEA08BDB5158A860295846B0B40F02292DE6101E89198766B13D7AC16A5B4FEDB282A31F5B22B70E3BE51283542DB9EE65CD79CB862B4367B871D877DC618DD9C7A6223B2F4BC152B04C61E9C92DCCC5E18B47F0D5EE9170DBE60EDB1D36B065BBB3F327203F47AE24A56A5969F396542EA7002BD86CEF8131C1C3919A9BAC6029584DC392C8DF1166176661DBF96D181C34044EDB1C60BFD59AC8ACB599CA99D81C59AD9C38C43BB37AD9EEEC89CFFCFAE37CF229054BC17A3E2C3D49D949D8706A1D86050E86C3561B58B3453AF8B182C9A5891DCE5C41DA72E0EF0DD72D769CB3B6A180739682A560FD2C2C89EC8B4C3B8745871660E00E6FD86DB3422F3F6B0EF55C210AAC40DE66355B1631177905790A9682F562B024F2F340D9462485E3BB83DFC273AB17EC3658C379AB2DDBA11D6CB6F6C2D47D13905F92A36029582F074B4F467E3A422F84627CD018F4D9E80AEBCDBDD063DBC7F832742892322F29580AD6ABC1D27F2539352F05DB2F6CC6679CBF7A6DEC89FEDBDC7026215CC152B0FE36585A4A0A7139330E2B4EACC088AD431118BB45C152B05E032C462E31149796E070CC21EC3CB74DC152B05E1F2CE328580A9682A56029588628580A9682A56029580A9682A56029580A9682F53F08567CF56D7C1B558E2E61392F1CAB7D7998135B81926B77142C05CB3437EF3FC2E893C5E8129CF5CAB1DA9D834BE5D7152C05AB21F2CFBC7D7AB4005D0233FFE6588565A3A4FE8E82A560FD842F230AD1C53FDD10EBE04C8464D4E172C54D5CBFFBE0B933561C2BD437A759E98C9E3F27B254C16AEEB08EE4D6A3CBF634433E3D90871BF71EBEF4F03EF94491E135AC023214ACE60E6B0A417CB425458B35AB8D8EEA65615D2AB966781D8982D5CC617DE49B64C8CA0B6506542F0FABDEE4B514ACE60E6B43A221F165375E1D56316119BD9682D5DC61AD8D3724BEF46F8055445846AFF52C58A34E71D06FE25AD8CFC56A6F1E965E2A4755FD8D17825571E51AFC522A31F01857BB4DBC9E9EE1270AB13DA9FC85619DC9AD3479FEABC05A19CB79D4E8359E052B22DDF45CC9FD97857534C5F4FB7F73B0565D3624BEF4FADF00EBAAC96B3D13960CF94D5C037BD10C3C92FFB3B076A757C16A577693CF7F565CF7E7E25C5ED5CFC3CAA93079DE2BC18AE12ADCE8359E0BCBE8B888B4A2578365F41A6F0E96CF2543E24B5E1D967EC5FDE7AEBC8F0AE737BA33E36F8A7F52C53361F925F28D6FE2392F9AB0E4B2E7C3CA367DFD578275C1F41C3C131621191F1791FA0AB092F34D5EE3CDC15A1A6B487CF1B55F1E162B8E7E5962F6D962C4165FD5125374C590E842D35C28AC835B28FF1FD7F8BC9187F39A84159E556D3846CF8843B9D895528EF379D50DC9AD3264FBE5520CD8CBCAF6C473E20A1E57AEA76065959B1CFB4AB0221F9F03C933611192F1711129852F0F2BC9F4BFF5E6602D8A3124BEE89787359A6FB47E49C2F762D90B0FEF1B624B0DCF1B7920A749586E4119866324BB93CB5F68785F7BE1F12517C988FDD9CF8695596E72ECABC05A752ECFE4359E05EB3821191F1791FCF2B08E259AFEB7DE18ACAE0B2E18F24660F14DFB6823578E8C6F4CE98BC38A2E363C6FE4DEACA7604564541A1E97AC8F2A7AA955E1C4438FBF2E495C7E65D3B032CA4C8E7B255867F87F2EA3D77816ACEC42FE9FC9E8B888A482978795405846AFF1E660CD8D3424BEB0FE9787B527CBB072F4BD50F2E2B008457FDEC85D194FC15A7A2ADFF0B8B56FE24B5F6EC82AAD313C5FB23DBAB04958977259B18C8E3B9458FCD2B0A61DCA343CFF8B90D467C29218FFB77CCF66BF34AC8D671E9F6FC99B8335FBBC21F1056F005618DBD5CA382DBE91C52F0EEB3CDB42E3F34686A43F054BF63D7E3CEDA5614906FA251B5E63EDE9BC2661C9F52BD7CDFC7F7FE37103F89CC2B2AA17861593596278AE64E58967AF0A25E3C2520DC75AADBB8CAC82860FFD78115819B985DA73F4E78F0DE1D7FAC660CD386B487CC1D55F1E5630012CBBA8C5F75CD18BC33A5B6078DEC8C0D4A761719FF1E3AF026B4400E790C6D7587B32F799B0B6C98CD4789C64C0D644A41554FC2CACA00B79B05AC537B9F179723BB7A8ECB9B08E27B0121BFDB75C365C46F8E5BC9F85752C2E072EEB89CAE8B9472F65BF4158534F1B129FFF06600510C0622E1618DFB3852F0EEB344F70E3F346EE4C791A963F51342E4246FA27BF1A2CA9588DAFB1F678CE33614986FB2519BE1E3D0336C7737FE2E3EC781CAB157C739F383E28B2E1E2E8F36049A6EEE2F7F6C4735DD65EC2E7DB131A136F1279ECC9E3E7EC6DA8566F0ED6945386C4E7BD01587E29E83A9F8B05C6F774C10BC3CAAFB88AE8AC2A2DC905354FC11AB523C9F0BA72FB55608DDC9E68788DB5110D2BC367C12A2AAFC6886D0986E35F3641E71EA3FA39581AAE90C7DFDFCB66EEEE2403AA37076BF20943E2F3AEFCF2B0B6F1CDFB9E331DE37B32EF856119C7189501D656BEC98DAF2BB75F09D69678C36BAC3D96F95C5897324BE1E6136338FE65332DB86135F822B0B20B4A30604D6C93AFF322E9BF3A06E9D96FF85F58ED3AF1B821F1B96F00D66602689CE97C8FE7BE3E589B2E1B5E576EBF122CDF38C36BAC3D92F14C58451CD6DD96B01A341E2B91FBD30313B1FA50DAE31C7C9C09DB1E7F7D7A16EC4A7E2158C3D75F34799EF5DCF398BA331E2BF6256BF1D9976492EFFC2F6BC7183F67ECE64B6F1656B771E1869C4BAEFAE561F9F20437CE74BEE139AF0FD646A2687CDD511BE25E0DD6864B86D7587B28FD99B0D6108A7E9C644640020A4B2B7F76788F4929C4409F6893E72667153F1756E0C90C93E3BF581B83ACDCA29F1DDE33720AD07F7994C973779F497F73B0BC669E41B73147B5CCE7D0FB8BC35A4F00DF9CD4E27B34FBF5C15AC7FF5737BEEEA8B5175F0DD65AB69BC6D7587B20ED99B0AC679C311C37624DCC4B5DC74AC92E3179FE82E084E7C21AB024D270ACEBDC73C8CE7B89CB0DD9057C0E2B56E3F3C76E887973B0E67325D46DD4112DB6132370E3F6FD5F16D61A02686CBDBE87B35E1FACD544D1F8BAA356C5BE1AAC559C991A5F63EDBED426615D4A2B311C23B998FAF21748A76FE3FFB91A9F3F60E1F9E7C232FE6F0584A7BDFC05D2FD9C698D5EE38DC14AC8AE43B711870CD97A30EB1785F5E5CA58741BCBD6CB6C3A98F9DA608D5E116D78DD516C37AF02EBD305E70DAFB16E4F4A93B0CE5C2E301C23D151BD0CACD5618926AFF12C5889E9A6FFAD88E8AC97FF914E6486C96BBC315892AF9644A1DBE7070C49C8ACFDE5602D2780D1AC90CCA6FD19AF0DD6B2C024C3EB4AE57D5958A5153586E74B7670F86E12565CBEC971AF042B24C1E4359E05EBF8852C93E3222E64BE3CACF3E926AFF1466109A46E9FED37C4965FC0B9F88A5F06D652226EAC8E9BF6A5BF36587B4FE798545EFFC3192F056B897FBCC9F32FB3E53509EB1261191DF74AB0824DFF5BCF8565745C44D42BC2327A8D370A4BB26D6F06BA7DBAD724AB7626E1FACD7BAF17D6A248741BC6CAC86CDA93F6DA6055565F85C7D71186D7964444E5BF10AC5DC7334D9E3772FE590D5593B02EE6991CFB4AB0022F9BBCC633611192F171116C6B2F0DEB5C9AC96BBC715892F95CB2771BB0C724B65F1CC414B6AF23670BF9FFE22A43E2522B4D93629A67C29A7F0EDD06EFD3B26957EA6B83251148FA6BEB99BD2E06E1917988BC5CA4E57C5CA121BB2332316A0E57C54F3CE7DCC5FC67C38A252CA3635F09D64E9E67A3D77826AC48C2323A2EE2FC2BC03A4B5846AFF177812573D5B65D69F8D87BD7DF9C67C29A73D680765368CA6B852599BD3606DD06F2F55F31BB8E365CBF7A26AC985C93FFE3BD122CBF4B26AFF14C5884647C5CC4B9F497877526D5E435FE6EB024390557F1D5ECD3F8B84FE82BE759B0C6CC3E4578615A360527BD765812FFBD2986FFC68BC6F6B3BDD87DB461607F1EACB3D1B926CF7B2558DB634D5EE399B008C9F8B8E3675F01D669D373F17785A5273BFF0A566D8DC76713C3F1B147C84BE599B0669CC4C79E3C86D91498F88BC092A13D37BF0ACB36C6C273C401C37FAFA97C3AFE08D6FBC5A1B4AC469BB77E16D6851C93E7BF12ACAD3126AFF14C5884647CDCF1332F7F1DEBD829C2327A8D7F0858C62BC2D735BCEBD141FD52B05EF672839E9F83A5FF105A628CEA6560490493719A82651C01A5E7656049049371142C054BC152B014AC6746C152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B014ACA6B0BC4C142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC152B0142C054BC1FA0784255F889C18054BC17A6DB0E44D962F44DE04054BC17A2DB0E40D9613A2DF57B014AC1782256FB8807872BFE4495412054BC1FA59580241BE0179D38DF74B9A422551B014ACE7C2D251C9D6188E444E7653A8240A9682F54C5802E059A8247232E5F1A61E53B014AC2661C99BFF3C547AE48437854BC152B09A84F522A8F434854BC152B09A84F53C548F6EDDD4B672E0BA75EBB4DB4FE252B014AC2661E9409E8CA0AA9D341CF56B9760F1E2C5DAC1FA63C6B8142C05AB4958528976ECD881A8A8A8A7505578F4D222B8F4C7F4C81B205F8C9C2C054BC17A0AD6810307B43627B87434F226562C996D807565D54213541241939D9DAD7D910A9682F514AC9E3D7B62C18205D8BD7BB701953C51DA9F542A899C00D96F8C4ABE587983048C82A5603D054B4EB27E42E5CD936F565019B74689EC97C77554725BF61BA352B0142C032C1D8E9C30F9E2F5FBD21EE500FDBE444E84312A8982A5603D17565331C62548E40B946F50C152B05E18969C6C99B3F4594B8FE092215DBE381D949C10FDB682A5603D1796AC0A7558C62D5070C870EFE3E36352C1745C0A9682F5B3B0264C9880E1C3871BF0080CF9A22E5EBC08593D3A3B3B6BB8F4E7C889913758C152B09A842537044C525292B61A94DB3A2A794365BFC01274C6D7BB2472328C7129580A96064B1019572189CC54D2FEE4CD9483A492C99B617C8C1EC1242F2C274DC152B00CB0048D54241D8A60902F243D3D5DBB9EF53C54123919F226AB8AA56099C0123CF2450B121D95BC897AA57AB29A19474E8C312A054BC132C092375F90C8F64954F206C8EDA670C94991638D5129580A960196FC47E58D680A958EE8495C3A2AB9AD6029584DC2926F5C86F53B05D1F8E1F09867CE543A2E635412054BC16A1296BC615549E1F87FD6FC16F07907FF2762940928E34447476BAB45E3615FC152B09A842538A452092AC9FFB7EEF7F8EBF56213507AE442E9B871E3142C05EBE761C9FF8C1E3D1A3FED1BA2A1FADF35292698F4C871D226E51B9093AFEF57B014AC2661092A3950903CAB52E9A8E424C99BA2BF01F29882A56035094B47F5AC18A39213A1EFD7DF84A660C91B979595A5BDE10A56339EB1F4C81B222756BFFF2C547AF437C1189680912F528E97DB0A563387256F9C9C707D2B0FCA0F9D9F44251549BE09FDBE7EF20595E0912F50DE68D50A9B392C39C93A261D8BDC976F242424C4E417FF048A9C58FDBE4440C9C997132C5FB0312A05AB19C39237CC18951ED92F3F881658E1E1E1DA3E39114F1EA7572AF962E4C419A352B09A312CF9CDD0277FC74A22275F7E402D5B8125D14FBCF1718989893879F2A4F646EB6F8282A560BD23BFD82768E44E53A8F47D4DE192C765B80F0E0ED6DE68A95EFAC957B09A39AC2953A66843BA9CECA650C95576FD4ABB8E6B6B66353E3E5986B153A6692F2268E48B95375B30C9099193A660356358F1F1F11A1C99A5E4841BA392039EFCC3D56F0F44E19FF71468115CF5F71BFE125AC7256FB25EAD14AC660C4B4E94809193BD74E9526DABA3325E114AE4A4AF8ACB6F12968E4BBE40635C0A563385A5A391932D27414EACBE4FAA951CA4A392F4EFDF1F3EB1B968B73F1BA1878E1A50E91130F245EAB814AC660C4B4EB4BC71C6808C71C9AFCBE8FB8C2F3FC8567E474B40C9172B5BC1A4E392C86B2B58CD10969C641D951EFD04EB7804937C63FAE3FA102FB7E552859C7CF94665ABB7403929F2F342799E82D50C6149C579724097C809DEB76F9F0190BCB17222F4C7755CFAC9976A65FC26C8372EC0F493AF60353358B20A0C0B0BD34E988E468773F4E851937D4FE212787BF7EE35CC5712F986E58BD42B9780D2DF0005AB19C15ABD7A35A64E9DAA9D00F9E2058C5E8D7440C69137D8D7D7573BC1F2261C3B764C9BB3222323B53741BE61FD0DD061E9B8E4A4CBE3B255B0DE7258F21F959F090A0E39A952BDE4B6A42958024E204AB592FBF2A6C89FDF0F193244FB66F54AA5BF093A2C899C747993E59B96DB0AD65B0E4B80C89D1933666860E49B68AA6AC97D19D6E5E4CB6D19EAE5473A729135363656C3A8C3D271C989D76119B741F9C6E5A42B586F292CF9C6E564EAB8642BF79FC4658C4AB6329BC935AD0D1B3668DFA4CC57F2FCB56BD79AE0D24FFE93B024F20DCB630AD65B084BC0E82754AF4C4FE212443A2A794C2A93542A6989A1A1A1DA9CA50FEF39393958B46811BEF8E20B6DBF80D2DF0063540247BE60799315ACB714D6F370C9CC2555497F4CDE14F99C2C41151818A86112403A2EA952F24DCBF1B24F56963A2E39E9CF42A560BD4DB072F1FF03D7DD25D805A2D7800000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">0</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Properties.FitMode" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Properties.FitMode">
+        <source>ifmNormal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Style.BorderStyle" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.TabOrder" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Transparent" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Height" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Height">
+        <source>303</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Width" resname="O:frmSystemLogin.O:pnlLeft.O:imgTagLogo.Width">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.Left" resname="O:frmSystemLogin.O:pnlClient.Left">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.Top" resname="O:frmSystemLogin.O:pnlClient.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.Width" resname="O:frmSystemLogin.O:pnlClient.Width">
+        <source>339</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.Height" resname="O:frmSystemLogin.O:pnlClient.Height">
+        <source>303</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.Align" resname="O:frmSystemLogin.O:pnlClient.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.BevelOuter" resname="O:frmSystemLogin.O:pnlClient.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.TabOrder" resname="O:frmSystemLogin.O:pnlClient.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.AlignWithMargins" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Top">
+        <source>108</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Width">
+        <source>331</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Height">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Margins.Right" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Align" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.Caption">
+        <source>' Empresa '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Top">
+        <source>51</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Caption">
+        <source>'Fantasia:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Charset" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Color" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Name" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Style" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.ParentFont" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblRazao.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Top">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Width">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Caption">
+        <source>'CNPJ:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Charset" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Color" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Name" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Style" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.ParentFont" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblCNPJ.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Top">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Width">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Caption">
+        <source>'Multi-Empresas:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Charset" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Color" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071528</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Name" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Style" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.ParentFont" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lblMulti.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.AutoSize" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.DataBinding.DataField" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.DataBinding.DataField">
+        <source>'fantasia'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.DataBinding.DataSource" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.DataBinding.DataSource">
+        <source>dsEmpresas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Transparent" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbFantasia.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Left">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Top">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.AutoSize" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.DataBinding.DataField" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.DataBinding.DataField">
+        <source>'cnpj'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.DataBinding.DataSource" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.DataBinding.DataSource">
+        <source>dsEmpresas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Transparent" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:lbldbCNPJ.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxDBLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Left">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.DataBinding.DataField" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.DataBinding.DataField">
+        <source>'empresa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.DataBinding.DataSource" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.DataBinding.DataSource">
+        <source>dsParametros</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.KeyFieldNames" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.KeyFieldNames">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].Caption">
+        <source>'Fantasia'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].Width">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].FieldName" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListColumns[0].FieldName">
+        <source>'fantasia'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListSource" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.ListSource">
+        <source>dsEmpresas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.OnChange" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Properties.OnChange">
+        <source>cbbMultiEmpresasPropertiesChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Style.BorderStyle" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Style.BorderStyle">
+        <source>ebsUltraFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Style.ButtonStyle" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Style.ButtonStyle">
+        <source>btsUltraFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.OnExit" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.OnExit">
+        <source>cbbMultiEmpresasExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpEmpresa.O:cbbMultiEmpresas.Width">
+        <source>205</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.AlignWithMargins" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Top">
+        <source>214</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Width">
+        <source>331</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Height">
+        <source>89</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Margins.Right" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Margins.Bottom" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Align" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.Caption">
+        <source>' Login '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Width">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Caption">
+        <source>'Usuário:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Charset" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071644</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Color" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Name" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Style" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.ParentFont" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblUsuario.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Top">
+        <source>53</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Width">
+        <source>37</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Caption" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Caption">
+        <source>'Senha:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Charset" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Color" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Name" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Style" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.ParentFont" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:lblSenha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Left">
+        <source>67</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Top">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Width">
+        <source>196</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Hint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.Hint">
+        <source>'Informe o usuário de acesso ao sistema.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.CharCase" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.CharCase">
+        <source>ecUpperCase</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.ParentShowHint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.ShowHint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.OnKeyDown" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtLogin.OnKeyDown">
+        <source>edtLoginKeyDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Left" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Left">
+        <source>67</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Top" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Width" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Width">
+        <source>196</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Height" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Hint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.Hint">
+        <source>'Informe a senha do usuário.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.ParentShowHint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.ParentShowHint">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.PasswordChar" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.PasswordChar">
+        <source>'*'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.ShowHint" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.ShowHint">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.OnKeyDown" resname="O:frmSystemLogin.O:pnlClient.O:grpLogin.O:edtPassword.OnKeyDown">
+        <source>edtPasswordKeyDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.Left" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.Top" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.Width" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.Width">
+        <source>339</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.Height" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.Height">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071759</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.Align" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.BevelOuter" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Left" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Top" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Align" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Enabled" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Picture.Data" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Picture.Data">
+        <source>0D546478536D617274496D61676589504E470D0A1A0A0000000D4948445200000140000000640806000000F7DAE93E0000000467414D410000B18F0BFC6105000000097048597300000AEB00000AEB01828B0D5A0000001C74455874536F6674776172650041646F62652046697265776F726B7320435336E8BCB28C0000121449444154785EEDDD6D8F6C595507703E427D847EDF5575EF4728838A68D0364AC01148A9F8844A5A424650470F19C98864B4099279426861186018996698619EC71AEE3C7867081609C16862521FA1BEC1F6BF4EF62EF75DFDDF5DE754ED737A9FA9F5E297AEB36AEDB5769FBEBD6E3DF7BB9C73C618739068D018630E010D1A63CC21A041638C390434688C318780068D31E610D0A031C61C021A34C6984340834377FCC8DB73388725B8CC2E40EA8F586F63CC70D0E0101D3FFCD6082A5883EB81F439657B31C60C030D0ECDF183B74F600DEE1A5C80DD1A3466806870488E1FB87D06EE9A2DC186A0310343834371FCA5FF3807578873B647634CB96870088EFFF9CD33708599B1BD1A63CA4483A53BFEE21B27E0B658C129DC6435DA429D11CC610DAC9F58B0B5C69832D160C98EBFF0FA08D6E012E4BACE9E9D456DE9BFF4BD982C03D718D33D1A2CD9F1D96B15B88435743E80D0E328EAA9D94B638C19081A2CD9F81F5F5B832324DEDBAD2FF43A8F7AC72E58BE31A63C3458AAF1FDB7E6E0127ABDE5857EA9BDD8E380C60C040D966AFCF91F9E8323562CBF4BE839537B086C001A33103458AAF13FBCBA0447F4FEB81B7ACED41E021B80C60C040D966AFCF70B97D0FB33AFE839537B086C001A33103458AAF17DFFEE189DD707F49DE97D7836008D19081A2CD5F8B3183084CEEB03FACEF43EBC5603F0F891B76750F5E0047ABBA58C5E2390EFED14D87E34C993FC4EDF53ED7BB0FEBDBC8B47FAA8BE7BF527756A2CB70BACB760B925A2C1528DFFEE15C7E8BC3EA0EF4CEFC36B3B00E51F0CFBDCC1AEACA1937FA0A87B0432C8F6FD1C46592FE7E588F5D987AFCB7AF6F24B2B7D54DFBDFA933A359DD715D65BE8BC52D160A9C6F7BEEC189DD707F49DE97D78ED06E0436F55E0AEC112B2DCDA923A70E6EBE6760ED96E15A256EA7CF7330033F727756A3AAF2BACB7D079A5A2C1528D3FF39263745E1FD077A6F7E1B51B800FDCAEA28FD5EADBDE1FE385F53358FB7A5D91FA27AC7F5BA8933ADFFD0CC0CCFD499D9ACEEB0AEB2D745EA968B054E3BF7DD1313AAF0FE87B04153167F929C75F7AB302778D76FEC5C7DAB9AAD5B5BD5FEE841AA9F3DDCF00CCDC9FD4A9E9BCAEB0DE42E7958A064B35FE9B171CA3F386E4F88B6F54EA1365FA269F6ED3FA5620D6C827E3B07A5DDB6B50C97A552F4BDDA6A48FEABB577F52A7A6F3BAC27A0B9D572A1A2CD5F89EE71DA3F386E4F80BAF57EAD3648215C875399C81D4637D44ABBB9792AFD65F650117C0F615C8F592C7D633AD6E65C7B056FAB19AFD0CC0CCFD499D9ACEEB0AEB2D745EA968B054E3BFC2C02374DE908CFFE9B50A1C91F5F584A8378255543FD6F8970FB947B08ED632D2670EAD6E594ABE5F97DA6720FD777A8618EB52E7BB9701287D54DFBDFA933A359DD715D65BE8BC52D160A9C67FF99C6374DE908CEFBF55A90F53E8EC43155033D5ABF900BCFFD6B95AAB651924A873AAEA6A3B7DEA0ED6ED7D0EF6217D54DFBDFA933A359DD715D65BE8BC52D160A9269F7AD6313A6F48C69FFF61A53E4CA1B30F5540CD54AF46BF7CC83B52EBB49DEF9A32524FD5D75ADF0AC49ABDCEC1BEA48FEABB577F52A7A6F3BAC27A0B9D572A1A2CD5E42F7EE0189D3724E3CFBD5A8123F20FC074AF6603F073AF9EA975B14E3E9042EAAA3EB1D67F880A6BF63A07FB923EAAEF5EFD499D9ACEEB0AEB2D745EA968B05493BB9F718CCE1B92F17D8B0A1C917F00A67B351B80F72DD66A5D907DAF31A9AFFA056B967F15AC499D8333969F1BFAECF533D0489D20DB8BC7AF42FAD6745EA968B054934F3EED189D3724E3CFBE528123F20FC074AFADBF7CC8B9A9D6C4B2BC483905F567AA5FACD5FB9B913F57EB834E8778803E17AA6FB0D32D68AC5BA93A41A73F13811EA97F13ADFF63BA2E3458AAC92730F0089D3724E37B5FAED45BE9767A4B5D13A899EAB57D00DEFBF25CAD097AF9C78E3E2BD537683538907F53AD8F657FEF710CF547AA5F6CA70F43C0BA0B5527E8FCEF54A3C799EA19F4F29F490E3458AAC99F7FDF313A6F48C69F79A9526FA5DBE92D754DA066AAD7F601D8E33E19F4B9507D83D6771DB166A56A049D0E0DD43F53FD829DFF13C1DAB9AA15EB6CA04B6D5847BD62BD7F40F1AE68B05493D3A71CA3F386C4BF7D8EBDC52FFF004CF7DA3E00F7589B83F4517D77EE2F6B548D58D667B203D43D517D623B0F5EAC1DC13AAA155B42278F05A2EE22EAA3757A4B3A271A2CD5E4E3DF738CCE1B92F13D2F54E088FC0330DD6BFB00DC636D0ED247F50D5A9F27AC395235626BC8FB729E7B5E38F175593FB1D7C0C0FA73552FB6846C43506AC185AFCD747ED73B271A2CD5E4CF2E1CA3F38664FCD7CF57E088FC0330DD6BFB00DC636D0ED247F50D763A4F5897AA179CC37E8309EB7D1D563FD8FBFCA1C608D6514D6D057B0F75A9E16BB11E42F6D0CBB3CFB9D060A9267FF2A46374DE908C3FFD5C058EC83F00D3BDB60FC03DD6E6207D54DF60B701F8E9E746B08CEAA4488EF46EAB69ED2C0303754EA2BA296B3807B6DFABC81A59CB6AC63A79F8A04B3458AAC9C730F0089D3724934F3D5BE977B678D907206AA67A6D1D6292A3D6345E9B83F4517D839DCF13D61EC13AAAD527E99BF5B132D43B8BEAF7AD97D751E64683A59AFCF1771DA3F3866472F733957E61B7977F00DEFDCC11CC88ADBF88C849EDB39F01D8D179C2FA9BB08AEAF541FA75F2F75950F72CEAD397410E3F4183A59AFCE1BF3946E70DC9E4934F57FA85DD5EF601B80FEC27B5CF7E066087E7093546B08E6A7649FA74FA3819EAA7CE55177AF9F97785064B35F9FD271CA3F38664F289EF57E088B206607A9FFD0CC08ECE13D68F6019D5EBC3023A1982A83B8FFAF4610D837BEC2FA0C1524D3EFA1DC7E8BC21999C3E55E9D7357A650DC0F43EFB19801D9C27AC1DC132AAD527E99B7508A2DE3CAADFB7410E411A2CD5F4F71E778CCE1B92C9C7BF57C5AF698C943500D3FBEC670076709EB0F642D562D6B000C9953D6C2379922FEB58BDD84E9F69C8A0D64D553B6509B2BF3360FB8F498EE4CA1A564BEBEDEF4EE74283A59AFE0E061EA1F38664F2A7171538A2AC0198DE673F0330F379C2BAB9AAA3AD60AF5B35587F024B5F2F25CB2D27D491FDB2FAC139ECFCACB3AC85D4CF2058B1B525A3C1524DE7DF7609BDFC55FF2E4C3EF664A55FD6E3953500D3FBEC6700663C4F583382755443CBFA6E06D43B53F563B28FBDEE0A637DEADC08A99FED9699D48295AFCDF4F2EF21171A2CD5F423DF5A802306FB20ECE48FBE5B8123CA1A80E97DF63300339E27AC99AB1AB14EDECA85BAA9FD8BBD3E3C00EB57AA5EB086EC774B5173E46BA77A76FA2C774E3458AAE987BF79018E18D4FB0F63933F78A20247943500D3FBEC6700663C4F58B354358225CBCF05F517AADFDE7DB1F644D58A75F69980A83D53BD6283B9414283A59AFEF6637370C41A06F3BF4E6CF2D1EF54FA596DAFAC0198DE673F0330D37942FE915A1FEBF4A114A9AFFAC5767A7C0EEBCE559DA0F37F3FD243F50C06738384064B35BDEB1B47E01206793778FABB8F57E088A20620F693DA672F0350FAA8BE41ABF384FC995A1FF4F2003EFA2C55DF60A77FBF58B75075F6AAD7067A9CA89EC1609E0CA1C1924D3FF8E8121C31B867A0C474FEED4A3DA113943500D3FBEC6700A6FBB77A2909F2B3D4D915FA9CA9BEC14EE791D4093A7F490A7A8C54CF0D9D5B2A1A2CD9F4038F9E824B18CC27D106D38F7CAB524FE804650DC0F43E7B791F28FAA4FAB71A1C92AFD6EF546757D247F5DDAB3FA953D3795D61BD85CE2B150D966CFAFEAF8F600D8E9078D64FD8E8DAF443DFACC011650DC00F639FFC09A85EF6297D54DFA0DD004C9FEF7E0660E6FEA44E4DE77585F5163AAF543458BAE96F7EAD0297D0E93379B94DEF7AAC0247943500EF7AEC44ED2FD6E91350525FF58BB57AAC0BF9A9F3DDCF00CCDC9FD4A9E9BCAEB0DE42E7958A064B37FD8D7F1DC11A5CC2609E859A7EF0D14A3D96199435007FEB1B47E0123A1D1EA83F57FD62AD6EF1E3BCA6CE773F0330737F52A7A6F3BAC27A0B9D572A1A1C82E9AF9F9F80BBC22086E0F4035FAFC011450D40813D2DD51E833574722B50EAFAFAAC6FEB27BEB02675BEFB198099FB933A359DD715D65BE8BC52D1E0504C4FCECFC15D6109453F2688BBECA9BBF3E50DC0F77FED145C4227CFA24A5DD527D6FA492F9CD7D4F9EE670066EE4FEAD4745E57586FA1F34A45834331FDD5AF8E6009EE0A6BE8E51FF72E7077BD5277DF83F2066083871E20CB2D41A9E3EBB13E42F6D1BA17D6A4CE773F0330737F52A7A6F3BAC27A0B9D572A1A1C92E9FBBE328235B82D563087A2DE3182BBEA95BAEB1E14370005F675AAF6A92D61AF7754C87A5F87D50F761B18E9F3DDCF00CCDC9FD4A9E9BCAEB0DE42E7958A0687E6C6AFFCCB4D58836B680115CCE05AEF224F7FEDAB1538A2C80128B0B7A5DA2BB38039343ABF92E7F32F80D58BEDFC4C3FD6A6CE773F0330737F52A7A6F3BAC27A0B9D572A1A1CA21BBFFCE5112CC15DB356830BB7482B7F0B552B7700BEEF2B47D0E4567717A4EFCEFF69616DEA7CF7330033F727756A3AAF2BACB7D079A5A2C1A1BAF14B8F8CE01CDC356A35B8FC2D517A2B95E59702FB6B7BAB3B07E9B7D75BBCB03E75BE7B1980D247F5DDAB3FA953D3795D61BD85CE2B150D0EDD8DF73C7C022B70D7A0DD007CEF231538A2E801286EBCF7CB376105D86FE7A4CFDEEF6FC5794D9DEF7E0660E6FEA44E4DE77585F5163AAF5434F84E70E3171F1E41056B703D6A3700DF833D6618A4D705FB1CC179B4EF2E5C409627AF502775BEFB198099FB933A359DD715D65BE8BC52D1E03BC98D9F7F6804735882EB41BB01F80B0F55E088410CC000FB9DC99EA3FDE720F5B27E461FEAA5CE773F0330737F52A7A6F3BAC27A0B9D572A1A7CA7BAF1EE078F600EE7B000D7817603F0DD0F566AFD4E754A817DCB393E95FDC31AD8F79622F9B24ED677F2EC3CEAA6CE773F0330737F52A7A6F3BAC27A0B9D572A1A3426B71B3FF7C02C85E51BD3071A34C698434083C618730868D018630E010D1A63AED7F2BF579560D799CB763D5F34688CB95E3FFED9FF3AA1E339A1FE4CB0EB4A84BD8EFC9E2FBD201EB19DCE170D1A63AED7DB3FFD1F27743CA73E7AE484BDCEFC9E2FBD444C622CBE0D0D1A63AED7ED9FFC97133A9E531F3D72C25E677ECFD95E234B83C60CC91BFFF9D305710677BC7D0EC7A7D1F59772FCB1C4EBBB58F2D51F6FFEF4A75CF6B1CDDD305CDE5637BE6E9313AE6770BDF3EE580397F6ABD65D8AA520AFEEA1628DBE17B586C5763927DA660DBECE6109B2E735849CFA8F6285E350BF291A3466485EFBD14F9CB7F056FE78F3B981B87CE6636B48E5485C62F5E362F2D51F6F7EB1E4B28F859C2675E5B8AEE349EEA606E3AF8FD724F71B8E53B114C98B7371B9F1F7128E590C977739274B7F1CD684E37A0DBECEA358C811F500F4715CFCFF7D354183C60CC9AB6FFDD809155BF9787D4B2DE4C0E62D76B8AC7316FEB81E4CF2D51F6F06A05CF6B190B3F6C757D595CBB8C86B307A8D8FD1FDAA9C4BB114C98B73C33134FE5E580C97773927EC5C8735C99F47947B47BDA668D0982179E5CD1F39A1620B1FAF7F791AE6E8E3993FDEFCC2C9651FBBA32E5491958FD1DEB87C0652A71E068C5EE36374BF2C278EA5485E9CAB8F7D8C7EBF2A87D68136E7A4C9B9BE9413E5DE51AF291A3466485E7AFDB6132AB6F0F1FA97A7618E3E9EF9E3CD2F9C5CF6B13BEA26247B6FC3D6E098EE97E5C4B114C98B73F5B18FD1EF57E5D03A09B48EC47DECAA737D2927CABDA35E533468CC903C7FEB0D27546CE1E3F52F4FC31C7D3CF3C79B5F38B9EC63C9BA5A931C8DADC1716ABF9B2717422C1C5FC5AFC5457EEC635BBF5F1D63391A59D3E45C5FCA8972B7F66468D09821797671CB79336F1EC5EAE180AF2B7F5C412AE7DC1FCB57C939F5C74B7F7CE28F45FDF816BE86BA921BFA8BCDDD5B5CAED784E326C21A08F5D87E2FFC71D8AF90BDE2EA64DD239F17BEB7CD1F9797CB3E76D5390AC7A1DF993F66751A9F137FBDC436C34D2EFB583D00E5AB3F0E3F0F117E0E77D46B8A068D1992A75F59B884FA19429F7313D6D1752C6704CBE8BA94267537BFC821168E9B88EA68BAF72ABA6E23E468B8AE8AF264DF9BA124977DEC8E5A10F7D4D789A67592E70497672467E163F500C4D723D075EBB7BF85E3B0B6291A3466489E7AF165E7CD229BBB852AB76D8EB6796673CB9ACD4008B1387F9BA84EACC97E9780F0E53C81EB8EA2DCD6E7485D578BAF8F91DCE439C1E511C9B9E9639B3DE072BC7F51FF3CC271C86B8A068D1992279F7FD1091D3F44380F0B3B17CDD1A03143F2C40F9E7342C70F0DCEC1C2CE453B3468CC903CFEF4339560D71D129C83B93F17ADEF0A1E2A1A34C698434083C618730868D018630E010D1A63CC21A041638C390434688C318780068D31E610D0A031C61C021A34C698434083C618F3CEE7DEF57FE80ABE46113294A70000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Properties.FitMode" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Properties.FitMode">
+        <source>ifmNormal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Style.BorderStyle" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.TabOrder" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Transparent" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Height" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Height">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Width" resname="O:frmSystemLogin.O:pnlClient.O:pnlTop.O:imgLogo.Width">
+        <source>339</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsEmpresas.DataSet" resname="O:frmSystemLogin.O:dsEmpresas.DataSet">
+        <source>Connection.qEmpresas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsEmpresas.Left" resname="O:frmSystemLogin.O:dsEmpresas.Left">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsEmpresas.Top" resname="O:frmSystemLogin.O:dsEmpresas.Top">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList16.FormatVersion" resname="O:frmSystemLogin.O:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList16.DesignInfo" resname="O:frmSystemLogin.O:ImageList16.DesignInfo">
+        <source>8126809</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList16.ImageInfo[0].Image.Data" resname="O:frmSystemLogin.O:ImageList16.ImageInfo[0].Image.Data">
+        <source>36040000424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000000000000000000000000000002020B100C0C4C70131376AF151581BF151580BF141475AF0D0D4B7002020B10000000000000000000000000000000000000000000000000000000000B0B4C701616A0EF0F0FACFF0F0FB6FF1212BFFF1818C6FF1D1DC7FF1E1EC0FF1C1CA3EF0D0D4A70000000000000000000000000000000000000000010106C9F1616ACFF0707B2FF1717C1FF5050D2FF5F5FD3FF6666D6FF6363DFFF3F3FE0FF2D2DE2FF2424BDFF1313699F0000000000000000000000000B0B4D703A3ABFFF1212B8FF2222BFFF4B4BC3FF2222719F09093650090936502323709F6767D8FF4040ECFF3B3BF2FF2424BDFF0D0D4A700000000002020B102424ABEF3030C2FF0909B4FF1C1C90CF050521300000000000000000000000000D0D51602A2ADEFF3131E6FF4B4BEDFF2E2EE3FF1C1CA2EF02020B10090942604949C6FF0C0CB5FF1414B0FF0505213000000000000000000000000009094D601F1FD2FF2424D8FF2A2ADEFF7070DCFF4242E1FF1E1EBDFF0B0B40600F0F6E9F6060CFFF1111B5FF10106C9F000000000000000000000000060649601515C8FF1A1ACDFF1F1FD2FF0D0D51602323709F6767E0FF1D1DC5FF12126B9F121284BF6E6ED5FF3737BFFF242460800000000000000000040447600E0EBFFF1111C3FF1515C8FF09094D600000000010104D707C7CDEFF1717C4FF151580BF121284BF7171D6FF4040C2FF2323608000000000020245600808B9FF0B0BBCFF0E0EBFFF06064960000000000000000010104D706F6FD9FF1212BDFF151581BF0E0E6E9F6969D2FF4444C6FF13136E9F0B0B47602F2FC2FF2323C0FF1313BCFF040447600000000000000000000000002222719F5050D1FF1010B4FF11116B9F090943605C5CCEFF4E4EC9FF3232BEFF3838C4FF3939C4FF3232C3FF0B0B4760000000000000000000000000050521305E5EC9FF3535C9FF1D1DB0FF0A0A416001010B102525ACEF7070D5FF4444C7FF4040C6FF3838C4FF0B0B4760000000000000000000000000050521303737AFEF4747CAFF2727BCFF1818A1EF02020B10000000000A0A4E704747C5FF6A6AD3FF4444C7FF3737BFFF13136E9F0E0E4E700E0E4F7013136E9F2D2DB8FF3737C3FF3939C4FF1F1FB0FF0B0B4C700000000000000000000000000E0E6E9F4747C5FF7878D9FF4F4FC9FF4444C6FF3D3DC1FF3B3BC0FF3E3EC4FF3D3DC5FF5F5FD2FF3B3BBFFF10106C9F00000000000000000000000000000000000000000A0A4E702525ACEF6464D2FF7373D6FF7373D7FF7070D7FF6A6AD4FF6060CFFF2626ACEF0B0B4D700000000000000000000000000000000000000000000000000000000001010B100A0A4E70101079AF121284BF121284BF101079AF0B0B4D7002020B1000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList16.ImageInfo[1].Image.Data" resname="O:frmSystemLogin.O:ImageList16.ImageInfo[1].Image.Data">
+        <source>36040000424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000202020325252533464646606565658A848484B4A3A3A3DEBBBBBBFFBBBBBBFFBBBBBBFFBBBBBBFF9C9C9CD5808080AE6363638746464660252525330404040600000000000000000000000000000000050F0B181A563C872C8E63DE32A372FF32A372FF2C8E63DE1B583E8A050F0B180000000000000000000000000000000000000000000000000000000010382857309F71F344BE90FF49CFA2FF43D2A4FF43D2A4FF49CFA2FF44BE90FF30A173F6113A295A00000000000000000000000000000000000000001039285736AF7FFF4DD0A4FF39D1A3FF2DCF9EFF28CE9CFF28CE9CFF2DCF9EFF39D1A3FF4DD0A4FF36AF7FFF103B2A5A00000000000000000000000004100B182BA375F34FD2A6FF36D1A2FF26CF9CFF237755FF23694AFF23694AFF237151FF26CF9CFF36D1A2FF4FD2A6FF2BA375F305120D1B0000000000000000155A408446C598FF41D4A6FF29D09EFF21CF9CFF228964FF23694AFF23694AFF228661FF21CF9CFF29D09EFF41D4A7FF45C598FF155A408400000000000000001F8F67CF54D5ACFF35D3A3FF27D19EFF23D19DFF239E74FF23694AFF23694AFF239C73FF23D19DFF27D19EFF37D3A3FF54D6ABFF1F8F67CF000000000000000021AB7CF35CDEB5FF35D4A3FF28D29FFF27D29FFF26B386FF23694AFF23694AFF26B386FF27D29FFF29D29FFF35D4A3FF5CDDB4FF22AD7DF600000000000000001FB381F963E2BAFF3CD6A8FF2BD4A2FF2AD4A2FF27AC81FF23694AFF23694AFF28B185FF2AD4A2FF2BD4A2FF3CD7A8FF61E0B8FF1FB381F9000000000000000018976ECF60DEB6FF4BDCAFFF32D6A5FF2ED6A4FF247150FF23694AFF23694AFF247352FF2ED6A4FF32D6A5FF4BDCAFFF5FDEB6FF18976ECF00000000000000000E62478446D2A6FF62E4BBFF41DAACFF33D8A7FF247150FF23694AFF23694AFF247554FF33D8A7FF41DAACFF62E4BBFF47D3A7FF0E6247840000000000000000020E0A1219B385ED6BE5BFFF62E4BCFF4ADEB0FF34B389FF246D4DFF246E4EFF35B78CFF4ADEB0FF62E4BCFF6BE5BFFF19B385ED020E0A1200000000000000000000000006392A4B23C695FC6EE8C2FF70EAC4FF60E5BCFF57E2B8FF57E2B8FF60E5BCFF70EAC4FF6EE8C2FF23C695FC073B2C4E0000000000000000000000000000000000000000042A1F3614A87DD946D9ADFF69E7C1FF7EF0CDFF7EF0CDFF69E7C1FF46D9ADFF14AA7FDC0530243F00000000000000000000000000000000000000000000000000000000010705090856406F0D8562AB11AC7FDE11AC7FDE0D8562AB08594172010705090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList24.Height" resname="O:frmSystemLogin.O:ImageList24.Height">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList24.Width" resname="O:frmSystemLogin.O:ImageList24.Width">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList24.FormatVersion" resname="O:frmSystemLogin.O:ImageList24.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071875</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList24.DesignInfo" resname="O:frmSystemLogin.O:ImageList24.DesignInfo">
+        <source>8126873</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071991</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:ImageList24.ImageInfo[0].Image.Data" resname="O:frmSystemLogin.O:ImageList24.ImageInfo[0].Image.Data">
+        <source>36090000424D3609000000000000360000002800000018000000180000000100200000000000000900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012121217E313131A201010114000000000000000100000011000000260000003F0000005B00000072000000710000005E000000450000002D000000160000000200000000000000000000000000000000000000000000000000000000121212359B9B9BE38F8F8FD06F6F6FDD000000120000000B0000002E010100511208048231160BB35B2F17D6613318DA361B0DBC1208049101010065000000440000001F000000000000000000000000000000000000000000000000000000002E2E2E475E5E5EB50D0D0D4E9D9D9DFE626262D301000010401A0E70995128EDB56E31FFBC7735FFBD7834FFC07F3DFFC5874BFFBF8047FFA96A3CF05330207D040302040000000000000000000000000000000000000000000000000000000003030305888888BE9E9E9EFC383A39FF606060FF6C605AF4B47949FFC28751FFC28754FFC38C5DFFC38B5FFFB67443FFB36B32FFB46E33FFB97535FFB77135FF8C522BCC170A062600000000000000000000000000000000000000000000000000000000020202048A8A8ABF676867FF292A29FF727272FF695448FF9D542AFFAA643EFFB37450FFAF6C46FFB57855FFAE6A44FFA2562DFFA1542BFFAA6237FFAC6432FFA1572BF6200E07380000000000000000000000000000000000000000000000000000000005020209A48E86F3707271FF2E302FFF818181FF645146FFB77F5CFFB4734AFFB6764DFFB77850FFBD835FFFBC8260FFA5592FFFA2542DFFA55B39FFA2542BFF8B4623DB050201080000000000000000000000000000000000000000000000004F1F158DA15535FFA88B7FFF7A7B7BFF333534FF898888FF5F4633FFAE6936FFB16C37FFB16B37FFAF6836FFB57346FFC3906FFFB47551FFAA633FFF9D4E2AFF9C4B29FF5426148D000000000000000000000000000000000000000014050427933F2BFD984727FFA2542DFFA88773FF868887FF3B3D3CFF8D8C8BFF5F442CFFB5743AFFB7743BFFB57139FFB26D37FFAE6836FFBA7E58FFBA805FFFA85F3BFF9B4B29FF974325FD16090527000000000000000000000000000000003D19146C913B22FF9D4D2AFFA75C30FFBA7E52FFAF8C71FF929393FF464948FF8D8B8AFF63472AFFB97A3DFFBA793DFFB7743BFFB36E38FFAF6837FFBC835FFFAB653FFFA96242FF984526FF39170D650000000000000000000000000000000058241C9D943F24FFA1532CFFAC6434FFC08757FFBC7C3EFFB28E68FF9E9F9FFF525453FF878684FF40301FFF5C3E1FFF7E532AFFA16634FFB26C37FFB87A52FFAD6840FFA35633FFA45A3EFF5724159800000000000000000000000000000000732F24CF964225FFA5592FFFB97A4BFFBE8148FFC28542FFC78D46FFB69262FFADADACFFA0A0A0FF757676FF82817EFF72706EFF4A413AFF835129FFB97C52FFAC653CFFA2562FFFA25739FF7A3824CE0000000000000000000000000000000084352BEB964325FFA75C30FFBF8656FFC08341FFC98F47FFCE974AFFD09A4CFFB8996AFFCECECDFF676B69FF6A6B6BFFC3C5C4FF9A9A99FF59524AFFAC6C3DFFA95F32FFA55A34FF9D4F2FFF904934EB00000000000000000000000000000000601B13BD9D5037FFA85F33FFC18855FFC58A44FFCF984AFFD4A14EFFD7A450FFD2A253FFADAEADFFA3A4A2FFA2A3A0FFCACCCBFFAFAFADFF999795FFA06336FFA95F32FFB57758FFB3765EFF743826C000000000000000000000000000000000420E0B889D503BFFB87D5CFFC79264FFCC9550FFD4A14EFFDBAB53FFDDAE54FFDBAB53FFA49E92FFD0D1D0FFECEDECFFBFB8ADFFC08549FFB69476FFAA6D41FFA85D31FFAB6543FFBF8D7AFF56291D8E000000000000000000000000000000002C0D0A57AD6F64FFC69882FFCB9B72FFD1A162FFDCAE5EFFE2B458FFE3B758FFE1B357FFBBA170FFDADBDAFFF2F3F2FF71685EFF64492EFFB06F38FFAE6735FFA55A2FFF9D4D29FFAB6953FF391D165E00000000000000000000000000000000090201129A5A57F0C19181FFC99A7AFFD9B284FFE1B970FFEAC469FFE9C05CFFE4B859FFDAAD56FFC2C2BEFFE4E5E4FFC9C7C3FFB39F8CFFB06E39FFAA6132FFA1532CFF984626FF883C28EB0C06051500000000000000000000000000000000000000003C1E1C64BC8B85FFC59681FFD0A37BFFE3C28EFFF2D68EFFEECA6FFFE3B758FFDAAA52FFC9A063FFC5BBAEFFD1CEC9FFCDB6A2FFAD6737FFA4582EFF9D4D2BFF9A4A32FF3619135C0000000000000000000000000000000000000000000000000000000081524FC1C3968FFFC79882FFD1A57FFFDEB67DFFE4C17FFFDDB369FFD6A762FFD09F62FFD1A578FFBE824FFFB7794EFFAF6C47FFA65F40FF9A4B33FF5B2013AA00000000000000000000000000000000000000000000000000000000000000000B030315956360D8BF908BFFC49584FFCA9C7DFFCEA076FFC7915AFFC0844AFFC28A5AFFB06A36FFAB6235FFA1532CFF984627FF903921FF682215C50A020214000000000000000000000000000000000000000000000000000000000000000005050505030202046C4C4A97B78683FABD8B82FFBE8A79FFC59681FFB47759FF9F512BFF9C4B29FF964325FF903921FF842D1BF63A100A7201000002000000000000000000000000000000000000000000000000000000000000000000000000000000000C0C0C0C11111111291C1B3B865F5CBBAA7F7BE4AF7672FCAB6D66FF984A3FFF832B1FFA671B12CE4B100C9A1204032600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000401010727131241281513420806060C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071991</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsParametros.DataSet" resname="O:frmSystemLogin.O:dsParametros.DataSet">
+        <source>Parametros.cdsParametros</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071991</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsParametros.Left" resname="O:frmSystemLogin.O:dsParametros.Left">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071991</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSystemLogin.O:dsParametros.Top" resname="O:frmSystemLogin.O:dsParametros.Top">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0944071991</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,219 @@
+unit unCadPedidoVendas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unCad, Vcl.ImgList, cxGraphics, Data.DB,
+  MemDS, DBAccess, Uni, Vcl.StdCtrls, Vcl.ExtCtrls, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore, dxSkinDarkSide,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinOffice2007Black,
+  dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink,
+  dxSkinOffice2007Silver, dxSkinOffice2010Black, dxSkinOffice2010Blue,
+  dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
+  dxSkinOffice2013White, cxImageComboBox, cxDBEdit, cxMemo, cxDropDownEdit,
+  cxCalendar, cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxTextEdit,
+  cxMaskEdit, cxSpinEdit, cxStyles, dxSkinscxPCPainter, cxCustomData, cxFilter,
+  cxData, cxDataStorage, cxNavigator, cxDBData, cxGridLevel,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxClasses,
+  cxGridCustomView, cxGrid, cxCurrencyEdit, unSystem, dxGDIPlusClasses, cxImage;
+
+type
+  TfrmCadPedidoVendas = class(TfrmCad)
+    grpObservacao: TGroupBox;
+    mmoobservacao: TcxDBMemo;
+    qConsultacodigo: TIntegerField;
+    qConsultaempresa: TIntegerField;
+    qConsultarepresentante: TIntegerField;
+    qConsultadata_pedido: TDateTimeField;
+    qConsultaprevisao_entrega: TDateField;
+    qConsultadata_compra: TDateField;
+    qConsultadata_entrada: TDateField;
+    qConsultastatus: TStringField;
+    qConsultaobservacao: TMemoField;
+    grpProdutos: TGroupBox;
+    qRepresentante: TUniQuery;
+    dsRepresentante: TUniDataSource;
+    qCliente: TUniQuery;
+    dsCliente: TUniDataSource;
+    Grid: TcxGrid;
+    View: TcxGridDBTableView;
+    Master: TcxGridLevel;
+    pnlACT: TPanel;
+    btnADD: TButton;
+    btnEDT: TButton;
+    btnRMV: TButton;
+    StyleRepository: TcxStyleRepository;
+    StyleHeader: TcxStyle;
+    StyleItemInativo: TcxStyle;
+    StyleItemAtivo: TcxStyle;
+    ColumnID: TcxGridDBColumn;
+    ColumnProduto: TcxGridDBColumn;
+    ColumnQuantidade: TcxGridDBColumn;
+    ColumnEntregue: TcxGridDBColumn;
+    qConsultatotal_pedido: TCurrencyField;
+    qItens: TUniQuery;
+    dsItens: TUniDataSource;
+    ColumnTotal: TcxGridDBColumn;
+    ColumnCancelado: TcxGridDBColumn;
+    qSQL: TUniQuery;
+    qConsultacliente: TIntegerField;
+    ColumnCategoria: TcxGridDBColumn;
+    Panel1: TPanel;
+    lblCodigo: TLabel;
+    Label1: TLabel;
+    Label5: TLabel;
+    Label2: TLabel;
+    Label4: TLabel;
+    Label8: TLabel;
+    Label3: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    edtCliente: TcxDBSpinEdit;
+    cbbCliente: TcxDBLookupComboBox;
+    edtdata_pedido: TcxDBDateEdit;
+    edtrepresentante: TcxDBSpinEdit;
+    cbbRepresentante: TcxDBLookupComboBox;
+    edtdata_compra: TcxDBDateEdit;
+    edttotal_pedido: TcxDBCurrencyEdit;
+    edtprevisao_entrega: TcxDBDateEdit;
+    edtdata_entrada: TcxDBDateEdit;
+    cbbstatus: TcxDBImageComboBox;
+    procedure btnADDClick(Sender: TObject);
+    procedure btnEDTClick(Sender: TObject);
+    procedure btnRMVClick(Sender: TObject);
+    procedure qItensAfterRefresh(DataSet: TDataSet);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+    procedure RecalculaPedido;
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadPedidoVendas: TfrmCadPedidoVendas;
+
+implementation
+
+{$R *.dfm}
+
+uses unCadPedidoVendaProdutos;
+
+procedure TfrmCadPedidoVendas.btnADDClick(Sender: TObject);
+begin
+  inherited;
+  try
+    Application.CreateForm(TfrmCadPedidoVendaProdutos, frmCadPedidoVendaProdutos);
+    TfrmCad(frmCadPedidoVendaProdutos).Settings.Modo := 'NEW';
+    TfrmCad(frmCadPedidoVendaProdutos).Settings.ID := ds.DataSet.FieldByName('codigo').asInteger;
+    TfrmCad(frmCadPedidoVendaProdutos).ShowModal;
+  finally
+    TfrmCad(frmCadPedidoVendaProdutos).Release;
+    dsItens.DataSet.Refresh;
+    // Recalcula o pedido
+    RecalculaPedido;
+  end;
+end;
+
+procedure TfrmCadPedidoVendas.btnEDTClick(Sender: TObject);
+begin
+  inherited;
+  try
+    Application.CreateForm(TfrmCadPedidoVendaProdutos, frmCadPedidoVendaProdutos);
+    TfrmCad(frmCadPedidoVendaProdutos).Settings.Modo := 'ALTERACAO';
+    TfrmCad(frmCadPedidoVendaProdutos).Settings.ID := ds.DataSet.FieldByName('codigo').asInteger;
+    TfrmCad(frmCadPedidoVendaProdutos).ShowModal;
+  finally
+    TfrmCad(frmCadPedidoVendaProdutos).Release;
+    dsItens.DataSet.Refresh;
+    // Recalcula o pedido
+    RecalculaPedido;
+  end;
+end;
+
+procedure TfrmCadPedidoVendas.btnRMVClick(Sender: TObject);
+begin
+  inherited;
+  if Pergunta('INFO','Exclusão de registro','Tem certeza que deseja remover o registro selecionado?','SN') = ID_YES then
+    begin
+      dsItens.DataSet.Delete;
+      dsItens.DataSet.Refresh;
+      // Recalcula o pedido
+      RecalculaPedido;
+    end;
+end;
+
+procedure TfrmCadPedidoVendas.FormShow(Sender: TObject);
+begin
+  inherited;
+  if (dsItens.DataSet.RecordCount > 0) and (ds.DataSet.FieldByName('status').AsString = 'P') and (ds.State in [dsInsert, dsEdit]) then
+    begin
+      btnADD.Enabled := True;
+      btnEDT.Enabled := True;
+      btnRMV.Enabled := True;
+    end
+  else
+    begin
+      if (dsItens.DataSet.RecordCount = 0) and (ds.DataSet.FieldByName('status').AsString = 'P') and (ds.State in [dsInsert, dsEdit]) then
+        begin
+          btnADD.Enabled := True;
+          btnEDT.Enabled := False;
+          btnRMV.Enabled := False;
+        end
+      else
+        begin
+          btnADD.Enabled := False;
+          btnEDT.Enabled := False;
+          btnRMV.Enabled := False;
+        end;
+    end;
+end;
+
+procedure TfrmCadPedidoVendas.qItensAfterRefresh(DataSet: TDataSet);
+begin
+  inherited;
+  if (dsItens.DataSet.RecordCount > 0) and (ds.DataSet.FieldByName('status').AsString = 'P') then
+    begin
+      btnADD.Enabled := True;
+      btnEDT.Enabled := True;
+      btnRMV.Enabled := True;
+    end
+  else
+    begin
+      if (dsItens.DataSet.RecordCount = 0) and (ds.DataSet.FieldByName('status').AsString = 'P') then
+        begin
+          btnADD.Enabled := True;
+          btnEDT.Enabled := False;
+          btnRMV.Enabled := False;
+        end
+      else
+        begin
+          btnADD.Enabled := False;
+          btnEDT.Enabled := False;
+          btnRMV.Enabled := False;
+        end;
+    end;
+end;
+
+procedure TfrmCadPedidoVendas.RecalculaPedido;
+begin
+  // Recalcula o pedido
+  qSQL.Close;
+  qSQL.ParamByName('pedido').AsInteger := qConsultacodigo.AsInteger;
+  qSQL.Open;
+  if ds.DataSet.State in [dsEdit, dsInsert] then
+    begin
+      qConsultatotal_pedido.AsCurrency := qSQL.FieldByName('calc_pedido_vendas').AsCurrency;
+    end
+  else
+    begin
+      ds.DataSet.Edit;
+      qConsultatotal_pedido.AsCurrency := qSQL.FieldByName('calc_pedido_vendas').AsCurrency;
+      ds.DataSet.Post;
+    end;
+  qSQL.Close;
+end;
+
+end.

@@ -1,0 +1,4812 @@
+inherited frmCadCTE: TfrmCadCTE
+  Caption = 'Conhecimento de Transporte Eletronica - CT-e'
+  ClientHeight = 745
+  ClientWidth = 887
+  ExplicitWidth = 893
+  ExplicitHeight = 774
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 710
+    Width = 887
+    ExplicitTop = 671
+    ExplicitWidth = 887
+    inherited btnCancelar: TButton
+      Left = 610
+      ExplicitLeft = 610
+    end
+    inherited btnSalvar: TButton
+      Left = 703
+      ExplicitLeft = 703
+    end
+    inherited btnFechar: TButton
+      Left = 796
+      ExplicitLeft = 796
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 877
+    Height = 658
+    ExplicitWidth = 877
+    ExplicitHeight = 619
+    object lblCodigo: TLabel
+      Left = 10
+      Top = 24
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtCodigo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl1: TLabel
+      Left = 111
+      Top = 24
+      Width = 91
+      Height = 15
+      Caption = 'Data do Registro:'
+      FocusControl = edtdata_registro
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl2: TLabel
+      Left = 334
+      Top = 24
+      Width = 115
+      Height = 15
+      Caption = 'N'#186' do Conhecimento:'
+      FocusControl = edtconhecimento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl3: TLabel
+      Left = 561
+      Top = 24
+      Width = 36
+      Height = 15
+      Caption = 'Status:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl9: TLabel
+      Left = 10
+      Top = 53
+      Width = 58
+      Height = 15
+      Caption = 'Chave CTE:'
+      FocusControl = edtchave_cte
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl10: TLabel
+      Left = 319
+      Top = 53
+      Width = 106
+      Height = 15
+      Caption = 'Data cancelamento:'
+      FocusControl = edtdata_cancelamento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl87: TLabel
+      Left = 10
+      Top = 82
+      Width = 119
+      Height = 15
+      Caption = 'Natureza da operacao:'
+      FocusControl = edtnatureza_operacao
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 57
+      Top = 21
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtdata_registro: TcxDBDateEdit
+      Left = 208
+      Top = 21
+      DataBinding.DataField = 'data_registro'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = True
+      TabOrder = 1
+      Width = 120
+    end
+    object edtconhecimento: TcxDBSpinEdit
+      Left = 455
+      Top = 21
+      DataBinding.DataField = 'conhecimento'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = True
+      Properties.SpinButtons.Visible = False
+      TabOrder = 2
+      Width = 100
+    end
+    object PageControl1: TcxPageControl
+      AlignWithMargins = True
+      Left = 5
+      Top = 112
+      Width = 867
+      Height = 541
+      Margins.Top = 95
+      Align = alClient
+      TabOrder = 3
+      Properties.ActivePage = TabBasico
+      Properties.CustomButtons.Buttons = <>
+      ExplicitTop = 82
+      ExplicitHeight = 571
+      ClientRectBottom = 537
+      ClientRectLeft = 4
+      ClientRectRight = 863
+      ClientRectTop = 26
+      object TabBasico: TcxTabSheet
+        Caption = 'Dados b'#225'sicos'
+        ImageIndex = 0
+        ExplicitHeight = 502
+        object lbl4: TLabel
+          Left = 10
+          Top = 10
+          Width = 60
+          Height = 15
+          Caption = 'Remetente:'
+          FocusControl = edtremetente
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI Semibold'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object lbl5: TLabel
+          Left = 4
+          Top = 258
+          Width = 67
+          Height = 15
+          Caption = 'Destinat'#225'rio:'
+          FocusControl = edtdestinatario
+          Font.Charset = ANSI_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -12
+          Font.Name = 'Segoe UI Semibold'
+          Font.Style = [fsBold]
+          ParentFont = False
+        end
+        object grpRemetente: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 34
+          Width = 848
+          Height = 215
+          Margins.Left = 5
+          Margins.Top = 34
+          Margins.Right = 6
+          Align = alTop
+          Caption = ' Dados do remetente '
+          TabOrder = 0
+          object PageControlRemetente: TcxPageControl
+            AlignWithMargins = True
+            Left = 5
+            Top = 20
+            Width = 838
+            Height = 190
+            Align = alClient
+            TabOrder = 0
+            Properties.ActivePage = TabRemetentePadrao
+            Properties.CustomButtons.Buttons = <>
+            ClientRectBottom = 186
+            ClientRectLeft = 4
+            ClientRectRight = 834
+            ClientRectTop = 26
+            object TabRemetentePadrao: TcxTabSheet
+              Caption = 'TabRemetentePadrao'
+              ImageIndex = 0
+              DesignSize = (
+                830
+                160)
+              object lblCNPJ: TLabel
+                Left = 38
+                Top = 7
+                Width = 30
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'CNPJ:'
+                FocusControl = edtCNPJ
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblNome: TLabel
+                Left = 190
+                Top = 7
+                Width = 70
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Raz'#227'o Social:'
+                FocusControl = edtNome
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblIE: TLabel
+                Left = 55
+                Top = 36
+                Width = 13
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'IE:'
+                FocusControl = edtIE
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblFantasia: TLabel
+                Left = 214
+                Top = 36
+                Width = 46
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Fantasia:'
+                FocusControl = edtFantasia
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblEndereco_Numero: TLabel
+                Left = 655
+                Top = 65
+                Width = 17
+                Height = 15
+                Caption = 'N'#186':'
+                FocusControl = edtEndereco_numero
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblLogradouro: TLabel
+                Left = 193
+                Top = 65
+                Width = 65
+                Height = 15
+                Caption = 'Logradouro:'
+                FocusControl = edtLogradouro
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblCEP: TLabel
+                Left = 45
+                Top = 65
+                Width = 23
+                Height = 15
+                Caption = 'CEP:'
+                FocusControl = edtCEP
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblComplemento: TLabel
+                Left = 12
+                Top = 94
+                Width = 79
+                Height = 15
+                Caption = 'Complemento:'
+                FocusControl = edtComplemento
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblReferencia: TLabel
+                Left = 435
+                Top = 94
+                Width = 64
+                Height = 15
+                Caption = 'Refer'#234'ncia:'
+                FocusControl = edtReferencia
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblBairro: TLabel
+                Left = 34
+                Top = 123
+                Width = 34
+                Height = 15
+                Caption = 'Bairro:'
+                FocusControl = edtBairro
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblPais: TLabel
+                Left = 419
+                Top = 123
+                Width = 24
+                Height = 15
+                Caption = 'Pais:'
+                FocusControl = edtCidade
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblCidade: TLabel
+                Left = 11
+                Top = 152
+                Width = 57
+                Height = 15
+                Caption = 'Municipio:'
+                FocusControl = edtCidade
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblUF: TLabel
+                Left = 747
+                Top = 152
+                Width = 17
+                Height = 15
+                Caption = 'UF:'
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object edtCNPJ: TcxDBTextEdit
+                Left = 74
+                Top = 4
+                Hint = 'Informa o CNPJ ou CPF.'
+                DataBinding.DataField = 'cnpj'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 0
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtNome: TcxDBTextEdit
+                Left = 266
+                Top = 4
+                Hint = 
+                  'Informa o a RAZ'#195'O SOCIAL ou NOME da pessoal utilizada em documen' +
+                  'tos oficiais.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'nome'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 1
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 553
+              end
+              object edtIE: TcxDBTextEdit
+                Left = 74
+                Top = 33
+                Hint = 
+                  'Informa a INCRI'#199#195'O ESTADUAL ou RG.'#13#10'Caso seja PESSOA JUR'#205'DICA e ' +
+                  'n'#227'o possua IE, utilize ISENTO ou AUSENTE de acordo com o regime ' +
+                  'tributario.'
+                DataBinding.DataField = 'ie'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 2
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtFantasia: TcxDBTextEdit
+                Left = 266
+                Top = 33
+                Hint = 'Informa o nome FANTASIA ou APELIDO atribuido.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'fantasia'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 3
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 553
+              end
+              object edtEndereco_numero: TcxDBTextEdit
+                Left = 678
+                Top = 62
+                DataBinding.DataField = 'endereco_numero'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 4
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 141
+              end
+              object edtLogradouro: TcxDBTextEdit
+                Left = 266
+                Top = 62
+                DataBinding.DataField = 'endereco'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 5
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 383
+              end
+              object edtCEP: TcxDBTextEdit
+                Left = 74
+                Top = 62
+                DataBinding.DataField = 'cep'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 6
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtComplemento: TcxDBTextEdit
+                Left = 100
+                Top = 91
+                DataBinding.DataField = 'complemento'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 7
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 329
+              end
+              object edtReferencia: TcxDBTextEdit
+                Left = 505
+                Top = 91
+                DataBinding.DataField = 'referencia'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 8
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 314
+              end
+              object edtBairro: TcxDBTextEdit
+                Left = 74
+                Top = 120
+                DataBinding.DataField = 'bairro'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 9
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 339
+              end
+              object edtPais: TcxDBSpinEdit
+                Left = 449
+                Top = 120
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.SpinButtons.Visible = False
+                TabOrder = 10
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 50
+              end
+              object cbbPais: TcxDBLookupComboBox
+                Left = 503
+                Top = 120
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'C'#243'digo'
+                    Width = 60
+                    FieldName = 'codigo'
+                  end
+                  item
+                    Caption = 'Pais'
+                    Width = 240
+                    FieldName = 'pais'
+                  end>
+                Properties.ListFieldIndex = 1
+                Properties.ListSource = dsPais
+                TabOrder = 11
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 316
+              end
+              object edtCidade: TcxDBSpinEdit
+                Left = 74
+                Top = 149
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.SpinButtons.Visible = False
+                TabOrder = 12
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 69
+              end
+              object cbbCidade: TcxDBLookupComboBox
+                Left = 149
+                Top = 149
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'Nome'
+                    Width = 300
+                    FieldName = 'cidade'
+                  end
+                  item
+                    Caption = 'UF'
+                    Width = 60
+                    FieldName = 'uf'
+                  end>
+                Properties.ListSource = dsCidade
+                TabOrder = 13
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 592
+              end
+              object cbbUF: TcxDBImageComboBox
+                Left = 770
+                Top = 149
+                DataBinding.DataField = 'uf'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.Items = <
+                  item
+                    Description = 'AC'
+                    ImageIndex = 0
+                    Value = 'AC'
+                  end
+                  item
+                    Description = 'AL'
+                    Value = 'AL'
+                  end
+                  item
+                    Description = 'AP'
+                    Value = 'AP'
+                  end
+                  item
+                    Description = 'AM'
+                    Value = 'AM'
+                  end
+                  item
+                    Description = 'BA'
+                    Value = 'BA'
+                  end
+                  item
+                    Description = 'CE'
+                    Value = 'CE'
+                  end
+                  item
+                    Description = 'DF'
+                    Value = 'DF'
+                  end
+                  item
+                    Description = 'ES'
+                    Value = 'ES'
+                  end
+                  item
+                    Description = 'GO'
+                    Value = 'GO'
+                  end
+                  item
+                    Description = 'MA'
+                    Value = 'MA'
+                  end
+                  item
+                    Description = 'MT'
+                    Value = 'MT'
+                  end
+                  item
+                    Description = 'MS'
+                    Value = 'MS'
+                  end
+                  item
+                    Description = 'MG'
+                    Value = 'MG'
+                  end
+                  item
+                    Description = 'PR'
+                    Value = 'PR'
+                  end
+                  item
+                    Description = 'PB'
+                    Value = 'PB'
+                  end
+                  item
+                    Description = 'PA'
+                    Value = 'PA'
+                  end
+                  item
+                    Description = 'PE'
+                    Value = 'PE'
+                  end
+                  item
+                    Description = 'PI'
+                    Value = 'PI'
+                  end
+                  item
+                    Description = 'RJ'
+                    Value = 'RJ'
+                  end
+                  item
+                    Description = 'RN'
+                    Value = 'RN'
+                  end
+                  item
+                    Description = 'RS'
+                    Value = 'RS'
+                  end
+                  item
+                    Description = 'RO'
+                    Value = 'RO'
+                  end
+                  item
+                    Description = 'RR'
+                    Value = 'RR'
+                  end
+                  item
+                    Description = 'SC'
+                    Value = 'SC'
+                  end
+                  item
+                    Description = 'SE'
+                    Value = 'SE'
+                  end
+                  item
+                    Description = 'SP'
+                    Value = 'SP'
+                  end
+                  item
+                    Description = 'TO'
+                    Value = 'TO'
+                  end>
+                TabOrder = 14
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 49
+              end
+            end
+            object TabRemetenteEditado: TcxTabSheet
+              Caption = 'TabRemetenteEditado'
+              ImageIndex = 1
+              DesignSize = (
+                830
+                160)
+              object lbl11: TLabel
+                Left = 36
+                Top = 11
+                Width = 30
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'CNPJ:'
+                FocusControl = edtcnpj1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl12: TLabel
+                Left = 188
+                Top = 11
+                Width = 70
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Raz'#227'o Social:'
+                FocusControl = edtnome1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl13: TLabel
+                Left = 53
+                Top = 40
+                Width = 13
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'IE:'
+                FocusControl = edtie1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl14: TLabel
+                Left = 212
+                Top = 40
+                Width = 46
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Fantasia:'
+                FocusControl = edtfantasia1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl15: TLabel
+                Left = 653
+                Top = 79
+                Width = 17
+                Height = 15
+                Caption = 'N'#186':'
+                FocusControl = edtendereco_numero1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl16: TLabel
+                Left = 191
+                Top = 79
+                Width = 65
+                Height = 15
+                Caption = 'Logradouro:'
+                FocusControl = edtendereco
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl17: TLabel
+                Left = 43
+                Top = 79
+                Width = 23
+                Height = 15
+                Caption = 'CEP:'
+                FocusControl = edtcep1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl18: TLabel
+                Left = 10
+                Top = 108
+                Width = 79
+                Height = 15
+                Caption = 'Complemento:'
+                FocusControl = edtcomplemento1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl19: TLabel
+                Left = 433
+                Top = 108
+                Width = 64
+                Height = 15
+                Caption = 'Refer'#234'ncia:'
+                FocusControl = edtreferencia1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl20: TLabel
+                Left = 32
+                Top = 137
+                Width = 34
+                Height = 15
+                Caption = 'Bairro:'
+                FocusControl = edtbairro1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl21: TLabel
+                Left = 417
+                Top = 137
+                Width = 24
+                Height = 15
+                Caption = 'Pais:'
+                FocusControl = edtcidade1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl22: TLabel
+                Left = 9
+                Top = 166
+                Width = 57
+                Height = 15
+                Caption = 'Municipio:'
+                FocusControl = edtcidade1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl23: TLabel
+                Left = 745
+                Top = 166
+                Width = 17
+                Height = 15
+                Caption = 'UF:'
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object edtcnpj1: TcxDBTextEdit
+                Left = 72
+                Top = 8
+                Hint = 'Informa o CNPJ ou CPF.'
+                DataBinding.DataField = 'cnpj'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 0
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtnome1: TcxDBTextEdit
+                Left = 264
+                Top = 8
+                Hint = 
+                  'Informa o a RAZ'#195'O SOCIAL ou NOME da pessoal utilizada em documen' +
+                  'tos oficiais.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'nome'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 1
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 547
+              end
+              object edtie1: TcxDBTextEdit
+                Left = 72
+                Top = 37
+                Hint = 
+                  'Informa a INCRI'#199#195'O ESTADUAL ou RG.'#13#10'Caso seja PESSOA JUR'#205'DICA e ' +
+                  'n'#227'o possua IE, utilize ISENTO ou AUSENTE de acordo com o regime ' +
+                  'tributario.'
+                DataBinding.DataField = 'ie'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 2
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtfantasia1: TcxDBTextEdit
+                Left = 264
+                Top = 37
+                Hint = 'Informa o nome FANTASIA ou APELIDO atribuido.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'fantasia'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 3
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 547
+              end
+              object edtendereco_numero1: TcxDBTextEdit
+                Left = 676
+                Top = 76
+                DataBinding.DataField = 'endereco_numero'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 4
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 141
+              end
+              object edtendereco: TcxDBTextEdit
+                Left = 264
+                Top = 76
+                DataBinding.DataField = 'endereco'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 5
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 383
+              end
+              object edtcep1: TcxDBTextEdit
+                Left = 72
+                Top = 76
+                DataBinding.DataField = 'cep'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 6
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 84
+              end
+              object edtcomplemento1: TcxDBTextEdit
+                Left = 98
+                Top = 105
+                DataBinding.DataField = 'complemento'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 7
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 329
+              end
+              object edtreferencia1: TcxDBTextEdit
+                Left = 503
+                Top = 105
+                DataBinding.DataField = 'referencia'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 8
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 314
+              end
+              object edtbairro1: TcxDBTextEdit
+                Left = 72
+                Top = 134
+                DataBinding.DataField = 'bairro'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 9
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 339
+              end
+              object edtpais1: TcxDBSpinEdit
+                Left = 447
+                Top = 134
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = ds
+                Properties.SpinButtons.Visible = False
+                TabOrder = 10
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 50
+              end
+              object cbbpais1: TcxDBLookupComboBox
+                Left = 501
+                Top = 134
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = ds
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'C'#243'digo'
+                    Width = 60
+                    FieldName = 'codigo'
+                  end
+                  item
+                    Caption = 'Pais'
+                    Width = 240
+                    FieldName = 'pais'
+                  end>
+                Properties.ListFieldIndex = 1
+                Properties.ListSource = dsPais
+                TabOrder = 11
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 316
+              end
+              object edtcidade1: TcxDBSpinEdit
+                Left = 72
+                Top = 163
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = ds
+                Properties.SpinButtons.Visible = False
+                TabOrder = 12
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 69
+              end
+              object cbbcidade1: TcxDBLookupComboBox
+                Left = 147
+                Top = 163
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = ds
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'Nome'
+                    Width = 300
+                    FieldName = 'cidade'
+                  end
+                  item
+                    Caption = 'UF'
+                    Width = 60
+                    FieldName = 'uf'
+                  end>
+                Properties.ListSource = dsCidade
+                TabOrder = 13
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 592
+              end
+              object cbbuf1: TcxDBImageComboBox
+                Left = 768
+                Top = 163
+                DataBinding.DataField = 'uf'
+                DataBinding.DataSource = ds
+                Properties.Items = <
+                  item
+                    Description = 'AC'
+                    ImageIndex = 0
+                    Value = 'AC'
+                  end
+                  item
+                    Description = 'AL'
+                    Value = 'AL'
+                  end
+                  item
+                    Description = 'AP'
+                    Value = 'AP'
+                  end
+                  item
+                    Description = 'AM'
+                    Value = 'AM'
+                  end
+                  item
+                    Description = 'BA'
+                    Value = 'BA'
+                  end
+                  item
+                    Description = 'CE'
+                    Value = 'CE'
+                  end
+                  item
+                    Description = 'DF'
+                    Value = 'DF'
+                  end
+                  item
+                    Description = 'ES'
+                    Value = 'ES'
+                  end
+                  item
+                    Description = 'GO'
+                    Value = 'GO'
+                  end
+                  item
+                    Description = 'MA'
+                    Value = 'MA'
+                  end
+                  item
+                    Description = 'MT'
+                    Value = 'MT'
+                  end
+                  item
+                    Description = 'MS'
+                    Value = 'MS'
+                  end
+                  item
+                    Description = 'MG'
+                    Value = 'MG'
+                  end
+                  item
+                    Description = 'PR'
+                    Value = 'PR'
+                  end
+                  item
+                    Description = 'PB'
+                    Value = 'PB'
+                  end
+                  item
+                    Description = 'PA'
+                    Value = 'PA'
+                  end
+                  item
+                    Description = 'PE'
+                    Value = 'PE'
+                  end
+                  item
+                    Description = 'PI'
+                    Value = 'PI'
+                  end
+                  item
+                    Description = 'RJ'
+                    Value = 'RJ'
+                  end
+                  item
+                    Description = 'RN'
+                    Value = 'RN'
+                  end
+                  item
+                    Description = 'RS'
+                    Value = 'RS'
+                  end
+                  item
+                    Description = 'RO'
+                    Value = 'RO'
+                  end
+                  item
+                    Description = 'RR'
+                    Value = 'RR'
+                  end
+                  item
+                    Description = 'SC'
+                    Value = 'SC'
+                  end
+                  item
+                    Description = 'SE'
+                    Value = 'SE'
+                  end
+                  item
+                    Description = 'SP'
+                    Value = 'SP'
+                  end
+                  item
+                    Description = 'TO'
+                    Value = 'TO'
+                  end>
+                TabOrder = 14
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 49
+              end
+              object btnBuscarCEP: TButton
+                Left = 156
+                Top = 76
+                Width = 23
+                Height = 23
+                Hint = 'Realiza a busca do CEP ou LOGRADOURO no servidor ONLINE.'
+                Anchors = [akTop, akRight]
+                ImageIndex = 59
+                Images = ImageList16
+                TabOrder = 15
+                OnMouseEnter = imgHelpMouseEnter
+              end
+            end
+          end
+        end
+        object grpDestinatario: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 282
+          Width = 848
+          Height = 215
+          Margins.Left = 5
+          Margins.Top = 30
+          Margins.Right = 6
+          Align = alTop
+          Caption = ' Dados do destinat'#225'rio '
+          TabOrder = 1
+          ExplicitTop = 283
+          object PageControlDestinatario: TcxPageControl
+            AlignWithMargins = True
+            Left = 5
+            Top = 20
+            Width = 838
+            Height = 190
+            Align = alClient
+            TabOrder = 0
+            Properties.ActivePage = ab1
+            Properties.CustomButtons.Buttons = <>
+            ClientRectBottom = 186
+            ClientRectLeft = 4
+            ClientRectRight = 834
+            ClientRectTop = 26
+            object ab1: TcxTabSheet
+              Caption = 'TabRemetentePadrao'
+              ImageIndex = 0
+              DesignSize = (
+                830
+                160)
+              object lbl24: TLabel
+                Left = 38
+                Top = 7
+                Width = 30
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'CNPJ:'
+                FocusControl = edtcnpj2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl25: TLabel
+                Left = 190
+                Top = 7
+                Width = 70
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Raz'#227'o Social:'
+                FocusControl = edtnome2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl26: TLabel
+                Left = 55
+                Top = 36
+                Width = 13
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'IE:'
+                FocusControl = edtie2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl27: TLabel
+                Left = 214
+                Top = 36
+                Width = 46
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Fantasia:'
+                FocusControl = edtfantasia2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl28: TLabel
+                Left = 655
+                Top = 65
+                Width = 17
+                Height = 15
+                Caption = 'N'#186':'
+                FocusControl = edtendereco_numero2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl29: TLabel
+                Left = 193
+                Top = 65
+                Width = 65
+                Height = 15
+                Caption = 'Logradouro:'
+                FocusControl = edtendereco1
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl30: TLabel
+                Left = 45
+                Top = 65
+                Width = 23
+                Height = 15
+                Caption = 'CEP:'
+                FocusControl = edtcep2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl31: TLabel
+                Left = 12
+                Top = 94
+                Width = 79
+                Height = 15
+                Caption = 'Complemento:'
+                FocusControl = edtcomplemento2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl32: TLabel
+                Left = 435
+                Top = 94
+                Width = 64
+                Height = 15
+                Caption = 'Refer'#234'ncia:'
+                FocusControl = edtreferencia2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl33: TLabel
+                Left = 34
+                Top = 123
+                Width = 34
+                Height = 15
+                Caption = 'Bairro:'
+                FocusControl = edtbairro2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl34: TLabel
+                Left = 419
+                Top = 123
+                Width = 24
+                Height = 15
+                Caption = 'Pais:'
+                FocusControl = edtcidade2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl35: TLabel
+                Left = 11
+                Top = 152
+                Width = 57
+                Height = 15
+                Caption = 'Municipio:'
+                FocusControl = edtcidade2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl36: TLabel
+                Left = 747
+                Top = 152
+                Width = 17
+                Height = 15
+                Caption = 'UF:'
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object edtcnpj2: TcxDBTextEdit
+                Left = 74
+                Top = 4
+                Hint = 'Informa o CNPJ ou CPF.'
+                DataBinding.DataField = 'cnpj'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 0
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtnome2: TcxDBTextEdit
+                Left = 266
+                Top = 4
+                Hint = 
+                  'Informa o a RAZ'#195'O SOCIAL ou NOME da pessoal utilizada em documen' +
+                  'tos oficiais.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'nome'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 1
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 553
+              end
+              object edtie2: TcxDBTextEdit
+                Left = 74
+                Top = 33
+                Hint = 
+                  'Informa a INCRI'#199#195'O ESTADUAL ou RG.'#13#10'Caso seja PESSOA JUR'#205'DICA e ' +
+                  'n'#227'o possua IE, utilize ISENTO ou AUSENTE de acordo com o regime ' +
+                  'tributario.'
+                DataBinding.DataField = 'ie'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 2
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtfantasia2: TcxDBTextEdit
+                Left = 266
+                Top = 33
+                Hint = 'Informa o nome FANTASIA ou APELIDO atribuido.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'fantasia'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 3
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 553
+              end
+              object edtendereco_numero2: TcxDBTextEdit
+                Left = 678
+                Top = 62
+                DataBinding.DataField = 'endereco_numero'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 4
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 141
+              end
+              object edtendereco1: TcxDBTextEdit
+                Left = 266
+                Top = 62
+                DataBinding.DataField = 'endereco'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 5
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 383
+              end
+              object edtcep2: TcxDBTextEdit
+                Left = 74
+                Top = 62
+                DataBinding.DataField = 'cep'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 6
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtcomplemento2: TcxDBTextEdit
+                Left = 100
+                Top = 91
+                DataBinding.DataField = 'complemento'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 7
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 329
+              end
+              object edtreferencia2: TcxDBTextEdit
+                Left = 505
+                Top = 91
+                DataBinding.DataField = 'referencia'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 8
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 314
+              end
+              object edtbairro2: TcxDBTextEdit
+                Left = 74
+                Top = 120
+                DataBinding.DataField = 'bairro'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 9
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 339
+              end
+              object edtpais2: TcxDBSpinEdit
+                Left = 449
+                Top = 120
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.SpinButtons.Visible = False
+                TabOrder = 10
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 50
+              end
+              object cbbpais2: TcxDBLookupComboBox
+                Left = 503
+                Top = 120
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'C'#243'digo'
+                    Width = 60
+                    FieldName = 'codigo'
+                  end
+                  item
+                    Caption = 'Pais'
+                    Width = 240
+                    FieldName = 'pais'
+                  end>
+                Properties.ListFieldIndex = 1
+                Properties.ListSource = dsPais
+                TabOrder = 11
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 316
+              end
+              object edtcidade2: TcxDBSpinEdit
+                Left = 74
+                Top = 149
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.SpinButtons.Visible = False
+                TabOrder = 12
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 69
+              end
+              object cbbcidade2: TcxDBLookupComboBox
+                Left = 149
+                Top = 149
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'Nome'
+                    Width = 300
+                    FieldName = 'cidade'
+                  end
+                  item
+                    Caption = 'UF'
+                    Width = 60
+                    FieldName = 'uf'
+                  end>
+                Properties.ListSource = dsCidade
+                TabOrder = 13
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 592
+              end
+              object cbbuf2: TcxDBImageComboBox
+                Left = 770
+                Top = 149
+                DataBinding.DataField = 'uf'
+                DataBinding.DataSource = dsDestinatario
+                Enabled = False
+                Properties.Items = <
+                  item
+                    Description = 'AC'
+                    ImageIndex = 0
+                    Value = 'AC'
+                  end
+                  item
+                    Description = 'AL'
+                    Value = 'AL'
+                  end
+                  item
+                    Description = 'AP'
+                    Value = 'AP'
+                  end
+                  item
+                    Description = 'AM'
+                    Value = 'AM'
+                  end
+                  item
+                    Description = 'BA'
+                    Value = 'BA'
+                  end
+                  item
+                    Description = 'CE'
+                    Value = 'CE'
+                  end
+                  item
+                    Description = 'DF'
+                    Value = 'DF'
+                  end
+                  item
+                    Description = 'ES'
+                    Value = 'ES'
+                  end
+                  item
+                    Description = 'GO'
+                    Value = 'GO'
+                  end
+                  item
+                    Description = 'MA'
+                    Value = 'MA'
+                  end
+                  item
+                    Description = 'MT'
+                    Value = 'MT'
+                  end
+                  item
+                    Description = 'MS'
+                    Value = 'MS'
+                  end
+                  item
+                    Description = 'MG'
+                    Value = 'MG'
+                  end
+                  item
+                    Description = 'PR'
+                    Value = 'PR'
+                  end
+                  item
+                    Description = 'PB'
+                    Value = 'PB'
+                  end
+                  item
+                    Description = 'PA'
+                    Value = 'PA'
+                  end
+                  item
+                    Description = 'PE'
+                    Value = 'PE'
+                  end
+                  item
+                    Description = 'PI'
+                    Value = 'PI'
+                  end
+                  item
+                    Description = 'RJ'
+                    Value = 'RJ'
+                  end
+                  item
+                    Description = 'RN'
+                    Value = 'RN'
+                  end
+                  item
+                    Description = 'RS'
+                    Value = 'RS'
+                  end
+                  item
+                    Description = 'RO'
+                    Value = 'RO'
+                  end
+                  item
+                    Description = 'RR'
+                    Value = 'RR'
+                  end
+                  item
+                    Description = 'SC'
+                    Value = 'SC'
+                  end
+                  item
+                    Description = 'SE'
+                    Value = 'SE'
+                  end
+                  item
+                    Description = 'SP'
+                    Value = 'SP'
+                  end
+                  item
+                    Description = 'TO'
+                    Value = 'TO'
+                  end>
+                TabOrder = 14
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 49
+              end
+            end
+            object ab2: TcxTabSheet
+              Caption = 'TabRemetenteEditado'
+              ImageIndex = 1
+              DesignSize = (
+                830
+                160)
+              object lbl37: TLabel
+                Left = 36
+                Top = 11
+                Width = 30
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'CNPJ:'
+                FocusControl = edtcnpj3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl38: TLabel
+                Left = 188
+                Top = 11
+                Width = 70
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Raz'#227'o Social:'
+                FocusControl = edtnome3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl39: TLabel
+                Left = 53
+                Top = 40
+                Width = 13
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'IE:'
+                FocusControl = edtie3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl40: TLabel
+                Left = 212
+                Top = 40
+                Width = 46
+                Height = 15
+                Alignment = taRightJustify
+                Caption = 'Fantasia:'
+                FocusControl = edtfantasia3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl41: TLabel
+                Left = 653
+                Top = 79
+                Width = 17
+                Height = 15
+                Caption = 'N'#186':'
+                FocusControl = edtendereco_numero3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl42: TLabel
+                Left = 191
+                Top = 79
+                Width = 65
+                Height = 15
+                Caption = 'Logradouro:'
+                FocusControl = edtendereco2
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl43: TLabel
+                Left = 43
+                Top = 79
+                Width = 23
+                Height = 15
+                Caption = 'CEP:'
+                FocusControl = edtcep3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl44: TLabel
+                Left = 10
+                Top = 108
+                Width = 79
+                Height = 15
+                Caption = 'Complemento:'
+                FocusControl = edtcomplemento3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl45: TLabel
+                Left = 433
+                Top = 108
+                Width = 64
+                Height = 15
+                Caption = 'Refer'#234'ncia:'
+                FocusControl = edtreferencia3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl46: TLabel
+                Left = 32
+                Top = 137
+                Width = 34
+                Height = 15
+                Caption = 'Bairro:'
+                FocusControl = edtbairro3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl47: TLabel
+                Left = 417
+                Top = 137
+                Width = 24
+                Height = 15
+                Caption = 'Pais:'
+                FocusControl = edtcidade3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl48: TLabel
+                Left = 9
+                Top = 166
+                Width = 57
+                Height = 15
+                Caption = 'Municipio:'
+                FocusControl = edtcidade3
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl49: TLabel
+                Left = 745
+                Top = 166
+                Width = 17
+                Height = 15
+                Caption = 'UF:'
+                Font.Charset = ANSI_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Segoe UI Semibold'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object edtcnpj3: TcxDBTextEdit
+                Left = 72
+                Top = 8
+                Hint = 'Informa o CNPJ ou CPF.'
+                DataBinding.DataField = 'cnpj'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 0
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtnome3: TcxDBTextEdit
+                Left = 264
+                Top = 8
+                Hint = 
+                  'Informa o a RAZ'#195'O SOCIAL ou NOME da pessoal utilizada em documen' +
+                  'tos oficiais.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'nome'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 1
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 547
+              end
+              object edtie3: TcxDBTextEdit
+                Left = 72
+                Top = 37
+                Hint = 
+                  'Informa a INCRI'#199#195'O ESTADUAL ou RG.'#13#10'Caso seja PESSOA JUR'#205'DICA e ' +
+                  'n'#227'o possua IE, utilize ISENTO ou AUSENTE de acordo com o regime ' +
+                  'tributario.'
+                DataBinding.DataField = 'ie'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 2
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 100
+              end
+              object edtfantasia3: TcxDBTextEdit
+                Left = 264
+                Top = 37
+                Hint = 'Informa o nome FANTASIA ou APELIDO atribuido.'
+                Anchors = [akLeft, akTop, akRight]
+                DataBinding.DataField = 'fantasia'
+                DataBinding.DataSource = dsRemetente
+                Enabled = False
+                Properties.CharCase = ecUpperCase
+                TabOrder = 3
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 547
+              end
+              object edtendereco_numero3: TcxDBTextEdit
+                Left = 676
+                Top = 76
+                DataBinding.DataField = 'endereco_numero'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 4
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 141
+              end
+              object edtendereco2: TcxDBTextEdit
+                Left = 264
+                Top = 76
+                DataBinding.DataField = 'endereco'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 5
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 383
+              end
+              object edtcep3: TcxDBTextEdit
+                Left = 72
+                Top = 76
+                DataBinding.DataField = 'cep'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 6
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 84
+              end
+              object edtcomplemento3: TcxDBTextEdit
+                Left = 98
+                Top = 105
+                DataBinding.DataField = 'complemento'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 7
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 329
+              end
+              object edtreferencia3: TcxDBTextEdit
+                Left = 503
+                Top = 105
+                DataBinding.DataField = 'referencia'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 8
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 314
+              end
+              object edtbairro3: TcxDBTextEdit
+                Left = 72
+                Top = 134
+                DataBinding.DataField = 'bairro'
+                DataBinding.DataSource = ds
+                Properties.CharCase = ecUpperCase
+                TabOrder = 9
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 339
+              end
+              object edtpais3: TcxDBSpinEdit
+                Left = 447
+                Top = 134
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = ds
+                Properties.SpinButtons.Visible = False
+                TabOrder = 10
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 50
+              end
+              object cbbpais3: TcxDBLookupComboBox
+                Left = 501
+                Top = 134
+                DataBinding.DataField = 'pais'
+                DataBinding.DataSource = ds
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'C'#243'digo'
+                    Width = 60
+                    FieldName = 'codigo'
+                  end
+                  item
+                    Caption = 'Pais'
+                    Width = 240
+                    FieldName = 'pais'
+                  end>
+                Properties.ListFieldIndex = 1
+                Properties.ListSource = dsPais
+                TabOrder = 11
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 316
+              end
+              object edtcidade3: TcxDBSpinEdit
+                Left = 72
+                Top = 163
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = ds
+                Properties.SpinButtons.Visible = False
+                TabOrder = 12
+                OnEnter = grpContentEnter
+                OnMouseEnter = imgHelpMouseEnter
+                Width = 69
+              end
+              object cbbcidade3: TcxDBLookupComboBox
+                Left = 147
+                Top = 163
+                DataBinding.DataField = 'cidade'
+                DataBinding.DataSource = ds
+                Properties.KeyFieldNames = 'codigo'
+                Properties.ListColumns = <
+                  item
+                    Caption = 'Nome'
+                    Width = 300
+                    FieldName = 'cidade'
+                  end
+                  item
+                    Caption = 'UF'
+                    Width = 60
+                    FieldName = 'uf'
+                  end>
+                Properties.ListSource = dsCidade
+                TabOrder = 13
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 592
+              end
+              object cbbuf3: TcxDBImageComboBox
+                Left = 768
+                Top = 163
+                DataBinding.DataField = 'uf'
+                DataBinding.DataSource = ds
+                Properties.Items = <
+                  item
+                    Description = 'AC'
+                    ImageIndex = 0
+                    Value = 'AC'
+                  end
+                  item
+                    Description = 'AL'
+                    Value = 'AL'
+                  end
+                  item
+                    Description = 'AP'
+                    Value = 'AP'
+                  end
+                  item
+                    Description = 'AM'
+                    Value = 'AM'
+                  end
+                  item
+                    Description = 'BA'
+                    Value = 'BA'
+                  end
+                  item
+                    Description = 'CE'
+                    Value = 'CE'
+                  end
+                  item
+                    Description = 'DF'
+                    Value = 'DF'
+                  end
+                  item
+                    Description = 'ES'
+                    Value = 'ES'
+                  end
+                  item
+                    Description = 'GO'
+                    Value = 'GO'
+                  end
+                  item
+                    Description = 'MA'
+                    Value = 'MA'
+                  end
+                  item
+                    Description = 'MT'
+                    Value = 'MT'
+                  end
+                  item
+                    Description = 'MS'
+                    Value = 'MS'
+                  end
+                  item
+                    Description = 'MG'
+                    Value = 'MG'
+                  end
+                  item
+                    Description = 'PR'
+                    Value = 'PR'
+                  end
+                  item
+                    Description = 'PB'
+                    Value = 'PB'
+                  end
+                  item
+                    Description = 'PA'
+                    Value = 'PA'
+                  end
+                  item
+                    Description = 'PE'
+                    Value = 'PE'
+                  end
+                  item
+                    Description = 'PI'
+                    Value = 'PI'
+                  end
+                  item
+                    Description = 'RJ'
+                    Value = 'RJ'
+                  end
+                  item
+                    Description = 'RN'
+                    Value = 'RN'
+                  end
+                  item
+                    Description = 'RS'
+                    Value = 'RS'
+                  end
+                  item
+                    Description = 'RO'
+                    Value = 'RO'
+                  end
+                  item
+                    Description = 'RR'
+                    Value = 'RR'
+                  end
+                  item
+                    Description = 'SC'
+                    Value = 'SC'
+                  end
+                  item
+                    Description = 'SE'
+                    Value = 'SE'
+                  end
+                  item
+                    Description = 'SP'
+                    Value = 'SP'
+                  end
+                  item
+                    Description = 'TO'
+                    Value = 'TO'
+                  end>
+                TabOrder = 14
+                OnEnter = grpContentEnter
+                OnMouseMove = imgHelpMouseMove
+                Width = 49
+              end
+              object btn1: TButton
+                Left = 156
+                Top = 76
+                Width = 23
+                Height = 23
+                Hint = 'Realiza a busca do CEP ou LOGRADOURO no servidor ONLINE.'
+                Anchors = [akTop, akRight]
+                ImageIndex = 59
+                Images = ImageList16
+                TabOrder = 15
+                OnMouseEnter = imgHelpMouseEnter
+              end
+            end
+          end
+        end
+        object edtremetente: TcxDBSpinEdit
+          Left = 76
+          Top = 7
+          DataBinding.DataField = 'remetente'
+          DataBinding.DataSource = ds
+          Properties.SpinButtons.Visible = False
+          TabOrder = 2
+          Width = 100
+        end
+        object cbbremetente: TcxDBLookupComboBox
+          Left = 182
+          Top = 7
+          DataBinding.DataField = 'remetente'
+          DataBinding.DataSource = ds
+          Properties.KeyFieldNames = 'codigo'
+          Properties.ListColumns = <
+            item
+              Caption = 'Remetente'
+              FieldName = 'fantasia'
+            end>
+          Properties.ListSource = dsPessoas
+          TabOrder = 3
+          Width = 415
+        end
+        object cbbremetente_endereco: TcxDBCheckBox
+          Left = 603
+          Top = 7
+          Caption = 'Utilizar endere'#231'o diferente do cadastrado.'
+          DataBinding.DataField = 'remetente_endereco'
+          DataBinding.DataSource = ds
+          ParentFont = False
+          Style.Font.Charset = ANSI_CHARSET
+          Style.Font.Color = clWindowText
+          Style.Font.Height = -12
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
+          Style.IsFontAssigned = True
+          TabOrder = 4
+          Width = 250
+        end
+        object edtdestinatario: TcxDBSpinEdit
+          Left = 76
+          Top = 255
+          DataBinding.DataField = 'destinatario'
+          DataBinding.DataSource = ds
+          Properties.SpinButtons.Visible = False
+          TabOrder = 5
+          Width = 100
+        end
+        object cbbdestinatario: TcxDBLookupComboBox
+          Left = 182
+          Top = 255
+          DataBinding.DataField = 'destinatario'
+          DataBinding.DataSource = ds
+          Properties.KeyFieldNames = 'codigo'
+          Properties.ListColumns = <
+            item
+              Caption = 'Destinat'#225'rio'
+              FieldName = 'fantasia'
+            end>
+          Properties.ListSource = dsPessoas
+          TabOrder = 6
+          Width = 409
+        end
+        object cbbdestinatario_endereco: TcxDBCheckBox
+          Left = 597
+          Top = 255
+          Caption = 'Utilizar endere'#231'o diferente do cadastrado.'
+          DataBinding.DataField = 'destinatario_endereco'
+          DataBinding.DataSource = ds
+          ParentFont = False
+          Style.Font.Charset = ANSI_CHARSET
+          Style.Font.Color = clWindowText
+          Style.Font.Height = -12
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
+          Style.IsFontAssigned = True
+          TabOrder = 7
+          Width = 250
+        end
+      end
+      object TabNotas: TcxTabSheet
+        Caption = 'Dados da Nota'
+        ImageIndex = 1
+        ExplicitHeight = 541
+        object grpNF: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 3
+          Width = 849
+          Height = 142
+          Margins.Left = 5
+          Margins.Right = 5
+          Align = alTop
+          Caption = ' Dados da Nota Fiscal '
+          TabOrder = 0
+          object lbl6: TLabel
+            Left = 16
+            Top = 24
+            Width = 72
+            Height = 15
+            Caption = 'Tipo da Nota:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl7: TLabel
+            Left = 334
+            Top = 24
+            Width = 62
+            Height = 15
+            Caption = 'N'#186' da Nota:'
+            FocusControl = edtnota
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl8: TLabel
+            Left = 16
+            Top = 81
+            Width = 35
+            Height = 15
+            Caption = 'Chave:'
+            FocusControl = edtnfe_chave
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl50: TLabel
+            Left = 508
+            Top = 24
+            Width = 29
+            Height = 15
+            Caption = 'Serie:'
+            FocusControl = edtnf_serie
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl51: TLabel
+            Left = 16
+            Top = 52
+            Width = 32
+            Height = 15
+            Caption = 'CFOP:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl52: TLabel
+            Left = 16
+            Top = 110
+            Width = 52
+            Height = 15
+            Caption = 'BC. ICMS:'
+            FocusControl = edtnf_bcicms
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl53: TLabel
+            Left = 170
+            Top = 110
+            Width = 32
+            Height = 15
+            Caption = 'ICMS:'
+            FocusControl = edtnf_icms
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl54: TLabel
+            Left = 472
+            Top = 110
+            Width = 49
+            Height = 15
+            Caption = 'ICMS ST:'
+            FocusControl = edtnf_icms_st
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl55: TLabel
+            Left = 304
+            Top = 110
+            Width = 66
+            Height = 15
+            Caption = 'BC ICMS ST:'
+            FocusControl = edtnf_bc_icms_st
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl57: TLabel
+            Left = 626
+            Top = 52
+            Width = 75
+            Height = 15
+            Caption = 'Valor da Nota:'
+            FocusControl = edtvalor_nf
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl58: TLabel
+            Left = 649
+            Top = 24
+            Width = 73
+            Height = 15
+            Caption = 'Data da Nota:'
+            FocusControl = edtdata_nfe
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl56: TLabel
+            Left = 623
+            Top = 110
+            Width = 102
+            Height = 15
+            Caption = 'Total dos Produtos:'
+            FocusControl = edtnf_total_prod
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object edtnota: TcxDBSpinEdit
+            Left = 402
+            Top = 21
+            DataBinding.DataField = 'nota'
+            DataBinding.DataSource = ds
+            Properties.SpinButtons.Visible = False
+            TabOrder = 1
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtnfe_chave: TcxDBTextEdit
+            Left = 57
+            Top = 78
+            DataBinding.DataField = 'nfe_chave'
+            DataBinding.DataSource = ds
+            TabOrder = 7
+            OnEnter = grpContentEnter
+            Width = 774
+          end
+          object edtnf_serie: TcxDBSpinEdit
+            Left = 543
+            Top = 21
+            DataBinding.DataField = 'nf_serie'
+            DataBinding.DataSource = ds
+            Properties.SpinButtons.Visible = False
+            TabOrder = 2
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtnf_bcicms: TcxDBCalcEdit
+            Left = 74
+            Top = 107
+            DataBinding.DataField = 'nf_bcicms'
+            DataBinding.DataSource = ds
+            TabOrder = 8
+            OnEnter = grpContentEnter
+            Width = 90
+          end
+          object edtnf_icms: TcxDBCalcEdit
+            Left = 208
+            Top = 107
+            DataBinding.DataField = 'nf_icms'
+            DataBinding.DataSource = ds
+            TabOrder = 9
+            OnEnter = grpContentEnter
+            Width = 90
+          end
+          object edtnf_icms_st: TcxDBCalcEdit
+            Left = 527
+            Top = 107
+            DataBinding.DataField = 'nf_icms_st'
+            DataBinding.DataSource = ds
+            TabOrder = 10
+            OnEnter = grpContentEnter
+            Width = 90
+          end
+          object edtnf_bc_icms_st: TcxDBCalcEdit
+            Left = 376
+            Top = 107
+            DataBinding.DataField = 'nf_bc_icms_st'
+            DataBinding.DataSource = ds
+            TabOrder = 11
+            OnEnter = grpContentEnter
+            Width = 90
+          end
+          object edtvalor_nf: TcxDBCalcEdit
+            Left = 707
+            Top = 49
+            DataBinding.DataField = 'valor_nf'
+            DataBinding.DataSource = ds
+            TabOrder = 6
+            OnEnter = grpContentEnter
+            Width = 124
+          end
+          object edtdata_nfe: TcxDBDateEdit
+            Left = 728
+            Top = 21
+            DataBinding.DataField = 'data_nfe'
+            DataBinding.DataSource = ds
+            TabOrder = 3
+            OnEnter = grpContentEnter
+            Width = 103
+          end
+          object cbbtipo_nota: TcxDBImageComboBox
+            Left = 94
+            Top = 20
+            DataBinding.DataField = 'tipo_nota'
+            DataBinding.DataSource = ds
+            Properties.Items = <
+              item
+                Description = 'Nota Fiscal'
+                ImageIndex = 0
+                Value = 'NF'
+              end
+              item
+                Description = 'Nota Fiscal Eletronica'
+                Value = 'NFE'
+              end
+              item
+                Description = 'Nota Fiscal Consumidor Eletronica'
+                Value = 'NFCE'
+              end>
+            TabOrder = 0
+            OnEnter = grpContentEnter
+            Width = 234
+          end
+          object cbbnf_cfop: TcxDBLookupComboBox
+            Left = 160
+            Top = 49
+            DataBinding.DataField = 'nf_cfop'
+            DataBinding.DataSource = ds
+            Properties.KeyFieldNames = 'chave'
+            Properties.ListColumns = <
+              item
+                Caption = 'Chave'
+                Width = 70
+                FieldName = 'chave'
+              end
+              item
+                Caption = 'Natureza'
+                Width = 170
+                FieldName = 'descricao'
+              end>
+            Properties.ListFieldIndex = 1
+            Properties.ListSource = dsOperacoes
+            TabOrder = 5
+            OnEnter = grpContentEnter
+            Width = 460
+          end
+          object edtnf_cfop: TcxDBTextEdit
+            Left = 54
+            Top = 49
+            DataBinding.DataField = 'nf_cfop'
+            DataBinding.DataSource = ds
+            TabOrder = 4
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtnf_total_prod: TcxDBCalcEdit
+            Left = 731
+            Top = 107
+            DataBinding.DataField = 'nf_total_prod'
+            DataBinding.DataSource = ds
+            TabOrder = 12
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+        end
+        object grp1: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 151
+          Width = 849
+          Height = 82
+          Margins.Left = 5
+          Margins.Right = 5
+          Align = alTop
+          Caption = ' Dados da Mercadoria '
+          TabOrder = 1
+          object lbl59: TLabel
+            Left = 16
+            Top = 23
+            Width = 100
+            Height = 15
+            Caption = 'Natureza da Carga:'
+            FocusControl = edtnatureza_carga
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl60: TLabel
+            Left = 228
+            Top = 23
+            Width = 90
+            Height = 15
+            Caption = 'Quantide Kg/m'#179':'
+            FocusControl = edtqtde_kgm
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl61: TLabel
+            Left = 410
+            Top = 23
+            Width = 47
+            Height = 15
+            Caption = 'Unidade:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl62: TLabel
+            Left = 572
+            Top = 23
+            Width = 96
+            Height = 15
+            Caption = 'Quantide Volume:'
+            FocusControl = edtqtde_volume
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl63: TLabel
+            Left = 16
+            Top = 52
+            Width = 85
+            Height = 15
+            Caption = 'Esp'#233'cie volume:'
+            FocusControl = edtespecie_volume
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl64: TLabel
+            Left = 183
+            Top = 52
+            Width = 36
+            Height = 15
+            Caption = 'Marca:'
+            FocusControl = edtmarca
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl65: TLabel
+            Left = 331
+            Top = 52
+            Width = 60
+            Height = 15
+            Caption = 'Frete K/m'#179':'
+            FocusControl = edtfrete_kgm
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl67: TLabel
+            Left = 642
+            Top = 52
+            Width = 31
+            Height = 15
+            Caption = 'Placa:'
+            FocusControl = edtveiculo_placa
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl68: TLabel
+            Left = 765
+            Top = 52
+            Width = 17
+            Height = 15
+            Caption = 'UF:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl66: TLabel
+            Left = 483
+            Top = 52
+            Width = 47
+            Height = 15
+            Caption = 'Sec./Car:'
+            FocusControl = edtsec_car
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object edtnatureza_carga: TcxDBTextEdit
+            Left = 122
+            Top = 20
+            DataBinding.DataField = 'natureza_carga'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 0
+            OnEnter = edtnatureza_cargaEnter
+            OnExit = grpContentExit
+            Width = 100
+          end
+          object edtqtde_kgm: TcxDBTextEdit
+            Left = 324
+            Top = 20
+            DataBinding.DataField = 'qtde_kgm'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 1
+            OnEnter = edtqtde_kgmEnter
+            OnExit = grpContentExit
+            Width = 80
+          end
+          object edtqtde_volume: TcxDBCalcEdit
+            Left = 674
+            Top = 20
+            DataBinding.DataField = 'qtde_volume'
+            DataBinding.DataSource = ds
+            TabOrder = 3
+            OnEnter = grpContentEnter
+            Width = 70
+          end
+          object edtespecie_volume: TcxDBTextEdit
+            Left = 107
+            Top = 49
+            DataBinding.DataField = 'especie_volume'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 4
+            OnEnter = edtespecie_volumeEnter
+            OnExit = grpContentExit
+            Width = 70
+          end
+          object edtmarca: TcxDBTextEdit
+            Left = 225
+            Top = 49
+            DataBinding.DataField = 'marca'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 5
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtfrete_kgm: TcxDBTextEdit
+            Left = 397
+            Top = 49
+            DataBinding.DataField = 'frete_kgm'
+            DataBinding.DataSource = ds
+            TabOrder = 6
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtveiculo_placa: TcxDBTextEdit
+            Left = 679
+            Top = 49
+            DataBinding.DataField = 'veiculo_placa'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 8
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtsec_car: TcxDBTextEdit
+            Left = 536
+            Top = 49
+            DataBinding.DataField = 'sec_car'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 7
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object cbbUnidadeTamanho: TcxDBLookupComboBox
+            Left = 463
+            Top = 20
+            DataBinding.DataField = 'un_med'
+            DataBinding.DataSource = ds
+            Properties.KeyFieldNames = 'unidade'
+            Properties.ListColumns = <
+              item
+                Caption = 'Unidade'
+                Width = 40
+                FieldName = 'unidade'
+              end
+              item
+                Caption = 'Descri'#231#227'o'
+                Width = 120
+                FieldName = 'descricao'
+              end>
+            Properties.ListSource = dsUnidade
+            TabOrder = 2
+            OnEnter = cbbUnidadeTamanhoEnter
+            OnExit = grpContentExit
+            Width = 103
+          end
+          object cbbuf4: TcxDBImageComboBox
+            Left = 788
+            Top = 48
+            DataBinding.DataField = 'veiculo_uf'
+            DataBinding.DataSource = ds
+            Properties.Items = <
+              item
+                Description = 'AC'
+                ImageIndex = 0
+                Value = 'AC'
+              end
+              item
+                Description = 'AL'
+                Value = 'AL'
+              end
+              item
+                Description = 'AP'
+                Value = 'AP'
+              end
+              item
+                Description = 'AM'
+                Value = 'AM'
+              end
+              item
+                Description = 'BA'
+                Value = 'BA'
+              end
+              item
+                Description = 'CE'
+                Value = 'CE'
+              end
+              item
+                Description = 'DF'
+                Value = 'DF'
+              end
+              item
+                Description = 'ES'
+                Value = 'ES'
+              end
+              item
+                Description = 'GO'
+                Value = 'GO'
+              end
+              item
+                Description = 'MA'
+                Value = 'MA'
+              end
+              item
+                Description = 'MT'
+                Value = 'MT'
+              end
+              item
+                Description = 'MS'
+                Value = 'MS'
+              end
+              item
+                Description = 'MG'
+                Value = 'MG'
+              end
+              item
+                Description = 'PR'
+                Value = 'PR'
+              end
+              item
+                Description = 'PB'
+                Value = 'PB'
+              end
+              item
+                Description = 'PA'
+                Value = 'PA'
+              end
+              item
+                Description = 'PE'
+                Value = 'PE'
+              end
+              item
+                Description = 'PI'
+                Value = 'PI'
+              end
+              item
+                Description = 'RJ'
+                Value = 'RJ'
+              end
+              item
+                Description = 'RN'
+                Value = 'RN'
+              end
+              item
+                Description = 'RS'
+                Value = 'RS'
+              end
+              item
+                Description = 'RO'
+                Value = 'RO'
+              end
+              item
+                Description = 'RR'
+                Value = 'RR'
+              end
+              item
+                Description = 'SC'
+                Value = 'SC'
+              end
+              item
+                Description = 'SE'
+                Value = 'SE'
+              end
+              item
+                Description = 'SP'
+                Value = 'SP'
+              end
+              item
+                Description = 'TO'
+                Value = 'TO'
+              end>
+            TabOrder = 9
+            OnEnter = grpContentEnter
+            OnMouseMove = imgHelpMouseMove
+            Width = 43
+          end
+        end
+        object grp2: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 239
+          Width = 849
+          Height = 218
+          Margins.Left = 5
+          Margins.Right = 5
+          Align = alTop
+          Caption = ' Dados do Frete '
+          TabOrder = 2
+          object lbl69: TLabel
+            Left = 198
+            Top = 22
+            Width = 87
+            Height = 15
+            Caption = 'Data de entrega:'
+            FocusControl = edtdata_coleta
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl70: TLabel
+            Left = 397
+            Top = 22
+            Width = 82
+            Height = 15
+            Caption = 'Local da coleta:'
+            FocusControl = edtlocal_coleta
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl71: TLabel
+            Left = 198
+            Top = 51
+            Width = 114
+            Height = 15
+            Caption = 'Data de recebimento:'
+            FocusControl = edtdata_recebimento
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl72: TLabel
+            Left = 424
+            Top = 51
+            Width = 90
+            Height = 15
+            Caption = 'Local de entrega:'
+            FocusControl = edtlocal_entrega
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl73: TLabel
+            Left = 16
+            Top = 150
+            Width = 74
+            Height = 15
+            Caption = 'Calculado at'#233':'
+            FocusControl = edtcalculado_ate
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl74: TLabel
+            Left = 198
+            Top = 150
+            Width = 107
+            Height = 15
+            Caption = 'Responsavel seguro:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl75: TLabel
+            Left = 666
+            Top = 150
+            Width = 59
+            Height = 15
+            Caption = 'Averba'#231#227'o:'
+            FocusControl = edtseguro_averb
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl76: TLabel
+            Left = 16
+            Top = 180
+            Width = 64
+            Height = 15
+            Caption = 'Seguradora:'
+            FocusControl = edtseguro_seg
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl77: TLabel
+            Left = 472
+            Top = 179
+            Width = 43
+            Height = 15
+            Caption = 'Apolice:'
+            FocusControl = edtseguro_apol
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl78: TLabel
+            Left = 16
+            Top = 90
+            Width = 76
+            Height = 15
+            Caption = 'Valor do Frete:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl79: TLabel
+            Left = 184
+            Top = 90
+            Width = 56
+            Height = 15
+            Caption = 'Despacho:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl80: TLabel
+            Left = 332
+            Top = 90
+            Width = 46
+            Height = 15
+            Caption = 'Ped'#225'gio:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl81: TLabel
+            Left = 470
+            Top = 90
+            Width = 88
+            Height = 15
+            Caption = 'Outras despesas:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl82: TLabel
+            Left = 650
+            Top = 90
+            Width = 54
+            Height = 15
+            Caption = 'Presta'#231#227'o:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl83: TLabel
+            Left = 16
+            Top = 120
+            Width = 116
+            Height = 15
+            Caption = 'Base de calculo ICMS:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl84: TLabel
+            Left = 223
+            Top = 120
+            Width = 48
+            Height = 15
+            Caption = 'Aliquota:'
+            FocusControl = edtaliquota
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl85: TLabel
+            Left = 364
+            Top = 120
+            Width = 79
+            Height = 15
+            Caption = 'Valor do ICMS:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object lbl86: TLabel
+            Left = 535
+            Top = 120
+            Width = 32
+            Height = 15
+            Caption = 'Tarifa:'
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -12
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
+          end
+          object rgfrete: TcxDBRadioGroup
+            Left = 16
+            Top = 16
+            Caption = ' Frete '
+            DataBinding.DataField = 'frete'
+            DataBinding.DataSource = ds
+            Properties.DefaultValue = 1
+            Properties.Items = <
+              item
+                Caption = 'Pago'
+                Value = 0
+              end
+              item
+                Caption = 'A pagar'
+                Value = 1
+              end>
+            TabOrder = 0
+            Height = 65
+            Width = 85
+          end
+          object rgredespacho: TcxDBRadioGroup
+            Left = 107
+            Top = 16
+            Caption = ' Redespacho '
+            DataBinding.DataField = 'redespacho'
+            DataBinding.DataSource = ds
+            Properties.DefaultValue = 1
+            Properties.Items = <
+              item
+                Caption = 'Pago'
+                Value = 0
+              end
+              item
+                Caption = 'A pagar'
+                Value = 1
+              end>
+            TabOrder = 1
+            Height = 65
+            Width = 85
+          end
+          object edtdata_coleta: TcxDBDateEdit
+            Left = 291
+            Top = 19
+            DataBinding.DataField = 'data_coleta'
+            DataBinding.DataSource = ds
+            TabOrder = 2
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtlocal_coleta: TcxDBSpinEdit
+            Left = 485
+            Top = 19
+            DataBinding.DataField = 'local_coleta'
+            DataBinding.DataSource = ds
+            Properties.SpinButtons.Visible = False
+            TabOrder = 3
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtdata_recebimento: TcxDBDateEdit
+            Left = 318
+            Top = 48
+            DataBinding.DataField = 'data_recebimento'
+            DataBinding.DataSource = ds
+            TabOrder = 5
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtlocal_entrega: TcxDBSpinEdit
+            Left = 520
+            Top = 48
+            DataBinding.DataField = 'local_entrega'
+            DataBinding.DataSource = ds
+            Properties.SpinButtons.Visible = False
+            TabOrder = 6
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object cbblocal_coleta: TcxDBLookupComboBox
+            Left = 571
+            Top = 19
+            DataBinding.DataField = 'local_coleta'
+            DataBinding.DataSource = ds
+            Properties.KeyFieldNames = 'codigo'
+            Properties.ListColumns = <
+              item
+                Caption = 'Nome'
+                Width = 300
+                FieldName = 'cidade'
+              end
+              item
+                Caption = 'UF'
+                Width = 60
+                FieldName = 'uf'
+              end>
+            Properties.ListSource = dsCidade
+            TabOrder = 4
+            OnEnter = grpContentEnter
+            OnMouseMove = imgHelpMouseMove
+            Width = 260
+          end
+          object cbblocal_entrega: TcxDBLookupComboBox
+            Left = 606
+            Top = 48
+            DataBinding.DataField = 'local_entrega'
+            DataBinding.DataSource = ds
+            Properties.KeyFieldNames = 'codigo'
+            Properties.ListColumns = <
+              item
+                Caption = 'Nome'
+                Width = 300
+                FieldName = 'cidade'
+              end
+              item
+                Caption = 'UF'
+                Width = 60
+                FieldName = 'uf'
+              end>
+            Properties.ListSource = dsCidade
+            TabOrder = 7
+            OnEnter = grpContentEnter
+            OnMouseMove = imgHelpMouseMove
+            Width = 225
+          end
+          object edtcalculado_ate: TcxDBCalcEdit
+            Left = 97
+            Top = 147
+            DataBinding.DataField = 'calculado_ate'
+            DataBinding.DataSource = ds
+            TabOrder = 17
+            OnEnter = grpContentEnter
+            Width = 95
+          end
+          object edtseguro_averb: TcxDBTextEdit
+            Left = 731
+            Top = 146
+            DataBinding.DataField = 'seguro_averb'
+            DataBinding.DataSource = ds
+            TabOrder = 19
+            OnEnter = grpContentEnter
+            Width = 100
+          end
+          object edtseguro_seg: TcxDBTextEdit
+            Left = 85
+            Top = 176
+            DataBinding.DataField = 'seguro_seg'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 20
+            OnEnter = grpContentEnter
+            Width = 381
+          end
+          object cbbseguro_resp: TcxDBImageComboBox
+            Left = 311
+            Top = 146
+            DataBinding.DataField = 'seguro_resp'
+            DataBinding.DataSource = ds
+            Properties.Items = <
+              item
+                Description = 'REMETENTE'
+                ImageIndex = 0
+                Value = '0'
+              end
+              item
+                Description = 'EXPEDIDOR'
+                Value = '1'
+              end
+              item
+                Description = 'RECEBEDOR'
+                Value = '2'
+              end
+              item
+                Description = 'DESTINATARIO'
+                Value = '3'
+              end
+              item
+                Description = 'EMITENTE'
+                Value = '4'
+              end
+              item
+                Description = 'TOMADOR DE SERVICO'
+                Value = '5'
+              end>
+            TabOrder = 18
+            OnEnter = grpContentEnter
+            Width = 349
+          end
+          object edtseguro_apol: TcxDBTextEdit
+            Left = 521
+            Top = 175
+            DataBinding.DataField = 'seguro_apol'
+            DataBinding.DataSource = ds
+            Properties.CharCase = ecUpperCase
+            TabOrder = 21
+            OnEnter = grpContentEnter
+            Width = 310
+          end
+          object edtvalor_frete: TcxDBCurrencyEdit
+            Left = 98
+            Top = 87
+            DataBinding.DataField = 'valor_frete'
+            DataBinding.DataSource = ds
+            TabOrder = 8
+            OnEnter = grpContentEnter
+            OnExit = edtvalor_freteExit
+            Width = 80
+          end
+          object edtdespacho: TcxDBCurrencyEdit
+            Left = 246
+            Top = 87
+            DataBinding.DataField = 'despacho'
+            DataBinding.DataSource = ds
+            TabOrder = 9
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtpedagio: TcxDBCurrencyEdit
+            Left = 384
+            Top = 87
+            DataBinding.DataField = 'pedagio'
+            DataBinding.DataSource = ds
+            TabOrder = 10
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtoutras_despesas: TcxDBCurrencyEdit
+            Left = 564
+            Top = 87
+            DataBinding.DataField = 'outras_despesas'
+            DataBinding.DataSource = ds
+            TabOrder = 11
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtprestacao: TcxDBCurrencyEdit
+            Left = 710
+            Top = 87
+            DataBinding.DataField = 'prestacao'
+            DataBinding.DataSource = ds
+            TabOrder = 12
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtbasecalc_icms: TcxDBCurrencyEdit
+            Left = 138
+            Top = 116
+            DataBinding.DataField = 'basecalc_icms'
+            DataBinding.DataSource = ds
+            Properties.ReadOnly = True
+            TabOrder = 13
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edtaliquota: TcxDBCalcEdit
+            Left = 277
+            Top = 116
+            DataBinding.DataField = 'aliquota'
+            DataBinding.DataSource = ds
+            TabOrder = 14
+            OnEnter = edtaliquotaEnter
+            OnExit = edtaliquotaExit
+            Width = 80
+          end
+          object edtvalor_icms: TcxDBCurrencyEdit
+            Left = 449
+            Top = 116
+            DataBinding.DataField = 'valor_icms'
+            DataBinding.DataSource = ds
+            Properties.ReadOnly = True
+            TabOrder = 15
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+          object edttarifa: TcxDBCurrencyEdit
+            Left = 575
+            Top = 116
+            DataBinding.DataField = 'tarifa'
+            DataBinding.DataSource = ds
+            TabOrder = 16
+            OnEnter = grpContentEnter
+            Width = 80
+          end
+        end
+      end
+      object TabObservacoes: TcxTabSheet
+        Caption = 'Observa'#231#245'es'
+        ImageIndex = 2
+        ExplicitHeight = 541
+        object grp3: TGroupBox
+          AlignWithMargins = True
+          Left = 5
+          Top = 3
+          Width = 849
+          Height = 150
+          Margins.Left = 5
+          Margins.Right = 5
+          Align = alTop
+          Caption = ' Observa'#231#245'es da CT-e '
+          TabOrder = 0
+          object mmo1: TcxDBMemo
+            AlignWithMargins = True
+            Left = 5
+            Top = 20
+            Align = alClient
+            DataBinding.DataField = 'observacao'
+            DataBinding.DataSource = ds
+            TabOrder = 0
+            OnEnter = grpContentEnter
+            Height = 125
+            Width = 839
+          end
+        end
+      end
+    end
+    object edtchave_cte: TcxDBTextEdit
+      Left = 74
+      Top = 50
+      DataBinding.DataField = 'chave_cte'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = True
+      TabOrder = 4
+      Width = 239
+    end
+    object edtdata_cancelamento: TcxDBDateEdit
+      Left = 431
+      Top = 50
+      DataBinding.DataField = 'data_cancelamento'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = True
+      TabOrder = 5
+      Width = 121
+    end
+    object edtchave_cancelamento: TcxDBTextEdit
+      Left = 558
+      Top = 50
+      DataBinding.DataField = 'chave_cancelamento'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = True
+      TabOrder = 6
+      Width = 304
+    end
+    object cbbStatus: TcxDBImageComboBox
+      Left = 603
+      Top = 21
+      DataBinding.DataField = 'status'
+      DataBinding.DataSource = ds
+      Properties.Items = <
+        item
+          Description = 'Pendente'
+          ImageIndex = 0
+          Value = 'P'
+        end
+        item
+          Description = 'Emitido'
+          Value = 'E'
+        end
+        item
+          Description = 'Cancelado'
+          Value = 'C'
+        end
+        item
+          Description = 'Inutilizado'
+          Value = 'I'
+        end>
+      Properties.ReadOnly = True
+      TabOrder = 7
+      Width = 259
+    end
+    object edtnatureza_operacao: TcxDBTextEdit
+      Left = 135
+      Top = 79
+      DataBinding.DataField = 'natureza_operacao'
+      DataBinding.DataSource = ds
+      TabOrder = 8
+      Width = 100
+    end
+    object cbbOperacao: TcxDBLookupComboBox
+      Left = 241
+      Top = 79
+      DataBinding.DataField = 'natureza_operacao'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'chave'
+      Properties.ListColumns = <
+        item
+          Caption = 'Chave'
+          Width = 70
+          FieldName = 'chave'
+        end
+        item
+          Caption = 'Natureza'
+          Width = 170
+          FieldName = 'descricao'
+        end>
+      Properties.ListFieldIndex = 1
+      Properties.ListSource = dsOperacoes
+      TabOrder = 9
+      OnEnter = grpContentEnter
+      Width = 621
+    end
+  end
+  inherited pnlHelp: TPanel
+    Width = 878
+    ExplicitWidth = 878
+    inherited mmoHelp: TMemo
+      Width = 831
+      ExplicitWidth = 831
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO cte'
+      
+        '  (data_registro, conhecimento, chave_cte, chave_cancelamento, d' +
+        'ata_cancelamento, status, remetente, remetente_endereco, destina' +
+        'tario, destinatario_endereco, local_entrega, data_entrega, tipo_' +
+        'nota, nota, nfe_chave, nf_serie, nf_bcicms, nf_icms, nf_icms_st,' +
+        ' nf_bc_icms_st, nf_total_prod, nf_cfop, valor_nf, data_nfe, natu' +
+        'reza_carga, qtde_volume, especie_volume, marca, qtde_kgm, frete_' +
+        'kgm, frete, valor_frete, natureza_operacao, despacho, pedagio, o' +
+        'utras_despesas, prestacao, aliquota, basecalc_icms, valor_icms, ' +
+        'tarifa, local_coleta, data_coleta, frota, veiculo_placa, veiculo' +
+        '_uf, sec_car, base_calculo, calculado_ate, data_recebimento, red' +
+        'espacho, processado, valor_produto, marcado_manual, un_med, segu' +
+        'ro_resp, seguro_seg, seguro_apol, seguro_averb, observacao)'
+      'VALUES'
+      
+        '  (:data_registro, :conhecimento, :chave_cte, :chave_cancelament' +
+        'o, :data_cancelamento, :status, :remetente, :remetente_endereco,' +
+        ' :destinatario, :destinatario_endereco, :local_entrega, :data_en' +
+        'trega, :tipo_nota, :nota, :nfe_chave, :nf_serie, :nf_bcicms, :nf' +
+        '_icms, :nf_icms_st, :nf_bc_icms_st, :nf_total_prod, :nf_cfop, :v' +
+        'alor_nf, :data_nfe, :natureza_carga, :qtde_volume, :especie_volu' +
+        'me, :marca, :qtde_kgm, :frete_kgm, :frete, :valor_frete, :nature' +
+        'za_operacao, :despacho, :pedagio, :outras_despesas, :prestacao, ' +
+        ':aliquota, :basecalc_icms, :valor_icms, :tarifa, :local_coleta, ' +
+        ':data_coleta, :frota, :veiculo_placa, :veiculo_uf, :sec_car, :ba' +
+        'se_calculo, :calculado_ate, :data_recebimento, :redespacho, :pro' +
+        'cessado, :valor_produto, :marcado_manual, :un_med, :seguro_resp,' +
+        ' :seguro_seg, :seguro_apol, :seguro_averb, :observacao)')
+    SQLDelete.Strings = (
+      'DELETE FROM cte'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE cte'
+      'SET'
+      
+        '  data_registro = :data_registro, conhecimento = :conhecimento, ' +
+        'chave_cte = :chave_cte, chave_cancelamento = :chave_cancelamento' +
+        ', data_cancelamento = :data_cancelamento, status = :status, reme' +
+        'tente = :remetente, remetente_endereco = :remetente_endereco, de' +
+        'stinatario = :destinatario, destinatario_endereco = :destinatari' +
+        'o_endereco, local_entrega = :local_entrega, data_entrega = :data' +
+        '_entrega, tipo_nota = :tipo_nota, nota = :nota, nfe_chave = :nfe' +
+        '_chave, nf_serie = :nf_serie, nf_bcicms = :nf_bcicms, nf_icms = ' +
+        ':nf_icms, nf_icms_st = :nf_icms_st, nf_bc_icms_st = :nf_bc_icms_' +
+        'st, nf_total_prod = :nf_total_prod, nf_cfop = :nf_cfop, valor_nf' +
+        ' = :valor_nf, data_nfe = :data_nfe, natureza_carga = :natureza_c' +
+        'arga, qtde_volume = :qtde_volume, especie_volume = :especie_volu' +
+        'me, marca = :marca, qtde_kgm = :qtde_kgm, frete_kgm = :frete_kgm' +
+        ', frete = :frete, valor_frete = :valor_frete, natureza_operacao ' +
+        '= :natureza_operacao, despacho = :despacho, pedagio = :pedagio, ' +
+        'outras_despesas = :outras_despesas, prestacao = :prestacao, aliq' +
+        'uota = :aliquota, basecalc_icms = :basecalc_icms, valor_icms = :' +
+        'valor_icms, tarifa = :tarifa, local_coleta = :local_coleta, data' +
+        '_coleta = :data_coleta, frota = :frota, veiculo_placa = :veiculo' +
+        '_placa, veiculo_uf = :veiculo_uf, sec_car = :sec_car, base_calcu' +
+        'lo = :base_calculo, calculado_ate = :calculado_ate, data_recebim' +
+        'ento = :data_recebimento, redespacho = :redespacho, processado =' +
+        ' :processado, valor_produto = :valor_produto, marcado_manual = :' +
+        'marcado_manual, un_med = :un_med, seguro_resp = :seguro_resp, se' +
+        'guro_seg = :seguro_seg, seguro_apol = :seguro_apol, seguro_averb' +
+        ' = :seguro_averb, observacao = :observacao'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM cte'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT data_registro, conhecimento, chave_cte, chave_cancelament' +
+        'o, data_cancelamento, status, remetente, remetente_endereco, des' +
+        'tinatario, destinatario_endereco, local_entrega, data_entrega, t' +
+        'ipo_nota, nota, nfe_chave, nf_serie, nf_bcicms, nf_icms, nf_icms' +
+        '_st, nf_bc_icms_st, nf_total_prod, nf_cfop, valor_nf, data_nfe, ' +
+        'natureza_carga, qtde_volume, especie_volume, marca, qtde_kgm, fr' +
+        'ete_kgm, frete, valor_frete, natureza_operacao, despacho, pedagi' +
+        'o, outras_despesas, prestacao, aliquota, basecalc_icms, valor_ic' +
+        'ms, tarifa, local_coleta, data_coleta, frota, veiculo_placa, vei' +
+        'culo_uf, sec_car, base_calculo, calculado_ate, data_recebimento,' +
+        ' redespacho, processado, valor_produto, marcado_manual, un_med, ' +
+        'seguro_resp, seguro_seg, seguro_apol, seguro_averb, observacao F' +
+        'ROM cte'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM cte'
+      ''
+      ') t')
+    SQL.Strings = (
+      
+        'SELECT codigo, data_registro, conhecimento, chave_cte, chave_can' +
+        'celamento, '
+      
+        '       data_cancelamento, status, remetente, remetente_endereco,' +
+        ' destinatario, '
+      
+        '       destinatario_endereco, local_entrega, data_entrega, tipo_' +
+        'nota, '
+      
+        '       nota, nfe_chave, nf_serie, nf_bcicms, nf_icms, nf_icms_st' +
+        ', nf_bc_icms_st, '
+      
+        '       nf_total_prod, nf_cfop, valor_nf, data_nfe, natureza_carg' +
+        'a, qtde_volume, '
+      
+        '       especie_volume, marca, qtde_kgm, frete_kgm, frete, valor_' +
+        'frete, '
+      '       natureza_operacao, despacho, pedagio, outras_despesas, '
+      
+        '       prestacao, aliquota, basecalc_icms, valor_icms, tarifa, l' +
+        'ocal_coleta, '
+      
+        '       data_coleta, frota, veiculo_placa, veiculo_uf, sec_car, b' +
+        'ase_calculo, '
+      
+        '       calculado_ate, data_recebimento, redespacho, processado, ' +
+        'valor_produto, '
+      
+        '       marcado_manual, un_med, seguro_resp, seguro_seg, seguro_a' +
+        'pol, '
+      '       seguro_averb, observacao'
+      '  FROM cte'
+      ' WHERE codigo = :codigo;')
+    object FieldConsultacodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object qConsultadata_registro: TDateTimeField
+      FieldName = 'data_registro'
+    end
+    object qConsultaconhecimento: TLargeintField
+      FieldName = 'conhecimento'
+    end
+    object FieldConsultachave_cte: TStringField
+      FieldName = 'chave_cte'
+      EditMask = 
+        '0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000' +
+        ';0;_'
+      Size = 200
+    end
+    object FieldConsultachave_cancelamento: TStringField
+      FieldName = 'chave_cancelamento'
+      EditMask = 
+        '0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000' +
+        ';0;_'
+      Size = 200
+    end
+    object FieldConsultadata_cancelamento: TDateField
+      FieldName = 'data_cancelamento'
+    end
+    object FieldConsultastatus: TStringField
+      FieldName = 'status'
+      Size = 1
+    end
+    object qConsultaremetente: TLargeintField
+      FieldName = 'remetente'
+      Required = True
+    end
+    object FieldConsultaremetente_endereco: TBooleanField
+      FieldName = 'remetente_endereco'
+    end
+    object qConsultadestinatario: TLargeintField
+      FieldName = 'destinatario'
+      Required = True
+    end
+    object FieldConsultadestinatario_endereco: TBooleanField
+      FieldName = 'destinatario_endereco'
+    end
+    object qConsultalocal_entrega: TLargeintField
+      FieldName = 'local_entrega'
+      Required = True
+    end
+    object FieldConsultadata_entrega: TDateField
+      FieldName = 'data_entrega'
+    end
+    object FieldConsultatipo_nota: TStringField
+      FieldName = 'tipo_nota'
+    end
+    object qConsultanota: TLargeintField
+      FieldName = 'nota'
+    end
+    object FieldConsultanfe_chave: TStringField
+      FieldName = 'nfe_chave'
+      EditMask = 
+        '0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000\.0000' +
+        ';0;_'
+      Size = 200
+    end
+    object FieldConsultanf_serie: TIntegerField
+      FieldName = 'nf_serie'
+    end
+    object FieldConsultanf_bcicms: TFloatField
+      FieldName = 'nf_bcicms'
+    end
+    object FieldConsultanf_icms: TFloatField
+      FieldName = 'nf_icms'
+    end
+    object FieldConsultanf_icms_st: TFloatField
+      FieldName = 'nf_icms_st'
+    end
+    object FieldConsultanf_bc_icms_st: TFloatField
+      FieldName = 'nf_bc_icms_st'
+    end
+    object FieldConsultanf_total_prod: TFloatField
+      FieldName = 'nf_total_prod'
+    end
+    object FieldConsultanf_cfop: TStringField
+      FieldName = 'nf_cfop'
+      Size = 6
+    end
+    object FieldConsultavalor_nf: TFloatField
+      FieldName = 'valor_nf'
+    end
+    object FieldConsultadata_nfe: TDateField
+      FieldName = 'data_nfe'
+    end
+    object FieldConsultanatureza_carga: TStringField
+      DisplayLabel = 'Natureza da carga'
+      FieldName = 'natureza_carga'
+      Required = True
+      Size = 5
+    end
+    object FieldConsultaqtde_volume: TFloatField
+      DisplayLabel = 'Quantidade Volume'
+      FieldName = 'qtde_volume'
+      Required = True
+    end
+    object FieldConsultaespecie_volume: TStringField
+      DisplayLabel = 'Esp'#233'cie volume'
+      FieldName = 'especie_volume'
+      Required = True
+      Size = 3
+    end
+    object FieldConsultamarca: TStringField
+      FieldName = 'marca'
+      Size = 200
+    end
+    object FieldConsultaqtde_kgm: TStringField
+      DisplayLabel = 'Quantidade Kg/m#'
+      FieldName = 'qtde_kgm'
+    end
+    object FieldConsultafrete_kgm: TStringField
+      DisplayLabel = 'Frete K/m'#179
+      FieldName = 'frete_kgm'
+    end
+    object FieldConsultafrete: TIntegerField
+      DisplayLabel = 'Frete'
+      FieldName = 'frete'
+    end
+    object FieldConsultavalor_frete: TFloatField
+      DisplayLabel = 'Valor do Frete'
+      FieldName = 'valor_frete'
+      Required = True
+    end
+    object FieldConsultanatureza_operacao: TStringField
+      FieldName = 'natureza_operacao'
+      Size = 6
+    end
+    object FieldConsultadespacho: TFloatField
+      FieldName = 'despacho'
+    end
+    object FieldConsultapedagio: TFloatField
+      FieldName = 'pedagio'
+    end
+    object FieldConsultaoutras_despesas: TFloatField
+      FieldName = 'outras_despesas'
+    end
+    object FieldConsultaprestacao: TFloatField
+      FieldName = 'prestacao'
+    end
+    object FieldConsultaaliquota: TFloatField
+      DisplayLabel = 'Aliquota'
+      FieldName = 'aliquota'
+      Required = True
+    end
+    object FieldConsultabasecalc_icms: TFloatField
+      DisplayLabel = 'Base de calculo ICMS'
+      FieldName = 'basecalc_icms'
+      Required = True
+    end
+    object FieldConsultavalor_icms: TFloatField
+      DisplayLabel = 'Valor do ICMS'
+      FieldName = 'valor_icms'
+      Required = True
+    end
+    object FieldConsultatarifa: TFloatField
+      FieldName = 'tarifa'
+    end
+    object qConsultalocal_coleta: TLargeintField
+      FieldName = 'local_coleta'
+      Required = True
+    end
+    object FieldConsultadata_coleta: TDateField
+      FieldName = 'data_coleta'
+    end
+    object FieldConsultafrota: TIntegerField
+      FieldName = 'frota'
+    end
+    object FieldConsultaveiculo_placa: TStringField
+      DisplayLabel = 'Placa'
+      FieldName = 'veiculo_placa'
+      Required = True
+      EditMask = 'AAA\-9999;0;_'
+      Size = 8
+    end
+    object FieldConsultaveiculo_uf: TStringField
+      DisplayLabel = 'UF'
+      FieldName = 'veiculo_uf'
+      Required = True
+      Size = 2
+    end
+    object FieldConsultasec_car: TStringField
+      FieldName = 'sec_car'
+      Size = 254
+    end
+    object FieldConsultabase_calculo: TFloatField
+      FieldName = 'base_calculo'
+    end
+    object FieldConsultacalculado_ate: TFloatField
+      FieldName = 'calculado_ate'
+    end
+    object FieldConsultadata_recebimento: TDateField
+      FieldName = 'data_recebimento'
+    end
+    object FieldConsultaredespacho: TIntegerField
+      DisplayLabel = 'Redespacho'
+      FieldName = 'redespacho'
+      Required = True
+    end
+    object FieldConsultaprocessado: TBooleanField
+      FieldName = 'processado'
+    end
+    object FieldConsultavalor_produto: TFloatField
+      FieldName = 'valor_produto'
+    end
+    object FieldConsultamarcado_manual: TBooleanField
+      FieldName = 'marcado_manual'
+    end
+    object FieldConsultaun_med: TStringField
+      FieldName = 'un_med'
+    end
+    object FieldConsultaseguro_resp: TStringField
+      FieldName = 'seguro_resp'
+      Size = 200
+    end
+    object FieldConsultaseguro_seg: TStringField
+      FieldName = 'seguro_seg'
+      Size = 200
+    end
+    object FieldConsultaseguro_apol: TStringField
+      FieldName = 'seguro_apol'
+      Size = 200
+    end
+    object FieldConsultaseguro_averb: TStringField
+      FieldName = 'seguro_averb'
+      Size = 200
+    end
+    object FieldConsultaobservacao: TStringField
+      FieldName = 'observacao'
+      Size = 254
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  object qRemetente: TUniQuery
+    Tag = 7100
+    SQLInsert.Strings = (
+      'INSERT INTO pessoas'
+      
+        '  (empresa, datacadastro, nome, fantasia, nomereduzido, tipopess' +
+        'oa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_numer' +
+        'o, complemento, referencia, bairro, cep, cidade, uf, pais, tel1,' +
+        ' tel2, tel3, email, site, obs, alerta, cliente, colaborador, for' +
+        'necedor, representante, transportadora, inativo)'
+      'VALUES'
+      
+        '  (:empresa, :datacadastro, :nome, :fantasia, :nomereduzido, :ti' +
+        'popessoa, :cnpj, :ie, :im, :datanascimento, :sexo, :endereco, :e' +
+        'ndereco_numero, :complemento, :referencia, :bairro, :cep, :cidad' +
+        'e, :uf, :pais, :tel1, :tel2, :tel3, :email, :site, :obs, :alerta' +
+        ', :cliente, :colaborador, :fornecedor, :representante, :transpor' +
+        'tadora, :inativo)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoas'
+      'SET'
+      
+        '  empresa = :empresa, datacadastro = :datacadastro, nome = :nome' +
+        ', fantasia = :fantasia, nomereduzido = :nomereduzido, tipopessoa' +
+        ' = :tipopessoa, cnpj = :cnpj, ie = :ie, im = :im, datanascimento' +
+        ' = :datanascimento, sexo = :sexo, endereco = :endereco, endereco' +
+        '_numero = :endereco_numero, complemento = :complemento, referenc' +
+        'ia = :referencia, bairro = :bairro, cep = :cep, cidade = :cidade' +
+        ', uf = :uf, pais = :pais, tel1 = :tel1, tel2 = :tel2, tel3 = :te' +
+        'l3, email = :email, site = :site, obs = :obs, alerta = :alerta, ' +
+        'cliente = :cliente, colaborador = :colaborador, fornecedor = :fo' +
+        'rnecedor, representante = :representante, transportadora = :tran' +
+        'sportadora, inativo = :inativo'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, datacadastro, nome, fantasia, nomereduzido, tipo' +
+        'pessoa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_n' +
+        'umero, complemento, referencia, bairro, cep, cidade, uf, pais, t' +
+        'el1, tel2, tel3, email, site, obs, alerta, cliente, colaborador,' +
+        ' fornecedor, representante, transportadora, inativo FROM pessoas'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoas'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT '#9'ps.codigo, '
+      #9'ps.empresa, '
+      #9'ps.datacadastro, '
+      #9'ps.nome, '
+      #9'ps.fantasia, '
+      #9'ps.nomereduzido, '
+      #9'ps.tipopessoa, '
+      #9'ps.cnpj, '
+      #9'ps.ie, '
+      #9'ps.im, '
+      #9'ps.datanascimento, '
+      #9'ps.sexo, '
+      #9'ps.endereco, '
+      #9'ps.endereco_numero, '
+      #9'ps.complemento, '
+      #9'ps.referencia, '
+      #9'ps.bairro, '
+      #9'ps.cep, '
+      #9'ps.cidade, '
+      #9'ps.uf, '
+      #9'ps.pais, '
+      #9'ps.tel1, '
+      #9'ps.tel2, '
+      #9'ps.tel3, '
+      #9'ps.email, '
+      #9'ps.site, '
+      #9'ps.obs, '
+      #9'ps.alerta, '
+      #9'ps.cliente, '
+      #9'ps.colaborador, '
+      #9'ps.fornecedor, '
+      #9'ps.representante, '
+      #9'ps.transportadora, '
+      #9'ps.inativo'
+      '  FROM pessoas ps'
+      ' WHERE ps.codigo = :remetente;')
+    MasterSource = ds
+    MasterFields = 'remetente'
+    DetailFields = 'codigo'
+    Left = 544
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'remetente'
+        ParamType = ptInput
+        Value = nil
+      end>
+    object FieldConsultacodigo1: TIntegerField
+      FieldName = 'codigo'
+    end
+    object FieldConsultaempresa: TIntegerField
+      FieldName = 'empresa'
+    end
+    object FieldConsultadatacadastro: TDateField
+      FieldName = 'datacadastro'
+    end
+    object FieldConsultanome: TStringField
+      DisplayLabel = 'Nome'
+      FieldName = 'nome'
+      Required = True
+      Size = 250
+    end
+    object FieldConsultafantasia: TStringField
+      DisplayLabel = 'Fantasia'
+      FieldName = 'fantasia'
+      Required = True
+      Size = 250
+    end
+    object FieldConsultanomereduzido: TStringField
+      DisplayLabel = 'Nome Reduzido'
+      FieldName = 'nomereduzido'
+      Size = 30
+    end
+    object FieldConsultatipopessoa: TIntegerField
+      DisplayLabel = 'Tipo de Pessoa'
+      FieldName = 'tipopessoa'
+      Required = True
+    end
+    object FieldConsultacnpj: TStringField
+      DisplayLabel = 'CNPJ/CPF'
+      FieldName = 'cnpj'
+      Required = True
+      Size = 50
+    end
+    object FieldConsultaie: TStringField
+      DisplayLabel = 'IE/RG'
+      FieldName = 'ie'
+      Required = True
+      Size = 50
+    end
+    object FieldConsultaim: TStringField
+      FieldName = 'im'
+      Size = 50
+    end
+    object FieldConsultadatanascimento: TDateField
+      FieldName = 'datanascimento'
+    end
+    object FieldConsultasexo: TStringField
+      FieldName = 'sexo'
+      Size = 1
+    end
+    object FieldConsultaendereco: TStringField
+      DisplayLabel = 'Logradouro'
+      FieldName = 'endereco'
+      Required = True
+      Size = 250
+    end
+    object FieldConsultaendereco_numero: TStringField
+      DisplayLabel = 'N'#250'mero'
+      FieldName = 'endereco_numero'
+      Required = True
+      FixedChar = True
+    end
+    object FieldConsultacomplemento: TStringField
+      FieldName = 'complemento'
+      Size = 100
+    end
+    object FieldConsultareferencia: TStringField
+      FieldName = 'referencia'
+      Size = 150
+    end
+    object FieldConsultabairro: TStringField
+      DisplayLabel = 'Bairro'
+      FieldName = 'bairro'
+      Required = True
+      Size = 200
+    end
+    object FieldConsultacep: TStringField
+      DisplayLabel = 'CEP'
+      FieldName = 'cep'
+      Required = True
+      EditMask = '00000\-999;0;_'
+      Size = 15
+    end
+    object FieldConsultacidade: TIntegerField
+      DisplayLabel = 'Municipio'
+      FieldName = 'cidade'
+      Required = True
+    end
+    object FieldConsultauf: TStringField
+      DisplayLabel = 'UF'
+      FieldName = 'uf'
+      Required = True
+      Size = 2
+    end
+    object FieldConsultapais: TIntegerField
+      DisplayLabel = 'Pais'
+      FieldName = 'pais'
+      Required = True
+    end
+    object FieldConsultatel1: TStringField
+      FieldName = 'tel1'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object FieldConsultatel2: TStringField
+      FieldName = 'tel2'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object FieldConsultatel3: TStringField
+      FieldName = 'tel3'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object FieldConsultaemail: TStringField
+      FieldName = 'email'
+      Size = 60
+    end
+    object FieldConsultasite: TStringField
+      FieldName = 'site'
+      Size = 60
+    end
+    object qConsultaobs: TMemoField
+      FieldName = 'obs'
+      BlobType = ftMemo
+    end
+    object FieldConsultaalerta: TStringField
+      FieldName = 'alerta'
+      Size = 255
+    end
+    object FieldConsultacliente: TBooleanField
+      FieldName = 'cliente'
+    end
+    object FieldConsultacolaborador: TBooleanField
+      FieldName = 'colaborador'
+    end
+    object FieldConsultafornecedor: TBooleanField
+      FieldName = 'fornecedor'
+    end
+    object FieldConsultarepresentante: TBooleanField
+      FieldName = 'representante'
+    end
+    object FieldConsultatransportadora: TBooleanField
+      FieldName = 'transportadora'
+    end
+    object FieldConsultainativo: TBooleanField
+      DefaultExpression = 'False'
+      FieldName = 'inativo'
+    end
+  end
+  object qDestinatario: TUniQuery
+    Tag = 7100
+    SQLInsert.Strings = (
+      'INSERT INTO pessoas'
+      
+        '  (empresa, datacadastro, nome, fantasia, nomereduzido, tipopess' +
+        'oa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_numer' +
+        'o, complemento, referencia, bairro, cep, cidade, uf, pais, tel1,' +
+        ' tel2, tel3, email, site, obs, alerta, cliente, colaborador, for' +
+        'necedor, representante, transportadora, inativo)'
+      'VALUES'
+      
+        '  (:empresa, :datacadastro, :nome, :fantasia, :nomereduzido, :ti' +
+        'popessoa, :cnpj, :ie, :im, :datanascimento, :sexo, :endereco, :e' +
+        'ndereco_numero, :complemento, :referencia, :bairro, :cep, :cidad' +
+        'e, :uf, :pais, :tel1, :tel2, :tel3, :email, :site, :obs, :alerta' +
+        ', :cliente, :colaborador, :fornecedor, :representante, :transpor' +
+        'tadora, :inativo)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoas'
+      'SET'
+      
+        '  empresa = :empresa, datacadastro = :datacadastro, nome = :nome' +
+        ', fantasia = :fantasia, nomereduzido = :nomereduzido, tipopessoa' +
+        ' = :tipopessoa, cnpj = :cnpj, ie = :ie, im = :im, datanascimento' +
+        ' = :datanascimento, sexo = :sexo, endereco = :endereco, endereco' +
+        '_numero = :endereco_numero, complemento = :complemento, referenc' +
+        'ia = :referencia, bairro = :bairro, cep = :cep, cidade = :cidade' +
+        ', uf = :uf, pais = :pais, tel1 = :tel1, tel2 = :tel2, tel3 = :te' +
+        'l3, email = :email, site = :site, obs = :obs, alerta = :alerta, ' +
+        'cliente = :cliente, colaborador = :colaborador, fornecedor = :fo' +
+        'rnecedor, representante = :representante, transportadora = :tran' +
+        'sportadora, inativo = :inativo'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, datacadastro, nome, fantasia, nomereduzido, tipo' +
+        'pessoa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_n' +
+        'umero, complemento, referencia, bairro, cep, cidade, uf, pais, t' +
+        'el1, tel2, tel3, email, site, obs, alerta, cliente, colaborador,' +
+        ' fornecedor, representante, transportadora, inativo FROM pessoas'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoas'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT '#9'ps.codigo, '
+      #9'ps.empresa, '
+      #9'ps.datacadastro, '
+      #9'ps.nome, '
+      #9'ps.fantasia, '
+      #9'ps.nomereduzido, '
+      #9'ps.tipopessoa, '
+      #9'ps.cnpj, '
+      #9'ps.ie, '
+      #9'ps.im, '
+      #9'ps.datanascimento, '
+      #9'ps.sexo, '
+      #9'ps.endereco, '
+      #9'ps.endereco_numero, '
+      #9'ps.complemento, '
+      #9'ps.referencia, '
+      #9'ps.bairro, '
+      #9'ps.cep, '
+      #9'ps.cidade, '
+      #9'ps.uf, '
+      #9'ps.pais, '
+      #9'ps.tel1, '
+      #9'ps.tel2, '
+      #9'ps.tel3, '
+      #9'ps.email, '
+      #9'ps.site, '
+      #9'ps.obs, '
+      #9'ps.alerta, '
+      #9'ps.cliente, '
+      #9'ps.colaborador, '
+      #9'ps.fornecedor, '
+      #9'ps.representante, '
+      #9'ps.transportadora, '
+      #9'ps.inativo'
+      '  FROM pessoas ps'
+      ' WHERE ps.codigo = :destinatario;')
+    MasterSource = ds
+    MasterFields = 'destinatario'
+    DetailFields = 'codigo'
+    Left = 688
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'destinatario'
+        ParamType = ptInput
+        Value = nil
+      end>
+    object Field1: TIntegerField
+      FieldName = 'codigo'
+    end
+    object Field2: TIntegerField
+      FieldName = 'empresa'
+    end
+    object Field3: TDateField
+      FieldName = 'datacadastro'
+    end
+    object Field4: TStringField
+      DisplayLabel = 'Nome'
+      FieldName = 'nome'
+      Required = True
+      Size = 250
+    end
+    object Field5: TStringField
+      DisplayLabel = 'Fantasia'
+      FieldName = 'fantasia'
+      Required = True
+      Size = 250
+    end
+    object Field6: TStringField
+      DisplayLabel = 'Nome Reduzido'
+      FieldName = 'nomereduzido'
+      Size = 30
+    end
+    object Field7: TIntegerField
+      DisplayLabel = 'Tipo de Pessoa'
+      FieldName = 'tipopessoa'
+      Required = True
+    end
+    object Field8: TStringField
+      DisplayLabel = 'CNPJ/CPF'
+      FieldName = 'cnpj'
+      Required = True
+      Size = 50
+    end
+    object Field9: TStringField
+      DisplayLabel = 'IE/RG'
+      FieldName = 'ie'
+      Required = True
+      Size = 50
+    end
+    object Field10: TStringField
+      FieldName = 'im'
+      Size = 50
+    end
+    object Field11: TDateField
+      FieldName = 'datanascimento'
+    end
+    object Field12: TStringField
+      FieldName = 'sexo'
+      Size = 1
+    end
+    object Field13: TStringField
+      DisplayLabel = 'Logradouro'
+      FieldName = 'endereco'
+      Required = True
+      Size = 250
+    end
+    object Field14: TStringField
+      DisplayLabel = 'N'#250'mero'
+      FieldName = 'endereco_numero'
+      Required = True
+      FixedChar = True
+    end
+    object Field15: TStringField
+      FieldName = 'complemento'
+      Size = 100
+    end
+    object Field16: TStringField
+      FieldName = 'referencia'
+      Size = 150
+    end
+    object Field17: TStringField
+      DisplayLabel = 'Bairro'
+      FieldName = 'bairro'
+      Required = True
+      Size = 200
+    end
+    object Field18: TStringField
+      DisplayLabel = 'CEP'
+      FieldName = 'cep'
+      Required = True
+      EditMask = '00000\-999;0;_'
+      Size = 15
+    end
+    object Field19: TIntegerField
+      DisplayLabel = 'Municipio'
+      FieldName = 'cidade'
+      Required = True
+    end
+    object Field20: TStringField
+      DisplayLabel = 'UF'
+      FieldName = 'uf'
+      Required = True
+      Size = 2
+    end
+    object Field21: TIntegerField
+      DisplayLabel = 'Pais'
+      FieldName = 'pais'
+      Required = True
+    end
+    object Field22: TStringField
+      FieldName = 'tel1'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object Field23: TStringField
+      FieldName = 'tel2'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object Field24: TStringField
+      FieldName = 'tel3'
+      EditMask = '!\(99\) 0000-00000;0;_'
+    end
+    object Field25: TStringField
+      FieldName = 'email'
+      Size = 60
+    end
+    object Field26: TStringField
+      FieldName = 'site'
+      Size = 60
+    end
+    object MemoField1: TMemoField
+      FieldName = 'obs'
+      BlobType = ftMemo
+    end
+    object Field27: TStringField
+      FieldName = 'alerta'
+      Size = 255
+    end
+    object Field28: TBooleanField
+      FieldName = 'cliente'
+    end
+    object Field29: TBooleanField
+      FieldName = 'colaborador'
+    end
+    object Field30: TBooleanField
+      FieldName = 'fornecedor'
+    end
+    object Field31: TBooleanField
+      FieldName = 'representante'
+    end
+    object Field32: TBooleanField
+      FieldName = 'transportadora'
+    end
+    object Field33: TBooleanField
+      DefaultExpression = 'False'
+      FieldName = 'inativo'
+    end
+  end
+  object dsRemetente: TUniDataSource
+    DataSet = qRemetente
+    Left = 608
+  end
+  object dsDestinatario: TUniDataSource
+    DataSet = qDestinatario
+    Left = 752
+  end
+  object qPais: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, pais'
+      '  FROM paises;')
+    DetailFields = 'pessoa'
+    Left = 648
+    Top = 48
+  end
+  object dsPais: TUniDataSource
+    DataSet = qPais
+    Left = 696
+    Top = 48
+  end
+  object qCidade: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT'#9'cd.codigo, '
+      #9'cd.cidade, '
+      #9'cd.uf'
+      '  FROM  cidades cd'
+      ' ORDER BY cidade ASC;')
+    DetailFields = 'pessoa'
+    Left = 744
+    Top = 48
+  end
+  object dsCidade: TUniDataSource
+    DataSet = qCidade
+    Left = 792
+    Top = 48
+  end
+  object qPessoas: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO pessoas'
+      
+        '  (empresa, datacadastro, nome, fantasia, nomereduzido, tipopess' +
+        'oa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_numer' +
+        'o, complemento, referencia, bairro, cep, cidade, uf, pais, tel1,' +
+        ' tel2, tel3, email, site, obs, alerta, cliente, colaborador, for' +
+        'necedor, representante, transportadora, inativo)'
+      'VALUES'
+      
+        '  (:empresa, :datacadastro, :nome, :fantasia, :nomereduzido, :ti' +
+        'popessoa, :cnpj, :ie, :im, :datanascimento, :sexo, :endereco, :e' +
+        'ndereco_numero, :complemento, :referencia, :bairro, :cep, :cidad' +
+        'e, :uf, :pais, :tel1, :tel2, :tel3, :email, :site, :obs, :alerta' +
+        ', :cliente, :colaborador, :fornecedor, :representante, :transpor' +
+        'tadora, :inativo)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoas'
+      'SET'
+      
+        '  empresa = :empresa, datacadastro = :datacadastro, nome = :nome' +
+        ', fantasia = :fantasia, nomereduzido = :nomereduzido, tipopessoa' +
+        ' = :tipopessoa, cnpj = :cnpj, ie = :ie, im = :im, datanascimento' +
+        ' = :datanascimento, sexo = :sexo, endereco = :endereco, endereco' +
+        '_numero = :endereco_numero, complemento = :complemento, referenc' +
+        'ia = :referencia, bairro = :bairro, cep = :cep, cidade = :cidade' +
+        ', uf = :uf, pais = :pais, tel1 = :tel1, tel2 = :tel2, tel3 = :te' +
+        'l3, email = :email, site = :site, obs = :obs, alerta = :alerta, ' +
+        'cliente = :cliente, colaborador = :colaborador, fornecedor = :fo' +
+        'rnecedor, representante = :representante, transportadora = :tran' +
+        'sportadora, inativo = :inativo'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, datacadastro, nome, fantasia, nomereduzido, tipo' +
+        'pessoa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_n' +
+        'umero, complemento, referencia, bairro, cep, cidade, uf, pais, t' +
+        'el1, tel2, tel3, email, site, obs, alerta, cliente, colaborador,' +
+        ' fornecedor, representante, transportadora, inativo FROM pessoas'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoas'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT '#9'ps.codigo, '
+      #9'ps.empresa, '
+      #9'ps.datacadastro, '
+      #9'ps.nome, '
+      #9'ps.fantasia, '
+      #9'ps.cnpj'
+      '  FROM pessoas ps;')
+    MasterSource = ds
+    Left = 432
+  end
+  object dsPessoas: TUniDataSource
+    DataSet = qPessoas
+    Left = 480
+  end
+  object qOperacacoes: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      
+        'SELECT codigo, chave, descricao, master, submaster, descricao_se' +
+        'faz, '
+      '       tipo_mvto'
+      '  FROM cst_cfop'
+      ' ORDER BY chave ASC;')
+    DetailFields = 'pessoa'
+    Left = 112
+  end
+  object dsOperacoes: TUniDataSource
+    DataSet = qOperacacoes
+    Left = 156
+  end
+  object qUnidade: TUniQuery
+    Tag = 7000
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, descricao, unidade, venda_decimal'
+      '  FROM produto_unidade;')
+    Left = 352
+    Top = 624
+  end
+  object dsUnidade: TUniDataSource
+    DataSet = qUnidade
+    Left = 408
+    Top = 624
+  end
+end

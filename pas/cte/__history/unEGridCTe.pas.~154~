@@ -1,0 +1,603 @@
+unit unEGridCTe;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unEGrid, unSystem,cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxStyles, dxSkinsCore, dxSkinDarkSide,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinOffice2007Black,
+  dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink,
+  dxSkinOffice2007Silver, dxSkinOffice2010Black, dxSkinOffice2010Blue,
+  dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
+  dxSkinOffice2013White, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, dxRibbonSkins,
+  dxSkinsdxRibbonPainter, dxRibbonCustomizationForm, dxSkinsdxBarPainter,
+  cxClasses, dxBar, DBAccess, Uni, MemDS, Vcl.ImgList, dxRibbon, cxGridLevel,
+  cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
+  cxGrid, Vcl.StdCtrls, Vcl.ExtCtrls, pcnConversao, cxImageComboBox, unParametros,
+  cxCurrencyEdit, unProcess, Clipbrd;
+
+type
+  TfrmEGridCTe = class(TfrmEGrid)
+    Label1: TLabel;
+    Label2: TLabel;
+    ColumnID: TcxGridDBColumn;
+    ColumnRemetente: TcxGridDBColumn;
+    ColumnDestinatario: TcxGridDBColumn;
+    ColumnData: TcxGridDBColumn;
+    ColumnStatus: TcxGridDBColumn;
+    MnCTe: TdxBarLargeButton;
+    ColumnCTE: TcxGridDBColumn;
+    ColumnLocalEntrega: TcxGridDBColumn;
+    MnConsultaCadastro: TdxBarLargeButton;
+    dlgOpen: TOpenDialog;
+    FieldXMLcodigo: TIntegerField;
+    qXMLcte: TLargeintField;
+    qXMLxml_cte: TMemoField;
+    qXMLxml_cancelamento: TMemoField;
+    ColumnValorFrete: TcxGridDBColumn;
+    ColumnFinanceiro: TcxGridDBColumn;
+    procedure MnServerStatusClick(Sender: TObject);
+    procedure MnCTeClick(Sender: TObject);
+    procedure MnEmitirClick(Sender: TObject);
+    procedure MnInutilizarClick(Sender: TObject);
+    procedure MnCancelarClick(Sender: TObject);
+    procedure MnStatusClick(Sender: TObject);
+    procedure MnVisualizarClick(Sender: TObject);
+    procedure MnAlterarClick(Sender: TObject);
+    procedure MnConsultaCadastroClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure MnImprimirClick(Sender: TObject);
+    procedure MnExportarXMLClick(Sender: TObject);
+    procedure ViewStylesGetContentStyle(Sender: TcxCustomGridTableView;
+      ARecord: TcxCustomGridRecord; AItem: TcxCustomGridTableItem;
+      var AStyle: TcxStyle);
+    procedure dsDataChange(Sender: TObject; Field: TField);
+    procedure MnChaveClick(Sender: TObject);
+    procedure MnCarregarXMLClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure LoadXML(MyMemo: TStringList; MyWebBrowser: TStringList);
+  public
+    { Public declarations }
+  end;
+
+var
+  frmEGridCTe: TfrmEGridCTe;
+  memodados, memoresp, wbresposta: TStringList;
+  Path: string;
+  CTeMessage: TfrmProcess;
+
+implementation
+
+{$R *.dfm}
+
+uses unSEFAZ, unNewCTE, unCadCTE, unDMCTe, unConnection, unCadContasReceber;
+
+procedure TfrmEGridCTe.dsDataChange(Sender: TObject; Field: TField);
+begin
+  inherited;
+  if (qXML.FieldByName('xml_cte').IsNull) or (qXML.FieldByName('xml_cte').AsString = '') then
+    begin
+      MnCarregarXML.Enabled := True;
+      MnExportarXML.Enabled := False;
+      MnCancelar.Enabled := False;
+      MnStatus.Enabled := False;
+    end
+  else
+    begin
+      MnCarregarXML.Enabled := False;
+      MnExportarXML.Enabled := True;
+      MnCancelar.Enabled := True;
+      MnStatus.Enabled := True;
+    end;
+  if ds.dataset.FieldByName('status').asString = 'E' then
+    begin
+      MnChave.Enabled := True;
+    end
+  else
+    if ds.dataset.FieldByName('status').asString = 'C' then
+      begin
+        MnChave.Enabled := True;
+      end
+    else
+      begin
+        MnChave.Enabled := False;
+      end;
+end;
+
+procedure TfrmEGridCTe.FormCreate(Sender: TObject);
+begin
+  inherited;
+  Application.CreateForm(TdmCTe, dmCTe);
+  Path := Parametros.SystemConfig.ASSystemPath + '\XML\CTe\' + Connection.GetPathDOCe;
+end;
+
+procedure TfrmEGridCTe.FormDestroy(Sender: TObject);
+begin
+  inherited;
+  dmCTe.Destroy;
+end;
+
+procedure TfrmEGridCTe.LoadXML(MyMemo, MyWebBrowser: TStringList);
+begin
+  MyMemo.SaveToFile(ExtractFileDir(application.ExeName)+'\XML\2017\12\'+ExtractFileName(Sefaz.ACBrCTe.Conhecimentos.Items[0].NomeArq));
+end;
+
+procedure TfrmEGridCTe.MnConsultaCadastroClick(Sender: TObject);
+var
+  UF, Documento : String;
+begin
+  inherited;
+ if not(InputQuery('WebServices Consulta Cadastro ', 'UF do Documento a ser Consultado:',    UF)) then
+    exit;
+ if not(InputQuery('WebServices Consulta Cadastro ', 'Documento(CPF/CNPJ)',    Documento)) then
+    exit;
+  // Documento :=  Trim(DFeUtil.LimpaNumero(Documento));
+
+  Sefaz.ACBrCTe.WebServices.ConsultaCadastro.UF  := UF;
+  if Length(Documento) > 11 then
+     Sefaz.ACBrCTe.WebServices.ConsultaCadastro.CNPJ := Documento
+  else
+     Sefaz.ACBrCTe.WebServices.ConsultaCadastro.CPF := Documento;
+  Sefaz.ACBrCTe.WebServices.ConsultaCadastro.Executar;
+
+  mmoLog.Text := Sefaz.ACBrCTe.WebServices.ConsultaCadastro.RetWS;
+  ShowMessage(Sefaz.ACBrCTe.WebServices.ConsultaCadastro.xMotivo);
+  ShowMessage(Sefaz.ACBrCTe.WebServices.ConsultaCadastro.RetConsCad.InfCad.Items[0].xNome);
+end;
+
+procedure TfrmEGridCTe.MnAlterarClick(Sender: TObject);
+begin
+  inherited;
+  ActEditar(TfrmCadCTE,frmCadCTE);
+end;
+
+procedure TfrmEGridCTe.MnCancelarClick(Sender: TObject);
+var
+  vAux, sMensagem: String;
+  iLote: Integer;
+begin
+  inherited;
+  iLote:= 1;
+  Application.CreateForm(TfrmProcess,CTeMessage);
+  //CTeMessage.Create(TfrmProcess);
+{  if Sefaz.checkSEFAZCTe = False then
+    begin
+      Aviso('STOP','Falha na conexão.','Não foi possivel se comunicar com o servidor de transmissão da SEFAZ. Por favor, verifique se há algum bloqueio na sua rede.');
+    end }
+  if Pergunta('WHAT','Cancelamento','Tem certeza que deseja cancelar o CT-e selecionado?','SN') = ID_YES then
+    begin
+      CTeMessage.ProcessStart('','SEFAZ','Gerando Cancelamento...');
+      Sefaz.ACBrCTe.Conhecimentos.Clear;
+      Sefaz.ACBrCTe.Conhecimentos.LoadFromString(qXML.FieldByName('xml_cte').AsString);
+      if not(InputQuery('Cancelamento do CTe:', 'Justificativa', vAux)) then exit;
+      Sefaz.ACBrCTe.EventoCTe.Evento.Clear;
+      with Sefaz.ACBrCTe.EventoCTe.Evento.Add do
+        begin
+          infEvento.nSeqEvento      := 1; // Para o Evento de Cancelamento: nSeqEvento sempre = 1
+          infEvento.chCTe           := Copy(Sefaz.ACBrCTe.Conhecimentos.Items[0].CTe.infCTe.Id, 4, 44);
+          infEvento.CNPJ            := Connection.qPessoa.FieldByName('cnpj').AsString;
+          infEvento.dhEvento        := now;
+          infEvento.tpEvento        := teCancelamento;
+          infEvento.detEvento.xJust := trim(vAux);
+          infEvento.detEvento.nProt := Sefaz.ACBrCTe.Conhecimentos.Items[0].CTe.procCTe.nProt;
+        end;
+      try
+        if Sefaz.ACBrCTe.EnviarEvento(iLote) then
+          begin
+            Aviso('INFO','RETORNO DA SEFAZ',IntToStr(Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.retEvento.Items[0].RetInfEvento.cStat) + ' - ' + Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.retEvento.Items[0].RetInfEvento.XMotivo + #13 +
+            'Protocolo: ' + Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.retEvento.Items[0].RetInfEvento.nProt
+            );
+            Sefaz.ACBrCTe.ImprimirEvento;
+            qSQL.Close;
+            qSQL.SQL.Text := 'UPDATE cte SET status = ' + QuotedStr('C') + ', data_cancelamento = CURRENT_DATE WHERE codigo = ' + ds.DataSet.FieldByName('codigo').AsString;
+            qSQL.Execute;
+          end;
+      except
+        on e:Exception do
+          begin
+            sMensagem := 'cStat: ' + IntToStr(Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.cStat) + #13 + e.Message;
+            Aviso('ERRO','Erro ao enviar', sMensagem);
+          end;
+      end;
+      // ShowMessage(IntToStr(Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.retEvento.Items[0].RetInfEvento.cStat));
+      // ShowMessage(Sefaz.ACBrCTe.WebServices.EnvEvento.EventoRetorno.retEvento.Items[0].RetInfEvento.nProt);
+    end;
+  Sefaz.ACBrCTe.Conhecimentos.Clear;
+  CTeMessage.ProcessFinish;
+  CTeMessage.Release;
+end;
+
+procedure TfrmEGridCTe.MnCarregarXMLClick(Sender: TObject);
+var
+  sAmbiente: string;
+begin
+  inherited;
+  if Sefaz.ACBrCTe.Configuracoes.WebServices.Ambiente = taHomologacao then
+    sAmbiente := 'H'
+  else
+    sAmbiente := 'P';
+  with Sefaz.ACBrCTe do
+    begin
+      dlgOpen.Title := 'Selecione o CTe';
+      dlgOpen.DefaultExt := '*-cte.xml';
+      dlgOpen.Filter := 'Arquivos CTe (*-cte.xml)|*-cte.xml|Arquivos XML (*.xml)|*.xml|Todos os Arquivos (*.*)|*.*';
+      dlgOpen.InitialDir := Parametros.SystemConfig.ASSystemPath;
+      if dlgOpen.Execute then
+        begin
+          Application.CreateForm(TfrmProcess,CTeMessage);
+          CTeMessage.ProcessStart('','SEFAZ','Consulando documento...');
+          Conhecimentos.Clear;
+          Conhecimentos.LoadFromFile(dlgOpen.FileName, False);
+          Consultar;
+          if not WebServices.Consulta.cStat in [100,101] then
+            begin
+              Aviso('INFO','RETORNO DA SEFAZ','O XML selecionado não pode ser utilizado.' + #13 + 'Retorno: ' + IntToStr(WebServices.Consulta.cStat) + ' - ' + WebServices.Consulta.XMotivo);
+            end
+          else
+            begin
+              // Insere o XML do CTe
+              if qXML.RecordCount = 0 then
+                begin
+                  qXML.Insert;
+                  qXML.FieldByName('cte').AsInteger := ds.DataSet.FieldByName('codigo').AsInteger;
+                  qXML.FieldByName('xml_cte').AsString := Conhecimentos.Items[0].XMLAssinado;
+                  qXML.FieldByName('xml_cancelamento').AsString := Conhecimentos.Items[0].XMLAssinado;
+                  qXML.Post;
+                end
+              else
+                begin
+                  qXML.Edit;
+                  qXML.FieldByName('xml_cte').AsString := Conhecimentos.Items[0].XMLAssinado;
+                  qXML.FieldByName('xml_cancelamento').AsString := Conhecimentos.Items[0].XMLAssinado;
+                  qXML.Post;
+                end;
+              // Registra a situação do XML obtido
+              if WebServices.Consulta.cStat = 100 then
+                begin
+                  qSQL.SQL.Clear;
+                  qSQL.SQL.Text := 'UPDATE cte SET status = '+QuotedStr('E')+', chave_cte = '+ QuotedStr(WebServices.Consulta.CTeChave)+', processado = TRUE WHERE codigo = ' + ds.DataSet.FieldByName('codigo').AsString + ';';
+                  qSQL.Execute;
+                end;
+              if WebServices.Consulta.cStat = 101 then
+                begin
+                  qSQL.SQL.Clear;
+                  qSQL.SQL.Text := 'UPDATE cte SET status = '+QuotedStr('C')+', chave_cte = '+ QuotedStr(WebServices.Consulta.CTeChave)+', processado = TRUE WHERE codigo = ' + ds.DataSet.FieldByName('codigo').AsString + ';';
+                  qSQL.Execute;
+                end;
+              // Verifica se o financeiro foi gerado
+              if ds.DataSet.FieldByName('financeiro').AsBoolean = False then
+                begin
+                  if (sAmbiente = 'P') and (Pergunta('WHAT','Financeiro','Deseja gerar o faturamento referente ao valor de frete da CT-e emitida?','SN') = ID_YES) then
+                    begin
+                      qSQL.Close;
+                      qSQL.SQL.Clear;
+                      qSQL.SQL.Text := 'SELECT rec_contasreceber_cte(' + ds.DataSet.FieldByName('codigo').AsString + ');';
+                      qSQL.Open;
+                      if qSQL.FieldByName('rec_contasreceber_cte').AsInteger <> 0 then
+                        begin
+                          try
+                            try
+                              Application.CreateForm(TfrmCadContasReceber, frmCadContasReceber);
+                              frmCadContasReceber.Settings.Modo := 'ALTERACAO';
+                              frmCadContasReceber.Settings.ID := qSQL.FieldByName('rec_contasreceber_cte').AsInteger;
+                              frmCadContasReceber.ShowModal;
+                            finally
+                              frmCadContasReceber.Release;
+                            end;
+                          except
+                            Aviso('ERRO','Erro critico de execução.','Houve um erro ao abrir o formulario.'+#13+'Contate o suporte.');
+                          end;
+                        end
+                    end;
+                end;
+            end;
+          Conhecimentos.Clear;
+          CTeMessage.ProcessFinish;
+          CTeMessage.Release;
+        end;
+    end;
+end;
+
+procedure TfrmEGridCTe.MnChaveClick(Sender: TObject);
+begin
+  inherited;
+  // Carrega a chave do CT-e para o clipboard;
+  Clipboard.AsText := ds.DataSet.FieldByName('chave_cte').AsString;
+end;
+
+procedure TfrmEGridCTe.MnCTeClick(Sender: TObject);
+begin
+  inherited;
+  ActNew(TfrmNewCTE,frmNewCTE);
+end;
+
+procedure TfrmEGridCTe.MnEmitirClick(Sender: TObject);
+var sAux, sCTe, nLote, sChave, sMensagem, sAmbiente:String;
+begin
+  inherited;
+  nLote := '1';
+  Application.CreateForm(TfrmProcess,CTeMessage);
+  //CTeMessage.Create(TfrmProcess);
+  CTeMessage.ProcessStart('','SEFAZ','Verificando Status do servico...');
+  {if Sefaz.checkSEFAZCTe = False then
+    begin
+      Aviso('STOP','Falha na conexão.','Não foi possivel se comunicar com o servidor de transmissão da SEFAZ. Por favor, verifique se há algum bloqueio na sua rede.');
+    end
+  else}
+    begin
+      if ds.DataSet.FieldByName('processado').AsBoolean = True then
+        begin
+          Aviso('INFO','Informãção','CT-e já gerado e processado.');
+          CTeMessage.ProcessFinish;
+          CTeMessage.Release;
+          exit;
+        end;
+      //gerar cte
+      CTeMessage.NextMessage('Gerando CT-e ...');
+      Sefaz.ACBrCTe.Configuracoes.Arquivos.EmissaoPathCTe:=True;
+      Sefaz.ACBrCTe.Configuracoes.Arquivos.PathCTe:= Path;
+      Sefaz.ACBrCTe.Conhecimentos.Clear;
+      // Gera o CTE
+      dmCTE.GerarCTe(ds.DataSet.FieldByName('codigo').AsInteger);
+      Sefaz.ACBrCTe.Conhecimentos.GerarCTe;
+      // Obtem o Nome do arquivo, a chave do CTE e salva o mesmo na devida pasta.
+      sChave := copy(SEFAZ.ACBrCTe.Conhecimentos.Items[0].CTe.infCTe.ID, (length(SEFAZ.ACBrCTe.Conhecimentos.Items[0].CTe.infCTe.ID)-44)+1, 44);
+      sCTe := copy(SEFAZ.ACBrCTe.Conhecimentos.Items[0].CTe.infCTe.ID, (length(SEFAZ.ACBrCTe.Conhecimentos.Items[0].CTe.infCTe.ID)-44)+1, 44)+'-CTe.xml';
+      // Sefaz.ACBrCTe.Conhecimentos.Items[0].GravarXML(sCTe);       //SaveToFile;
+      // memoresp:= TStringList.Create;
+      // MemoResp.LoadFromFile(Sefaz.ACBrCTe.Conhecimentos.Items[0].NomeArq);
+      // LoadXML(MemoResp, WBResposta);
+
+      sAux := Path + ExtractFileName(Sefaz.ACBrCTe.Conhecimentos.Items[0].NomeArq);
+      // Envia a CT-e
+      try
+        CTeMessage.NextMessage('Enviando CT-e ...');
+        if Sefaz.ACBrCTe.Enviar(StrToInt(nLote)) then
+          begin
+             // Registra o XML da CTE.
+            CTeMessage.NextMessage('Gravando XML...');
+            qXML.Open;
+            qXML.Insert;
+            qXML.FieldByName('cte').AsInteger := ds.DataSet.FieldByName('codigo').AsInteger;
+            qXML.FieldByName('xml_cte').AsString := Sefaz.ACBrCTe.Conhecimentos.Items[0].XMLAssinado;
+            qXML.Post;
+
+            mmoLog.Lines.Add('');
+            mmoLog.Lines.Add('Envio CTe');
+            mmoLog.Lines.Add('tpAmb: '+ TpAmbToStr(Sefaz.ACBrCTe.WebServices.Retorno.TpAmb));
+            mmoLog.Lines.Add('verAplic: '+ Sefaz.ACBrCTe.WebServices.Retorno.verAplic);
+            mmoLog.Lines.Add('cStat: '+ IntToStr(Sefaz.ACBrCTe.WebServices.Retorno.cStat));
+            mmoLog.Lines.Add('cUF: '+ IntToStr(Sefaz.ACBrCTe.WebServices.Retorno.cUF));
+            mmoLog.Lines.Add('xMotivo: '+ Sefaz.ACBrCTe.WebServices.Retorno.xMotivo);
+            mmoLog.Lines.Add('xMsg: '+ Sefaz.ACBrCTe.WebServices.Retorno.Msg);
+            mmoLog.Lines.Add('Recibo: '+ Sefaz.ACBrCTe.WebServices.Retorno.Recibo);
+            mmoLog.Lines.Add('Protocolo: '+ Sefaz.ACBrCTe.WebServices.Retorno.Protocolo);
+
+            if Sefaz.ACBrCTe.Configuracoes.WebServices.Ambiente = taHomologacao then
+              sAmbiente := 'H'
+            else
+              sAmbiente := 'P';
+
+            //Marcar CTe como processado
+            CTeMessage.NextMessage('Registrando informações adicionais ...');
+            qSQL.Close;
+            qSQL.SQL.Clear;
+            qSQL.SQL.Text := 'UPDATE cte SET ' +
+            ' chave_cte = ' + sChave + ', '+
+            ' processado = TRUE ' + ', ' +
+            ' ambiente = ' + QuotedStr(sAmbiente) + ', ' +
+            ' status = ' + QuotedStr('E') + ' '+
+            ' WHERE codigo = ' + ds.DataSet.FieldByName('codigo').AsString;
+            qSQL.Execute;
+            ds.DataSet.Refresh;
+            qXML.Refresh;
+            // Verifica se deseja gerar o contas a receber da CT-e
+            if (sAmbiente = 'P') and (Pergunta('WHAT','Financeiro','Deseja gerar o faturamento referente ao valor de frete da CT-e emitida?','SN') = ID_YES) then
+              begin
+                qSQL.Close;
+                qSQL.SQL.Clear;
+                qSQL.SQL.Text := 'SELECT rec_contasreceber_cte(' + ds.DataSet.FieldByName('codigo').AsString + ');';
+                qSQL.Open;
+                if qSQL.FieldByName('rec_contasreceber_cte').AsInteger <> 0 then
+                  begin
+                    try
+                      try
+                        Application.CreateForm(TfrmCadContasReceber, frmCadContasReceber);
+                        frmCadContasReceber.Settings.Modo := 'ALTERACAO';
+                        frmCadContasReceber.Settings.ID := qSQL.FieldByName('rec_contasreceber_cte').AsInteger;
+                        frmCadContasReceber.ShowModal;
+                      finally
+                        frmCadContasReceber.Release;
+                      end;
+                    except
+                      Aviso('ERRO','Erro critico de execução.','Houve um erro ao abrir o formulario.'+#13+'Contate o suporte.');
+                    end;
+                  end
+              end;
+
+          end;
+      except
+        on e:Exception do
+          begin
+            sMensagem := 'cStat: ' + IntToStr(Sefaz.ACBrCTe.WebServices.Retorno.cStat) + #13 + e.Message;
+            Aviso('ERRO','Erro ao enviar', sMensagem);
+          end;
+      end;
+    end;
+  Sefaz.ACBrCTe.Conhecimentos.Clear;
+  CTeMessage.ProcessFinish;
+  CTeMessage.Release;
+end;
+
+procedure TfrmEGridCTe.MnExportarXMLClick(Sender: TObject);
+begin
+  inherited;
+  // Exporta o XML da Nota, baseado com o XML registrado no Banco
+  dlgSave.Title := 'Selecione o local onde deseja salva a CT-e';
+  dlgSave.DefaultExt := '*-cte.xml';
+  dlgSave.Filter := 'Arquivos CTe (*-cte.xml)|*-cte.xml|Arquivos XML (*.xml)|*.xml|Todos os Arquivos (*.*)|*.*';
+  dlgSave.InitialDir := Parametros.SystemConfig.ASSystemPath + Connection.GetPathDOCe;
+  dlgSave.FileName := ds.DataSet.FieldByName('chave_cte').AsString + '-cte.xml';
+  if dlgSave.Execute then
+    begin
+      Sefaz.ACBrCTe.Conhecimentos.Clear;
+      Sefaz.ACBrCTe.Conhecimentos.LoadFromString(qXML.FieldByName('xml_cte').AsString, False);
+      Sefaz.ACBrCTe.Conhecimentos.GravarXML(dlgSave.FileName);
+    end;
+end;
+
+procedure TfrmEGridCTe.MnImprimirClick(Sender: TObject);
+begin
+  inherited;
+  Sefaz.ACBrCTe.Conhecimentos.Clear;
+  Sefaz.ACBrCTe.Conhecimentos.LoadFromString(qXML.FieldByName('xml_cte').AsString);
+  Sefaz.ACBrCTe.Conhecimentos.Imprimir;
+end;
+
+procedure TfrmEGridCTe.MnInutilizarClick(Sender: TObject);
+var
+ Modelo, Serie, Ano, NumeroInicial, NumeroFinal, Justificativa : String;
+begin
+  inherited;
+  if Sefaz.checkSEFAZCTe = False then
+    begin
+      Aviso('STOP','Falha na conexão.','Não foi possivel se comunicar com o servidor de transmissão da SEFAZ. Por favor, verifique se há algum bloqueio na sua rede.');
+    end
+  else
+    begin
+      Modelo := '57';
+      Serie := '1';
+      NumeroInicial := ds.DataSet.FieldByName('conhecimento').AsString;
+      NumeroFinal := ds.DataSet.FieldByName('conhecimento').AsString;
+      if not(InputQuery('WebServices Inutilização ', 'Ano',    Ano)) then exit;
+      // if not(InputQuery('WebServices Inutilização ', 'Modelo', Modelo)) then exit;
+      // if not(InputQuery('WebServices Inutilização ', 'Serie',  Serie)) then exit;
+      // if not(InputQuery('WebServices Inutilização ', 'Número Inicial', NumeroInicial)) then exit;
+      // if not(InputQuery('WebServices Inutilização ', 'Número Inicial', NumeroFinal)) then exit;
+      if not(InputQuery('WebServices Inutilização ', 'Justificativa', Justificativa)) then exit;
+      try
+        Sefaz.ACBrCTe.WebServices.Inutiliza(Connection.qEmpresas.fieldbyname('cnpj').AsString, Justificativa, StrToInt(Ano),StrToInt(Modelo), StrToInt(Serie),StrToInt(NumeroInicial), StrToInt(NumeroFinal));
+        qSQL.Close;
+        qSQL.SQL.Clear;
+        qSQL.SQL.Text := 'UPDATE cte SET status = ' + QuotedStr('I') + ' WHERE codigo = ' + ds.DataSet.FieldByName('codigo').AsString;
+        qSQL.Execute;
+        Sefaz.ACBrCTe.ImprimirInutilizacao;
+      except
+        on Erro: Exception do
+          begin
+            Aviso('ALER','RETORNO DA SEFAZ',Erro.Message);
+          end;
+      end;
+    end;
+end;
+
+procedure TfrmEGridCTe.MnServerStatusClick(Sender: TObject);
+var
+  Ambiente: string;
+begin
+  inherited;
+  if StrToInt(TpAmbToStr(SeFaz.ACBrCTe.Configuracoes.WebServices.Ambiente)) = 1 then
+    Ambiente := 'PRODUCAO'
+  else
+    Ambiente := 'HOMOLOGACAO';
+  Application.CreateForm(TfrmProcess,CTeMessage);
+  CTeMessage.ProcessStart('','SEFAZ','Verificando servidores da SEFAZ...');
+  try
+    SeFaz.ACBrCTe.WebServices.StatusServico.Executar;
+    // Registra Log;
+    mmoLog.Lines.Add('---------------------------------------------------------');
+    mmoLog.Lines.Add('Status Serviço');
+    mmoLog.Lines.Add('tpAmb: '    +TpAmbToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.tpAmb));
+    mmoLog.Lines.Add('verAplic: ' +SEFAZ.ACBrCTe.WebServices.StatusServico.verAplic);
+    mmoLog.Lines.Add('cStat: '    +IntToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.cStat));
+    mmoLog.Lines.Add('xMotivo: '  +SEFAZ.ACBrCTe.WebServices.StatusServico.xMotivo);
+    mmoLog.Lines.Add('cUF: '      +IntToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.cUF));
+    mmoLog.Lines.Add('dhRecbto: ' +DateTimeToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.dhRecbto));
+    mmoLog.Lines.Add('tMed: '     +IntToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.TMed));
+    mmoLog.Lines.Add('dhRetorno: '+DateTimeToStr(SEFAZ.ACBrCTe.WebServices.StatusServico.dhRetorno));
+    mmoLog.Lines.Add('xObs: '     +SEFAZ.ACBrCTe.WebServices.StatusServico.xObs);
+    Aviso('INFO','RETORNO DA SEFAZ: ' + Ambiente, 'RESPOSTA DA SEFAZ SP: ' + SeFaz.ACBrCTe.WebServices.StatusServico.xMotivo);
+  except
+    on Erro: Exception do
+    begin
+      Aviso('ALER','RETORNO DA SEFAZ',Erro.Message + #13+#13+
+            'Verifique se a configuração do certificado esta devidamente configurada, se o arquivo esta na pasta.');
+    end;
+  end;
+  CTeMessage.ProcessFinish;
+  CTeMessage.Release;
+end;
+
+procedure TfrmEGridCTe.MnStatusClick(Sender: TObject);
+var
+  caminho: string;
+begin
+  inherited;
+  // caminho := Path + qConsulta.FieldByName('chave_cte').AsString + '-CTe.xml';
+  Application.CreateForm(TfrmProcess,CTeMessage);
+  CTeMessage.ProcessStart('','SEFAZ','Consulando Status do documento...');
+  Sefaz.ACBrCTe.Conhecimentos.Clear;
+  Sefaz.ACBrCTe.Conhecimentos.LoadFromString(qXML.FieldByName('xml_cte').AsString, False);
+  Sefaz.ACBrCTe.Consultar;
+  Aviso('INFO','RETORNO DA SEFAZ',IntToStr(Sefaz.ACBrCTe.WebServices.Consulta.cStat) + ' - ' + Sefaz.ACBrCTe.WebServices.Consulta.XMotivo);
+  Sefaz.ACBrCTe.Conhecimentos.Clear;
+  CTeMessage.ProcessFinish;
+  CTeMessage.Release;
+end;
+
+procedure TfrmEGridCTe.MnVisualizarClick(Sender: TObject);
+begin
+  inherited;
+  ActVisualizar(TfrmCadCTE,frmCadCTE);
+end;
+
+procedure TfrmEGridCTe.ViewStylesGetContentStyle(Sender: TcxCustomGridTableView;
+  ARecord: TcxCustomGridRecord; AItem: TcxCustomGridTableItem;
+  var AStyle: TcxStyle);
+begin
+  inherited;
+// >> Define o Style
+    if (ARecord is TcxGridDataRow) and (ARecord.Selected) then
+    begin
+      AStyle := StyleSelecionado;
+    end
+  else
+  // > Aprovado
+  if (ARecord is TcxGridDataRow) And Not (ARecord.Selected) And (ARecord.Values[ColumnStatus.Index] = 'P') then
+    begin
+      AStyle := StyleNeutro;
+    end
+  else
+  if (ARecord is TcxGridDataRow) And Not (ARecord.Selected) And (ARecord.Values[ColumnStatus.Index] = 'E') then
+    begin
+      AStyle := StyleAprovada;
+    end
+  else
+  // > Cancelado
+  if (ARecord is TcxGridDataRow) And Not (ARecord.Selected) And (ARecord.Values[ColumnStatus.Index] = 'C') then
+    begin
+      AStyle := StyleCancelado;
+    end
+  else
+  // > Inutilizado
+  if (ARecord is TcxGridDataRow) And Not (ARecord.Selected) And (ARecord.Values[ColumnStatus.Index] = 'I') then
+    begin
+      AStyle := StyleInutilizada;
+    end
+  else
+  // > Incompleto
+  if (ARecord is TcxGridDataRow) And Not (ARecord.Selected) And (ARecord.Values[ColumnStatus.Index] = 'O') then
+    begin
+      AStyle := StyleIncompleto;
+    end
+  else
+    begin
+      AStyle := StyleNeutro;
+    end;
+end;
+
+end.

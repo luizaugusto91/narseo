@@ -1,0 +1,35 @@
+inherited frmCadDespesasFixas: TfrmCadDespesasFixas
+  Caption = 'frmCadDespesasFixas'
+  ClientHeight = 458
+  ClientWidth = 712
+  ExplicitWidth = 718
+  ExplicitHeight = 487
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 423
+    Width = 712
+    inherited btnCancelar: TButton
+      Left = 435
+    end
+    inherited btnSalvar: TButton
+      Left = 528
+    end
+    inherited btnFechar: TButton
+      Left = 621
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 702
+    Height = 371
+  end
+  inherited pnlHelp: TPanel
+    Width = 703
+    inherited mmoHelp: TMemo
+      Width = 656
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+end

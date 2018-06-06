@@ -1,0 +1,394 @@
+﻿unit unCadPessoaCliente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unSystem, unParametros, unCadPessoa, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinBlack, dxSkinBlue, dxSkinBlueprint, dxSkinCaramel, dxSkinCoffee,
+  dxSkinDarkRoom, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
+  dxSkinDevExpressStyle, dxSkinFoggy, dxSkinGlassOceans, dxSkinHighContrast,
+  dxSkiniMaginary, dxSkinLilian, dxSkinLiquidSky, dxSkinLondonLiquidSky,
+  dxSkinMcSkin, dxSkinMetropolis, dxSkinMetropolisDark, dxSkinMoneyTwins,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, dxSkinPumpkin, dxSkinSeven,
+  dxSkinSevenClassic, dxSkinSharp, dxSkinSharpPlus, dxSkinSilver,
+  dxSkinSpringTime, dxSkinStardust, dxSkinSummer2008, dxSkinTheAsphaltWorld,
+  dxSkinsDefaultPainters, dxSkinValentine, dxSkinVS2010, dxSkinWhiteprint,
+  dxSkinXmas2008Blue, dxSkinscxPCPainter, dxBarBuiltInMenu, Vcl.ImgList,
+  Data.DB, MemDS, DBAccess, Uni, cxMemo, cxDBEdit, cxDropDownEdit, cxLookupEdit,
+  cxDBLookupEdit, cxDBLookupComboBox, cxPC, cxCheckBox, cxCalendar, cxTextEdit,
+  cxMaskEdit, cxSpinEdit, Vcl.StdCtrls, Vcl.ExtCtrls, JvExStdCtrls, JvCombobox,
+  JvDBCombobox, cxImageComboBox, cxStyles, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxNavigator, cxDBData, cxGridLevel, cxClasses,
+  cxGridCustomView, cxGridCustomTableView, cxGridTableView, cxGridDBTableView,
+  cxGrid, cxCurrencyEdit, cxCalc, unFields, Vcl.AppEvnts, dxGDIPlusClasses,
+  cxImage;
+
+type
+  TfrmCadPessoaCliente = class(TfrmCadPessoa)
+    dsPerfil: TUniDataSource;
+    dsContas: TUniDataSource;
+    dsBanco: TUniDataSource;
+    grpModuloWeb: TGroupBox;
+    TabFinanceiro: TcxTabSheet;
+    PageControlFinanceiro: TcxPageControl;
+    TabFinanceiroContas: TcxTabSheet;
+    TabFinanceiroMovimentacao: TcxTabSheet;
+    TabFinanceiroSaldos: TcxTabSheet;
+    GridContas: TcxGrid;
+    ViewContas: TcxGridDBTableView;
+    MasterContas: TcxGridLevel;
+    GridSaldos: TcxGrid;
+    ViewSaldos: TcxGridDBTableView;
+    MasterSaldos: TcxGridLevel;
+    GridMovimentacao: TcxGrid;
+    ViewMovimentacao: TcxGridDBTableView;
+    MasterMovimentacao: TcxGridLevel;
+    GridWeb: TcxGrid;
+    ViewWeb: TcxGridDBTableView;
+    MasterWeb: TcxGridLevel;
+    qMovimentacao: TUniQuery;
+    dsMovimentacao: TUniDataSource;
+    ViewMovimentacaocodigo: TcxGridDBColumn;
+    ViewMovimentacaopedido: TcxGridDBColumn;
+    ViewMovimentacaocd_cliente: TcxGridDBColumn;
+    ViewMovimentacaocd_representante: TcxGridDBColumn;
+    ViewMovimentacaorepresentante: TcxGridDBColumn;
+    ViewMovimentacaodata_venda: TcxGridDBColumn;
+    ViewMovimentacaodata_entrega: TcxGridDBColumn;
+    ViewMovimentacaostatus: TcxGridDBColumn;
+    ViewMovimentacaototal_pedido: TcxGridDBColumn;
+    ViewMovimentacaototal_produtos: TcxGridDBColumn;
+    ViewMovimentacaoconcluido: TcxGridDBColumn;
+    ViewMovimentacaoentregue: TcxGridDBColumn;
+    ViewMovimentacaoliquidado: TcxGridDBColumn;
+    ViewMovimentacaocupom: TcxGridDBColumn;
+    ViewMovimentacaonota: TcxGridDBColumn;
+    StyleRepository: TcxStyleRepository;
+    StyleHeader: TcxStyle;
+    StyleItemInativo: TcxStyle;
+    StyleItemAtivo: TcxStyle;
+    StylePendente: TcxStyle;
+    StyleConcluido: TcxStyle;
+    StyleCancelado: TcxStyle;
+    StyleParcial: TcxStyle;
+    StyleFechado: TcxStyle;
+    qSaldos: TUniQuery;
+    dsSaldos: TUniDataSource;
+    ViewSaldoscodigo: TcxGridDBColumn;
+    ViewSaldospessoa: TcxGridDBColumn;
+    ViewSaldosdata_registro: TcxGridDBColumn;
+    ViewSaldostipo_receita: TcxGridDBColumn;
+    ViewSaldosvalor: TcxGridDBColumn;
+    ViewSaldosparcial: TcxGridDBColumn;
+    ViewSaldosorigem: TcxGridDBColumn;
+    ViewSaldosdescricao: TcxGridDBColumn;
+    ViewSaldosmovimento: TcxGridDBColumn;
+    ViewSaldosobservacao: TcxGridDBColumn;
+    qContas: TUniQuery;
+    ViewContascodigo: TcxGridDBColumn;
+    ViewContaspessoa: TcxGridDBColumn;
+    ViewContasbanco: TcxGridDBColumn;
+    ViewContastipo_conta: TcxGridDBColumn;
+    ViewContasagencia_num: TcxGridDBColumn;
+    ViewContasagencia_cod: TcxGridDBColumn;
+    ViewContasconta_num: TcxGridDBColumn;
+    ViewContasconta_cod: TcxGridDBColumn;
+    ViewContasconta_principal: TcxGridDBColumn;
+    ViewContasconta_inativa: TcxGridDBColumn;
+    pnlContasACT: TPanel;
+    btnContasADD: TButton;
+    btnContasEDT: TButton;
+    btnContasRMV: TButton;
+    btnContasAtualizar: TButton;
+    pnlSaldoACT: TPanel;
+    btnADD: TButton;
+    btnEDT: TButton;
+    btnRMV: TButton;
+    btnAtualizar: TButton;
+    ViewSaldosliquidado: TcxGridDBColumn;
+    TabVendas: TcxTabSheet;
+    PageControl1: TcxPageControl;
+    TabRegrasPreco: TcxTabSheet;
+    TabRegistroVendas: TcxTabSheet;
+    Grid: TcxGrid;
+    View: TcxGridDBTableView;
+    ColumnID: TcxGridDBColumn;
+    ColumnProduto: TcxGridDBColumn;
+    ColumnCategoria: TcxGridDBColumn;
+    ColumnMarkup_vista: TcxGridDBColumn;
+    ColumnValor_vista: TcxGridDBColumn;
+    ColumnMarkup_prazo: TcxGridDBColumn;
+    ColumnValor_prazo: TcxGridDBColumn;
+    Master: TcxGridLevel;
+    GridVendas: TcxGrid;
+    ViewVendas: TcxGridDBTableView;
+    ColumnViewcodigo: TcxGridDBColumn;
+    ColumnViewfornecedor: TcxGridDBColumn;
+    ColumnViewrepresentante: TcxGridDBColumn;
+    ColumnViewdata_pedido: TcxGridDBColumn;
+    ColumnViewprevisao_entrega: TcxGridDBColumn;
+    ColumnViewstatus: TcxGridDBColumn;
+    Column1: TcxGridDBColumn;
+    MasterVendas: TcxGridLevel;
+    btnRegrasINS: TButton;
+    btnRegrasRMV: TButton;
+    btnRegrasEDT: TButton;
+    btnRegrasSAV: TButton;
+    qVendas: TUniQuery;
+    dsVendas: TUniDataSource;
+    cbbRegraPreco: TcxDBLookupComboBox;
+    edtRegraPreco: TcxDBSpinEdit;
+    qRegrasPrecos: TUniQuery;
+    dsRegrasPrecos: TUniDataSource;
+    btnRegrasCNC: TButton;
+    procedure btnSalvarClick(Sender: TObject);
+    procedure edtCNPJExit(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnContasAtualizarClick(Sender: TObject);
+    procedure btnAtualizarClick(Sender: TObject);
+    procedure btnContasADDClick(Sender: TObject);
+    procedure btnContasEDTClick(Sender: TObject);
+    procedure btnContasRMVClick(Sender: TObject);
+    procedure btnADDClick(Sender: TObject);
+    procedure btnEDTClick(Sender: TObject);
+    procedure btnRMVClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure qRegrasPrecosAfterPost(DataSet: TDataSet);
+    procedure qRegrasPrecosAfterInsert(DataSet: TDataSet);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadPessoaCliente: TfrmCadPessoaCliente;
+
+implementation
+
+{$R *.dfm}
+
+uses unDMPessoaClientes, unCadPessoaContasBancarias, unCadPessoaSaldos;
+
+procedure TfrmCadPessoaCliente.btnADDClick(Sender: TObject);
+begin
+  inherited;
+  actFilho(ds.DataSet.FieldByName('codigo').AsInteger,'NEW',TfrmCadPessoaSaldos, frmCadPessoaSaldos);
+  dsSaldos.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnAtualizarClick(Sender: TObject);
+begin
+  inherited;
+  dsSaldos.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnContasADDClick(Sender: TObject);
+begin
+  inherited;
+  actFilho(ds.DataSet.FieldByName('codigo').AsInteger,'NEW',TfrmCadPessoaContasBancarias, frmCadPessoaContasBancarias);
+  dsContas.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnContasAtualizarClick(Sender: TObject);
+begin
+  inherited;
+  dsContas.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnContasEDTClick(Sender: TObject);
+begin
+  inherited;
+  actFilho(dsContas.DataSet.FieldByName('codigo').AsInteger,'EDT',TfrmCadPessoaContasBancarias, frmCadPessoaContasBancarias);
+  dsContas.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnContasRMVClick(Sender: TObject);
+begin
+  inherited;
+  //actFilho('RMV',TfrmCadPessoaContasBancarias, frmCadPessoaContasBancarias);
+  if Pergunta('WHAT','Informação','Confirma remover a conta vinculada ao cliente?','SN') = ID_YES then
+    begin
+      dsContas.DataSet.Delete;
+    end;
+  dsContas.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnEDTClick(Sender: TObject);
+begin
+  inherited;
+  actFilho(dsSaldos.DataSet.FieldByName('codigo').AsInteger,'EDT',TfrmCadPessoaSaldos, frmCadPessoaSaldos);
+  dsSaldos.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnRMVClick(Sender: TObject);
+begin
+  inherited;
+  if dsSaldos.DataSet.FieldByName('liquidado').AsBoolean = False then
+    begin
+      if Pergunta('WHAT','Informação','Confirma remover o saldo vinculada ao cliente?','SN') = ID_YES then
+        begin
+          dsSaldos.DataSet.Delete;
+        end;
+    end
+  else
+    Aviso('INFO','Informação','O saldo selecionado não pode ser removido.');
+  dsSaldos.DataSet.Refresh;
+end;
+
+procedure TfrmCadPessoaCliente.btnSalvarClick(Sender: TObject);
+begin
+  qConsultacliente.AsBoolean := True;
+  inherited;
+end;
+
+procedure TfrmCadPessoaCliente.edtCNPJExit(Sender: TObject);
+var sMensagem: String;
+    xID: Integer;
+begin
+  inherited;
+  // Verifica se o cadastro ja existe!
+  if edtCNPJ.Text = '' then
+    Exit
+  else
+    begin
+      if ds.State in [dsInsert] then
+        begin
+          qSQL.Close;
+          qSQL.SQL.Clear;
+          qSQL.SQL.Text := ' SELECT codigo, '+
+                           '        cliente, '+
+                           '        colaborador, '+
+                           '        fornecedor, '+
+                           '        representante, '+
+                           '        transportadora, '+
+                           '        inativo, '+
+                           '        (case when (cliente or colaborador or fornecedor or representante or transportadora or inativo) then true else false end)::boolean as existe '+
+                           '   FROM pessoas WHERE cnpj = :cnpj';
+          qSQL.ParamByName('cnpj').AsString := ds.DataSet.FieldByName('cnpj').AsString;
+          qSQL.Open;
+          if qSQL.RecordCount > 0 then
+            begin
+              sMensagem := 'Foi encontrado um registro para este documento.' + #13;
+              if qSQL.FieldByName('existe').AsBoolean = True then
+                begin
+                  sMensagem := sMensagem + 'Detalhes do cadastro: ' + #13;
+                  if qSQL.FieldByName('inativo').AsBoolean = True then sMensagem := sMensagem + '   ● Inativo' + #13;
+                  if qSQL.FieldByName('cliente').AsBoolean = True then sMensagem := sMensagem + '   ● Cliente' + #13;
+                  if qSQL.FieldByName('colaborador').AsBoolean = True then sMensagem := sMensagem + '   ● Colaborador' + #13;
+                  if qSQL.FieldByName('fornecedor').AsBoolean = True then sMensagem := sMensagem + '    ● Fornecedor' + #13;
+                  if qSQL.FieldByName('representante').AsBoolean = True then sMensagem := sMensagem + '   ● Representante' + #13;
+                  if qSQL.FieldByName('transportadora').AsBoolean = True then sMensagem := sMensagem + '   ● Transportadora' + #13;
+                end;
+              sMensagem := sMensagem + 'Deseja utilizar este mesmo cadastro?';
+              // Cria aviso que o cliente ja esta cadastrado e pergunta o que deseja fazer!
+              if Pergunta('WHAT','Cadastro localizado', sMensagem, 'SN') = ID_YES then
+                begin
+                  xID := qSQL.FieldByName('codigo').AsInteger;
+                  {qSQL.Close;
+                  qSQL.SQL.Clear;
+                  qSQL.SQL.Text := 'UPDATE pessoas SET colaborador = true WHERE codigo = :codigo';
+                  qSQL.ParamByName('codigo').AsInteger := xID;
+                  qSQL.Execute;}
+                  ds.DataSet.Cancel;
+                  qConsulta.Close;
+                  qConsulta.ParamByName('codigo').AsInteger := xID;
+                  qConsulta.Open;
+                  ds.DataSet.Edit;
+                end
+              else
+                begin
+                  Aviso('INFO','Informação','Informe um documento diferente para realizar o cadastro.');
+                  qConsultacnpj.AsString := '';
+                  edtCNPJ.Clear;
+                  edtCNPJ.SetFocus;
+                end;
+            end;
+        end;
+    end;
+end;
+
+procedure TfrmCadPessoaCliente.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+  dmPessoaClientes.Free;
+  inherited;
+end;
+
+procedure TfrmCadPessoaCliente.FormCreate(Sender: TObject);
+begin
+  inherited;
+  Application.CreateForm(TdmPessoaClientes, dmPessoaClientes);
+end;
+
+procedure TfrmCadPessoaCliente.FormShow(Sender: TObject);
+begin
+  inherited;
+  if ds.State in [dsEdit] then
+    begin
+      if dsRegrasPrecos.DataSet.RecordCount > 0 then
+        begin
+          btnRegrasINS.Enabled := False;
+          btnRegrasEDT.Enabled := True;
+          btnRegrasSAV.Enabled := False;
+          btnRegrasCNC.Enabled := False;
+          btnRegrasRMV.Enabled := True;
+          edtRegraPreco.Enabled := False;
+          cbbRegraPreco.Enabled := False;
+        end
+      else
+        begin
+          btnRegrasINS.Enabled := True;
+          btnRegrasEDT.Enabled := False;
+          btnRegrasSAV.Enabled := False;
+          btnRegrasCNC.Enabled := False;
+          btnRegrasRMV.Enabled := False;
+          edtRegraPreco.Enabled := False;
+          cbbRegraPreco.Enabled := False;
+        end;
+    end
+  else
+    begin
+      btnRegrasINS.Enabled := False;
+      btnRegrasEDT.Enabled := False;
+      btnRegrasSAV.Enabled := False;
+      btnRegrasCNC.Enabled := False;
+      btnRegrasRMV.Enabled := False;
+      edtRegraPreco.Enabled := False;
+      cbbRegraPreco.Enabled := False;
+    end;
+end;
+
+procedure TfrmCadPessoaCliente.qRegrasPrecosAfterInsert(DataSet: TDataSet);
+begin
+  inherited;
+  btnRegrasINS.Enabled := False;
+  btnRegrasEDT.Enabled := False;
+  btnRegrasCNC.Enabled := True;
+  btnRegrasSAV.Enabled := True;
+  btnRegrasRMV.Enabled := False;
+  edtRegraPreco.Enabled := True;
+  cbbRegraPreco.Enabled := True;
+end;
+
+procedure TfrmCadPessoaCliente.qRegrasPrecosAfterPost(DataSet: TDataSet);
+begin
+  inherited;
+  dsRegrasPrecos.DataSet.Refresh;
+  btnRegrasINS.Enabled := False;
+  btnRegrasEDT.Enabled := True;
+  btnRegrasSAV.Enabled := False;
+  btnRegrasCNC.Enabled := False;
+  btnRegrasRMV.Enabled := True;
+  edtRegraPreco.Enabled := False;
+  cbbRegraPreco.Enabled := False;
+  dsRegrasPrecos.DataSet.Refresh;
+end;
+
+end.

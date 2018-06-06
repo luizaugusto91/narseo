@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaTransportadora.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaTransportadora.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0943055556</prop>
+        <prop prop-type="OrigDateTime">42760.8206018519</prop>
+        <prop prop-type="XlatDateTime">42760.8206018519</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">170</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmCadPessoaTransportadora.Caption" resname="I:frmCadPessoaTransportadora.Caption">
+        <source>'Cadastro de Pessoas - Transportadora'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmCadPessoaTransportadora</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.ExplicitWidth" resname="I:frmCadPessoaTransportadora.ExplicitWidth">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmCadPessoaTransportadora</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.ExplicitHeight" resname="I:frmCadPessoaTransportadora.ExplicitHeight">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmCadPessoaTransportadora</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.PixelsPerInch" resname="I:frmCadPessoaTransportadora.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmCadPessoaTransportadora</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.TextHeight" resname="I:frmCadPessoaTransportadora.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmCadPessoaTransportadora</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent." resname="I:frmCadPessoaTransportadora.I:grpContent.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo." resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl." resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato." resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco." resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitLeft" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitTop" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.I:cbbUF.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.I:cbbUF.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitLeft" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitTop" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.I:cbbcobuf.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.I:cbbcobuf.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.I:cbbentuf.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.I:cbbentuf.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.Caption">
+        <source>' Frota '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Left" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Top" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Width">
+        <source>770</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Height" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Height">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Align" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.Caption">
+        <source>' Lista de veiculos vinculados '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.TabOrder" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitLeft" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitLeft">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitWidth">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.ExplicitHeight">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.AlignWithMargins" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Left" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Top" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Width">
+        <source>754</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Height" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Height">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Left" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Left">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Right" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Right">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Bottom" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Margins.Bottom">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Align" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Charset" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Color" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Height" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Name" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Style" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ParentFont" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.TabOrder" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitLeft" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitLeft">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitTop" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitTop">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitWidth">
+        <source>758</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitHeight" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.ExplicitHeight">
+        <source>86</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.Navigator.Buttons.CustomButtons" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.DataSource" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.DataSource">
+        <source>dsFrota</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.DefaultGroupSummaryItems" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.DefaultGroupSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.FooterSummaryItems" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.FooterSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216782</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.SummaryGroups" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.DataController.Summary.SummaryGroups">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.CancelOnExit" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.CancelOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Deleting" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Deleting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Editing" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Editing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Inserting" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsData.Inserting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsSelection.CellSelect" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsSelection.CellSelect">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsView.ColumnAutoWidth" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsView.ColumnAutoWidth">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsView.Indicator" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.OptionsView.Indicator">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.Styles.Header" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.Styles.Header">
+        <source>StyleHeader</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.Caption">
+        <source>'#ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.DataBinding.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewcodigo.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.Caption">
+        <source>'Tipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.DataBinding.FieldName">
+        <source>'tipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewtipo.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.Caption">
+        <source>'Placa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.DataBinding.FieldName">
+        <source>'placa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewplaca.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.Caption">
+        <source>'Identificação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.DataBinding.FieldName">
+        <source>'identificacao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewidentificacao.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.Caption">
+        <source>'Veiculo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.DataBinding.FieldName">
+        <source>'veiculo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewveiculo.Width">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Caption">
+        <source>'Motorista'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.DataBinding.FieldName">
+        <source>'motorista'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Visible" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewmotorista.Width">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.Caption">
+        <source>'KM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.DataBinding.FieldName">
+        <source>'ultimokm'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewultimokm.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Caption">
+        <source>'Terceiro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.DataBinding.FieldName">
+        <source>'terceiro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Visible" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewterceiro.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Caption">
+        <source>'Esporadico'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.DataBinding.FieldName">
+        <source>'esporadico'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Visible" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewesporadico.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.Caption" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.Caption">
+        <source>'Inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.DataBinding.FieldName" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.DataBinding.FieldName">
+        <source>'inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.Width" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:View.O:Viewinativo.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:Master.GridView" resname="I:frmCadPessoaTransportadora.I:grpContent.I:grpInfo.I:PageControl.I:TabPerfil.O:grpFrota.O:Grid.O:Master.GridView">
+        <source>View</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.I:ImageList16.FormatVersion" resname="I:frmCadPessoaTransportadora.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.Tag" resname="I:frmCadPessoaTransportadora.O:qFrota.Tag">
+        <source>7100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[0]">
+        <source>'INSERT INTO pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943216898</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[1]">
+        <source>'  (pessoa, endereco, endereco_numero, complemento, referencia, bairro, cep, cidade, uf, pais, tel1, tel2, tel3)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[2]">
+        <source>'VALUES'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[3]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLInsert.Strings[3]">
+        <source>'  (:pessoa, :endereco, :endereco_numero, :complemento, :referencia, :bairro, :cep, :cidade, :uf, :pais, :tel1, :tel2, :tel3)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[0]">
+        <source>'DELETE FROM pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLDelete.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[0]">
+        <source>'UPDATE pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[1]">
+        <source>'SET'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[2]">
+        <source>'  pessoa = :pessoa, endereco = :endereco, endereco_numero = :endereco_numero, complemento = :complemento, referencia = :referencia, bairro = :bairro, cep = :cep, cidade = :cidade, uf = :uf, pais = :pais, tel1 = :tel1, tel2 = :tel2, tel3 = :tel3'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[3]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[3]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[4]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLUpdate.Strings[4]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[0]">
+        <source>'SELECT * FROM pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[3]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLLock.Strings[3]">
+        <source>'FOR UPDATE NOWAIT'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[0]">
+        <source>'SELECT pessoa, endereco, endereco_numero, complemento, referencia, bairro, cep, cidade, uf, pais, tel1, tel2, tel3 FROM pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRefresh.Strings[2]">
+        <source>'  codigo = :P_1_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[0]">
+        <source>'SELECT count(*) FROM ('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[1]">
+        <source>'SELECT * FROM pessoa_endereco_cobranca'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[2]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[3]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQLRecCount.Strings[3]">
+        <source>') t'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.Connection" resname="I:frmCadPessoaTransportadora.O:qFrota.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[0]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[0]">
+        <source>'SELECT ft.codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[1]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[1]">
+        <source>#9'ft.transportadora, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[2]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[2]">
+        <source>#9'ft.tipo as cd_tipo,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[3]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[3]">
+        <source>#9'tf.descricao as tipo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[4]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[4]">
+        <source>#9'ft.placa, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[5]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[5]">
+        <source>#9'ft.identificacao, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[6]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[6]">
+        <source>#9'ft.veiculo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[7]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[7]">
+        <source>#9'ft.motorista as cd_motorista,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[8]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[8]">
+        <source>#9'ps.nome as motorista, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[9]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[9]">
+        <source>#9'ft.ultimokm, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[10]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[10]">
+        <source>#9'ft.terceiro, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[11]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[11]">
+        <source>#9'ft.esporadico, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[12]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[12]">
+        <source>#9'ft.inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[13]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[13]">
+        <source>'   FROM frotas ft'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[14]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[14]">
+        <source>'   LEFT JOIN tipo_frota tf on tf.codigo = ft.tipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[15]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[15]">
+        <source>'   LEFT JOIN pessoas ps on ps.codigo = ft.motorista'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[16]" resname="I:frmCadPessoaTransportadora.O:qFrota.SQL.Strings[16]">
+        <source>'  WHERE ft.transportadora = :codigo ;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.Left" resname="I:frmCadPessoaTransportadora.O:qFrota.Left">
+        <source>432</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.Top" resname="I:frmCadPessoaTransportadora.O:qFrota.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].DataType" resname="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].DataType">
+        <source>ftInteger</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].Name" resname="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].Name">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].ParamType" resname="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943217014</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].Value" resname="I:frmCadPessoaTransportadora.O:qFrota.ParamData[0].Value">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:dsFrota.DataSet" resname="I:frmCadPessoaTransportadora.O:dsFrota.DataSet">
+        <source>qFrota</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:dsFrota.Left" resname="I:frmCadPessoaTransportadora.O:dsFrota.Left">
+        <source>480</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:dsFrota.Top" resname="I:frmCadPessoaTransportadora.O:dsFrota.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.Left" resname="I:frmCadPessoaTransportadora.O:StyleRepository.Left">
+        <source>718</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.Top" resname="I:frmCadPessoaTransportadora.O:StyleRepository.Top">
+        <source>255</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.PixelsPerInch" resname="I:frmCadPessoaTransportadora.O:StyleRepository.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.AssignedValues" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.AssignedValues">
+        <source>[svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Charset" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Color" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Height" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Name" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Style" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleHeader.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.AssignedValues" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.AssignedValues">
+        <source>[svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Charset" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Color" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Color">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Height" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Name" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Style" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemInativo.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.AssignedValues" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.AssignedValues">
+        <source>[svFont, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Charset" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Color" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Height" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Name" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Style" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.TextColor" resname="I:frmCadPessoaTransportadora.O:StyleRepository.O:StyleItemAtivo.TextColor">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094321713</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

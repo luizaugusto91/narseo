@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42936,6859008102" ReportOptions.Description.Text="" ReportOptions.LastChange="43132,6212575116" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="FRDataSetCTe" DataSetName="CTe"/>
+    <item DataSet="FRDataSetEmpresa" DataSetName="Empresa"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="18,89765&#13;&#10;245,66945" VGuides.Text="7,55906&#13;&#10;529,1342&#13;&#10;1039,37075">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="56,69295" Left="0" Top="18,89765" Width="1046,92981">
+      <TfrxMemoView Name="frxDBDataset1empresa" Left="7,55906" Top="0" Width="427,08689" Height="18,89765" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="[Empresa.&#34;cnpj&#34;] - [Empresa.&#34;nome&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1fantasia" Left="442,20501" Top="0" Width="408,18924" Height="18,89765" DataField="fantasia" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="[Empresa.&#34;fantasia&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1endereco" Left="7,55906" Top="18,89765" Width="445,98454" Height="18,89765" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="Endereço: [Empresa.&#34;endereco&#34;] - [Empresa.&#34;endereco_numero&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="frxDBDataset1cidade" Left="529,1342" Top="18,89765" Width="510,23655" Height="18,89765" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="Cidade: [Empresa.&#34;cidade&#34;] - Bairro: [Empresa.&#34;bairro&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1uf" Left="7,55906" Top="37,7953" Width="351,49629" Height="18,89765" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="UF: [Empresa.&#34;uf&#34;] - CEP: [Empresa.&#34;cep&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="865,51237" Top="0" Width="173,85838" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Segoe UI" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Emissão: [Date] - [Time]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+    </TfrxReportTitle>
+    <TfrxPageFooter Name="Rodape" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="15,11812" Left="0" Top="366,61441" Width="1046,92981">
+      <TfrxMemoView Name="Page" Left="453,5436" Top="0" Width="151,1812" Height="15,11812" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="Página [Page] de [TotalPages#]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo2" Left="774,80365" Top="0" Width="264,5671" Height="15,11812" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" HAlign="haRight" ParentFont="False" Text="www.jovemti.com.br/narseo"/>
+      <TfrxMemoView Name="Memo3" Left="7,55906" Top="0" Width="264,5671" Height="15,11812" Font.Charset="0" Font.Color="0" Font.Height="-13" Font.Name="Calibri" Font.Style="0" ParentFont="False" Text="Jovem ti - Gestão em Tecnologia"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="26,45671" Left="0" Top="98,26778" Width="1046,92981">
+      <TfrxMemoView Name="Memo1" Left="7,55906" Top="0" Width="1031,81169" Height="26,45671" Font.Charset="0" Font.Color="0" Font.Height="-16" Font.Name="Segoe UI Semibold" Font.Style="1" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="RELATÓRIO CONHECIMENTOS DE TRANSPORTE ELETRONICOS"/>
+    </TfrxPageHeader>
+    <TfrxDetailData Name="Itens" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18,89765" Left="0" Top="245,66945" Width="1046,92981" ColumnWidth="0" ColumnGap="0" DataSet="FRDataSetCTe" DataSetName="CTe" RowCount="0">
+      <TfrxMemoView Name="CTeconhecimento" Left="7,55906" Top="0" Width="49,13389" Height="18,89765" DataField="conhecimento" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;conhecimento&#34;]"/>
+      <TfrxMemoView Name="CTedata_registro" Left="60,47248" Top="0" Width="90,70872" Height="18,89765" DataField="data_registro" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;data_registro&#34;]"/>
+      <TfrxMemoView Name="CTeremetente_nome" Left="154,96073" Top="0" Width="374,17347" Height="18,89765" DataField="remetente_nome" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;remetente_nome&#34;]"/>
+      <TfrxMemoView Name="CTedestinatario_nome" Left="533,47279" Top="0" Width="340,1577" Height="18,89765" DataField="destinatario_nome" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;destinatario_nome&#34;]"/>
+      <TfrxMemoView Name="CTedocumento" Left="876,85096" Top="0" Width="86,92919" Height="18,89765" DataField="documento" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;documento&#34;]"/>
+      <TfrxMemoView Name="CTevalor" Left="967,55968" Top="0" Width="71,81107" Height="18,89765" DataField="valor" DataSet="FRDataSetCTe" DataSetName="CTe" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[CTe.&#34;valor&#34;]"/>
+    </TfrxDetailData>
+    <TfrxMasterData Name="Master" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="37,7953" Left="0" Top="185,19697" Width="1046,92981" ColumnWidth="0" ColumnGap="0" DataSet="FRDataSetCTe" DataSetName="CTe" RowCount="0">
+      <TfrxMemoView Name="Memo5" Left="7,55906" Top="0" Width="1031,81169" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" Fill.BackColor="12632256" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Lista de CT-e emitidas no período de [MIN(&#60;CTe.&#34;data_registro&#34;&#62;,Itens)] até [MAX(&#60;CTe.&#34;data_registro&#34;&#62;,Itens)].">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo6" Left="7,55906" Top="18,89765" Width="49,13389" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="CT-e"/>
+      <TfrxMemoView Name="Memo7" Left="60,47248" Top="18,89765" Width="90,70872" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Data"/>
+      <TfrxMemoView Name="Memo8" Left="154,96073" Top="18,89765" Width="374,17347" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Remetente"/>
+      <TfrxMemoView Name="Memo9" Left="533,1342" Top="18,89765" Width="340,1577" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Destinatário"/>
+      <TfrxMemoView Name="Memo10" Left="967,55968" Top="18,89765" Width="71,81107" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Valor"/>
+      <TfrxMemoView Name="Memo11" Left="876,85096" Top="18,89765" Width="86,92919" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Documento"/>
+    </TfrxMasterData>
+    <TfrxFooter Name="Footer" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18,89765" Left="0" Top="287,24428" Width="1046,92981">
+      <TfrxMemoView Name="Memo12" Left="7,55906" Top="0" Width="521,57514" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="calibri" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="Total de CT-e emitidas no periodo: [COUNT(Itens)]"/>
+      <TfrxLineView Name="Line1" Left="7,55906" Top="0" Width="1031,81169" Height="0" Color="0" Diagonal="True"/>
+    </TfrxFooter>
+  </TfrxReportPage>
+</TfrxReport>

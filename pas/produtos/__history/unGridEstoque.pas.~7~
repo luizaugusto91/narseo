@@ -1,0 +1,67 @@
+unit unGridEstoque;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unGrid, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxStyles, dxSkinsCore, dxSkinDarkSide,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinOffice2007Black,
+  dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink,
+  dxSkinOffice2007Silver, dxSkinOffice2010Black, dxSkinOffice2010Blue,
+  dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
+  dxSkinOffice2013White, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, Datasnap.DBClient,
+  Vcl.Menus, cxClasses, DBAccess, Uni, MemDS, Vcl.ImgList,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
+  cxGridCustomView, cxGrid, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmGridEstoque = class(TfrmGrid)
+    Viewcodigo: TcxGridDBColumn;
+    Viewempresa: TcxGridDBColumn;
+    Viewcd_produto: TcxGridDBColumn;
+    Viewproduto: TcxGridDBColumn;
+    Viewdata_atualizacao: TcxGridDBColumn;
+    Viewtotal_geral: TcxGridDBColumn;
+    Viewtotal_disponovel: TcxGridDBColumn;
+    Viewtotal_anterior: TcxGridDBColumn;
+    Viewtotal_emprenhado: TcxGridDBColumn;
+    ViewCategoria: TcxGridDBColumn;
+    procedure FormShow(Sender: TObject);
+    procedure btnVisualizarClick(Sender: TObject);
+    procedure btnNovoClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmGridEstoque: TfrmGridEstoque;
+
+implementation
+
+{$R *.dfm}
+
+uses unParametros, unCadProdutos;
+
+procedure TfrmGridEstoque.btnNovoClick(Sender: TObject);
+begin
+  inherited;
+  ActInserir(TfrmCadEstoqueMovimentoManual,frmCadEstoqueMovimentoManual);
+end;
+
+procedure TfrmGridEstoque.btnVisualizarClick(Sender: TObject);
+begin
+  inherited;
+  ActVisualizar(TfrmCadProdutos,frmCadProdutos);
+end;
+
+procedure TfrmGridEstoque.FormShow(Sender: TObject);
+begin
+  qConsulta.ParamByName('empresa').asInteger := Parametros.cdsParametros.Fieldbyname('empresa').asInteger;
+  inherited;
+end;
+
+end.

@@ -1,0 +1,12 @@
+inherited dmPessoaClientes: TdmPessoaClientes
+  OldCreateOrder = True
+  object qBancos: TUniQuery
+    Tag = 7000
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, febraban, nome, nome_reduzido, inativo'
+      '  FROM bancos;')
+    Left = 24
+    Top = 8
+  end
+end

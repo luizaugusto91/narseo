@@ -1,0 +1,27 @@
+inherited frmCadSuprimentos: TfrmCadSuprimentos
+  Caption = 'Caixa: Suprimento'
+  ExplicitWidth = 506
+  ExplicitHeight = 349
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Color = clScrollBar
+    ParentBackground = False
+  end
+  inherited grpContent: TGroupBox
+    Height = 228
+    Margins.Bottom = 5
+  end
+  inherited ds: TUniDataSource
+    Left = 312
+    Top = 0
+  end
+  inherited qConsulta: TUniQuery
+    Left = 272
+    Top = 0
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 228
+  end
+end

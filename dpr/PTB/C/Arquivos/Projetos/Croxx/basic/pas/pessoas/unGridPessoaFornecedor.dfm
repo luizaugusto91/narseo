@@ -1,0 +1,138 @@
+inherited frmGridPessoaFornecedor: TfrmGridPessoaFornecedor
+  Tag = 2107
+  Caption = 'Cadastro de Pessoas - Fornecedores'
+  ExplicitWidth = 1116
+  ExplicitHeight = 539
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    inherited btnNovo: TButton
+      OnClick = btnNovoClick
+    end
+    inherited btnVisualizar: TButton
+      OnClick = btnVisualizarClick
+    end
+    inherited btnEditar: TButton
+      OnClick = btnEditarClick
+    end
+    inherited btnExcluir: TButton
+      Enabled = False
+    end
+  end
+  inherited grpLista: TGroupBox
+    Left = 7
+    Top = 7
+    Width = 1086
+    Height = 453
+    Margins.Left = 7
+    Margins.Top = 7
+    Margins.Right = 7
+    ExplicitLeft = 7
+    ExplicitTop = 7
+    ExplicitWidth = 1086
+    ExplicitHeight = 453
+    inherited pnlFuncoes: TPanel
+      Left = 746
+      Height = 426
+      Margins.Bottom = 7
+      ExplicitLeft = 746
+      ExplicitHeight = 426
+    end
+    inherited Grid: TcxGrid
+      Left = 9
+      Width = 737
+      Height = 426
+      Margins.Left = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 9
+      ExplicitWidth = 737
+      ExplicitHeight = 426
+      inherited View: TcxGridDBTableView
+        object ColViewID: TcxGridDBColumn
+          Caption = 'ID'
+          DataBinding.FieldName = 'codigo'
+          Width = 50
+        end
+        object ColViewCNPJ: TcxGridDBColumn
+          Caption = 'CNPJ/CPF'
+          DataBinding.FieldName = 'cnpj'
+          Width = 80
+        end
+        object ColViewNome: TcxGridDBColumn
+          Caption = 'Nome'
+          DataBinding.FieldName = 'nome'
+          Width = 200
+        end
+        object ColViewFantasia: TcxGridDBColumn
+          Caption = 'Fantasia'
+          DataBinding.FieldName = 'fantasia'
+          Width = 200
+        end
+        object ColViewCidade: TcxGridDBColumn
+          Caption = 'Cidade'
+          DataBinding.FieldName = 'cidade'
+          Width = 120
+        end
+        object ColViewTelefone: TcxGridDBColumn
+          Caption = 'Telefone'
+          DataBinding.FieldName = 'tel1'
+          Width = 80
+        end
+      end
+    end
+    inherited pnlFiltros: TPanel
+      Left = 777
+      Height = 426
+      Margins.Right = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 777
+      ExplicitHeight = 426
+      inherited GridFiltros: TcxGrid
+        Height = 426
+        Margins.Left = 7
+        Margins.Bottom = 7
+        ExplicitHeight = 426
+      end
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT vp.codigo, '
+      #9'vp.datacadastro, '
+      #9'vp.nome, '
+      #9'vp.fantasia, '
+      #9'vp.cnpj, '
+      #9'vp.cidade, '
+      #9'vp.uf, '
+      #9'vp.tel1, '
+      #9'vp.inativo, '
+      #9'vp.cliente, '
+      #9'vp.colaborador, '
+      #9'vp.fornecedor, '
+      #9'vp.representante, '
+      #9'vp.transportadora'
+      '   FROM vw_pessoas vp'
+      '  WHERE vp.fornecedor = TRUE ;')
+  end
+  inherited qInfo: TUniQuery
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'colunas'
+        ParamType = ptInput
+        Value = #39#39
+      end
+      item
+        DataType = ftString
+        Name = 'tabela'
+        ParamType = ptInput
+        Value = 'vw_pessoas'
+      end>
+  end
+  inherited StyleRepository: TcxStyleRepository
+    PixelsPerInch = 96
+  end
+end

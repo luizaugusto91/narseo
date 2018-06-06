@@ -1,0 +1,38 @@
+unit unConnectionDeveloper;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, MemDS, DBAccess, Uni, DALoader,
+  UniLoader, DAAlerter, UniAlerter, DADump, UniDump, CREncryption, UniProvider,
+  PostgreSQLUniProvider;
+
+type
+  TDeveloper = class(TDataModule)
+    PostgreSQLUniProvider: TPostgreSQLUniProvider;
+    Conn: TUniConnection;
+    UniTransaction: TUniTransaction;
+    UniEncryptor: TUniEncryptor;
+    UniDump: TUniDump;
+    UniAlerter: TUniAlerter;
+    UniLoader: TUniLoader;
+    qBasic: TUniQuery;
+    qRegistro: TUniQuery;
+    qCheckKey: TUniQuery;
+    qclient_check: TUniQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Developer: TDeveloper;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

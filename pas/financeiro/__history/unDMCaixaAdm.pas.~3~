@@ -1,0 +1,32 @@
+unit unDMCaixaAdm;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, unSystem, unParametros, unConnection,
+  Data.DB, MemDS, DBAccess, Uni;
+
+type
+  TdmCaixaAdm = class(TDataModule)
+    qSQL: TUniQuery;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    // Variaveis
+    // Funcoes
+    function CaixaCheck():Boolean;
+    function CaixaGet():Integer;
+    // Procedures
+  end;
+
+var
+  dmCaixaAdm: TdmCaixaAdm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

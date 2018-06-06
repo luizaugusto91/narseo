@@ -1,0 +1,152 @@
+inherited frmViewContasPagarPagamentos: TfrmViewContasPagarPagamentos
+  Caption = 'Detalhamento de pagamentos - Contas a Pagar'
+  ClientHeight = 475
+  ClientWidth = 780
+  ExplicitWidth = 786
+  ExplicitHeight = 504
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 440
+    Width = 780
+    inherited btnFechar: TButton
+      Left = 689
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 770
+    Height = 93
+    Align = alTop
+    Caption = ' Detalhes da conta '
+    ExplicitWidth = 770
+    ExplicitHeight = 93
+  end
+  inherited pnlHelp: TPanel
+    Width = 771
+    inherited mmoHelp: TMemo
+      Width = 724
+    end
+  end
+  object grp1: TGroupBox [3]
+    AlignWithMargins = True
+    Left = 5
+    Top = 328
+    Width = 770
+    Height = 112
+    Hint = 'Detalhamento do registro'
+    Margins.Left = 5
+    Margins.Right = 5
+    Margins.Bottom = 0
+    Align = alBottom
+    Caption = ' Detalhes do pagamento '
+    TabOrder = 3
+    OnEnter = grpContentEnter
+    OnExit = grpContentExit
+  end
+  object Grid: TcxGrid [4]
+    AlignWithMargins = True
+    Left = 5
+    Top = 148
+    Width = 770
+    Height = 174
+    Margins.Left = 5
+    Margins.Right = 5
+    Align = alClient
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    ExplicitLeft = -161
+    ExplicitTop = 18
+    ExplicitWidth = 941
+    ExplicitHeight = 387
+    object View: TcxGridDBTableView
+      Navigator.Buttons.CustomButtons = <>
+      DataController.DataSource = ds
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      OptionsData.CancelOnExit = False
+      OptionsData.Deleting = False
+      OptionsData.Editing = False
+      OptionsData.Inserting = False
+      OptionsSelection.CellSelect = False
+      OptionsView.Indicator = True
+    end
+    object Master: TcxGridLevel
+      GridView = View
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  object StyleRepository: TcxStyleRepository
+    Left = 366
+    Top = 65535
+    PixelsPerInch = 96
+    object StyleHeader: TcxStyle
+      AssignedValues = [svFont]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+    end
+    object StyleItemInativo: TcxStyle
+      AssignedValues = [svFont]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clGray
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = []
+    end
+    object StyleItemAtivo: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = []
+      TextColor = clNavy
+    end
+    object StylePendente: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clNavy
+    end
+    object StyleCancelado: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clSilver
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clSilver
+    end
+    object StyleQuitado: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clGreen
+    end
+    object StyleVencido: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clMaroon
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clMaroon
+    end
+  end
+end

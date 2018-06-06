@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridServicos.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridServicos.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.094375</prop>
+        <prop prop-type="OrigDateTime">42744.4192824074</prop>
+        <prop prop-type="XlatDateTime">42744.4192824074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">47</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmGridServicos.Tag" resname="I:frmGridServicos.Tag">
+        <source>2208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.Caption" resname="I:frmGridServicos.Caption">
+        <source>'Cadastro de Serviços'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.ClientHeight" resname="I:frmGridServicos.ClientHeight">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.ExplicitWidth" resname="I:frmGridServicos.ExplicitWidth">
+        <source>1116</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.ExplicitHeight" resname="I:frmGridServicos.ExplicitHeight">
+        <source>439</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.PixelsPerInch" resname="I:frmGridServicos.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.TextHeight" resname="I:frmGridServicos.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmGridServicos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.Top" resname="I:frmGridServicos.I:pnlBotton.Top">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.ExplicitTop" resname="I:frmGridServicos.I:pnlBotton.ExplicitTop">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.I:btnNovo.OnClick" resname="I:frmGridServicos.I:pnlBotton.I:btnNovo.OnClick">
+        <source>btnNovoClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.I:btnVisualizar.OnClick" resname="I:frmGridServicos.I:pnlBotton.I:btnVisualizar.OnClick">
+        <source>btnVisualizarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943955903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.I:btnEditar.OnClick" resname="I:frmGridServicos.I:pnlBotton.I:btnEditar.OnClick">
+        <source>btnEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:pnlBotton.I:btnExcluir.OnClick" resname="I:frmGridServicos.I:pnlBotton.I:btnExcluir.OnClick">
+        <source>btnExcluirClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.Height" resname="I:frmGridServicos.I:grpLista.Height">
+        <source>354</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.ExplicitHeight" resname="I:frmGridServicos.I:grpLista.ExplicitHeight">
+        <source>354</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFuncoes.Height" resname="I:frmGridServicos.I:grpLista.I:pnlFuncoes.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFuncoes.ExplicitHeight" resname="I:frmGridServicos.I:grpLista.I:pnlFuncoes.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.Height" resname="I:frmGridServicos.I:grpLista.I:Grid.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.ExplicitHeight" resname="I:frmGridServicos.I:grpLista.I:Grid.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View." resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.Caption" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.Caption">
+        <source>'#ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.DataBinding.FieldName" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.DataBinding.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.Width" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnID.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.Caption" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.Caption">
+        <source>'Descrição'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.DataBinding.FieldName" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.DataBinding.FieldName">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.Width" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnDescricao.Width">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.Caption" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.Caption">
+        <source>'Inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.DataBinding.FieldName" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.DataBinding.FieldName">
+        <source>'inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.Width" resname="I:frmGridServicos.I:grpLista.I:Grid.I:View.O:ColumnIntaivo.Width">
+        <source>60</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFiltros.Height" resname="I:frmGridServicos.I:grpLista.I:pnlFiltros.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFiltros.ExplicitHeight" resname="I:frmGridServicos.I:grpLista.I:pnlFiltros.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFiltros.I:GridFiltros.Height" resname="I:frmGridServicos.I:grpLista.I:pnlFiltros.I:GridFiltros.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight" resname="I:frmGridServicos.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:ImageList16.FormatVersion" resname="I:frmGridServicos.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qConsulta.SQL.Strings[0]" resname="I:frmGridServicos.I:qConsulta.SQL.Strings[0]">
+        <source>'SELECT '#9'pd.codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qConsulta.SQL.Strings[1]" resname="I:frmGridServicos.I:qConsulta.SQL.Strings[1]">
+        <source>#9'pd.nome,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qConsulta.SQL.Strings[2]" resname="I:frmGridServicos.I:qConsulta.SQL.Strings[2]">
+        <source>#9'pd.inativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qConsulta.SQL.Strings[3]" resname="I:frmGridServicos.I:qConsulta.SQL.Strings[3]">
+        <source>'  FROM produtos pd'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qConsulta.SQL.Strings[4]" resname="I:frmGridServicos.I:qConsulta.SQL.Strings[4]">
+        <source>' WHERE tipo = '#39'S'#39';'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[0].DataType" resname="I:frmGridServicos.I:qInfo.ParamData[0].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[0].Name" resname="I:frmGridServicos.I:qInfo.ParamData[0].Name">
+        <source>'colunas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[0].ParamType" resname="I:frmGridServicos.I:qInfo.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[0].Value" resname="I:frmGridServicos.I:qInfo.ParamData[0].Value">
+        <source>#39#39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[1].DataType" resname="I:frmGridServicos.I:qInfo.ParamData[1].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[1].Name" resname="I:frmGridServicos.I:qInfo.ParamData[1].Name">
+        <source>'tabela'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[1].ParamType" resname="I:frmGridServicos.I:qInfo.ParamData[1].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:qInfo.ParamData[1].Value" resname="I:frmGridServicos.I:qInfo.ParamData[1].Value">
+        <source>'produtos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridServicos.I:StyleRepository.PixelsPerInch" resname="I:frmGridServicos.I:StyleRepository.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943956019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

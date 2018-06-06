@@ -1,0 +1,158 @@
+inherited frmGridProdutos: TfrmGridProdutos
+  Tag = 2207
+  Caption = 'Cadastro de Produtos'
+  ClientHeight = 400
+  ExplicitHeight = 439
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 360
+    ExplicitTop = 360
+    inherited btnNovo: TButton
+      Left = 619
+      OnClick = btnNovoClick
+      ExplicitLeft = 619
+    end
+    inherited btnVisualizar: TButton
+      Left = 811
+      OnClick = btnVisualizarClick
+      ExplicitLeft = 811
+    end
+    inherited btnEditar: TButton
+      Left = 907
+      OnClick = btnEditarClick
+      ExplicitLeft = 907
+    end
+    inherited btnExcluir: TButton
+      Left = 1003
+      Enabled = False
+      OnClick = btnExcluirClick
+      ExplicitLeft = 1003
+    end
+    object btnReplicar: TButton
+      Left = 715
+      Top = 5
+      Width = 90
+      Height = 30
+      Anchors = [akTop, akRight]
+      Caption = 'Replicar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      HotImageIndex = 0
+      ImageIndex = 0
+      ImageMargins.Left = 10
+      Images = ImageList16
+      ParentFont = False
+      TabOrder = 4
+      OnClick = btnReplicarClick
+    end
+  end
+  inherited grpLista: TGroupBox
+    Left = 7
+    Top = 7
+    Width = 1086
+    Height = 353
+    Margins.Left = 7
+    Margins.Top = 7
+    Margins.Right = 7
+    ExplicitLeft = 7
+    ExplicitTop = 7
+    ExplicitWidth = 1086
+    ExplicitHeight = 353
+    inherited pnlFuncoes: TPanel
+      Left = 746
+      Height = 326
+      Margins.Bottom = 7
+      ExplicitLeft = 746
+      ExplicitHeight = 326
+    end
+    inherited Grid: TcxGrid
+      Left = 9
+      Width = 737
+      Height = 326
+      Margins.Left = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 9
+      ExplicitWidth = 737
+      ExplicitHeight = 326
+      inherited View: TcxGridDBTableView
+        OnDblClick = ViewDblClick
+        object ColumnID: TcxGridDBColumn
+          Caption = '#ID'
+          DataBinding.FieldName = 'codigo'
+          Width = 50
+        end
+        object ColumnDescricao: TcxGridDBColumn
+          Caption = 'Descri'#231#227'o'
+          DataBinding.FieldName = 'nome'
+          Width = 300
+        end
+        object ColumnSigla: TcxGridDBColumn
+          Caption = 'Codigo Barras'
+          DataBinding.FieldName = 'codigobarra'
+          Visible = False
+          Width = 60
+        end
+        object ColumnCategoria: TcxGridDBColumn
+          Caption = 'Categoria'
+          DataBinding.FieldName = 'categoria'
+          Width = 100
+        end
+        object ColumnCodigoBarras: TcxGridDBColumn
+          Caption = 'Codigo Barras'
+          DataBinding.FieldName = 'codigobarras'
+          Width = 80
+        end
+      end
+    end
+    inherited pnlFiltros: TPanel
+      Left = 777
+      Height = 326
+      Margins.Right = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 777
+      ExplicitHeight = 326
+      inherited GridFiltros: TcxGrid
+        Height = 326
+        Margins.Left = 7
+        Margins.Bottom = 7
+        ExplicitHeight = 326
+      end
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT '#9'pd.codigo, '
+      '        pd.nome,'
+      #9'pd.nome as descricao,'
+      #9'pd.codigobarras,'
+      #9'pc.categoria'
+      '  FROM produtos pd'
+      '  LEFT JOIN produto_categorias pc on pc.codigo = pd.categoria'
+      ' WHERE tipo = '#39'P'#39';')
+  end
+  inherited qInfo: TUniQuery
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'colunas'
+        ParamType = ptInput
+        Value = #39#39
+      end
+      item
+        DataType = ftString
+        Name = 'tabela'
+        ParamType = ptInput
+        Value = 'produtos'
+      end>
+  end
+  inherited StyleRepository: TcxStyleRepository
+    PixelsPerInch = 96
+  end
+end

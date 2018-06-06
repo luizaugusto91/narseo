@@ -1,0 +1,509 @@
+inherited frmCadCTeParametros: TfrmCadCTeParametros
+  Caption = 'Parametros de Documentos Eletr'#244'nicos - CT-e'
+  ClientHeight = 313
+  ClientWidth = 668
+  ExplicitWidth = 674
+  ExplicitHeight = 342
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 278
+    Width = 668
+    ExplicitTop = 278
+    ExplicitWidth = 668
+    inherited btnCancelar: TButton
+      Left = 391
+      ExplicitLeft = 391
+    end
+    inherited btnSalvar: TButton
+      Left = 484
+      ExplicitLeft = 484
+    end
+    inherited btnFechar: TButton
+      Left = 577
+      ExplicitLeft = 577
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 658
+    Height = 226
+    ExplicitWidth = 658
+    ExplicitHeight = 226
+    object lbl1: TLabel
+      Left = 71
+      Top = 26
+      Width = 58
+      Height = 13
+      Caption = 'Remetente:'
+      FocusControl = edtremetente
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl2: TLabel
+      Left = 64
+      Top = 53
+      Width = 65
+      Height = 13
+      Caption = 'Destinat'#225'rio:'
+      FocusControl = edtdestinatario
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl3: TLabel
+      Left = 48
+      Top = 80
+      Width = 81
+      Height = 13
+      Caption = 'Local da Coleta:'
+      FocusControl = edtlocal_coleta
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl11: TLabel
+      Left = 42
+      Top = 107
+      Width = 87
+      Height = 13
+      Caption = 'Local da Entrega:'
+      FocusControl = edtlocal_entrega
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl4: TLabel
+      Left = 59
+      Top = 135
+      Width = 70
+      Height = 13
+      Caption = 'Tipo de Nota:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl12: TLabel
+      Left = 11
+      Top = 162
+      Width = 118
+      Height = 15
+      Caption = 'Natureza da operacao:'
+      FocusControl = edtnatureza_operacao
+    end
+    object lbl10: TLabel
+      Left = 99
+      Top = 192
+      Width = 30
+      Height = 13
+      Caption = 'Frota:'
+      FocusControl = edtfrota
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtremetente: TcxDBSpinEdit
+      Left = 135
+      Top = 22
+      DataBinding.DataField = 'remetente'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 0
+      OnEnter = grpContentEnter
+      Width = 100
+    end
+    object cbbremetente: TcxDBLookupComboBox
+      Left = 241
+      Top = 22
+      DataBinding.DataField = 'remetente'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Remetente'
+          FieldName = 'fantasia'
+        end>
+      Properties.ListSource = dsPessoas
+      TabOrder = 1
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object cbbdestinatario: TcxDBLookupComboBox
+      Left = 241
+      Top = 49
+      DataBinding.DataField = 'destinatario'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Destinat'#225'rio'
+          FieldName = 'fantasia'
+        end>
+      Properties.ListSource = dsPessoas
+      TabOrder = 2
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object edtdestinatario: TcxDBSpinEdit
+      Left = 135
+      Top = 49
+      DataBinding.DataField = 'destinatario'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 3
+      OnEnter = grpContentEnter
+      Width = 100
+    end
+    object edtlocal_coleta: TcxDBSpinEdit
+      Left = 135
+      Top = 76
+      DataBinding.DataField = 'origem'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 4
+      OnEnter = grpContentEnter
+      Width = 100
+    end
+    object cbblocal_coleta: TcxDBLookupComboBox
+      Left = 241
+      Top = 76
+      DataBinding.DataField = 'origem'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Cidade'
+          FieldName = 'cidade'
+        end>
+      Properties.ListSource = dsCidade
+      TabOrder = 5
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object cbblocal_entrega: TcxDBLookupComboBox
+      Left = 241
+      Top = 103
+      DataBinding.DataField = 'destino'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Cidade'
+          FieldName = 'cidade'
+        end>
+      Properties.ListSource = dsCidade
+      TabOrder = 6
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object edtlocal_entrega: TcxDBSpinEdit
+      Left = 135
+      Top = 103
+      DataBinding.DataField = 'destino'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 7
+      OnEnter = grpContentEnter
+      Width = 100
+    end
+    object cbbtipo_nota: TcxDBImageComboBox
+      Left = 135
+      Top = 130
+      DataBinding.DataField = 'tipo_nota'
+      DataBinding.DataSource = ds
+      Properties.Items = <
+        item
+          Description = 'Nota Fiscal'
+          ImageIndex = 0
+          Value = 'NF'
+        end
+        item
+          Description = 'Nota Fiscal Eletronica'
+          Value = 'NFE'
+        end
+        item
+          Description = 'Nota Fiscal Consumidor Eletronica'
+          Value = 'NFCE'
+        end>
+      TabOrder = 8
+      OnEnter = grpContentEnter
+      Width = 498
+    end
+    object edtnatureza_operacao: TcxDBTextEdit
+      Left = 135
+      Top = 159
+      DataBinding.DataField = 'cfop'
+      DataBinding.DataSource = ds
+      TabOrder = 9
+      Width = 100
+    end
+    object cbbOperacao: TcxDBLookupComboBox
+      Left = 241
+      Top = 159
+      DataBinding.DataField = 'cfop'
+      DataBinding.DataSource = ds
+      Properties.KeyFieldNames = 'chave'
+      Properties.ListColumns = <
+        item
+          Caption = 'Chave'
+          Width = 70
+          FieldName = 'chave'
+        end
+        item
+          Caption = 'Natureza'
+          Width = 170
+          FieldName = 'descricao'
+        end>
+      Properties.ListFieldIndex = 1
+      Properties.ListSource = dsOperacoes
+      TabOrder = 10
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object cbbFrota: TcxDBLookupComboBox
+      Left = 241
+      Top = 188
+      DataBinding.DataField = 'frota'
+      DataBinding.DataSource = ds
+      Properties.GridMode = True
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Placa'
+          Width = 60
+          FieldName = 'placa'
+        end
+        item
+          Caption = 'Veiculo'
+          Width = 150
+          FieldName = 'veiculo'
+        end
+        item
+          Caption = 'Motorista'
+          Width = 150
+          FieldName = 'motorista'
+        end>
+      Properties.ListFieldIndex = 1
+      Properties.ListSource = dsFrota
+      TabOrder = 11
+      OnEnter = grpContentEnter
+      Width = 392
+    end
+    object edtfrota: TcxDBSpinEdit
+      Left = 135
+      Top = 188
+      DataBinding.DataField = 'frota'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 12
+      OnEnter = grpContentEnter
+      Width = 100
+    end
+  end
+  inherited pnlHelp: TPanel
+    Width = 659
+    ExplicitWidth = 659
+    inherited mmoHelp: TMemo
+      Width = 612
+      ExplicitWidth = 612
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT codigo, '
+      #9'empresa, '
+      #9'cfop, '
+      #9'destinatario, '
+      #9'remetente, '
+      #9'origem, '
+      #9'destino, '
+      #9'tipo_nota, '
+      #9'frota'
+      '   FROM cte_parametros'
+      '  WHERE empresa = :codigo;')
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'codigo'
+        ParamType = ptInput
+        Value = 0
+      end>
+    object FieldConsultacodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object FieldConsultaempresa: TIntegerField
+      FieldName = 'empresa'
+      Required = True
+    end
+    object FieldConsultacfop: TIntegerField
+      FieldName = 'cfop'
+    end
+    object FieldConsultadestinatario: TIntegerField
+      FieldName = 'destinatario'
+    end
+    object FieldConsultaremetente: TIntegerField
+      FieldName = 'remetente'
+    end
+    object FieldConsultaorigem: TIntegerField
+      FieldName = 'origem'
+    end
+    object FieldConsultadestino: TIntegerField
+      FieldName = 'destino'
+    end
+    object FieldConsultatipo_nota: TStringField
+      FieldName = 'tipo_nota'
+      Size = 4
+    end
+    object FieldConsultafrota: TIntegerField
+      FieldName = 'frota'
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  object qOperacacoes: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      
+        'SELECT codigo, chave, descricao, master, submaster, descricao_se' +
+        'faz, '
+      '       tipo_mvto'
+      '  FROM cst_cfop'
+      ' ORDER BY chave ASC;')
+    DetailFields = 'pessoa'
+    Left = 440
+    Top = 232
+  end
+  object dsOperacoes: TUniDataSource
+    DataSet = qOperacacoes
+    Left = 484
+    Top = 232
+  end
+  object qFrota: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      
+        'SELECT codigo, transportadora, tipo, placa, identificacao, motor' +
+        'ista, veiculo, inativo'
+      '  FROM frotas'
+      ' ORDER BY placa ASC;')
+    DetailFields = 'pessoa'
+    Left = 576
+    Top = 232
+  end
+  object dsFrota: TUniDataSource
+    DataSet = qFrota
+    Left = 620
+    Top = 232
+  end
+  object qPessoas: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO pessoas'
+      
+        '  (empresa, datacadastro, nome, fantasia, nomereduzido, tipopess' +
+        'oa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_numer' +
+        'o, complemento, referencia, bairro, cep, cidade, uf, pais, tel1,' +
+        ' tel2, tel3, email, site, obs, alerta, cliente, colaborador, for' +
+        'necedor, representante, transportadora, inativo)'
+      'VALUES'
+      
+        '  (:empresa, :datacadastro, :nome, :fantasia, :nomereduzido, :ti' +
+        'popessoa, :cnpj, :ie, :im, :datanascimento, :sexo, :endereco, :e' +
+        'ndereco_numero, :complemento, :referencia, :bairro, :cep, :cidad' +
+        'e, :uf, :pais, :tel1, :tel2, :tel3, :email, :site, :obs, :alerta' +
+        ', :cliente, :colaborador, :fornecedor, :representante, :transpor' +
+        'tadora, :inativo)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoas'
+      'SET'
+      
+        '  empresa = :empresa, datacadastro = :datacadastro, nome = :nome' +
+        ', fantasia = :fantasia, nomereduzido = :nomereduzido, tipopessoa' +
+        ' = :tipopessoa, cnpj = :cnpj, ie = :ie, im = :im, datanascimento' +
+        ' = :datanascimento, sexo = :sexo, endereco = :endereco, endereco' +
+        '_numero = :endereco_numero, complemento = :complemento, referenc' +
+        'ia = :referencia, bairro = :bairro, cep = :cep, cidade = :cidade' +
+        ', uf = :uf, pais = :pais, tel1 = :tel1, tel2 = :tel2, tel3 = :te' +
+        'l3, email = :email, site = :site, obs = :obs, alerta = :alerta, ' +
+        'cliente = :cliente, colaborador = :colaborador, fornecedor = :fo' +
+        'rnecedor, representante = :representante, transportadora = :tran' +
+        'sportadora, inativo = :inativo'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, datacadastro, nome, fantasia, nomereduzido, tipo' +
+        'pessoa, cnpj, ie, im, datanascimento, sexo, endereco, endereco_n' +
+        'umero, complemento, referencia, bairro, cep, cidade, uf, pais, t' +
+        'el1, tel2, tel3, email, site, obs, alerta, cliente, colaborador,' +
+        ' fornecedor, representante, transportadora, inativo FROM pessoas'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoas'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT '#9'ps.codigo, '
+      #9'ps.empresa, '
+      #9'ps.datacadastro, '
+      #9'ps.nome, '
+      #9'ps.fantasia, '
+      #9'ps.cnpj'
+      '  FROM pessoas ps;')
+    MasterSource = ds
+    Left = 432
+  end
+  object dsPessoas: TUniDataSource
+    DataSet = qPessoas
+    Left = 480
+  end
+  object qCidade: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT'#9'cd.codigo, '
+      #9'cd.cidade, '
+      #9'cd.uf'
+      '  FROM  cidades cd'
+      ' ORDER BY cidade ASC;')
+    DetailFields = 'pessoa'
+    Left = 552
+  end
+  object dsCidade: TUniDataSource
+    DataSet = qCidade
+    Left = 596
+  end
+end

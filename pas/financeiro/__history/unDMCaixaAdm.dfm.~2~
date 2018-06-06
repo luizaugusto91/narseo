@@ -1,0 +1,9 @@
+object dmCaixaAdm: TdmCaixaAdm
+  OldCreateOrder = False
+  Height = 412
+  Width = 701
+  object qSQL: TUniQuery
+    Left = 424
+    Top = 272
+  end
+end

@@ -1,0 +1,48 @@
+unit unCadRegrasPrecosProdutos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unCad, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.ImgList, Data.DB, MemDS,
+  DBAccess, Uni, Vcl.StdCtrls, dxGDIPlusClasses, cxImage, Vcl.ExtCtrls,
+  cxCurrencyEdit, cxDBEdit, cxDropDownEdit, cxCalc, cxLookupEdit,
+  cxDBLookupEdit, cxDBLookupComboBox, cxTextEdit, cxMaskEdit, cxSpinEdit;
+
+type
+  TfrmCadRegrasPrecosProdutos = class(TfrmCad)
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    lbl1: TLabel;
+    edtproduto: TcxDBSpinEdit;
+    cbbProduto: TcxDBLookupComboBox;
+    lbl2: TLabel;
+    edtmarkup_vista: TcxDBCalcEdit;
+    lbl3: TLabel;
+    edtvalor_vista: TcxDBCurrencyEdit;
+    lbl4: TLabel;
+    edtmarkup_prazo: TcxDBCalcEdit;
+    lbl5: TLabel;
+    edtvalor_prazo: TcxDBCurrencyEdit;
+    qProduto: TUniQuery;
+    dsProduto: TUniDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmCadRegrasPrecosProdutos: TfrmCadRegrasPrecosProdutos;
+
+implementation
+
+{$R *.dfm}
+
+end.

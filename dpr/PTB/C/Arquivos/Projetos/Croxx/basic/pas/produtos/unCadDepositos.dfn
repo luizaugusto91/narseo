@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadDepositos.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadDepositos.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0943055556</prop>
+        <prop prop-type="OrigDateTime">42759.0351157407</prop>
+        <prop prop-type="XlatDateTime">42759.0351157407</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">260</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmCadDepositos.Caption" resname="I:frmCadDepositos.Caption">
+        <source>'Depósitos de Produtos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.ClientHeight" resname="I:frmCadDepositos.ClientHeight">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.ClientWidth" resname="I:frmCadDepositos.ClientWidth">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.ExplicitWidth" resname="I:frmCadDepositos.ExplicitWidth">
+        <source>446</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.ExplicitHeight" resname="I:frmCadDepositos.ExplicitHeight">
+        <source>377</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.PixelsPerInch" resname="I:frmCadDepositos.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.TextHeight" resname="I:frmCadDepositos.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmCadDepositos</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.Top" resname="I:frmCadDepositos.I:pnlBotton.Top">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.Width" resname="I:frmCadDepositos.I:pnlBotton.Width">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.ExplicitTop" resname="I:frmCadDepositos.I:pnlBotton.ExplicitTop">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.ExplicitWidth" resname="I:frmCadDepositos.I:pnlBotton.ExplicitWidth">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnCancelar.Left" resname="I:frmCadDepositos.I:pnlBotton.I:btnCancelar.Left">
+        <source>164</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnCancelar.ExplicitLeft" resname="I:frmCadDepositos.I:pnlBotton.I:btnCancelar.ExplicitLeft">
+        <source>164</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnSalvar.Left" resname="I:frmCadDepositos.I:pnlBotton.I:btnSalvar.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnSalvar.ExplicitLeft" resname="I:frmCadDepositos.I:pnlBotton.I:btnSalvar.ExplicitLeft">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnFechar.Left" resname="I:frmCadDepositos.I:pnlBotton.I:btnFechar.Left">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlBotton.I:btnFechar.ExplicitLeft" resname="I:frmCadDepositos.I:pnlBotton.I:btnFechar.ExplicitLeft">
+        <source>348</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.Width" resname="I:frmCadDepositos.I:grpContent.Width">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.Height" resname="I:frmCadDepositos.I:grpContent.Height">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.Visible" resname="I:frmCadDepositos.I:grpContent.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.ExplicitWidth" resname="I:frmCadDepositos.I:grpContent.ExplicitWidth">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.ExplicitHeight" resname="I:frmCadDepositos.I:grpContent.ExplicitHeight">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.Left" resname="I:frmCadDepositos.I:grpContent.O:Label1.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.Top" resname="I:frmCadDepositos.I:grpContent.O:Label1.Top">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.Width" resname="I:frmCadDepositos.I:grpContent.O:Label1.Width">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.Height" resname="I:frmCadDepositos.I:grpContent.O:Label1.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.Caption" resname="I:frmCadDepositos.I:grpContent.O:Label1.Caption">
+        <source>'Código:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label1.FocusControl" resname="I:frmCadDepositos.I:grpContent.O:Label1.FocusControl">
+        <source>cxDBSpinEdit1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.Left" resname="I:frmCadDepositos.I:grpContent.O:Label2.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.Top" resname="I:frmCadDepositos.I:grpContent.O:Label2.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.Width" resname="I:frmCadDepositos.I:grpContent.O:Label2.Width">
+        <source>58</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.Height" resname="I:frmCadDepositos.I:grpContent.O:Label2.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.Caption" resname="I:frmCadDepositos.I:grpContent.O:Label2.Caption">
+        <source>'Descrição:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label2.FocusControl" resname="I:frmCadDepositos.I:grpContent.O:Label2.FocusControl">
+        <source>cxDBTextEdit1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.Left" resname="I:frmCadDepositos.I:grpContent.O:Label3.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.Top" resname="I:frmCadDepositos.I:grpContent.O:Label3.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.Width" resname="I:frmCadDepositos.I:grpContent.O:Label3.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.Height" resname="I:frmCadDepositos.I:grpContent.O:Label3.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.Caption" resname="I:frmCadDepositos.I:grpContent.O:Label3.Caption">
+        <source>'Departamento:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:Label3.FocusControl" resname="I:frmCadDepositos.I:grpContent.O:Label3.FocusControl">
+        <source>cxDBSpinEdit2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Left" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Left">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Top" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.DataBinding.DataField" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.DataBinding.DataField">
+        <source>'departamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.DataBinding.DataSource" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276157</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.KeyFieldNames" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.KeyFieldNames">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].Caption" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].Caption">
+        <source>'Descrição'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].Width" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].Width">
+        <source>260</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].FieldName" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListColumns[0].FieldName">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListSource" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Properties.ListSource">
+        <source>dsDepartamentos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.TabOrder" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.OnEnter" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Width" resname="I:frmCadDepositos.I:grpContent.O:cbbDepartamento.Width">
+        <source>254</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Left" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Top" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Top">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Caption" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Caption">
+        <source>'Permitir estoque negativo.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.DataBinding.DataField" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.DataBinding.DataField">
+        <source>'estoque_negativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.DataBinding.DataSource" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.TabOrder" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.OnEnter" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Width" resname="I:frmCadDepositos.I:grpContent.O:cxDBCheckBox1.Width">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Left" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Left">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Top" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Top">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.DataBinding.DataField" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.DataBinding.DataField">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.DataBinding.DataSource" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Enabled" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Properties.SpinButtons.Visible" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Properties.SpinButtons.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.TabOrder" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Width" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit1.Width">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Left" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Top" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.DataBinding.DataField" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.DataBinding.DataField">
+        <source>'departamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.DataBinding.DataSource" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Properties.SpinButtons.Visible" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Properties.SpinButtons.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.TabOrder" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.OnEnter" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Width" resname="I:frmCadDepositos.I:grpContent.O:cxDBSpinEdit2.Width">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Left" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Left">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Top" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Top">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.DataBinding.DataField" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.DataBinding.DataField">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.DataBinding.DataSource" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Properties.CharCase" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Properties.CharCase">
+        <source>ecUpperCase</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.TabOrder" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.OnEnter" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Width" resname="I:frmCadDepositos.I:grpContent.O:cxDBTextEdit1.Width">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.AlignWithMargins" resname="I:frmCadDepositos.O:grpGrupos.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Left" resname="I:frmCadDepositos.O:grpGrupos.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Top" resname="I:frmCadDepositos.O:grpGrupos.Top">
+        <source>179</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Width" resname="I:frmCadDepositos.O:grpGrupos.Width">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Height" resname="I:frmCadDepositos.O:grpGrupos.Height">
+        <source>134</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Margins.Left" resname="I:frmCadDepositos.O:grpGrupos.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Margins.Right" resname="I:frmCadDepositos.O:grpGrupos.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Margins.Bottom" resname="I:frmCadDepositos.O:grpGrupos.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Align" resname="I:frmCadDepositos.O:grpGrupos.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.Caption" resname="I:frmCadDepositos.O:grpGrupos.Caption">
+        <source>' Grupo de Produtos '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TGroupBox [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.AlignWithMargins" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.Left" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.Top" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.Width" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.Width">
+        <source>395</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.Height" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.Height">
+        <source>109</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.Align" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.Navigator.Buttons.CustomButtons" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.DataSource" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.DataSource">
+        <source>dsGrupos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.DefaultGroupSummaryItems" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.DefaultGroupSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.FooterSummaryItems" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.FooterSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.SummaryGroups" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.DataController.Summary.SummaryGroups">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.ColumnAutoWidth" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.ColumnAutoWidth">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.GroupByBox" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.GroupByBox">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.Indicator" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.OptionsView.Indicator">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.Styles.Header" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.Styles.Header">
+        <source>StyleTitle</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.Caption" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.Caption">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.DataBinding.FieldName" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.DataBinding.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.Width" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewID.Width">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.Caption" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.Caption">
+        <source>'Descrição'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.DataBinding.FieldName" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.DataBinding.FieldName">
+        <source>'descricao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.Width" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:View.O:ColViewDescricao.Width">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:Grid.O:Master.GridView" resname="I:frmCadDepositos.O:grpGrupos.O:Grid.O:Master.GridView">
+        <source>View</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Left">
+        <source>403</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Top" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Width" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Width">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Height" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Height">
+        <source>115</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Top" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Right" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Bottom" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Align" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.BevelOuter" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Enabled" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Top" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Width" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Width">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Height" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.HotImageIndex" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.HotImageIndex">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.ImageIndex" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.ImageIndex">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.ImageMargins.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.ImageMargins.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Images" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnAdd.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Top" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Top">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Width" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Width">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Height" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Height">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.ImageIndex" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.ImageIndex">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.ImageMargins.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.ImageMargins.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Images" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnRemove.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Top" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Top">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Width" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Width">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Height" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Height">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.ImageIndex" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.ImageIndex">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.ImageMargins.Left" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.ImageMargins.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Images" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.TabOrder" resname="I:frmCadDepositos.O:grpGrupos.O:pnlTool.O:btnReload.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlHelp.Width" resname="I:frmCadDepositos.I:pnlHelp.Width">
+        <source>431</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlHelp.ExplicitWidth" resname="I:frmCadDepositos.I:pnlHelp.ExplicitWidth">
+        <source>431</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:pnlHelp.I:mmoHelp.Width" resname="I:frmCadDepositos.I:pnlHelp.I:mmoHelp.Width">
+        <source>384</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:ds.Left" resname="I:frmCadDepositos.I:ds.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:ds.Top" resname="I:frmCadDepositos.I:ds.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[0]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[0]">
+        <source>'SELECT '#9'codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[1]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[1]">
+        <source>#9'nome, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[2]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[2]">
+        <source>#9'departamento, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[3]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[3]">
+        <source>#9'liquido, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[4]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[4]">
+        <source>#9'produto, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[5]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[5]">
+        <source>#9'capacidade, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[6]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[6]">
+        <source>#9'estoque_negativo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[7]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[7]">
+        <source>#9'unidade_medida'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[8]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[8]">
+        <source>'  FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.SQL.Strings[9]" resname="I:frmCadDepositos.I:qConsulta.SQL.Strings[9]">
+        <source>' where liquido = false and codigo = :codigo;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.Left" resname="I:frmCadDepositos.I:qConsulta.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:qConsulta.Top" resname="I:frmCadDepositos.I:qConsulta.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:ImageList16.FormatVersion" resname="I:frmCadDepositos.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.I:ImageList16.DesignInfo" resname="I:frmCadDepositos.I:ImageList16.DesignInfo">
+        <source>188</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.Tag" resname="I:frmCadDepositos.O:qGrupos.Tag">
+        <source>7100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[0]">
+        <source>'INSERT INTO deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[1]">
+        <source>'  (nome, departamento, liquido, produto, capacidade, estoque_negativo, unidade_medida, novo)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[2]">
+        <source>'VALUES'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[3]" resname="I:frmCadDepositos.O:qGrupos.SQLInsert.Strings[3]">
+        <source>'  (:nome, :departamento, :liquido, :produto, :capacidade, :estoque_negativo, :unidade_medida, :novo)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[0]">
+        <source>'DELETE FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLDelete.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[0]">
+        <source>'UPDATE deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[1]">
+        <source>'SET'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[2]">
+        <source>'  nome = :nome, departamento = :departamento, liquido = :liquido, produto = :produto, capacidade = :capacidade, estoque_negativo = :estoque_negativo, unidade_medida = :unidade_medida, novo = :novo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[3]" resname="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[3]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[4]" resname="I:frmCadDepositos.O:qGrupos.SQLUpdate.Strings[4]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[0]">
+        <source>'SELECT * FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094327662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[3]" resname="I:frmCadDepositos.O:qGrupos.SQLLock.Strings[3]">
+        <source>'FOR UPDATE NOWAIT'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[0]">
+        <source>'SELECT nome, departamento, liquido, produto, capacidade, estoque_negativo, unidade_medida, novo FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLRefresh.Strings[2]">
+        <source>'  codigo = :codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[0]">
+        <source>'SELECT count(*) FROM ('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[1]">
+        <source>'SELECT * FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[2]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[3]" resname="I:frmCadDepositos.O:qGrupos.SQLRecCount.Strings[3]">
+        <source>') t'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.Connection" resname="I:frmCadDepositos.O:qGrupos.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[0]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[0]">
+        <source>'SELECT '#9'dg.codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[1]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[1]">
+        <source>#9'dg.deposito, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[2]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[2]">
+        <source>#9'dg.grupo,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[3]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[3]">
+        <source>#9'gp.descricao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[4]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[4]">
+        <source>'  FROM deposito_grupo_produto dg'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[5]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[5]">
+        <source>'  left join produto_grupos gp on gp.codigo = dg.grupo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.SQL.Strings[6]" resname="I:frmCadDepositos.O:qGrupos.SQL.Strings[6]">
+        <source>' where dg.deposito = :codigo;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.MasterSource" resname="I:frmCadDepositos.O:qGrupos.MasterSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.MasterFields" resname="I:frmCadDepositos.O:qGrupos.MasterFields">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.DetailFields" resname="I:frmCadDepositos.O:qGrupos.DetailFields">
+        <source>'deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.Left" resname="I:frmCadDepositos.O:qGrupos.Left">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.Top" resname="I:frmCadDepositos.O:qGrupos.Top">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.ParamData[0].DataType" resname="I:frmCadDepositos.O:qGrupos.ParamData[0].DataType">
+        <source>ftInteger</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.ParamData[0].Name" resname="I:frmCadDepositos.O:qGrupos.ParamData[0].Name">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276736</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.ParamData[0].ParamType" resname="I:frmCadDepositos.O:qGrupos.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.ParamData[0].Value" resname="I:frmCadDepositos.O:qGrupos.ParamData[0].Value">
+        <source>nil</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposcodigo.FieldName" resname="I:frmCadDepositos.O:qGrupos.O:qGruposcodigo.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposdeposito.FieldName" resname="I:frmCadDepositos.O:qGrupos.O:qGruposdeposito.FieldName">
+        <source>'deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposdeposito.Required" resname="I:frmCadDepositos.O:qGrupos.O:qGruposdeposito.Required">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposgrupo.FieldName" resname="I:frmCadDepositos.O:qGrupos.O:qGruposgrupo.FieldName">
+        <source>'grupo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposgrupo.Required" resname="I:frmCadDepositos.O:qGrupos.O:qGruposgrupo.Required">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.FieldName" resname="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.FieldName">
+        <source>'descricao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.ReadOnly" resname="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.Size" resname="I:frmCadDepositos.O:qGrupos.O:qGruposdescricao.Size">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsGrupos.DataSet" resname="I:frmCadDepositos.O:dsGrupos.DataSet">
+        <source>qGrupos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsGrupos.Left" resname="I:frmCadDepositos.O:dsGrupos.Left">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsGrupos.Top" resname="I:frmCadDepositos.O:dsGrupos.Top">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.Left" resname="I:frmCadDepositos.O:StyleRepository.Left">
+        <source>342</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.Top" resname="I:frmCadDepositos.O:StyleRepository.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.PixelsPerInch" resname="I:frmCadDepositos.O:StyleRepository.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.AssignedValues" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.AssignedValues">
+        <source>[svColor, svFont, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Color" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Color">
+        <source>clHighlight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Charset" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Color" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Height" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Name" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Style" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.TextColor" resname="I:frmCadDepositos.O:StyleRepository.O:StyleSelecionado.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.AssignedValues" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.AssignedValues">
+        <source>[svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Charset" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276852</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Color" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Height" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Name" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Style" resname="I:frmCadDepositos.O:StyleRepository.O:StyleNeutro.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.AssignedValues" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.AssignedValues">
+        <source>[svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Charset" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Color" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Height" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Name" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Style" resname="I:frmCadDepositos.O:StyleRepository.O:StyleTitle.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.Tag" resname="I:frmCadDepositos.O:qDepartamentos.Tag">
+        <source>7100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.Connection" resname="I:frmCadDepositos.O:qDepartamentos.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[0]" resname="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[0]">
+        <source>'SELECT codigo, nome, descricao, turno_inicio, turno_fim, responsavel, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[1]" resname="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[1]">
+        <source>'       desativado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[2]" resname="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[2]">
+        <source>'  FROM departamentos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[3]" resname="I:frmCadDepositos.O:qDepartamentos.SQL.Strings[3]">
+        <source>' WHERE desativado = false;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.Left" resname="I:frmCadDepositos.O:qDepartamentos.Left">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:qDepartamentos.Top" resname="I:frmCadDepositos.O:qDepartamentos.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsDepartamentos.DataSet" resname="I:frmCadDepositos.O:dsDepartamentos.DataSet">
+        <source>qDepartamentos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsDepartamentos.Left" resname="I:frmCadDepositos.O:dsDepartamentos.Left">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadDepositos.O:dsDepartamentos.Top" resname="I:frmCadDepositos.O:dsDepartamentos.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943276968</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

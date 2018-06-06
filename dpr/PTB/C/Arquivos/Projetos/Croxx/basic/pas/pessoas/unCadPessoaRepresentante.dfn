@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaRepresentante.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaRepresentante.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0943055556</prop>
+        <prop prop-type="OrigDateTime">42760.8206018519</prop>
+        <prop prop-type="XlatDateTime">42760.8206018519</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">19</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmCadPessoaRepresentante.Caption" resname="I:frmCadPessoaRepresentante.Caption">
+        <source>'Cadastro de Pessoas - Representante'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmCadPessoaRepresentante</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.ExplicitWidth" resname="I:frmCadPessoaRepresentante.ExplicitWidth">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmCadPessoaRepresentante</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.ExplicitHeight" resname="I:frmCadPessoaRepresentante.ExplicitHeight">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmCadPessoaRepresentante</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.PixelsPerInch" resname="I:frmCadPessoaRepresentante.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmCadPessoaRepresentante</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.TextHeight" resname="I:frmCadPessoaRepresentante.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmCadPessoaRepresentante</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent." resname="I:frmCadPessoaRepresentante.I:grpContent.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo." resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl." resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943214931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato." resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco." resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitLeft" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitTop" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitWidth" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.I:cbbUF.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabPrincipal.I:cbbUF.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitLeft" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitTop" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitWidth" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.I:cbbcobuf.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabCobranca.I:cbbcobuf.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitWidth" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.ExplicitHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.I:cbbentuf.ExplicitHeight" resname="I:frmCadPessoaRepresentante.I:grpContent.I:grpInfo.I:PageControl.I:TabContato.I:PageControlEndereco.I:TabEntrega.I:cbbentuf.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxDBImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadPessoaRepresentante.I:ImageList16.FormatVersion" resname="I:frmCadPessoaRepresentante.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943215046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,47 @@
+unit unViewContasPagarPagamentos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unView, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, cxStyles,
+  dxSkinscxPCPainter, cxCustomData, cxFilter, cxData, cxDataStorage,
+  cxNavigator, Data.DB, cxDBData, cxClasses, cxGridLevel, cxGridCustomView,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGrid,
+  Vcl.ImgList, MemDS, DBAccess, Uni, Vcl.StdCtrls, dxGDIPlusClasses, cxImage,
+  Vcl.ExtCtrls;
+
+type
+  TfrmViewContasPagarPagamentos = class(TfrmView)
+    grp1: TGroupBox;
+    Grid: TcxGrid;
+    View: TcxGridDBTableView;
+    Master: TcxGridLevel;
+    StyleRepository: TcxStyleRepository;
+    StyleHeader: TcxStyle;
+    StyleItemInativo: TcxStyle;
+    StyleItemAtivo: TcxStyle;
+    StylePendente: TcxStyle;
+    StyleCancelado: TcxStyle;
+    StyleQuitado: TcxStyle;
+    StyleVencido: TcxStyle;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmViewContasPagarPagamentos: TfrmViewContasPagarPagamentos;
+
+implementation
+
+{$R *.dfm}
+
+end.

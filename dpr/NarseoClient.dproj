@@ -1,0 +1,2489 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{7B0DD238-2244-4C25-9FFE-41CB674B5428}</ProjectGuid>
+        <ProjectVersion>16.0</ProjectVersion>
+        <FrameworkType>VCL</FrameworkType>
+        <MainSource>NarseoClient.dpr</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
+        <Icon_MainIcon>..\..\outher\pic\favicon.ico</Icon_MainIcon>
+        <VerInfo_Locale>1046</VerInfo_Locale>
+        <VerInfo_Keys>FileVersion=1.0.0.0</VerInfo_Keys>
+        <DCC_UnitSearchPath>..\pas;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <SanitizedProjectName>NarseoClient</SanitizedProjectName>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <DCC_DcpOutput>..\dcp</DCC_DcpOutput>
+        <DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_DcuOutput>..\dcu</DCC_DcuOutput>
+        <DCC_ExeOutput>..\exe</DCC_ExeOutput>
+        <DCC_E>false</DCC_E>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <Icon_MainIcon>..\..\outher\pic\artes\icone.ico</Icon_MainIcon>
+        <VerInfo_Release>1</VerInfo_Release>
+        <VerInfo_Build>1</VerInfo_Build>
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <DCC_UsePackage>dxPScxSchedulerLnkRS21;JvGlobus;JvMM;cxSchedulerRibbonStyleEventEditorRS21;JvManagedThreads;ACBr_BoletoFR;cxSchedulerRS21;ACBr_BoletoRL;FireDACPgDriver;ACBr_GNRE;dxSkinOffice2007BlueRS21;JvCrypt;cxTreeListdxBarPopupMenuRS21;dxSkinHighContrastRS21;ACBr_NFeDanfeFR;cxPivotGridRS21;dxSkinSevenRS21;DBXInterBaseDriver;DataSnapServer;DataSnapCommon;ACBr_BlocoX;ACBr_synapse;JvNet;dxGaugeControlRS21;JvDotNetCtrls;cxEditorsRS21;DbxCommonDriver;vclimg;cxPivotGridOLAPRS21;dxTileControlRS21;dbxcds;dxPsPrVwAdvRS21;DatasnapConnectorsFreePascal;dxSkinSilverRS21;JvXPCtrls;dxSkinMoneyTwinsRS21;ACBr_Comum;vcldb;cxTreeListRS21;ACBr_MDFeDamdfeRL;ACBr_SATExtratoESCPOS;dxdborRS21;dxBarExtItemsRS21;dxWizardControlRS21;dxSkinBlueprintRS21;ACBr_GNREGuiaRL;CustomIPTransport;dsnap;IndyIPServer;dxSkinOffice2010BlackRS21;ACBr_MDFe;IndyCore;dxSkinsdxBarPainterRS21;dxSkinValentineRS21;CloudService;dxSkinDevExpressStyleRS21;FmxTeeUI;FireDACIBDriver;dxSkinCaramelRS21;dxPScxPCProdRS21;dac210;dxSkinOffice2013DarkGrayRS21;ACBr_SAT;JvDB;JvRuntimeDesign;dxDockingRS21;ACBr_CTeDacteFR;dxLayoutControlRS21;dsnapxml;ACBr_Ponto;JclDeveloperTools;FireDACDb2Driver;ACBR_DeSTDA;dxSkinscxSchedulerPainterRS21;dxPSLnksRS21;dxPSdxDBOCLnkRS21;dxSkinVS2010RS21;ACBr_SEF2;cxLibraryRS21;bindcompfmx;ACBr_PAF;cxDataRS21;dxComnRS21;FireDACODBCDriver;RESTBackendComponents;dxSkinBlackRS21;dxSkinDarkSideRS21;dbrtl;FireDACCommon;bindcomp;inetdb;JvPluginSystem;dxPScxTLLnkRS21;ACBr_NFe;DBXOdbcDriver;JvCmp;vclFireDAC;JvTimeFramework;xmlrtl;ibxpress;cxExportRS21;FireDACCommonDriver;dxSkinOffice2007PinkRS21;dxFlowChartRS21;bindengine;vclactnband;soaprtl;FMXTee;dacvcl210;ACBr_CTeDacteRL;bindcompvcl;cxPageControlRS21;dxCoreRS21;Jcl;vclie;dcldxSkinsCoreRS21;dxSkinOffice2007BlackRS21;dxPSCoreRS21;ACBr_TEFD;dxPSdxDBTVLnkRS21;dxPScxCommonRS21;dxADOServerModeRS21;FireDACMSSQLDriver;DBXInformixDriver;dxSkinLilianRS21;Intraweb;ACBr_SATExtratoRL;dxPSTeeChartRS21;DataSnapServerMidas;dxSkinWhiteprintRS21;dsnapcon;DBXFirebirdDriver;dxNavBarRS21;inet;dxRibbonRS21;dxSkinsdxNavBarPainterRS21;JvPascalInterpreter;FireDACMySQLDriver;soapmidas;vclx;dxSkinOffice2013WhiteRS21;cxBarEditItemRS21;dxSkinsCoreRS21;unidacvcl210;DBXSybaseASADriver;ACBr_SPEDImportar;dxFireDACServerModeRS21;dxSkinSharpPlusRS21;RESTComponents;dbexpress;dxSkinSevenClassicRS21;IndyIPClient;dxThemeRS21;ACBr_Convenio115;FireDACSqliteDriver;dxSkinBlueRS21;FireDACDSDriver;dxDBXServerModeRS21;DBXSqliteDriver;dxSkinsdxDLPainterRS21;fmx;dxSkinMetropolisRS21;JvDlgs;IndySystem;frxe21;TeeDB;tethering;dxSpreadSheetRS21;cxVerticalGridRS21;dxSkinGlassOceansRS21;dxSkinMetropolisDarkRS21;vclib;dxSkinSummer2008RS21;DataSnapClient;dxPScxPivotGridLnkRS21;ACBr_Diversos;frx21;ACBr_NFeDanfeESCPOS;DataSnapProviderClient;dxPSPrVwRibbonRS21;DBXSybaseASEDriver;unidac210;ACBr_MDFeDamdfeFR;cxGridRS21;MetropolisUILiveTile;ACBr_NFSeDanfseFR;unidacfmx210;vcldsnap;dxSpellCheckerRS21;dxSkinLondonLiquidSkyRS21;dxSkinMcSkinRS21;dxSkinOffice2010SilverRS21;dxSkinOffice2007GreenRS21;crcontrols210;fmxFireDAC;DBXDb2Driver;dxSkinFoggyRS21;frce;DBXOracleDriver;JvCore;ACBr_Serial;vclribbon;dxtrmdRS21;ACBr_SPED;fmxase;vcl;dxBarExtDBItemsRS21;ACBr_DFeComum;dxGDIPlusRS21;DBXMSSQLDriver;IndyIPCommon;CodeSiteExpressPkg;dxPSDBTeeChartRS21;ACBr_NFSeDanfseRL;dxSkinOffice2007SilverRS21;ACBr_Boleto;DataSnapFireDAC;FireDACDBXDriver;dxPSdxSpreadSheetLnkRS21;JvAppFrm;soapserver;dxSkinStardustRS21;ACBr_Sintegra;dxdbtrRS21;inetdbxpress;ACBr_NFSe;FireDACInfxDriver;dxPScxGridLnkRS21;dxPSdxFCLnkRS21;dxSkinCoffeeRS21;ACBr_LFD;ACBr_PCNComum;JvDocking;adortl;JvWizards;ACBr_TCP;FireDACASADriver;JvHMI;JvBands;dxTabbedMDIRS21;emsclientfiredac;rtl;dxPSdxOCLnkRS21;DbxClientDriver;dxorgcRS21;frxTee21;dxPScxExtCommonRS21;dxSkinDarkRoomRS21;ACBr_MTER;Tee;JclContainers;dxPSdxLCLnkRS21;ACBr_CTe;ACBr_GNREGuiaFR;frxDB21;dxMapControlRS21;dacfmx210;JvSystem;ACBr_NFCeECFVirtual;DataSnapNativeClient;svnui;JvControls;dxSkinSpringTimeRS21;IndyProtocols;DBXMySQLDriver;cxPivotGridChartRS21;ACBr_NFeDanfeRL;dxSkinOffice2013LightGrayRS21;dxSkinPumpkinRS21;bindcompdbx;TeeUI;JvJans;JvPrintPreview;JvPageComps;JvStdCtrls;JvCustom;dxmdsRS21;cxSchedulerTreeBrowserRS21;fs21;dxSkinDevExpressDarkStyleRS21;dxSkinSharpRS21;FireDACADSDriver;vcltouch;ACBr_OpenSSL;dxSkinscxPCPainterRS21;dxServerModeRS21;emsclient;dxSkinsdxRibbonPainterRS21;VCLRESTComponents;FireDAC;VclSmp;dxBarDBNavRS21;dxSkinTheAsphaltWorldRS21;dxSkinXmas2008BlueRS21;DataSnapConnectors;dxSkinLiquidSkyRS21;ACBr_SATECFVirtual;cxSchedulerGridRS21;ACBr_TXTComum;fmxobj;JclVcl;dxPScxVGridLnkRS21;svn;dxBarRS21;FireDACOracleDriver;fmxdae;dxSkinOffice2010BlueRS21;FireDACMSAccDriver;DataSnapIndy10ServerTransport;dxSkiniMaginaryRS21;$(DCC_UsePackage)</DCC_UsePackage>
+        <VerInfo_Keys>CompanyName=Jovemti;FileDescription=Narseo;FileVersion=1.0.1.1;InternalName=Narseo;LegalCopyright=Jovemti @2017;LegalTrademarks=;OriginalFilename=NarseoClient.exe;ProductName=Narseo LAS;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <DCC_UsePackage>dxPScxSchedulerLnkRS21;cxSchedulerRibbonStyleEventEditorRS21;cxSchedulerRS21;FireDACPgDriver;dxSkinOffice2007BlueRS21;cxTreeListdxBarPopupMenuRS21;dxSkinHighContrastRS21;cxPivotGridRS21;dxSkinSevenRS21;DBXInterBaseDriver;DataSnapServer;DataSnapCommon;dxGaugeControlRS21;cxEditorsRS21;DbxCommonDriver;vclimg;cxPivotGridOLAPRS21;dxTileControlRS21;dbxcds;dxPsPrVwAdvRS21;DatasnapConnectorsFreePascal;dxSkinSilverRS21;dxSkinMoneyTwinsRS21;vcldb;cxTreeListRS21;dxdborRS21;dxBarExtItemsRS21;dxWizardControlRS21;dxSkinBlueprintRS21;CustomIPTransport;dsnap;IndyIPServer;dxSkinOffice2010BlackRS21;IndyCore;dxSkinsdxBarPainterRS21;dxSkinValentineRS21;CloudService;dxSkinDevExpressStyleRS21;FmxTeeUI;FireDACIBDriver;dxSkinCaramelRS21;dxPScxPCProdRS21;dxSkinOffice2013DarkGrayRS21;dxDockingRS21;dxLayoutControlRS21;dsnapxml;FireDACDb2Driver;dxSkinscxSchedulerPainterRS21;dxPSLnksRS21;dxPSdxDBOCLnkRS21;dxSkinVS2010RS21;cxLibraryRS21;bindcompfmx;cxDataRS21;dxComnRS21;FireDACODBCDriver;RESTBackendComponents;dxSkinBlackRS21;dxSkinDarkSideRS21;dbrtl;FireDACCommon;bindcomp;inetdb;dxPScxTLLnkRS21;DBXOdbcDriver;vclFireDAC;xmlrtl;ibxpress;cxExportRS21;FireDACCommonDriver;dxSkinOffice2007PinkRS21;dxFlowChartRS21;bindengine;vclactnband;soaprtl;FMXTee;bindcompvcl;cxPageControlRS21;dxCoreRS21;vclie;dcldxSkinsCoreRS21;dxSkinOffice2007BlackRS21;dxPSCoreRS21;dxPSdxDBTVLnkRS21;dxPScxCommonRS21;dxADOServerModeRS21;FireDACMSSQLDriver;DBXInformixDriver;dxSkinLilianRS21;Intraweb;dxPSTeeChartRS21;DataSnapServerMidas;dxSkinWhiteprintRS21;dsnapcon;DBXFirebirdDriver;dxNavBarRS21;inet;dxRibbonRS21;dxSkinsdxNavBarPainterRS21;FireDACMySQLDriver;soapmidas;vclx;dxSkinOffice2013WhiteRS21;cxBarEditItemRS21;dxSkinsCoreRS21;DBXSybaseASADriver;dxFireDACServerModeRS21;dxSkinSharpPlusRS21;RESTComponents;dbexpress;dxSkinSevenClassicRS21;IndyIPClient;dxThemeRS21;FireDACSqliteDriver;dxSkinBlueRS21;FireDACDSDriver;dxDBXServerModeRS21;DBXSqliteDriver;dxSkinsdxDLPainterRS21;fmx;dxSkinMetropolisRS21;IndySystem;TeeDB;tethering;dxSpreadSheetRS21;cxVerticalGridRS21;dxSkinGlassOceansRS21;dxSkinMetropolisDarkRS21;vclib;dxSkinSummer2008RS21;DataSnapClient;dxPScxPivotGridLnkRS21;DataSnapProviderClient;dxPSPrVwRibbonRS21;DBXSybaseASEDriver;cxGridRS21;MetropolisUILiveTile;vcldsnap;dxSpellCheckerRS21;dxSkinLondonLiquidSkyRS21;dxSkinMcSkinRS21;dxSkinOffice2010SilverRS21;dxSkinOffice2007GreenRS21;fmxFireDAC;DBXDb2Driver;dxSkinFoggyRS21;DBXOracleDriver;vclribbon;dxtrmdRS21;fmxase;vcl;dxBarExtDBItemsRS21;dxGDIPlusRS21;DBXMSSQLDriver;IndyIPCommon;dxPSDBTeeChartRS21;dxSkinOffice2007SilverRS21;DataSnapFireDAC;FireDACDBXDriver;dxPSdxSpreadSheetLnkRS21;soapserver;dxSkinStardustRS21;dxdbtrRS21;inetdbxpress;FireDACInfxDriver;dxPScxGridLnkRS21;dxPSdxFCLnkRS21;dxSkinCoffeeRS21;adortl;FireDACASADriver;dxTabbedMDIRS21;emsclientfiredac;rtl;dxPSdxOCLnkRS21;DbxClientDriver;dxorgcRS21;dxPScxExtCommonRS21;dxSkinDarkRoomRS21;Tee;dxPSdxLCLnkRS21;dxMapControlRS21;DataSnapNativeClient;dxSkinSpringTimeRS21;IndyProtocols;DBXMySQLDriver;cxPivotGridChartRS21;dxSkinOffice2013LightGrayRS21;dxSkinPumpkinRS21;bindcompdbx;TeeUI;dxmdsRS21;cxSchedulerTreeBrowserRS21;dxSkinDevExpressDarkStyleRS21;dxSkinSharpRS21;FireDACADSDriver;vcltouch;dxSkinscxPCPainterRS21;dxServerModeRS21;emsclient;dxSkinsdxRibbonPainterRS21;VCLRESTComponents;FireDAC;VclSmp;dxBarDBNavRS21;dxSkinTheAsphaltWorldRS21;dxSkinXmas2008BlueRS21;DataSnapConnectors;dxSkinLiquidSkyRS21;cxSchedulerGridRS21;fmxobj;dxPScxVGridLnkRS21;dxBarRS21;FireDACOracleDriver;fmxdae;dxSkinOffice2010BlueRS21;FireDACMSAccDriver;DataSnapIndy10ServerTransport;dxSkiniMaginaryRS21;$(DCC_UsePackage)</DCC_UsePackage>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+        <DCC_DebugDCUs>true</DCC_DebugDCUs>
+        <DCC_Optimize>false</DCC_Optimize>
+        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <DCC_RemoteDebug>true</DCC_RemoteDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <VerInfo_Release>1</VerInfo_Release>
+        <Icon_MainIcon>..\..\outher\pic\artes\icone.ico</Icon_MainIcon>
+        <VerInfo_Build>20</VerInfo_Build>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Keys>CompanyName=Jovemti;FileDescription=Narseo;FileVersion=1.0.1.20;InternalName=Narseo;LegalCopyright=Jovemti @2017;LegalTrademarks=;OriginalFilename=NarseoClient.exe;ProductName=Narseo;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <DCC_RemoteDebug>false</DCC_RemoteDebug>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+        <VerInfo_Build>1</VerInfo_Build>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
+        <VerInfo_Keys>CompanyName=Jovemti;FileDescription=Narseo;FileVersion=1.0.0.1;InternalName=Narseo;LegalCopyright=Jovemti @2017;LegalTrademarks=;OriginalFilename=NarseoClient.exe;ProductName=Narseo;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="..\lib\unSystem.pas"/>
+        <DCCReference Include="..\pas\unAplicacao.pas">
+            <Form>Aplicacao</Form>
+        </DCCReference>
+        <DCCReference Include="..\pas\conexao\unConnection.pas">
+            <Form>Connection</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unParametros.pas">
+            <Form>Parametros</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unSystemConfig.pas">
+            <Form>frmSystemConfig</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\seguranca\unSystemLogin.pas">
+            <Form>frmSystemLogin</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unSystemSplash.pas">
+            <Form>frmSystemSplash</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unMaster.pas">
+            <Form>FMaster</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unSystemHelp.pas">
+            <Form>frmSystemHelp</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unCad.pas">
+            <Form>frmCad</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unGrid.pas">
+            <Form>frmGrid</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridDepartamentoPessoas.pas">
+            <Form>frmGridDepartamentoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadDepartamentoPessoas.pas">
+            <Form>frmCadDepartamentoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\seguranca\unGridPermissoesGrupo.pas">
+            <Form>frmGridPermissoesGrupo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\seguranca\unGridGrupoUsuarios.pas">
+            <Form>frmGridGrupoUsuarios</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unQuery.pas">
+            <Form>frmQuery</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unSave.pas">
+            <Form>frmSave</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\lib\unSQL.pas"/>
+        <DCCReference Include="..\pas\pessoas\unGridCargoPessoas.pas">
+            <Form>frmGridCargoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadCargoPessoas.pas">
+            <Form>frmCadCargoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\seguranca\unCadGrupoUsuarios.pas">
+            <Form>frmCadGrupoUsuarios</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\seguranca\unConfigGrupoUsuario.pas">
+            <Form>frmConfigGrupoUsuario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridCategoriaPessoas.pas">
+            <Form>frmGridCategoriaPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadCategoriaPessoas.pas">
+            <Form>frmCadCategoriaPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadGrupoPessoas.pas">
+            <Form>frmCadGrupoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridGrupoPessoas.pas">
+            <Form>frmGridGrupoPessoas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\lib\unEndereco.pas"/>
+        <DCCReference Include="..\pas\pessoas\unCadPessoa.pas">
+            <Form>frmCadPessoa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaCliente.pas">
+            <Form>frmCadPessoaCliente</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridPessoaCliente.pas">
+            <Form>frmGridPessoaCliente</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\lib\unFields.pas"/>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaFuncionario.pas">
+            <Form>frmCadPessoaFuncionario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridPessoaFuncionario.pas">
+            <Form>frmGridPessoaFuncionario</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadModeloProdutos.pas">
+            <Form>frmCadModeloProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadMarcaProdutos.pas">
+            <Form>frmCadMarcaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadCategoriaProdutos.pas">
+            <Form>frmCadCategoriaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadGrupoProdutos.pas">
+            <Form>frmCadGrupoProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadDepositos.pas">
+            <Form>frmCadDepositos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadTanques.pas">
+            <Form>frmCadTanques</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridDepositos.pas">
+            <Form>frmGridDepositos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridTanques.pas">
+            <Form>frmGridTanques</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridCategoriaProdutos.pas">
+            <Form>frmGridCategoriaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridGrupoProdutos.pas">
+            <Form>frmGridGrupoProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridMarcaProdutos.pas">
+            <Form>frmGridMarcaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridModeloProdutos.pas">
+            <Form>frmGridModeloProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadProdutos.pas">
+            <Form>frmCadProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridProdutos.pas">
+            <Form>frmGridProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unDMProdutoConsultas.pas">
+            <Form>dmProdutoConsultas</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaTransportadora.pas">
+            <Form>frmCadPessoaTransportadora</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaFornecedor.pas">
+            <Form>frmCadPessoaFornecedor</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridPessoaTransportadora.pas">
+            <Form>frmGridPessoaTransportadora</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridPessoaFornecedor.pas">
+            <Form>frmGridPessoaFornecedor</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadFornecedorProduto.pas">
+            <Form>frmCadFornecedorProduto</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadProdutoFornecedor.pas">
+            <Form>frmCadProdutoFornecedor</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadProdutoCodigoBarras.pas">
+            <Form>frmCadProdutoCodigobarras</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unGridConfigEmpresa.pas">
+            <Form>frmGridConfigEmpresa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unCadConfigEmpresa.pas">
+            <Form>frmCadConfigEmpresa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaRepresentante.pas">
+            <Form>frmCadPessoaRepresentante</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unGridPessoaRepresentante.pas">
+            <Form>frmGridPessoaRepresentante</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadServicos.pas">
+            <Form>frmCadServicos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridServicos.pas">
+            <Form>frmGridServicos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\ativos\unCadTipoFrota.pas">
+            <Form>frmCadTipoFrota</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\ativos\unGridTipoFrota.pas">
+            <Form>frmGridTipoFrota</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\ativos\unCadFrota.pas">
+            <Form>frmCadFrota</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\ativos\unGridFrota.pas">
+            <Form>frmGridFrota</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridPedidoCompras.pas">
+            <Form>frmGridPedidoCompras</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unNew.pas">
+            <Form>frmNew</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unNewPedidoCompras.pas">
+            <Form>frmNewPedidoCompras</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadPedidoCompras.pas">
+            <Form>frmCadPedidoCompras</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadPedidoCompraProdutos.pas">
+            <Form>frmCadPedidoCompraProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\lib\unNetwork.pas"/>
+        <DCCReference Include="..\pas\localidades\unCEP.pas">
+            <Form>frmCEP</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unCadSystemBreak.pas">
+            <Form>frmCadSystemBreak</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unGridSystemBreak.pas">
+            <Form>frmGridSystemBreak</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unSystemBreak.pas">
+            <Form>frmSystemBreak</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\sefaz\unSEFAZ.pas">
+            <Form>Sefaz</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unCadConfigHost.pas">
+            <Form>frmCadConfigHost</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridCEST.pas">
+            <Form>frmGridCEST</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridCSOSN.pas">
+            <Form>frmGridCSOSN</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridICMS.pas">
+            <Form>frmGridICMS</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridIPI.pas">
+            <Form>frmGridIPI</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridPISCONFINS.pas">
+            <Form>frmGridPISCONFINS</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridCFOP.pas">
+            <Form>frmGridCFOP</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\fiscal\unGridCNAE.pas">
+            <Form>frmGridCNAE</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unEGrid.pas">
+            <Form>frmEGrid</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unGridBombas.pas">
+            <Form>frmGridBombas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unCadBombas.pas">
+            <Form>frmCadBombas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unGridAutoAbastecimentosPendentes.pas">
+            <Form>frmGridAutoAbastecimentosPendentes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unCadAutoAbastecimentosPendentes.pas">
+            <Form>frmCadAutoAbastecimentosPendentes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unExe.pas">
+            <Form>frmExe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unExeAutoAbastecimentosPendentes.pas">
+            <Form>frmExeAutoAbastecimentosPendentes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\automacao\unGridAutoAbastecimentosBaixados.pas">
+            <Form>frmGridAutoAbastecimentosBaixados</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unNewPedidoVendas.pas">
+            <Form>frmNewPedidoVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadPedidoVendas.pas">
+            <Form>frmCadPedidoVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridPedidoVendas.pas">
+            <Form>frmGridPedidoVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unReport.pas">
+            <Form>Report</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadPedidoVendaProdutos.pas">
+            <Form>frmCadPedidoVendaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridEstoque.pas">
+            <Form>frmGridEstoque</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadEstoqueMovimentoManual.pas">
+            <Form>frmCadEstoqueMovimentoManual</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\relatorios\unRelatorios.pas">
+            <Form>frmRelatorio</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\relatorios\unRelatorioPosicaoEstoque.pas">
+            <Form>frmRelatorioPosicaoEstoque</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\alertas\unGridEstoqueMinimo.pas">
+            <Form>frmGridEstoqueMinimo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unGridVendas.pas">
+            <Form>frmGridVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadVendas.pas">
+            <Form>frmCadVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unNewVendas.pas">
+            <Form>frmNewVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCaixaAdm.pas">
+            <Form>frmCaixaAdm</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadAberturaCaixa.pas">
+            <Form>frmCadAberturaCaixa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unGridContasReceber.pas">
+            <Form>frmGridContasReceber</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unGridContasPagar.pas">
+            <Form>frmGridContasPagar</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadContasPagar.pas">
+            <Form>frmCadContasPagar</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadContasReceber.pas">
+            <Form>frmCadContasReceber</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\produtos\unCadVendaProdutos.pas">
+            <Form>frmCadVendaProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unFinanceiroVendas.pas">
+            <Form>frmFinanceiroVendas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unDMConfigEmpresa.pas">
+            <Form>dmConfigEmpresa</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unDMCaixaAdm.pas">
+            <Form>dmCaixaAdm</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unBaixa.pas">
+            <Form>frmBaixa</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unBaixaContasReceber.pas">
+            <Form>frmBaixaContasReceber</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unBaixaContasPagar.pas">
+            <Form>frmBaixaContasPagar</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadSuprimentos.pas">
+            <Form>frmCadSuprimentos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadSangrias.pas">
+            <Form>frmCadSangrias</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unDMBasico.pas">
+            <Form>dmBasico</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unDMPessoaClientes.pas">
+            <Form>dmPessoaClientes</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unGridCaixaAdmConferencia.pas">
+            <Form>frmGridCaixaAdmConferencia</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaSaldos.pas">
+            <Form>frmCadPessoaSaldos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\pessoas\unCadPessoaContasBancarias.pas">
+            <Form>frmCadPessoaContasBancarias</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unGridDespesasFixas.pas">
+            <Form>frmGridDespesasFixas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadDespesasFixas.pas">
+            <Form>frmCadDespesasFixas</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unView.pas">
+            <Form>frmView</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unViewContasPagarPagamentos.pas">
+            <Form>frmViewContasPagarPagamentos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\parametros\unSystemInstall.pas">
+            <Form>frmSystemInstall</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unGridRegrasPrecos.pas">
+            <Form>frmGridRegrasPrecos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unNewRegrasPrecos.pas">
+            <Form>frmNewRegrasPrecos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadRegrasPrecos.pas">
+            <Form>frmCadRegrasPrecos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unCadRegrasPrecosProdutos.pas">
+            <Form>frmCadRegrasPrecosProdutos</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unEGridCTe.pas">
+            <Form>frmEGridCTe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\conexao\unConnectionDeveloper.pas">
+            <Form>Developer</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unProcess.pas">
+            <Form>frmProcess</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unCadCTE.pas">
+            <Form>frmCadCTE</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unNewCTE.pas">
+            <Form>frmNewCTE</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unDMCTe.pas">
+            <Form>dmCTe</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unExport.pas">
+            <Form>frmExport</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unExportCTe.pas">
+            <Form>frmExportCTe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\cte\unRelatorioCTe.pas">
+            <Form>frmRelatorioCTe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\essenciais\unAgregate.pas">
+            <Form>frmAgregate</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\pas\financeiro\unAgregateFaturamento.pas">
+            <Form>frmAgregateFaturamento</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <None Include="ModelSupport_NarseoClient\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystemSplash\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystemSplash\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystemLogin\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystemLogin\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystemHelp\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystemHelp\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystemConfig\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystemConfig\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystemBreak\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystemBreak\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSystem\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSystem\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSQL\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSQL\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSEFAZ\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSEFAZ\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unSave\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unSave\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unQuery\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unQuery\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unParametros\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unParametros\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unNewPedidoCompras\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unNewPedidoCompras\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unNew\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unNew\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unNetwork\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unNetwork\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unMaster\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unMaster\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridTipoFrota\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridTipoFrota\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridTanques\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridTanques\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridSystemBreak\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridSystemBreak\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridServicos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridServicos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPISCONFINS\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPISCONFINS\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaTransportadora\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaTransportadora\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaRepresentante\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaRepresentante\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaFuncionario\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaFuncionario\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaFornecedor\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaFornecedor\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaCliente\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPessoaCliente\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPermissoesGrupo\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPermissoesGrupo\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridPedidoCompras\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridPedidoCompras\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridModeloProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridModeloProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridMarcaProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridMarcaProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridIPI\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridIPI\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridICMS\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridICMS\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoUsuarios\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoUsuarios\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridGrupoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridFrota\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridFrota\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridDepositos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridDepositos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridDepartamentoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridDepartamentoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCTe\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCTe\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCSOSN\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCSOSN\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridConfigEmpresa\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridConfigEmpresa\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCNAE\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCNAE\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCFOP\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCFOP\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCEST\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCEST\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCategoriaProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCategoriaProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCategoriaPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCategoriaPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridCargoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridCargoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGrid\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGrid\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unFields\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unFields\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unEndereco\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unEndereco\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unEGrid\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unEGrid\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unDMProdutoConsultas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unDMProdutoConsultas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unConnection\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unConnection\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unConfigGrupoUsuario\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unConfigGrupoUsuario\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCEP\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCEP\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadTipoFrota\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadTipoFrota\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadTanques\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadTanques\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadSystemBreak\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadSystemBreak\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadServicos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadServicos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutoFornecedor\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutoFornecedor\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutoCodigoBarras\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadProdutoCodigoBarras\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaTransportadora\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaTransportadora\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaRepresentante\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaRepresentante\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaFuncionario\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaFuncionario\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaFornecedor\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaFornecedor\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaCliente\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoaCliente\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoa\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPessoa\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPedidoCompras\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPedidoCompras\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadPedidoCompraProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadPedidoCompraProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadModeloProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadModeloProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadMarcaProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadMarcaProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoUsuarios\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoUsuarios\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadGrupoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadFrota\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadFrota\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadFornecedorProduto\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadFornecedorProduto\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadDepositos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadDepositos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadDepartamentoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadDepartamentoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadConfigHost\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadConfigHost\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadConfigEmpresa\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadConfigEmpresa\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadCategoriaProdutos\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadCategoriaProdutos\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadCategoriaPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadCategoriaPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadCargoPessoas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadCargoPessoas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCad\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCad\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unAplicacao\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unAplicacao\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\CroxxPetro\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\CroxxPetro\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadBombas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridAutoAbastecimentosPendentes\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unExeAutoAbastecimentosPendentes\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unExe\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridBombas\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridAutoAbastecimentosBaixados\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unCadAutoAbastecimentosPendentes\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\NarseoClient\default.txvpck"/>
+        <None Include="ModelSupport_NarseoClient\unGridBombas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unExeAutoAbastecimentosPendentes\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridAutoAbastecimentosPendentes\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\NarseoClient\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unExe\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadBombas\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unGridAutoAbastecimentosBaixados\default.txaPackage"/>
+        <None Include="ModelSupport_NarseoClient\unCadAutoAbastecimentosPendentes\default.txaPackage"/>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp210.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+                <Source>
+                    <Source Name="MainSource">NarseoClient.dpr</Source>
+                </Source>
+                <Language>
+                    <Language Name="ProjectLang">$00000416</Language>
+                </Language>
+                <Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item0">Português (Brasil)*$00000416*PTB*PTB</Resource_DLL_Projects>
+                </Resource_DLL_Projects>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">..\pas\unAplicacao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">..\pas\conexao\unConnection.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">..\pas\parametros\unParametros.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">..\pas\parametros\unSystemConfig.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">..\pas\seguranca\unSystemLogin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">..\pas\essenciais\unSystemSplash.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">..\pas\essenciais\unMaster.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">..\pas\essenciais\unSystemHelp.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item8">..\pas\essenciais\unCad.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item9">..\pas\essenciais\unGrid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item10">..\pas\pessoas\unGridDepartamentoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item11">..\pas\pessoas\unCadDepartamentoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item12">..\pas\seguranca\unGridPermissoesGrupo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item13">..\pas\seguranca\unGridGrupoUsuarios.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item14">..\pas\essenciais\unQuery.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item15">..\pas\essenciais\unSave.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item16">..\pas\pessoas\unGridCargoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item17">..\pas\pessoas\unCadCargoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item18">..\pas\seguranca\unCadGrupoUsuarios.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item19">..\pas\seguranca\unConfigGrupoUsuario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item20">..\pas\pessoas\unGridCategoriaPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item21">..\pas\pessoas\unCadCategoriaPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item22">..\pas\pessoas\unCadGrupoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item23">..\pas\pessoas\unGridGrupoPessoas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item24">..\pas\pessoas\unCadPessoa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item25">..\pas\pessoas\unCadPessoaCliente.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item26">..\pas\pessoas\unGridPessoaCliente.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item27">..\pas\pessoas\unCadPessoaFuncionario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item28">..\pas\pessoas\unGridPessoaFuncionario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item29">..\pas\produtos\unCadModeloProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item30">..\pas\produtos\unCadMarcaProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item31">..\pas\produtos\unCadCategoriaProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item32">..\pas\produtos\unCadGrupoProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item33">..\pas\produtos\unCadDepositos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item34">..\pas\produtos\unCadTanques.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item35">..\pas\produtos\unGridDepositos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item36">..\pas\produtos\unGridTanques.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item37">..\pas\produtos\unGridCategoriaProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item38">..\pas\produtos\unGridGrupoProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item39">..\pas\produtos\unGridMarcaProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item40">..\pas\produtos\unGridModeloProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item41">..\pas\produtos\unCadProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item42">..\pas\produtos\unGridProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item43">..\pas\produtos\unDMProdutoConsultas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item44">..\pas\pessoas\unCadPessoaTransportadora.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item45">..\pas\pessoas\unCadPessoaFornecedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item46">..\pas\pessoas\unGridPessoaTransportadora.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item47">..\pas\pessoas\unGridPessoaFornecedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item48">..\pas\pessoas\unCadFornecedorProduto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item49">..\pas\produtos\unCadProdutoFornecedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item50">..\pas\produtos\unCadProdutoCodigoBarras.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item51">..\pas\parametros\unGridConfigEmpresa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item52">..\pas\parametros\unCadConfigEmpresa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item53">..\pas\pessoas\unCadPessoaRepresentante.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item54">..\pas\pessoas\unGridPessoaRepresentante.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item55">..\pas\produtos\unCadServicos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item56">..\pas\produtos\unGridServicos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item57">..\pas\ativos\unCadTipoFrota.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item58">..\pas\ativos\unGridTipoFrota.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item59">..\pas\ativos\unCadFrota.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item60">..\pas\ativos\unGridFrota.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item61">..\pas\produtos\unGridPedidoCompras.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item62">..\pas\essenciais\unNew.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item63">..\pas\produtos\unNewPedidoCompras.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item64">..\pas\produtos\unCadPedidoCompras.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item65">..\pas\produtos\unCadPedidoCompraProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item66">..\pas\localidades\unCEP.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item67">..\pas\parametros\unCadSystemBreak.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item68">..\pas\parametros\unGridSystemBreak.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item69">..\pas\parametros\unSystemBreak.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item70">..\pas\sefaz\unSEFAZ.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item71">..\pas\parametros\unCadConfigHost.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item72">..\exe\Croxx.drc</RDP_Source_Files>
+                </RDP_Source_Files>
+            </Delphi.Personality>
+            <Deployment>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadAutoAbastecimentosPendentes\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridBombas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemHelp\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCFOP\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridSystemBreak\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaFuncionario\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadFornecedorProduto\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unEndereco\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unParametros\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadFrota\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridDepositos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaTransportadora\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridDepositos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridIPI\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCategoriaProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemSplash\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaCliente\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadConfigEmpresa\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadBombas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPedidoCompras\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemHelp\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridAutoAbastecimentosBaixados\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaRepresentante\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGrid\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridFrota\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCategoriaPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unEndereco\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNew\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaCliente\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridAutoAbastecimentosPendentes\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadTanques\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadConfigHost\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNetwork\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unExeAutoAbastecimentosPendentes\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPISCONFINS\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCSOSN\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPedidoCompras\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCNAE\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unExeAutoAbastecimentosPendentes\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadDepartamentoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadFrota\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSave\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNetwork\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridConfigEmpresa\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCEP\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemBreak\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unQuery\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoUsuarios\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutoFornecedor\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPedidoCompraProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCategoriaProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadTanques\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaTransportadora\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaFuncionario\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaRepresentante\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoUsuarios\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutoCodigoBarras\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridDepartamentoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaFornecedor\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unConnection\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutoFornecedor\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadBombas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaFornecedor\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCategoriaProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridConfigEmpresa\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemLogin\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridMarcaProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCategoriaPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCEST\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemSplash\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Win32\Debug\NarseoClient.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>NarseoClient.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\CroxxPetro\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridAutoAbastecimentosBaixados\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridTipoFrota\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unExe\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCEST\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unFields\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadSystemBreak\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unParametros\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridBombas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCategoriaPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystem\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unFields\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCNAE\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadSystemBreak\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaFuncionario\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unDMProdutoConsultas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridServicos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaFuncionario\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCargoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unConfigGrupoUsuario\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadTipoFrota\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridIPI\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\NarseoClient\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutoCodigoBarras\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unMaster\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSEFAZ\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridTipoFrota\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridModeloProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCargoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridAutoAbastecimentosPendentes\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaTransportadora\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaCliente\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSQL\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\CroxxPetro\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadDepositos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadModeloProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadMarcaProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadDepartamentoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridTanques\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSave\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaCliente\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPedidoCompraProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unMaster\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridMarcaProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemLogin\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridTanques\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridDepartamentoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoUsuarios\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSEFAZ\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNewPedidoCompras\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unAplicacao\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNew\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCEP\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unEGrid\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unDMProdutoConsultas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCargoPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridSystemBreak\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaRepresentante\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemConfig\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridFrota\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCTe\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadMarcaProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unAplicacao\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadConfigEmpresa\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadModeloProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSQL\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridServicos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystem\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridICMS\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCad\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemConfig\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadConfigHost\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPessoaFornecedor\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridICMS\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCFOP\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoUsuarios\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadServicos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unConnection\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPISCONFINS\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadServicos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridModeloProdutos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unExe\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unEGrid\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unSystemBreak\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCTe\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\NarseoClient\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadTipoFrota\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaTransportadora\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPedidoCompras\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unQuery\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGrid\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadCategoriaProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadDepositos\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaFornecedor\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPermissoesGrupo\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoa\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadFornecedorProduto\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoa\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadGrupoProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPermissoesGrupo\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCSOSN\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridPedidoCompras\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unConfigGrupoUsuario\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unNewPedidoCompras\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\exe\NarseoClient.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>NarseoClient.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadPessoaRepresentante\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCadAutoAbastecimentosPendentes\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridGrupoProdutos\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCategoriaPessoas\default.txvpck" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unCad\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_NarseoClient\unGridCargoPessoas\default.txaPackage" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployClass Required="true" Name="DependencyPackage">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.bpl</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyModule">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.dll;.bpl</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch2048">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXInfoPList">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceDebug">
+                    <Platform Name="iOSDevice">
+                        <RemoteDir>..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage470">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-normal</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeX86File">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\x86</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSResource">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXEntitlements">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidGDBServer">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage960">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xlarge</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon96">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch320">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon144">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeMipsFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\mips</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashImageDef">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DebugSymbols">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyFramework">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.framework</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage426">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-small</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSEntitlements">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AdditionalDebugSymbols">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidClassesDexFile">
+                    <Platform Name="Android">
+                        <RemoteDir>classes</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSInfoPList">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1024">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_DefaultAppIcon">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXResource">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\Resources</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceResourceRules">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch768">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="ProjectOutput">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage640">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-large</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="File">
+                    <Platform Name="iOSDevice">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Android">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640x1136">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon36">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-ldpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStyles">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1536">
+                    <Platform Name="iOSDevice">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon48">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon72">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectAndroidManifest">
+                    <Platform Name="Android">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="iOSDevice" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="iOSSimulator" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
+            </Deployment>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+            <ModelSupport>True</ModelSupport>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+        <Borland.Personality/>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+    <Import Project="$(MSBuildProjectName).deployproj" Condition="Exists('$(MSBuildProjectName).deployproj')"/>
+</Project>

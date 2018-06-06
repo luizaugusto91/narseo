@@ -1,0 +1,39 @@
+inherited frmCadRegrasPrecosProdutos: TfrmCadRegrasPrecosProdutos
+  Caption = 'Regras de Pre'#231'os -> Produtos'
+  ClientWidth = 593
+  ExplicitWidth = 599
+  ExplicitHeight = 349
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Width = 593
+    inherited btnCancelar: TButton
+      Left = 316
+    end
+    inherited btnSalvar: TButton
+      Left = 409
+    end
+    inherited btnFechar: TButton
+      Left = 502
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 583
+  end
+  inherited pnlHelp: TPanel
+    Width = 584
+    inherited mmoHelp: TMemo
+      Width = 537
+    end
+  end
+  inherited ds: TUniDataSource
+    Left = 496
+  end
+  inherited qConsulta: TUniQuery
+    Left = 456
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 412
+  end
+end

@@ -1,0 +1,129 @@
+inherited frmGridCargoPessoas: TfrmGridCargoPessoas
+  Tag = 2102
+  Caption = 'Cargos'
+  ClientHeight = 422
+  ClientWidth = 1038
+  ExplicitWidth = 1054
+  ExplicitHeight = 461
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 382
+    Width = 1038
+    ExplicitTop = 382
+    ExplicitWidth = 1038
+    inherited btnNovo: TButton
+      Left = 653
+      OnClick = btnNovoClick
+      ExplicitLeft = 653
+    end
+    inherited btnVisualizar: TButton
+      Left = 749
+      OnClick = btnVisualizarClick
+      ExplicitLeft = 749
+    end
+    inherited btnEditar: TButton
+      Left = 845
+      OnClick = btnEditarClick
+      ExplicitLeft = 845
+    end
+    inherited btnExcluir: TButton
+      Left = 941
+      OnClick = btnExcluirClick
+      ExplicitLeft = 941
+    end
+  end
+  inherited grpLista: TGroupBox
+    Left = 7
+    Top = 7
+    Width = 1024
+    Height = 375
+    Margins.Left = 7
+    Margins.Top = 7
+    Margins.Right = 7
+    ExplicitLeft = 7
+    ExplicitTop = 7
+    ExplicitWidth = 1024
+    ExplicitHeight = 375
+    inherited pnlFuncoes: TPanel
+      Left = 684
+      Height = 348
+      Margins.Bottom = 7
+      ExplicitLeft = 684
+      ExplicitHeight = 348
+    end
+    inherited Grid: TcxGrid
+      Left = 9
+      Width = 675
+      Height = 348
+      Margins.Left = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 9
+      ExplicitWidth = 675
+      ExplicitHeight = 348
+      inherited View: TcxGridDBTableView
+        OnDblClick = ViewDblClick
+        object ColViewID: TcxGridDBColumn
+          Caption = 'ID'
+          DataBinding.FieldName = 'codigo'
+          Width = 70
+        end
+        object ColViewDescricao: TcxGridDBColumn
+          Caption = 'Descri'#231#227'o'
+          DataBinding.FieldName = 'descricao'
+          Width = 300
+        end
+      end
+    end
+    inherited pnlFiltros: TPanel
+      Left = 715
+      Height = 348
+      Margins.Right = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 715
+      ExplicitHeight = 348
+      inherited GridFiltros: TcxGrid
+        Height = 348
+        Margins.Left = 7
+        Margins.Bottom = 7
+        ExplicitHeight = 348
+      end
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT cg.codigo, '
+      #9'cg.descricao, '
+      #9'cg.salario_base, '
+      #9'cg.carga_horaria, '
+      #9'cg.valor_hora_extra, '
+      #9'cg.seguro_vida, '
+      #9'cg.vale_transporte, '
+      #9'cg.cesta_basica, '
+      #9'cg.ticket, '
+      #9'cg.carga_horaria_semana'
+      '   FROM'#9'cargos cg'
+      '  ORDER BY cg.descricao;')
+  end
+  inherited qInfo: TUniQuery
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'colunas'
+        ParamType = ptInput
+        Value = #39#39
+      end
+      item
+        DataType = ftString
+        Name = 'tabela'
+        ParamType = ptInput
+        Value = 'cargos'
+      end>
+  end
+  inherited StyleRepository: TcxStyleRepository
+    PixelsPerInch = 96
+  end
+end

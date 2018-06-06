@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridPedidoCompras.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridPedidoCompras.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.094375</prop>
+        <prop prop-type="OrigDateTime">42756.5898842593</prop>
+        <prop prop-type="XlatDateTime">42756.5898842593</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">69</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmGridPedidoCompras.Tag" resname="I:frmGridPedidoCompras.Tag">
+        <source>3101</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.Caption" resname="I:frmGridPedidoCompras.Caption">
+        <source>'Pedido de Compras'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.ClientHeight" resname="I:frmGridPedidoCompras.ClientHeight">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.ExplicitWidth" resname="I:frmGridPedidoCompras.ExplicitWidth">
+        <source>1116</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.ExplicitHeight" resname="I:frmGridPedidoCompras.ExplicitHeight">
+        <source>439</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.PixelsPerInch" resname="I:frmGridPedidoCompras.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.TextHeight" resname="I:frmGridPedidoCompras.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmGridPedidoCompras</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.Top" resname="I:frmGridPedidoCompras.I:pnlBotton.Top">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.ExplicitTop" resname="I:frmGridPedidoCompras.I:pnlBotton.ExplicitTop">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.I:btnNovo.OnClick" resname="I:frmGridPedidoCompras.I:pnlBotton.I:btnNovo.OnClick">
+        <source>btnNovoClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.I:btnVisualizar.OnClick" resname="I:frmGridPedidoCompras.I:pnlBotton.I:btnVisualizar.OnClick">
+        <source>btnVisualizarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.I:btnEditar.OnClick" resname="I:frmGridPedidoCompras.I:pnlBotton.I:btnEditar.OnClick">
+        <source>btnEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:pnlBotton.I:btnExcluir.OnClick" resname="I:frmGridPedidoCompras.I:pnlBotton.I:btnExcluir.OnClick">
+        <source>btnExcluirClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.Height" resname="I:frmGridPedidoCompras.I:grpLista.Height">
+        <source>354</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.ExplicitHeight" resname="I:frmGridPedidoCompras.I:grpLista.ExplicitHeight">
+        <source>354</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFuncoes.Height" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFuncoes.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFuncoes.ExplicitHeight" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFuncoes.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.Height" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.ExplicitHeight" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View." resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.Caption">
+        <source>'#ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.DataBinding.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewcodigo.Width">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.Caption">
+        <source>'Fornecedor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.DataBinding.FieldName">
+        <source>'fornecedor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewfornecedor.Width">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Caption">
+        <source>'Representante'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.DataBinding.FieldName">
+        <source>'representante'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Visible" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.VisibleForCustomization" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.VisibleForCustomization">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewrepresentante.Width">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.Caption">
+        <source>'Data'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.DataBinding.FieldName">
+        <source>'data_pedido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewdata_pedido.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.Caption">
+        <source>'Total'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.DataBinding.FieldName">
+        <source>'total_pedido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewprevisao_entrega.Width">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.Caption" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.Caption">
+        <source>'Status'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.DataBinding.FieldName" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.DataBinding.FieldName">
+        <source>'status'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.Width" resname="I:frmGridPedidoCompras.I:grpLista.I:Grid.I:View.O:Viewstatus.Width">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.Height" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.ExplicitHeight" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.I:GridFiltros.Height" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.I:GridFiltros.Height">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight" resname="I:frmGridPedidoCompras.I:grpLista.I:pnlFiltros.I:GridFiltros.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:ImageList16.FormatVersion" resname="I:frmGridPedidoCompras.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[0]" resname="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[0]">
+        <source>'DELETE FROM pedido_compras'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[1]" resname="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094395</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[2]" resname="I:frmGridPedidoCompras.I:qConsulta.SQLDelete.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[0]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[0]">
+        <source>'SELECT vpc.codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[1]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[1]">
+        <source>#9'vpc.empresa, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[2]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[2]">
+        <source>#9'vpc.cd_fornecedor, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[3]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[3]">
+        <source>#9'vpc.fornecedor, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[4]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[4]">
+        <source>#9'vpc.cd_representante, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[5]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[5]">
+        <source>#9'vpc.representante, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[6]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[6]">
+        <source>#9'vpc.data_pedido, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[7]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[7]">
+        <source>#9'vpc.previsao_entrega, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[8]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[8]">
+        <source>#9'vpc.data_compra, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[9]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[9]">
+        <source>#9'vpc.data_entrada,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[10]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[10]">
+        <source>#9'vpc.total_pedido, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[11]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[11]">
+        <source>#9'vpc.status'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[12]" resname="I:frmGridPedidoCompras.I:qConsulta.SQL.Strings[12]">
+        <source>'   FROM vw_pedido_compras vpc;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[0].DataType" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[0].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[0].Name" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[0].Name">
+        <source>'colunas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[0].ParamType" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[0].Value" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[0].Value">
+        <source>#39#39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[1].DataType" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[1].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[1].Name" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[1].Name">
+        <source>'tabela'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[1].ParamType" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[1].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:qInfo.ParamData[1].Value" resname="I:frmGridPedidoCompras.I:qInfo.ParamData[1].Value">
+        <source>'vw_pedido_compras'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmGridPedidoCompras.I:StyleRepository.PixelsPerInch" resname="I:frmGridPedidoCompras.I:StyleRepository.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943950116</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,17 @@
+object dmCaixa: TdmCaixa
+  OldCreateOrder = False
+  Height = 531
+  Width = 854
+  object qColaborador: TUniQuery
+    SQL.Strings = (
+      'select 1')
+    Left = 56
+    Top = 16
+  end
+  object qCliente: TUniQuery
+    SQL.Strings = (
+      'select 1')
+    Left = 56
+    Top = 64
+  end
+end

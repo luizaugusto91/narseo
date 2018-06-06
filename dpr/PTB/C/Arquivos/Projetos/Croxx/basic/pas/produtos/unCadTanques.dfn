@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadTanques.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadTanques.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.094375</prop>
+        <prop prop-type="OrigDateTime">42737.5250694444</prop>
+        <prop prop-type="XlatDateTime">42737.5250694444</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">211</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:frmCadTanques.Caption" resname="I:frmCadTanques.Caption">
+        <source>'Tanques de Produtos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.ClientHeight" resname="I:frmCadTanques.ClientHeight">
+        <source>473</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.ClientWidth" resname="I:frmCadTanques.ClientWidth">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.ExplicitWidth" resname="I:frmCadTanques.ExplicitWidth">
+        <source>456</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.ExplicitHeight" resname="I:frmCadTanques.ExplicitHeight">
+        <source>512</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.PixelsPerInch" resname="I:frmCadTanques.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.TextHeight" resname="I:frmCadTanques.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915278</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmCadTanques</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.Top" resname="I:frmCadTanques.I:pnlBotton.Top">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.Width" resname="I:frmCadTanques.I:pnlBotton.Width">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.TabOrder" resname="I:frmCadTanques.I:pnlBotton.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.ExplicitTop" resname="I:frmCadTanques.I:pnlBotton.ExplicitTop">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.ExplicitWidth" resname="I:frmCadTanques.I:pnlBotton.ExplicitWidth">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnCancelar.Left" resname="I:frmCadTanques.I:pnlBotton.I:btnCancelar.Left">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnCancelar.ExplicitLeft" resname="I:frmCadTanques.I:pnlBotton.I:btnCancelar.ExplicitLeft">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnSalvar.Left" resname="I:frmCadTanques.I:pnlBotton.I:btnSalvar.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnSalvar.ExplicitLeft" resname="I:frmCadTanques.I:pnlBotton.I:btnSalvar.ExplicitLeft">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnFechar.Left" resname="I:frmCadTanques.I:pnlBotton.I:btnFechar.Left">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:pnlBotton.I:btnFechar.ExplicitLeft" resname="I:frmCadTanques.I:pnlBotton.I:btnFechar.ExplicitLeft">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.AlignWithMargins" resname="I:frmCadTanques.O:grpDetalhes.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Left" resname="I:frmCadTanques.O:grpDetalhes.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Top" resname="I:frmCadTanques.O:grpDetalhes.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Width" resname="I:frmCadTanques.O:grpDetalhes.Width">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Height" resname="I:frmCadTanques.O:grpDetalhes.Height">
+        <source>156</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Margins.Left" resname="I:frmCadTanques.O:grpDetalhes.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Margins.Top" resname="I:frmCadTanques.O:grpDetalhes.Margins.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Margins.Right" resname="I:frmCadTanques.O:grpDetalhes.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Align" resname="I:frmCadTanques.O:grpDetalhes.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.Caption" resname="I:frmCadTanques.O:grpDetalhes.Caption">
+        <source>' Detalhes '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TGroupBox [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.Left" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.Top" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.Top">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.Width" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.Width">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.Height" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.Caption">
+        <source>'Código:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label1.FocusControl" resname="I:frmCadTanques.O:grpDetalhes.O:Label1.FocusControl">
+        <source>edtCodigo</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.Left" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.Top" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.Width" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.Width">
+        <source>58</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.Height" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.Caption">
+        <source>'Descrição:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label2.FocusControl" resname="I:frmCadTanques.O:grpDetalhes.O:Label2.FocusControl">
+        <source>edtDescricao</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.Left" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915394</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.Top" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.Top">
+        <source>108</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.Width" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.Height" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.Caption">
+        <source>'Departamento:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label3.FocusControl" resname="I:frmCadTanques.O:grpDetalhes.O:Label3.FocusControl">
+        <source>edtdepartamento</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.Left" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.Left">
+        <source>218</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.Top" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.Width" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.Height" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.Caption">
+        <source>'Capacidade:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label4.FocusControl" resname="I:frmCadTanques.O:grpDetalhes.O:Label4.FocusControl">
+        <source>edtcapacidade</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label5.Left" resname="I:frmCadTanques.O:grpDetalhes.O:Label5.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label5.Top" resname="I:frmCadTanques.O:grpDetalhes.O:Label5.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label5.Width" resname="I:frmCadTanques.O:grpDetalhes.O:Label5.Width">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label5.Height" resname="I:frmCadTanques.O:grpDetalhes.O:Label5.Height">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:Label5.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:Label5.Caption">
+        <source>'Unidade de Medida:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Left" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Left">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Top" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Top">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.DataBinding.DataField">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Enabled" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Properties.SpinButtons.Visible" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Properties.SpinButtons.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Width" resname="I:frmCadTanques.O:grpDetalhes.O:edtCodigo.Width">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Left" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Left">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Top" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Top">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.DataBinding.DataField">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Properties.CharCase" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Properties.CharCase">
+        <source>ecUpperCase</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Width" resname="I:frmCadTanques.O:grpDetalhes.O:edtDescricao.Width">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxDBTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Left" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Top" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Top">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.DataBinding.DataField">
+        <source>'departamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Properties.SpinButtons.Visible" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Properties.SpinButtons.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Width" resname="I:frmCadTanques.O:grpDetalhes.O:edtdepartamento.Width">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Left" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Left">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Top" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Top">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915509</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Caption" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Caption">
+        <source>'Permitir estoque negativo.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.DataBinding.DataField">
+        <source>'estoque_negativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Width" resname="I:frmCadTanques.O:grpDetalhes.O:cbbestoque_negativo.Width">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxDBCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Left" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Left">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Top" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Top">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.DataBinding.DataField">
+        <source>'departamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.KeyFieldNames" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.KeyFieldNames">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].Caption" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].Caption">
+        <source>'Descrição'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].Width" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].Width">
+        <source>260</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].FieldName" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListColumns[0].FieldName">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListSource" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Properties.ListSource">
+        <source>dsDepartamentos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Width" resname="I:frmCadTanques.O:grpDetalhes.O:cbbDepartamento.Width">
+        <source>254</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Left" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Left">
+        <source>292</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Top" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.DataBinding.DataField">
+        <source>'capacidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Width" resname="I:frmCadTanques.O:grpDetalhes.O:edtcapacidade.Width">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxDBSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Left" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Left">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Top" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.DataBinding.DataField" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.DataBinding.DataField">
+        <source>'unidade_medida'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.DataBinding.DataSource" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.DataBinding.DataSource">
+        <source>ds</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915625</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.KeyFieldNames" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.KeyFieldNames">
+        <source>'unidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.ListColumns[0].FieldName" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.ListColumns[0].FieldName">
+        <source>'unidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">C:TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.ListSource" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Properties.ListSource">
+        <source>dsUnidade</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.TabOrder" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.OnEnter" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Width" resname="I:frmCadTanques.O:grpDetalhes.O:cbbUnidade.Width">
+        <source>87</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxDBLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.Top" resname="I:frmCadTanques.I:grpContent.Top">
+        <source>167</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.Width" resname="I:frmCadTanques.I:grpContent.Width">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.Height" resname="I:frmCadTanques.I:grpContent.Height">
+        <source>271</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.ExplicitTop" resname="I:frmCadTanques.I:grpContent.ExplicitTop">
+        <source>167</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.ExplicitWidth" resname="I:frmCadTanques.I:grpContent.ExplicitWidth">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.ExplicitHeight" resname="I:frmCadTanques.I:grpContent.ExplicitHeight">
+        <source>271</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.AlignWithMargins" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Left" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Top" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Width" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Width">
+        <source>420</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Height" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Height">
+        <source>243</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Margins.Bottom" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Margins.Bottom">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Align" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.BorderStyle" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.BorderStyle">
+        <source>cxcbsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.Transparent" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TdxGaugeControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.O:GaugeCircularScaleGaugeControlCircularScale.MaxValue" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.O:GaugeCircularScaleGaugeControlCircularScale.MaxValue">
+        <source>10000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TdxGaugeCircularScale</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:grpContent.O:GaugeControl.O:GaugeCircularScaleGaugeControlCircularScale.StyleName" resname="I:frmCadTanques.I:grpContent.O:GaugeControl.O:GaugeCircularScaleGaugeControlCircularScale.StyleName">
+        <source>'White'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TdxGaugeCircularScale</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:ds.OnDataChange" resname="I:frmCadTanques.I:ds.OnDataChange">
+        <source>dsDataChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:ds.Left" resname="I:frmCadTanques.I:ds.Left">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:ds.Top" resname="I:frmCadTanques.I:ds.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[0]">
+        <source>'INSERT INTO deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[1]">
+        <source>'  (nome, departamento, liquido, produto, capacidade, estoque_negativo, unidade_medida, quantidade)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[2]">
+        <source>'VALUES'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[3]" resname="I:frmCadTanques.I:qConsulta.SQLInsert.Strings[3]">
+        <source>'  (:nome, :departamento, :liquido, :produto, :capacidade, :estoque_negativo, :unidade_medida, :quantidade)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[0]">
+        <source>'DELETE FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLDelete.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[0]">
+        <source>'UPDATE deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[1]">
+        <source>'SET'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[2]">
+        <source>'  nome = :nome, departamento = :departamento, liquido = :liquido, produto = :produto, capacidade = :capacidade, estoque_negativo = :estoque_negativo, unidade_medida = :unidade_medida, quantidade = :quantidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[3]" resname="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[3]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[4]" resname="I:frmCadTanques.I:qConsulta.SQLUpdate.Strings[4]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLLock.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLLock.Strings[0]">
+        <source>'SELECT * FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLLock.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLLock.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLLock.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLLock.Strings[2]">
+        <source>'  codigo = :Old_codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLLock.Strings[3]" resname="I:frmCadTanques.I:qConsulta.SQLLock.Strings[3]">
+        <source>'FOR UPDATE NOWAIT'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[0]">
+        <source>'SELECT nome, departamento, liquido, produto, capacidade, estoque_negativo, unidade_medida, quantidade FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[1]">
+        <source>'WHERE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLRefresh.Strings[2]">
+        <source>'  codigo = :codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[0]">
+        <source>'SELECT count(*) FROM ('</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915741</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[1]">
+        <source>'SELECT * FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[2]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[3]" resname="I:frmCadTanques.I:qConsulta.SQLRecCount.Strings[3]">
+        <source>') t'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[0]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[0]">
+        <source>'SELECT '#9'codigo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[1]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[1]">
+        <source>#9'nome, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[2]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[2]">
+        <source>#9'departamento, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[3]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[3]">
+        <source>#9'liquido, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[4]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[4]">
+        <source>#9'produto, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[5]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[5]">
+        <source>#9'capacidade, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[6]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[6]">
+        <source>#9'estoque_negativo, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[7]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[7]">
+        <source>#9'unidade_medida,'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[8]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[8]">
+        <source>#9'quantidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[9]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[9]">
+        <source>'  FROM deposito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.SQL.Strings[10]" resname="I:frmCadTanques.I:qConsulta.SQL.Strings[10]">
+        <source>' where liquido = true and codigo = :codigo;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.BeforePost" resname="I:frmCadTanques.I:qConsulta.BeforePost">
+        <source>qConsultaBeforePost</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.Left" resname="I:frmCadTanques.I:qConsulta.Left">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.Top" resname="I:frmCadTanques.I:qConsulta.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.ParamData[0].DataType" resname="I:frmCadTanques.I:qConsulta.ParamData[0].DataType">
+        <source>ftInteger</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.ParamData[0].Name" resname="I:frmCadTanques.I:qConsulta.ParamData[0].Name">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.ParamData[0].ParamType" resname="I:frmCadTanques.I:qConsulta.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.ParamData[0].Value" resname="I:frmCadTanques.I:qConsulta.ParamData[0].Value">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultacodigo.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultacodigo.FieldName">
+        <source>'codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultanome.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultanome.FieldName">
+        <source>'nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultanome.Size" resname="I:frmCadTanques.I:qConsulta.O:qConsultanome.Size">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultadepartamento.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultadepartamento.FieldName">
+        <source>'departamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaliquido.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultaliquido.FieldName">
+        <source>'liquido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaproduto.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultaproduto.FieldName">
+        <source>'produto'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TLargeintField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultacapacidade.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultacapacidade.FieldName">
+        <source>'capacidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaestoque_negativo.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultaestoque_negativo.FieldName">
+        <source>'estoque_negativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaunidade_medida.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultaunidade_medida.FieldName">
+        <source>'unidade_medida'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaunidade_medida.Size" resname="I:frmCadTanques.I:qConsulta.O:qConsultaunidade_medida.Size">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:qConsulta.O:qConsultaquantidade.FieldName" resname="I:frmCadTanques.I:qConsulta.O:qConsultaquantidade.FieldName">
+        <source>'quantidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TFloatField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:ImageList16.FormatVersion" resname="I:frmCadTanques.I:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.I:ImageList16.DesignInfo" resname="I:frmCadTanques.I:ImageList16.DesignInfo">
+        <source>220</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.Tag" resname="I:frmCadTanques.O:qDepartamentos.Tag">
+        <source>7100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.Connection" resname="I:frmCadTanques.O:qDepartamentos.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.SQL.Strings[0]" resname="I:frmCadTanques.O:qDepartamentos.SQL.Strings[0]">
+        <source>'SELECT codigo, nome, descricao, turno_inicio, turno_fim, responsavel, '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.SQL.Strings[1]" resname="I:frmCadTanques.O:qDepartamentos.SQL.Strings[1]">
+        <source>'       desativado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.SQL.Strings[2]" resname="I:frmCadTanques.O:qDepartamentos.SQL.Strings[2]">
+        <source>'  FROM departamentos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.SQL.Strings[3]" resname="I:frmCadTanques.O:qDepartamentos.SQL.Strings[3]">
+        <source>' WHERE desativado = false;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qDepartamentos.Left" resname="I:frmCadTanques.O:qDepartamentos.Left">
+        <source>360</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:dsDepartamentos.DataSet" resname="I:frmCadTanques.O:dsDepartamentos.DataSet">
+        <source>qDepartamentos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:dsDepartamentos.Left" resname="I:frmCadTanques.O:dsDepartamentos.Left">
+        <source>392</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.Tag" resname="I:frmCadTanques.O:qUnidade.Tag">
+        <source>7100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.Connection" resname="I:frmCadTanques.O:qUnidade.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.SQL.Strings[0]" resname="I:frmCadTanques.O:qUnidade.SQL.Strings[0]">
+        <source>'SELECT codigo, descricao, unidade, venda_decimal'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.SQL.Strings[1]" resname="I:frmCadTanques.O:qUnidade.SQL.Strings[1]">
+        <source>'  FROM produto_unidade;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.Left" resname="I:frmCadTanques.O:qUnidade.Left">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915972</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:qUnidade.Top" resname="I:frmCadTanques.O:qUnidade.Top">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915972</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:dsUnidade.DataSet" resname="I:frmCadTanques.O:dsUnidade.DataSet">
+        <source>qUnidade</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915972</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:dsUnidade.Left" resname="I:frmCadTanques.O:dsUnidade.Left">
+        <source>376</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915972</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:frmCadTanques.O:dsUnidade.Top" resname="I:frmCadTanques.O:dsUnidade.Top">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943915972</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,154 @@
+unit unNewCTE;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unNew, Data.DB, DBAccess, Uni, MemDS,
+  Vcl.ImgList, cxGraphics, Vcl.StdCtrls, Vcl.ExtCtrls, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, cxCalendar, cxDBEdit,
+  cxDropDownEdit, cxCalc, cxTextEdit, cxMaskEdit, cxSpinEdit, cxLookupEdit,
+  cxDBLookupEdit, cxDBLookupComboBox, cxMemo, cxImageComboBox;
+
+type
+  TfrmNewCTE = class(TfrmNew)
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    FieldConsultacodigo: TIntegerField;
+    qConsultadata_registro: TDateTimeField;
+    qConsultaconhecimento: TLargeintField;
+    FieldConsultachave_cte: TStringField;
+    FieldConsultachave_cancelamento: TStringField;
+    FieldConsultadata_cancelamento: TDateField;
+    FieldConsultastatus: TStringField;
+    qConsultaremetente: TLargeintField;
+    FieldConsultaremetente_endereco: TBooleanField;
+    qConsultadestinatario: TLargeintField;
+    FieldConsultadestinatario_endereco: TBooleanField;
+    qConsultalocal_entrega: TLargeintField;
+    FieldConsultadata_entrega: TDateField;
+    FieldConsultatipo_nota: TStringField;
+    qConsultanota: TLargeintField;
+    FieldConsultanfe_chave: TStringField;
+    FieldConsultanf_serie: TIntegerField;
+    FieldConsultanf_bcicms: TFloatField;
+    FieldConsultanf_icms: TFloatField;
+    FieldConsultanf_icms_st: TFloatField;
+    FieldConsultanf_bc_icms_st: TFloatField;
+    FieldConsultanf_total_prod: TFloatField;
+    qConsultanf_cfop: TMemoField;
+    FieldConsultavalor_nf: TFloatField;
+    FieldConsultadata_nfe: TDateField;
+    FieldConsultanatureza_carga: TStringField;
+    FieldConsultaqtde_volume: TFloatField;
+    FieldConsultaespecie_volume: TStringField;
+    FieldConsultamarca: TStringField;
+    FieldConsultaqtde_kgm: TStringField;
+    FieldConsultafrete_kgm: TStringField;
+    FieldConsultafrete: TIntegerField;
+    FieldConsultavalor_frete: TFloatField;
+    FieldConsultadespacho: TFloatField;
+    FieldConsultapedagio: TFloatField;
+    FieldConsultaoutras_despesas: TFloatField;
+    FieldConsultaprestacao: TFloatField;
+    FieldConsultaaliquota: TFloatField;
+    FieldConsultabasecalc_icms: TFloatField;
+    FieldConsultavalor_icms: TFloatField;
+    FieldConsultatarifa: TFloatField;
+    qConsultalocal_coleta: TLargeintField;
+    FieldConsultadata_coleta: TDateField;
+    FieldConsultafrota: TIntegerField;
+    FieldConsultaveiculo_placa: TStringField;
+    FieldConsultaveiculo_uf: TStringField;
+    qConsultasec_car: TMemoField;
+    FieldConsultabase_calculo: TFloatField;
+    FieldConsultacalculado_ate: TFloatField;
+    FieldConsultadata_recebimento: TDateField;
+    FieldConsultaredespacho: TIntegerField;
+    FieldConsultaprocessado: TBooleanField;
+    FieldConsultavalor_produto: TFloatField;
+    FieldConsultamarcado_manual: TBooleanField;
+    FieldConsultaun_med: TStringField;
+    FieldConsultaseguro_resp: TStringField;
+    FieldConsultaseguro_seg: TStringField;
+    FieldConsultaseguro_apol: TStringField;
+    FieldConsultaseguro_averb: TStringField;
+    FieldConsultaobservacao: TStringField;
+    lbl1: TLabel;
+    edtremetente: TcxDBSpinEdit;
+    lbl2: TLabel;
+    edtdestinatario: TcxDBSpinEdit;
+    lbl3: TLabel;
+    edtlocal_coleta: TcxDBSpinEdit;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    edtnota: TcxDBSpinEdit;
+    lbl6: TLabel;
+    edtvalor_nf: TcxDBCalcEdit;
+    lbl7: TLabel;
+    edtdata_nfe: TcxDBDateEdit;
+    lbl8: TLabel;
+    edtnf_serie: TcxDBSpinEdit;
+    lbl10: TLabel;
+    edtfrota: TcxDBSpinEdit;
+    grpObservacoes: TGroupBox;
+    mmoObservacoes: TcxDBMemo;
+    cbbremetente: TcxDBLookupComboBox;
+    cbbdestinatario: TcxDBLookupComboBox;
+    cbblocal_coleta: TcxDBLookupComboBox;
+    cbbOperacao: TcxDBLookupComboBox;
+    cbbFrota: TcxDBLookupComboBox;
+    qPessoas: TUniQuery;
+    dsPessoas: TUniDataSource;
+    lbl11: TLabel;
+    edtlocal_entrega: TcxDBSpinEdit;
+    cbblocal_entrega: TcxDBLookupComboBox;
+    cbb1: TcxDBImageComboBox;
+    qCidade: TUniQuery;
+    dsCidade: TUniDataSource;
+    qOperacacoes: TUniQuery;
+    dsOperacoes: TUniDataSource;
+    qFrota: TUniQuery;
+    dsFrota: TUniDataSource;
+    FieldConsultanatureza_operacao: TStringField;
+    lbl12: TLabel;
+    edtnatureza_operacao: TcxDBTextEdit;
+    procedure FormShow(Sender: TObject);
+    procedure btnAvancarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewCTE: TfrmNewCTE;
+
+implementation
+
+{$R *.dfm}
+
+uses unCadCTE;
+
+procedure TfrmNewCTE.btnAvancarClick(Sender: TObject);
+begin
+  ds.DataSet.FieldByName('status').AsString := 'P';
+  inherited;
+  ActAvancar(TfrmCadCTE,frmCadCTE);
+  Close;
+end;
+
+procedure TfrmNewCTE.FormShow(Sender: TObject);
+begin
+  qSQL.ParamByName('sequencial').AsString := 'cte_codigo_seq';
+  inherited;
+  //edtCliente.SetFocus;
+  ds.DataSet.FieldByName('data_registro').AsDateTime := Date;
+end;
+
+end.

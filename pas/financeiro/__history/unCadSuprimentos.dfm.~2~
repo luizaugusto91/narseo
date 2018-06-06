@@ -1,0 +1,79 @@
+inherited frmCadSuprimentos: TfrmCadSuprimentos
+  Caption = 'Caixa: Suprimento'
+  ExplicitWidth = 506
+  ExplicitHeight = 349
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Color = clScrollBar
+    ParentBackground = False
+  end
+  inherited grpContent: TGroupBox
+    Height = 228
+    Margins.Bottom = 5
+  end
+  inherited ds: TUniDataSource
+    Left = 312
+    Top = 0
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO caixa_movimento'
+      
+        '  (caixa, turno, data_movimento, operador_sistema, motivo, valor' +
+        ', data_hora, tipo, operador_caixa, tipo_pagamento, observacao)'
+      'VALUES'
+      
+        '  (:caixa, :turno, :data_movimento, :operador_sistema, :motivo, ' +
+        ':valor, :data_hora, :tipo, :operador_caixa, :tipo_pagamento, :ob' +
+        'servacao)')
+    SQLDelete.Strings = (
+      'DELETE FROM caixa_movimento'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE caixa_movimento'
+      'SET'
+      
+        '  caixa = :caixa, turno = :turno, data_movimento = :data_movimen' +
+        'to, operador_sistema = :operador_sistema, motivo = :motivo, valo' +
+        'r = :valor, data_hora = :data_hora, tipo = :tipo, operador_caixa' +
+        ' = :operador_caixa, tipo_pagamento = :tipo_pagamento, observacao' +
+        ' = :observacao'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM caixa_movimento'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT caixa, turno, data_movimento, operador_sistema, motivo, v' +
+        'alor, data_hora, tipo, operador_caixa, tipo_pagamento, observaca' +
+        'o FROM caixa_movimento'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM caixa_movimento'
+      ''
+      ') t')
+    SQL.Strings = (
+      
+        'SELECT codigo, caixa, turno, data_movimento, operador_sistema, m' +
+        'otivo, '
+      
+        '       valor, cupom, data_hora, tipo, operador_caixa, tipo_pagam' +
+        'ento, '
+      '       conta, observacao'
+      '  FROM caixa_movimento'
+      ' WHERE codigo = :codigo;')
+    Left = 272
+    Top = 0
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 228
+  end
+end

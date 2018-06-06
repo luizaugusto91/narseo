@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\essenciais\unSave.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\essenciais\unSave.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0940972222</prop>
+        <prop prop-type="OrigDateTime">42759.0297222222</prop>
+        <prop prop-type="XlatDateTime">42759.0297222222</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">48</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:frmSave.Left" resname="O:frmSave.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Top" resname="O:frmSave.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Caption" resname="O:frmSave.Caption">
+        <source>'frmSave'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.ClientHeight" resname="O:frmSave.ClientHeight">
+        <source>435</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.ClientWidth" resname="O:frmSave.ClientWidth">
+        <source>480</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Color" resname="O:frmSave.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Font.Charset" resname="O:frmSave.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Font.Color" resname="O:frmSave.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Font.Height" resname="O:frmSave.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Font.Name" resname="O:frmSave.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.Font.Style" resname="O:frmSave.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.OldCreateOrder" resname="O:frmSave.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.PixelsPerInch" resname="O:frmSave.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.TextHeight" resname="O:frmSave.TextHeight">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TfrmSave</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.AlignWithMargins" resname="O:frmSave.O:pnlHelp.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Left" resname="O:frmSave.O:pnlHelp.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Top" resname="O:frmSave.O:pnlHelp.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Width" resname="O:frmSave.O:pnlHelp.Width">
+        <source>474</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Height" resname="O:frmSave.O:pnlHelp.Height">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Align" resname="O:frmSave.O:pnlHelp.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.BevelKind" resname="O:frmSave.O:pnlHelp.BevelKind">
+        <source>bkTile</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.BevelOuter" resname="O:frmSave.O:pnlHelp.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.TabOrder" resname="O:frmSave.O:pnlHelp.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.Visible" resname="O:frmSave.O:pnlHelp.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.ExplicitLeft" resname="O:frmSave.O:pnlHelp.ExplicitLeft">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.ExplicitTop" resname="O:frmSave.O:pnlHelp.ExplicitTop">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Left" resname="O:frmSave.O:pnlHelp.O:imgHelp.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Top" resname="O:frmSave.O:pnlHelp.O:imgHelp.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Enabled" resname="O:frmSave.O:pnlHelp.O:imgHelp.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Picture.Data" resname="O:frmSave.O:pnlHelp.O:imgHelp.Picture.Data">
+        <source>0D546478536D617274496D61676589504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000000467414D410000B18F0BFC61050000051D494441545847B556EB53D465187506F956D3972ED33F5133F54570884BD3E45868571842990416105003D446E2A622221810C6BD61B98A2801917111445810109BA9A6C626D3341908B9DF96E57E7ACEBBFB03362A05D967E60CCF3C9773CEFBFE7EBBCB960D869D5B7851AE73780908B788E26AA96D35B76C1FF6CE11257D2915DDD082B9D3217DA5F4ECCC23B60B7BE7F0E2DEE48B5D16E99560CDE9A06D4DC8C98B7B9356897B9FAE51D0823D5BDD84123F53BE22EE9B528BD78F962930D782339B6DC222DE699100FC53EBB023B21CBB622B1498B3A6056737CB84124FBCB022AE4B6BC08EA84BD8155789DDC7AB1498B3C69E16DC7952134AFCB4457C4910987E053B63E4D4C72BD5DF37222F2AACAE7186B30CEE6ED484BD8B88279499C5E71781A0738D708FABC27B27BF817B6C152A3B6EAB1E83396BAA27339CE50E831CAFADD304C5FB12CA3A14C1DCE212F6673461F7896A78247CABB033A652F556076B5A9FB3DCE12E835C8F6B62ABF327052DA7CE9BC54DF34B08CEBC8A77E26BE099F81DBC926AD5DFB7E2AA559FFC160D555B3DC31DEE928341CE4799B0E340BC457C7A76012159CD785F4E4452EFB3750A5EC9B578F7540D2E18561E0173D6D85B9E931DEE92835C0C72FF970939B9BE4A3BF9E4CC3C0EE4B4E0C34412D6636F4AC332BC92EB44EC32DE8CA9866BE4D70ACC59636FF52C77C9412E723268825AD4344B8B1BD7B07C3DC5F9DE8C4DCFE3605E2B3C92EAB127E50A7CD21A97B137B5119EC9F58A68416ED6246F1AC19CC11E6756EF90835CE4243735A8454D6AD3C0532E874B312E0E0726661092D30A4F59F011A28FBF685A036F21748FBF8C8999053C947982396BECFDDB0EB9C8192CDCC6B9458C99E6E112510A6AD3C0B334302AC5297956A17906787D4EA2ABF03DD7BC06AC7F70A61E23C659F48C181598B3F67F3BE40CCD35605234F830DE962F2E6A2B03DB752955274B3B60943776607206E1FA0EEC496BC2BE2F9BE19771CD0AFB84D0E36C83BAAD7B03530ACC59636FCDBC70908B9CE4A6C609D19247705FB49FA3015EC34B2E61054371C5ED720B8B72ADB3385CD0099F7421CC6C852E6B057E992DF04A6D42EFA809BF3F9C5460CE1A7BD6B3AD8A835CE42437351C74A906D17C45F00C0DF045785EB04DDECEC15819189767DA3766C291E22E39C135E8B25B1198635060EE2D577A6FC8885BBDE30ACC59FBE71C77C9412E7292DB4197D62A5AAF5A34ED052A98BC2870A409BA1C352DA8931D2DB901DF0C030272DA1198DB0EFF2C033E4A6BC6EDFE49FCDC33A6C09C35F638C359EE70971CE4329F5C89F3E47CF66BBE0B34130EEA268ADA312C1F9B9E91697C5ADA0DFF6C0382845C97DD860752FBAD7F02B7FAE40604CC59638F339CE50E77C941AE47896B616522BAA80D03C639DC1F9EC2B1F33711907B1D4179D7A19313FA89986F9619CC59638F339CE50E77C9F1B8E25A2C9B70111331856DE89F98C3DDC12944967D8FC0AF3A109CDF8910BD3558638F339CE50E771DD729AE8595896821EA1D9FC11DF9C84595FF80FDFA2E1C28ECC6A1223398B3C61E6738CB9D8D8A6B6165E2B38236F4C8DBCC172EFAD28F082DB8B16C80396BEC7186B34F2AAE859589C80203FE94B7FAD7BFC61153F113420B6F2A30678D3DCE6C96B816D637A137E08FA169FC226F7F940813CC59636FB3C5B5B0BE0911BA336894534F283067CD56E25A68261C5DC3F4C3C7F46DB83B645260BE3DC0B6E25A6826B63905A5B7BB1D29854258FE03A9F1EBD5A6E25AD0C40B829705CE0257014FCEEF769B8B6BC17FA79E16F0C4FC49E5AF1A8DAD33B66CF91BADF04824CE1A73410000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Style.BorderStyle" resname="O:frmSave.O:pnlHelp.O:imgHelp.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.TabOrder" resname="O:frmSave.O:pnlHelp.O:imgHelp.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Transparent" resname="O:frmSave.O:pnlHelp.O:imgHelp.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Height" resname="O:frmSave.O:pnlHelp.O:imgHelp.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:imgHelp.Width" resname="O:frmSave.O:pnlHelp.O:imgHelp.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.AlignWithMargins" resname="O:frmSave.O:pnlHelp.O:mmoHelp.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Left" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Left">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Top" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Width" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Width">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Height" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Align" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.BorderStyle" resname="O:frmSave.O:pnlHelp.O:mmoHelp.BorderStyle">
+        <source>bsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Color" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[0]" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[0]">
+        <source>'Bem vindo a ajuda do sistema!'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[1]" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[1]">
+        <source>'Passe o mouse por cima do componente para obter mais '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[2]" resname="O:frmSave.O:pnlHelp.O:mmoHelp.Lines.Strings[2]">
+        <source>'informações. '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.ScrollBars" resname="O:frmSave.O:pnlHelp.O:mmoHelp.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmSave.O:pnlHelp.O:mmoHelp.TabOrder" resname="O:frmSave.O:pnlHelp.O:mmoHelp.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941198148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

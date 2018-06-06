@@ -1,0 +1,62 @@
+inherited frmCadCTeParametros: TfrmCadCTeParametros
+  Caption = 'Parametros de Documentos Eletr'#244'nicos - CT-e'
+  ClientHeight = 456
+  ClientWidth = 684
+  ExplicitWidth = 690
+  ExplicitHeight = 485
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 421
+    Width = 684
+    inherited btnCancelar: TButton
+      Left = 407
+    end
+    inherited btnSalvar: TButton
+      Left = 500
+    end
+    inherited btnFechar: TButton
+      Left = 593
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 674
+    Height = 369
+  end
+  inherited pnlHelp: TPanel
+    Width = 675
+    inherited mmoHelp: TMemo
+      Width = 628
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT codigo, '
+      #9'empresa, '
+      #9'cfop, '
+      #9'destinatario, '
+      #9'remetente, '
+      #9'origem, '
+      #9'destino, '
+      #9'tipo_nota, '
+      #9'frota'
+      '   FROM cte_parametros'
+      '  WHERE codigo = :codigo and empresa = :empresa;')
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'codigo'
+        ParamType = ptInput
+        Value = 0
+      end
+      item
+        DataType = ftInteger
+        Name = 'empresa'
+        ParamType = ptInput
+        Value = 0
+      end>
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+end

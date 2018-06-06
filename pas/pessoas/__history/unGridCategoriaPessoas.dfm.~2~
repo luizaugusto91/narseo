@@ -1,0 +1,171 @@
+inherited frmGridCategoriaPessoas: TfrmGridCategoriaPessoas
+  Tag = 2103
+  Caption = 'Categoria de Pessoas'
+  ClientWidth = 1000
+  ExplicitWidth = 1016
+  ExplicitHeight = 539
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Width = 1000
+    ExplicitTop = 363
+    ExplicitWidth = 1038
+    inherited btnNovo: TButton
+      Left = 615
+      ExplicitLeft = 653
+    end
+    inherited btnVisualizar: TButton
+      Left = 711
+      ExplicitLeft = 749
+    end
+    inherited btnEditar: TButton
+      Left = 807
+      ExplicitLeft = 845
+    end
+    inherited btnExcluir: TButton
+      Left = 903
+      ExplicitLeft = 941
+    end
+  end
+  inherited grpLista: TGroupBox
+    Left = 7
+    Top = 129
+    Width = 986
+    Height = 312
+    Margins.Left = 7
+    Margins.Top = 7
+    Margins.Right = 7
+    ExplicitLeft = 7
+    ExplicitTop = 129
+    ExplicitWidth = 1024
+    ExplicitHeight = 234
+    inherited pnlFuncoes: TPanel
+      Left = 646
+      Height = 285
+      Margins.Bottom = 7
+      ExplicitLeft = 684
+      ExplicitHeight = 207
+    end
+    inherited Grid: TcxGrid
+      Left = 9
+      Width = 637
+      Height = 285
+      Margins.Left = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 9
+      ExplicitWidth = 675
+      ExplicitHeight = 207
+      inherited View: TcxGridDBTableView
+        OnDblClick = ViewDblClick
+        object ColViewID: TcxGridDBColumn
+          Caption = 'ID'
+          DataBinding.FieldName = 'codigo'
+          Width = 60
+        end
+        object ColViewDescricao: TcxGridDBColumn
+          Caption = 'Descri'#231#227'o'
+          DataBinding.FieldName = 'categoria'
+          Width = 300
+        end
+        object ColViewBloqueado: TcxGridDBColumn
+          Caption = 'Bloqueado'
+          DataBinding.FieldName = 'bloqueado'
+          Width = 70
+        end
+      end
+    end
+    inherited pnlFiltros: TPanel
+      Left = 677
+      Height = 285
+      Margins.Right = 7
+      Margins.Bottom = 7
+      ExplicitLeft = 715
+      ExplicitHeight = 207
+      inherited GridFiltros: TcxGrid
+        Height = 285
+        Margins.Left = 7
+        Margins.Bottom = 7
+        ExplicitHeight = 207
+      end
+    end
+  end
+  inherited Ribbon: TdxRibbon
+    Width = 1000
+    ExplicitWidth = 1038
+    inherited MTabRegistros: TdxRibbonTab
+      Index = 0
+    end
+  end
+  inherited stb: TStatusBar
+    Width = 1000
+    ExplicitTop = 403
+    ExplicitWidth = 1038
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      'SELECT  pc.codigo, '
+      #9'pc.empresa, '
+      #9'pc.categoria, '
+      #9'pc.bloqueado'
+      '  FROM  pessoa_categorias pc'
+      ' order by pc.categoria;')
+  end
+  inherited qInfo: TUniQuery
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'colunas'
+        ParamType = ptInput
+        Value = #39#39
+      end
+      item
+        DataType = ftString
+        Name = 'tabela'
+        ParamType = ptInput
+        Value = 'pessoa_categorias'
+      end>
+  end
+  inherited StyleRepository: TcxStyleRepository
+    PixelsPerInch = 96
+  end
+  inherited BarManager: TdxBarManager
+    DockControlHeights = (
+      0
+      0
+      0
+      0)
+    inherited BarOpcoes: TdxBar
+      DockedDockControl = nil
+      DockedDockingStyle = dsNone
+      FloatClientWidth = 65
+      FloatClientHeight = 216
+    end
+    inherited BarOutros: TdxBar
+      DockedDockControl = nil
+      DockedDockingStyle = dsNone
+      FloatClientWidth = 76
+      FloatClientHeight = 21
+    end
+    inherited BarSistem: TdxBar
+      DockedDockControl = nil
+      DockedDockingStyle = dsNone
+      FloatClientWidth = 51
+      FloatClientHeight = 108
+    end
+    inherited MnNovo: TdxBarLargeButton
+      OnClick = MnNovoClick
+    end
+    inherited MnVisualizar: TdxBarLargeButton
+      OnClick = MnVisualizarClick
+    end
+    inherited MnEditar: TdxBarLargeButton
+      OnClick = MnEditarClick
+    end
+    inherited MnExcluir: TdxBarLargeButton
+      OnClick = MnExcluirClick
+    end
+  end
+end

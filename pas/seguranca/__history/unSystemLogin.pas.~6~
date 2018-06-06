@@ -1,0 +1,173 @@
+unit unSystemLogin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, cxGraphics, unSystem,
+  cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit,
+  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinBlueprint, dxSkinCaramel,
+  dxSkinCoffee, dxSkinDarkRoom, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
+  dxSkinDevExpressStyle, dxSkinFoggy, dxSkinGlassOceans, dxSkinHighContrast,
+  dxSkiniMaginary, dxSkinLilian, dxSkinLiquidSky, dxSkinLondonLiquidSky,
+  dxSkinMcSkin, dxSkinMetropolis, dxSkinMetropolisDark, dxSkinMoneyTwins,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, dxSkinPumpkin, dxSkinSeven,
+  dxSkinSevenClassic, dxSkinSharp, dxSkinSharpPlus, dxSkinSilver,
+  dxSkinSpringTime, dxSkinStardust, dxSkinSummer2008, dxSkinTheAsphaltWorld,
+  dxSkinsDefaultPainters, dxSkinValentine, dxSkinVS2010, dxSkinWhiteprint,
+  dxSkinXmas2008Blue, cxLabel, cxDBLabel, dxGDIPlusClasses, cxImage,
+  Data.DB, DBAccess, Uni, Vcl.ImgList, cxTextEdit, cxMaskEdit, cxDropDownEdit,
+  cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox;
+
+type
+  TfrmSystemLogin = class(TForm)
+    pnlBotton: TPanel;
+    btnLogin: TButton;
+    btnCancelar: TButton;
+    pnlLeft: TPanel;
+    imgTagLogo: TcxImage;
+    pnlClient: TPanel;
+    grpEmpresa: TGroupBox;
+    lblRazao: TLabel;
+    lblCNPJ: TLabel;
+    lbldbFantasia: TcxDBLabel;
+    lbldbCNPJ: TcxDBLabel;
+    grpLogin: TGroupBox;
+    lblUsuario: TLabel;
+    lblSenha: TLabel;
+    edtLogin: TEdit;
+    edtPassword: TEdit;
+    pnlTop: TPanel;
+    imgLogo: TcxImage;
+    dsEmpresas: TUniDataSource;
+    ImageList16: TcxImageList;
+    btnConn: TButton;
+    ImageList24: TcxImageList;
+    lblCopy: TLabel;
+    lblMulti: TLabel;
+    cbbMultiEmpresas: TcxDBLookupComboBox;
+    dsParametros: TUniDataSource;
+    procedure btnLoginClick(Sender: TObject);
+    procedure btnCancelarClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure edtPasswordKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure edtLoginKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure btnConnClick(Sender: TObject);
+    procedure cbbMultiEmpresasPropertiesChange(Sender: TObject);
+    procedure cbbMultiEmpresasExit(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSystemLogin: TfrmSystemLogin;
+
+implementation
+
+uses unConnection, unParametros;
+{$R *.dfm}
+
+
+procedure TfrmSystemLogin.btnCancelarClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure TfrmSystemLogin.btnConnClick(Sender: TObject);
+begin
+  //
+  Aviso('INFO','Não disponível.','A configuração de conexão com o servidor não esta disponivel diretamente pelo login nesta versão.');
+end;
+
+procedure TfrmSystemLogin.btnLoginClick(Sender: TObject);
+begin
+  Connection.qLogin.Close;
+  Connection.qLogin.ParamByName('empresa').AsInteger := Parametros.FieldParametrosempresa.AsInteger;
+  Connection.qLogin.ParamByName('login').AsString := edtLogin.Text;
+  Connection.qLogin.ParamByName('senha').AsString := edtPassword.Text;
+  Connection.qLogin.Open;
+    if Connection.qLogin.RecordCount = 1 then
+      begin
+        // Inicia carregamento de Parametros de permissoes de acesso.
+        Parametros.SetParamUsuario(Connection.qLogin.FieldByName('codigo').AsInteger);
+        Parametros.SetParamPessoa(Connection.qLogin.FieldByName('pessoa').AsInteger);
+        Parametros.SetParamGrupo(Connection.qLogin.FieldByName('grupo').AsInteger);
+        Connection.qPessoa.ParamByName('codigo').AsInteger := Connection.qLogin.FieldByName('codigo').AsInteger;
+        Connection.qPessoa.Open;
+        // Inicia Aplicação
+        Parametros.SystemConfig.ASSystemAuth := True;
+        Close;
+      end
+    else
+      begin
+        Aviso('INFO','Login incorreto','Usuário ou senha incorretos. Por favor, verifique novamente.');
+        edtLogin.Clear;
+        edtPassword.Clear;
+        edtLogin.SetFocus;
+      end;
+end;
+
+procedure TfrmSystemLogin.cbbMultiEmpresasExit(Sender: TObject);
+begin
+  Parametros.cdsParametros.Post;
+  Connection.qEmpresas.Locate('codigo',Parametros.cdsParametros.FieldByName('empresa').AsInteger,[]);
+end;
+
+procedure TfrmSystemLogin.cbbMultiEmpresasPropertiesChange(Sender: TObject);
+begin
+  Parametros.cdsParametros.Edit;
+end;
+
+procedure TfrmSystemLogin.edtLoginKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (edtLogin.Text <> '') and (Key = VK_RETURN) then
+    begin
+      edtPassword.SetFocus;
+    end;
+  if Key = VK_ESCAPE then
+    begin
+      Close;
+    end;
+end;
+
+procedure TfrmSystemLogin.edtPasswordKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (edtPassword.Text <> '') and (Key = VK_RETURN) then
+    begin
+      btnLogin.Click;
+    end;
+end;
+
+procedure TfrmSystemLogin.FormShow(Sender: TObject);
+begin
+  //.qEstabelecimentos.Open;
+  Connection.qEmpresas.Open;
+  if Connection.qEmpresas.RecordCount > 1 then
+    begin
+      Connection.qMatriz.Open;
+      Parametros.cdsParametros.Edit;
+      Parametros.cdsParametros.FieldByName('empresa').AsInteger := Connection.qMatriz.FieldByName('codigo').AsInteger;
+      cbbMultiEmpresas.Enabled := True;
+      cbbMultiEmpresas.SetFocus;
+      edtLogin.SetFocus;
+    end
+  else
+    begin
+      Parametros.cdsParametros.Edit;
+      Parametros.cdsParametros.FieldByName('empresa').AsInteger := Connection.qEmpresas.FieldByName('codigo').AsInteger;
+      Parametros.cdsParametros.Post;
+      cbbMultiEmpresas.Enabled := False;
+      edtLogin.SetFocus;
+    end;
+end;
+
+end.

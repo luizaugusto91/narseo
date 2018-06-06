@@ -1,0 +1,100 @@
+inherited frmCadPessoaContasBancarias: TfrmCadPessoaContasBancarias
+  Caption = 'Associar contas bancarias'
+  ExplicitWidth = 476
+  ExplicitHeight = 288
+  PixelsPerInch = 96
+  TextHeight = 15
+  object grpDetalhes: TGroupBox [1]
+    AlignWithMargins = True
+    Left = 5
+    Top = 3
+    Width = 450
+    Height = 212
+    Margins.Left = 5
+    Margins.Right = 5
+    Margins.Bottom = 0
+    Align = alClient
+    Caption = ' Detalhes '
+    TabOrder = 1
+    ExplicitLeft = 8
+    ExplicitTop = 8
+    ExplicitWidth = 185
+    ExplicitHeight = 105
+    object lblCodigo: TLabel
+      Left = 10
+      Top = 24
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtCodigo
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 57
+      Top = 21
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO pessoa_contabancaria'
+      
+        '  (pessoa, banco, tipo_conto, agencia_num, agencia_cod, conta_nu' +
+        'm, conta_cod, conta_principal, conta_inativa)'
+      'VALUES'
+      
+        '  (:pessoa, :banco, :tipo_conto, :agencia_num, :agencia_cod, :co' +
+        'nta_num, :conta_cod, :conta_principal, :conta_inativa)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoa_contabancaria'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoa_contabancaria'
+      'SET'
+      
+        '  pessoa = :pessoa, banco = :banco, tipo_conto = :tipo_conto, ag' +
+        'encia_num = :agencia_num, agencia_cod = :agencia_cod, conta_num ' +
+        '= :conta_num, conta_cod = :conta_cod, conta_principal = :conta_p' +
+        'rincipal, conta_inativa = :conta_inativa'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoa_contabancaria'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT pessoa, banco, tipo_conto, agencia_num, agencia_cod, cont' +
+        'a_num, conta_cod, conta_principal, conta_inativa FROM pessoa_con' +
+        'tabancaria'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoa_contabancaria'
+      ''
+      ') t')
+    SQL.Strings = (
+      'SELECT '#9'pcb.codigo, '
+      #9'pcb.pessoa, '
+      #9'pcb.banco, '
+      #9'pcb.tipo_conto, '
+      #9'pcb.agencia_num, '
+      #9'pcb.agencia_cod,        '
+      #9'pcb.conta_num, '
+      #9'pcb.conta_cod, '
+      #9'pcb.conta_principal, '
+      #9'pcb.conta_inativa'
+      '  FROM  pessoa_contabancaria pcb'
+      ' WHERE  pcb.pessoa = :codigo;')
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+end

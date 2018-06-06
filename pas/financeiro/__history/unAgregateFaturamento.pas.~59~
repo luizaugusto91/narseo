@@ -1,0 +1,359 @@
+unit unAgregateFaturamento;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unAgregate, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, cxStyles,
+  dxSkinscxPCPainter, cxCustomData, cxFilter, cxData, cxDataStorage,
+  cxNavigator, Data.DB, cxDBData, Datasnap.DBClient, DBAccess, Uni, MemDS,
+  Vcl.ImgList, cxGridLevel, cxClasses, cxGridCustomView, cxGridCustomTableView,
+  cxGridTableView, cxGridDBTableView, cxGrid, Vcl.StdCtrls, Vcl.ExtCtrls,
+  dxGDIPlusClasses, cxImage, cxDropDownEdit, cxLookupEdit, cxDBLookupEdit,
+  cxDBLookupComboBox, cxCalendar, cxDBEdit, cxTextEdit, cxMaskEdit, cxSpinEdit,
+  cxCurrencyEdit, cxImageComboBox, cxCheckBox, Vcl.Menus, unSystem, unParametros,
+  frxClass, frxDBSet;
+
+type
+  TfrmAgregateFaturamento = class(TfrmAgregate)
+    Fieldcdscliente: TIntegerField;
+    Fieldcdsdatainicio: TDateField;
+    Fieldcdsdatafinal: TDateField;
+    dsInternal: TDataSource;
+    lbl3: TLabel;
+    edtcliente: TcxDBSpinEdit;
+    lbl4: TLabel;
+    edtdatainicio: TcxDBDateEdit;
+    lbl5: TLabel;
+    edtdatafinal: TcxDBDateEdit;
+    btnFiltrar: TButton;
+    cbbcliente: TcxDBLookupComboBox;
+    qClientes: TUniQuery;
+    dsClientes: TUniDataSource;
+    ColumnViewcodigo: TcxGridDBColumn;
+    ColumnViewdata_registro: TcxGridDBColumn;
+    ColumnViewvencimento: TcxGridDBColumn;
+    ColumnViewvalor: TcxGridDBColumn;
+    ColumnViewdocumento: TcxGridDBColumn;
+    ColumnViewdescricao: TcxGridDBColumn;
+    ColumnViewstatus: TcxGridDBColumn;
+    ColumnViewnfe: TcxGridDBColumn;
+    FieldConsultacodigo: TIntegerField;
+    qConsultadata_registro: TDateTimeField;
+    FieldConsultavencimento: TDateField;
+    FieldConsultavalor: TCurrencyField;
+    FieldConsultadocumento: TStringField;
+    FieldConsultadescricao: TStringField;
+    FieldConsultastatus: TStringField;
+    FieldConsultanfe: TIntegerField;
+    ColumnViewselecionado: TcxGridDBColumn;
+    StyleRepository: TcxStyleRepository;
+    StyleHeader: TcxStyle;
+    StyleItemInativo: TcxStyle;
+    StyleItemAtivo: TcxStyle;
+    StyleAberto: TcxStyle;
+    StyleCancelado: TcxStyle;
+    StyleQuitado: TcxStyle;
+    StyleParcial: TcxStyle;
+    cdsreg: TClientDataSet;
+    Fieldcdsreggerar: TBooleanField;
+    Fieldcdsregcodigo: TIntegerField;
+    Fieldcdsregregistro: TDateField;
+    Fieldcdsregvencimento: TDateField;
+    Fieldcdsregvalor: TCurrencyField;
+    Fieldcdsregdocumento: TStringField;
+    Fieldcdsregdescricao: TStringField;
+    Fieldcdsregstatus: TStringField;
+    Fieldcdsregdoc: TIntegerField;
+    pmOpcoes: TPopupMenu;
+    mniSelecionartodos1: TMenuItem;
+    mniDesmarcartodos1: TMenuItem;
+    mniN1: TMenuItem;
+    qSQL: TUniQuery;
+    qContas: TUniQuery;
+    qFaturamento: TUniQuery;
+    qDados: TUniQuery;
+    RepFaturamento: TfrxReport;
+    FRDataSetContas: TfrxDBDataset;
+    FRDataSetDados: TfrxDBDataset;
+    FRDataSetParametros: TfrxDBDataset;
+    FRDataSetEmpresa: TfrxDBDataset;
+    qEmpresa: TUniQuery;
+    FieldEmpresacodigo: TIntegerField;
+    FieldEmpresaempresa: TIntegerField;
+    FieldEmpresanome: TStringField;
+    FieldEmpresafantasia: TStringField;
+    FieldEmpresanomereduzido: TStringField;
+    FieldEmpresatipopessoa: TIntegerField;
+    FieldEmpresacnpj: TStringField;
+    FieldEmpresaie: TStringField;
+    FieldEmpresaim: TStringField;
+    FieldEmpresaendereco: TStringField;
+    FieldEmpresaendereco_numero: TStringField;
+    FieldEmpresacomplemento: TStringField;
+    FieldEmpresareferencia: TStringField;
+    FieldEmpresabairro: TStringField;
+    FieldEmpresacep: TStringField;
+    FieldEmpresauf: TStringField;
+    FieldEmpresatel1: TStringField;
+    FieldEmpresatel2: TStringField;
+    FieldEmpresatel3: TStringField;
+    FieldEmpresaemail: TStringField;
+    FieldEmpresasite: TStringField;
+    FieldEmpresacidade: TStringField;
+    procedure FormCreate(Sender: TObject);
+    procedure btnFiltrarClick(Sender: TObject);
+    procedure btnCancelarClick(Sender: TObject);
+    procedure ViewCellDblClick(Sender: TcxCustomGridTableView;
+      ACellViewInfo: TcxGridTableDataCellViewInfo; AButton: TMouseButton;
+      AShift: TShiftState; var AHandled: Boolean);
+    procedure pmOpcoesPopup(Sender: TObject);
+    procedure mniSelecionartodos1Click(Sender: TObject);
+    procedure mniDesmarcartodos1Click(Sender: TObject);
+    procedure cdsregAfterClose(DataSet: TDataSet);
+    procedure btnAvancarClick(Sender: TObject);
+    procedure cdsregBeforeRefresh(DataSet: TDataSet);
+    procedure cdsregBeforePost(DataSet: TDataSet);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmAgregateFaturamento: TfrmAgregateFaturamento;
+
+implementation
+
+{$R *.dfm}
+
+uses unConnection, unCadContasReceber;
+
+procedure TfrmAgregateFaturamento.btnAvancarClick(Sender: TObject);
+var
+  Total: Double;
+  Correto: Boolean;
+  Fatura: Integer;
+  Descricao: string;
+begin
+  inherited;
+  Correto := False;
+  // Geral o total
+  Total := 0;
+  cdsreg.First;
+  while cdsreg.Eof = False do
+    begin
+      if Fieldcdsreggerar.AsBoolean = True then
+        begin
+          Total := Total + Fieldcdsregvalor.AsFloat;
+        end;
+      cdsreg.Next;
+    end;
+  // Verifica o total
+  if Pergunta('WHAT','Confirmação','O valor total do faturamento sera de R$ ' + FloatToStr(Total)+'.'+#13+'Confirma a geração do Faturamento?','SN') = ID_YES then
+    begin
+      qSQl.ParamByName('pessoa').AsInteger := Fieldcdscliente.AsInteger;
+      qSQL.ParamByName('total').AsFloat := Total;
+      qSQL.Open;
+      Fatura := qSQL.FieldByName('codigo').AsInteger;
+      Descricao := 'Relação de faturas agregadas no periodo de ' + DateToStr(edtdatainicio.Date) + ' a ' + DateToStr(edtdatafinal.Date) + '.';
+      qContas.Close;
+      qContas.SQL.Clear;
+      qContas.SQL.Text := 'UPDATE contas_receber SET descricao = ' + Descricao + ', WHERE codigo = ' + Fieldcdsregcodigo.AsString;
+      qContas.Execute;
+      if Fatura <> 0 then
+        begin
+          try
+            try
+              Application.CreateForm(TfrmCadContasReceber, frmCadContasReceber);
+              frmCadContasReceber.Settings.Modo := 'ALTERACAO';
+              frmCadContasReceber.Settings.ID := Fatura;
+              frmCadContasReceber.ShowModal;
+            finally
+              frmCadContasReceber.Release;
+              Correto := True;
+            end;
+          except
+            Aviso('ERRO','Erro critico de execução.','Houve um erro ao abrir o formulario.'+#13+'Contate o suporte.');
+            Correto := False;
+          end;
+        end;
+      qSQL.Close;
+      if Correto = True then
+        begin
+          // Baixa as contas anteriores
+          cdsreg.First;
+          while cdsreg.Eof = False do
+            begin
+              qContas.SQL.Clear;
+              qContas.SQL.Text := 'UPDATE contas_receber SET fatura = true, quitada = true, status = ' + QuotedStr('Q') + ', conta_original = ' + IntToStr(Fatura) + ' WHERE codigo = ' + Fieldcdsregcodigo.AsString;
+              qContas.Execute;
+              cdsreg.Next;
+            end;
+          // Gera relatório das baixas.
+          qDados.Close;
+          qDados.ParamByName('codigo').AsInteger := Fieldcdscliente.AsInteger;
+          qDados.Open;
+          qFaturamento.Close;
+          qFaturamento.ParamByName('fatura').AsInteger := Fatura;
+          qFaturamento.Open;
+          RepFaturamento.ShowReport();
+        end;
+    end
+  else
+    ShowMessage('Operação cancelada.');
+  Close;
+end;
+
+procedure TfrmAgregateFaturamento.btnCancelarClick(Sender: TObject);
+begin
+  inherited;
+  Close;
+end;
+
+procedure TfrmAgregateFaturamento.btnFiltrarClick(Sender: TObject);
+begin
+  inherited;
+  if cds.State in [dsInsert, dsEdit] then
+    cds.Post;
+  if qConsulta.Active then
+    begin
+      qConsulta.Close;
+      if cdsreg.active then
+        begin
+          cdsreg.EmptyDataSet;
+          cdsreg.Close;
+        end;
+    end
+  else
+    begin
+      qConsulta.ParamByName('pessoa').AsInteger := Fieldcdscliente.AsInteger;
+      qConsulta.ParamByName('datainicial').AsDateTime := Fieldcdsdatainicio.AsDateTime;
+      qConsulta.ParamByName('datafinal').AsDateTime := Fieldcdsdatafinal.AsDateTime;
+      qConsulta.Open;
+      if qConsulta.RecordCount > 0 then
+        begin
+          cdsreg.CreateDataSet;
+          qConsulta.First;
+          while qConsulta.Eof = false do
+            begin
+              cdsreg.Insert;
+              Fieldcdsreggerar.AsBoolean := False;
+              Fieldcdsregcodigo.AsInteger := FieldConsultacodigo.AsInteger;
+              Fieldcdsregregistro.AsDateTime := qConsultadata_registro.AsDateTime;
+              Fieldcdsregvencimento.AsDateTime := FieldConsultavencimento.AsDateTime;
+              Fieldcdsregvalor.AsCurrency := FieldConsultavalor.AsCurrency;
+              Fieldcdsregdocumento.AsString := FieldConsultadocumento.AsString;
+              Fieldcdsregdescricao.AsString := FieldConsultadescricao.AsString;
+              Fieldcdsregstatus.AsString := FieldConsultastatus.AsString;
+              Fieldcdsregdoc.AsInteger := FieldConsultanfe.AsInteger;
+              cdsreg.Post;
+              qConsulta.Next;
+            end;
+        end;
+    end;
+end;
+
+procedure TfrmAgregateFaturamento.cdsregAfterClose(DataSet: TDataSet);
+begin
+  inherited;
+  btnAvancar.Enabled := False;
+end;
+
+procedure TfrmAgregateFaturamento.cdsregBeforePost(DataSet: TDataSet);
+begin
+  inherited;
+  btnAvancar.Enabled := True
+end;
+
+procedure TfrmAgregateFaturamento.cdsregBeforeRefresh(DataSet: TDataSet);
+begin
+  inherited;
+  if cdsreg.RecordCount > 0 then
+    btnAvancar.Enabled := True
+  else
+    btnAvancar.Enabled := False;
+end;
+
+procedure TfrmAgregateFaturamento.FormCreate(Sender: TObject);
+begin
+  inherited;
+  if cds.Active = True then
+    begin
+      cds.EmptyDataSet;
+      cds.Close;
+    end
+  else
+    begin
+      cds.CreateDataSet;
+      cds.Insert;
+    end;
+end;
+
+procedure TfrmAgregateFaturamento.mniDesmarcartodos1Click(Sender: TObject);
+begin
+  inherited;
+  cdsreg.First;
+  while cdsreg.Eof = false do
+    begin
+      cdsreg.Edit;
+      Fieldcdsreggerar.AsBoolean := False;
+      cdsreg.Post;
+      cdsreg.Next;
+    end;
+end;
+
+procedure TfrmAgregateFaturamento.mniSelecionartodos1Click(Sender: TObject);
+begin
+  inherited;
+  cdsreg.First;
+  while cdsreg.Eof = false do
+    begin
+      cdsreg.Edit;
+      Fieldcdsreggerar.AsBoolean := True;
+      cdsreg.Post;
+      cdsreg.Next;
+    end;
+end;
+
+procedure TfrmAgregateFaturamento.pmOpcoesPopup(Sender: TObject);
+begin
+  inherited;
+  if cdsreg.RecordCount > 0 then
+    begin
+      mniSelecionartodos1.Enabled := True;
+      mniDesmarcartodos1.Enabled := True;
+    end
+  else
+    begin
+      mniSelecionartodos1.Enabled := False;
+      mniDesmarcartodos1.Enabled := False;
+    end;
+end;
+
+procedure TfrmAgregateFaturamento.ViewCellDblClick(
+  Sender: TcxCustomGridTableView; ACellViewInfo: TcxGridTableDataCellViewInfo;
+  AButton: TMouseButton; AShift: TShiftState; var AHandled: Boolean);
+begin
+  inherited;
+  if Fieldcdsreggerar.AsBoolean = False then
+    begin
+      cdsreg.Edit;
+      Fieldcdsreggerar.AsBoolean := True;
+      cdsreg.Post;
+    end
+  else
+    begin
+      cdsreg.Edit;
+      Fieldcdsreggerar.AsBoolean := False;
+      cdsreg.Post;
+    end;
+end;
+
+end.

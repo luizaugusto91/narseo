@@ -1,0 +1,1029 @@
+inherited frmViewContasPagarPagamentos: TfrmViewContasPagarPagamentos
+  Caption = 'Detalhamento de pagamentos - Contas a Pagar'
+  ClientHeight = 564
+  ClientWidth = 850
+  ExplicitWidth = 856
+  ExplicitHeight = 593
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 529
+    Width = 850
+    inherited btnFechar: TButton
+      Left = 759
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 840
+    Height = 141
+    Align = alTop
+    Caption = ' Detalhes da conta '
+    ExplicitWidth = 840
+    ExplicitHeight = 141
+    object lblCodigo: TLabel
+      Left = 10
+      Top = 24
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtCodigo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl1: TLabel
+      Left = 111
+      Top = 24
+      Width = 88
+      Height = 15
+      Caption = 'Data do registro:'
+      FocusControl = edtdata_registro
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblTipoConta: TLabel
+      Left = 10
+      Top = 53
+      Width = 77
+      Height = 15
+      Caption = 'Tipo de Conta:'
+      FocusControl = edttipo_conta
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblValor: TLabel
+      Left = 360
+      Top = 53
+      Width = 30
+      Height = 15
+      Caption = 'Valor:'
+      FocusControl = edtvalor
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblParcela: TLabel
+      Left = 502
+      Top = 53
+      Width = 41
+      Height = 15
+      Caption = 'Parcela:'
+      FocusControl = edtparcela
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblVencimento: TLabel
+      Left = 604
+      Top = 53
+      Width = 67
+      Height = 15
+      Caption = 'Vencimento:'
+      FocusControl = edtvencimento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbldocumento: TLabel
+      Left = 10
+      Top = 82
+      Width = 67
+      Height = 15
+      Caption = 'Documento:'
+      FocusControl = edtdocumento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblCredor: TLabel
+      Left = 206
+      Top = 82
+      Width = 46
+      Height = 15
+      Caption = 'Cedente:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblDescricao: TLabel
+      Left = 311
+      Top = 24
+      Width = 55
+      Height = 15
+      Caption = 'Descri'#231#227'o:'
+      FocusControl = edtdescricao
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblcentrocustos: TLabel
+      Left = 10
+      Top = 111
+      Width = 92
+      Height = 15
+      Caption = 'Centro de Custos:'
+      FocusControl = edtcentro_custo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblTipoPagamento: TLabel
+      Left = 604
+      Top = 82
+      Width = 64
+      Height = 15
+      Caption = 'Pagamento:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 57
+      Top = 21
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtdata_registro: TcxDBDateEdit
+      Left = 205
+      Top = 21
+      DataBinding.DataField = 'data_registro'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 1
+      Width = 100
+    end
+    object edttipo_conta: TcxDBSpinEdit
+      Left = 93
+      Top = 50
+      DataBinding.DataField = 'tipo_conta'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      TabOrder = 2
+      OnExit = grpContentExit
+      Width = 50
+    end
+    object cbbTipoConta: TcxDBLookupComboBox
+      Left = 149
+      Top = 50
+      DataBinding.DataField = 'tipo_conta'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Descri'#231#227'o'
+          Width = 300
+          FieldName = 'descricao'
+        end>
+      Properties.ListSource = dsTipoConta
+      Properties.ReadOnly = False
+      TabOrder = 3
+      OnExit = grpContentExit
+      Width = 205
+    end
+    object edtvalor: TcxDBCalcEdit
+      Left = 396
+      Top = 50
+      DataBinding.DataField = 'valor'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 4
+      OnExit = grpContentExit
+      Width = 100
+    end
+    object edtparcela: TcxDBSpinEdit
+      Left = 548
+      Top = 50
+      DataBinding.DataField = 'parcela'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      TabOrder = 5
+      OnExit = grpContentExit
+      Width = 50
+    end
+    object edtvencimento: TcxDBDateEdit
+      Left = 677
+      Top = 50
+      DataBinding.DataField = 'vencimento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 6
+      OnExit = grpContentExit
+      Width = 151
+    end
+    object edtdocumento: TcxDBTextEdit
+      Left = 83
+      Top = 79
+      DataBinding.DataField = 'documento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 7
+      OnExit = grpContentExit
+      Width = 117
+    end
+    object cbbCredor: TcxDBLookupComboBox
+      Left = 258
+      Top = 79
+      DataBinding.DataField = 'pessoa'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Nome'
+          Width = 200
+          FieldName = 'fantasia'
+        end>
+      Properties.ReadOnly = False
+      TabOrder = 8
+      OnExit = grpContentExit
+      Width = 340
+    end
+    object edtdescricao: TcxDBTextEdit
+      Left = 372
+      Top = 21
+      DataBinding.DataField = 'descricao'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.CharCase = ecUpperCase
+      TabOrder = 9
+      OnExit = grpContentExit
+      Width = 456
+    end
+    object edtcentro_custo: TcxDBTextEdit
+      Left = 108
+      Top = 108
+      DataBinding.DataField = 'centro_custo'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 10
+      OnExit = grpContentExit
+      Width = 80
+    end
+    object cbbCentroCustos: TcxDBLookupComboBox
+      Left = 194
+      Top = 108
+      DataBinding.DataField = 'centro_custo'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Pai'
+          Width = 50
+          FieldName = 'chave'
+        end
+        item
+          Caption = 'Descri'#231#227'o'
+          Width = 200
+          FieldName = 'descricao'
+        end>
+      Properties.ListFieldIndex = 1
+      Properties.ListSource = dsCentroCustos
+      Properties.ReadOnly = False
+      TabOrder = 11
+      OnExit = grpContentExit
+      Width = 302
+    end
+    object cbbTipoPagamento: TcxDBLookupComboBox
+      Left = 674
+      Top = 79
+      DataBinding.DataField = 'tipo_pagamento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Descri'#231#227'o'
+          Width = 300
+          FieldName = 'descricao'
+        end>
+      Properties.ListSource = dsTipoPagamento
+      Properties.ReadOnly = False
+      TabOrder = 12
+      OnExit = grpContentExit
+      Width = 154
+    end
+    object cbbdesmembrada: TcxDBCheckBox
+      Left = 502
+      Top = 108
+      Caption = 'Desmenbrada'
+      DataBinding.DataField = 'desmembrada'
+      DataBinding.DataSource = ds
+      Enabled = False
+      ParentFont = False
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -12
+      Style.Font.Name = 'Segoe UI Semibold'
+      Style.Font.Style = [fsBold]
+      Style.IsFontAssigned = True
+      TabOrder = 13
+      Width = 98
+    end
+    object cbbquitada: TcxDBCheckBox
+      Left = 606
+      Top = 108
+      Caption = 'Quitada'
+      DataBinding.DataField = 'quitada'
+      DataBinding.DataSource = ds
+      Enabled = False
+      ParentFont = False
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -12
+      Style.Font.Name = 'Segoe UI Semibold'
+      Style.Font.Style = [fsBold]
+      Style.IsFontAssigned = True
+      TabOrder = 14
+      Width = 69
+    end
+    object cbbdespesa: TcxDBCheckBox
+      Left = 681
+      Top = 108
+      Caption = 'Despesa'
+      DataBinding.DataField = 'despesa'
+      DataBinding.DataSource = ds
+      Enabled = False
+      ParentFont = False
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -12
+      Style.Font.Name = 'Segoe UI Semibold'
+      Style.Font.Style = [fsBold]
+      Style.IsFontAssigned = True
+      TabOrder = 15
+      Width = 121
+    end
+  end
+  inherited pnlHelp: TPanel
+    Width = 841
+    inherited mmoHelp: TMemo
+      Width = 794
+    end
+  end
+  object Grid: TcxGrid [3]
+    AlignWithMargins = True
+    Left = 5
+    Top = 196
+    Width = 840
+    Height = 101
+    Margins.Left = 5
+    Margins.Right = 5
+    Align = alClient
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    ExplicitHeight = 149
+    object View: TcxGridDBTableView
+      Navigator.Buttons.CustomButtons = <>
+      DataController.DataSource = dsPagamentos
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+      OptionsData.CancelOnExit = False
+      OptionsData.Deleting = False
+      OptionsData.Editing = False
+      OptionsData.Inserting = False
+      OptionsSelection.CellSelect = False
+      OptionsView.ColumnAutoWidth = True
+      OptionsView.GroupByBox = False
+      OptionsView.Indicator = True
+      Styles.Content = StyleItemAtivo
+      Styles.Header = StyleHeader
+      object ColumnViewcodigo: TcxGridDBColumn
+        Caption = '#ID'
+        DataBinding.FieldName = 'codigo'
+        Width = 50
+      end
+      object ColumnViewcupom: TcxGridDBColumn
+        Caption = 'Cupom'
+        DataBinding.FieldName = 'cupom'
+        Width = 80
+      end
+      object ColumnViewdata_movimento: TcxGridDBColumn
+        Caption = 'Data'
+        DataBinding.FieldName = 'data_movimento'
+        Width = 100
+      end
+      object ColumnViewvalor: TcxGridDBColumn
+        Caption = 'Valor'
+        DataBinding.FieldName = 'valor'
+        PropertiesClassName = 'TcxCurrencyEditProperties'
+      end
+    end
+    object Master: TcxGridLevel
+      GridView = View
+    end
+  end
+  object grp1: TGroupBox [4]
+    AlignWithMargins = True
+    Left = 5
+    Top = 303
+    Width = 840
+    Height = 221
+    Hint = 'Detalhamento do registro'
+    Margins.Left = 5
+    Margins.Right = 5
+    Margins.Bottom = 5
+    Align = alBottom
+    Caption = ' Detalhes da Baixa '
+    TabOrder = 4
+    OnEnter = grpContentEnter
+    OnExit = grpContentExit
+    ExplicitTop = 292
+    object lbl2: TLabel
+      Left = 9
+      Top = 23
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtcodigo1
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl4: TLabel
+      Left = 110
+      Top = 23
+      Width = 28
+      Height = 15
+      Caption = 'Data:'
+      FocusControl = edtdata_movimento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl5: TLabel
+      Left = 497
+      Top = 23
+      Width = 53
+      Height = 15
+      Caption = 'Operador:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl6: TLabel
+      Left = 302
+      Top = 52
+      Width = 30
+      Height = 15
+      Caption = 'Valor:'
+      FocusControl = edtvalor1
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl7: TLabel
+      Left = 280
+      Top = 23
+      Width = 75
+      Height = 15
+      Caption = 'Data da Baixa:'
+      FocusControl = edtdata_hora
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl8: TLabel
+      Left = 9
+      Top = 52
+      Width = 31
+      Height = 15
+      Caption = 'Caixa:'
+      FocusControl = edtoperador_caixa
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbl9: TLabel
+      Left = 465
+      Top = 52
+      Width = 64
+      Height = 15
+      Caption = 'Pagamento:'
+      FocusControl = edttipo_pagamento
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtcodigo1: TcxDBSpinEdit
+      Left = 56
+      Top = 20
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtdata_movimento: TcxDBDateEdit
+      Left = 144
+      Top = 20
+      DataBinding.DataField = 'data_movimento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 1
+      OnExit = grpContentExit
+      Width = 130
+    end
+    object edtvalor1: TcxDBCurrencyEdit
+      Left = 338
+      Top = 49
+      DataBinding.DataField = 'valor'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 3
+      OnExit = grpContentExit
+      Width = 121
+    end
+    object edtdata_hora: TcxDBDateEdit
+      Left = 361
+      Top = 20
+      DataBinding.DataField = 'data_hora'
+      DataBinding.DataSource = ds
+      Enabled = False
+      TabOrder = 2
+      OnExit = grpContentExit
+      Width = 130
+    end
+    object edtoperador_caixa: TcxDBSpinEdit
+      Left = 46
+      Top = 49
+      DataBinding.DataField = 'operador_caixa'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.ReadOnly = True
+      Properties.SpinButtons.Visible = False
+      TabOrder = 4
+      OnExit = grpContentExit
+      Width = 40
+    end
+    object edttipo_pagamento: TcxDBSpinEdit
+      Left = 535
+      Top = 49
+      DataBinding.DataField = 'tipo_pagamento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.SpinButtons.Visible = False
+      TabOrder = 5
+      OnExit = grpContentExit
+      Width = 40
+    end
+    object cbbOperador: TcxDBLookupComboBox
+      Left = 602
+      Top = 20
+      DataBinding.DataField = 'operador_sistema'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Fantasia'
+          Width = 300
+          FieldName = 'fantasia'
+        end>
+      Properties.ReadOnly = True
+      TabOrder = 6
+      OnExit = grpContentExit
+      Width = 226
+    end
+    object cbbCaixa: TcxDBLookupComboBox
+      Left = 92
+      Top = 49
+      DataBinding.DataField = 'operador_caixa'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Fantasia'
+          Width = 300
+          FieldName = 'fantasia'
+        end>
+      Properties.ReadOnly = True
+      TabOrder = 7
+      OnExit = grpContentExit
+      Width = 204
+    end
+    object grpObservacao: TGroupBox
+      Left = 10
+      Top = 78
+      Width = 818
+      Height = 131
+      Caption = ' Observa'#231#245'es '
+      TabOrder = 8
+      object mmoobservacao: TcxDBMemo
+        AlignWithMargins = True
+        Left = 5
+        Top = 20
+        Align = alClient
+        DataBinding.DataField = 'observacao'
+        DataBinding.DataSource = ds
+        Enabled = False
+        TabOrder = 0
+        ExplicitWidth = 578
+        ExplicitHeight = 80
+        Height = 106
+        Width = 808
+      end
+    end
+    object cbbtipo_pagamento: TcxDBLookupComboBox
+      Left = 581
+      Top = 49
+      DataBinding.DataField = 'tipo_pagamento'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.KeyFieldNames = 'codigo'
+      Properties.ListColumns = <
+        item
+          Caption = 'Descri'#231#227'o'
+          Width = 300
+          FieldName = 'descricao'
+        end>
+      Properties.ListSource = dsTipoPagamento
+      Properties.ReadOnly = False
+      TabOrder = 9
+      OnExit = grpContentExit
+      Width = 247
+    end
+    object edtoperador_sistema: TcxDBSpinEdit
+      Left = 556
+      Top = 20
+      DataBinding.DataField = 'operador_sistema'
+      DataBinding.DataSource = ds
+      Enabled = False
+      Properties.ReadOnly = True
+      Properties.SpinButtons.Visible = False
+      TabOrder = 10
+      OnExit = grpContentExit
+      Width = 40
+    end
+  end
+  inherited qConsulta: TUniQuery
+    SQL.Strings = (
+      
+        'SELECT codigo, empresa, data_registro, data_movimento, usuario, ' +
+        'tipo_conta, '
+      
+        '       valor, parcela, total_parcelas, tipo_pagamento, centro_cu' +
+        'sto, '
+      
+        '       vencimento, valor_pgto, juros_porc, juros, desconto_porc,' +
+        ' desconto, '
+      
+        '       documento, data_pgto, juros_dia, carencia, pessoa, descri' +
+        'cao, '
+      
+        '       condicao_pagamento, conta_origem, desmembrada, quitada, e' +
+        'mpresa_referente, '
+      
+        '       empresa_origem, multa, observacoes, nfe, cd_nfentrada, ch' +
+        'ave_nfe, '
+      
+        '       serie, cnpj, data_agend, vezes_agend, compra, mao_de_obra' +
+        ', despesa'
+      '  FROM contas_pagar'
+      ' WHERE codigo = :codigo;')
+    ReadOnly = True
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'codigo'
+        ParamType = ptInput
+        Value = 0
+      end>
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+  object StyleRepository: TcxStyleRepository
+    Left = 366
+    Top = 65535
+    PixelsPerInch = 96
+    object StyleHeader: TcxStyle
+      AssignedValues = [svFont]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+    end
+    object StyleItemInativo: TcxStyle
+      AssignedValues = [svFont]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clGray
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = []
+    end
+    object StyleItemAtivo: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = []
+      TextColor = clNavy
+    end
+    object StylePendente: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clNavy
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clNavy
+    end
+    object StyleCancelado: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clSilver
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clSilver
+    end
+    object StyleQuitado: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clGreen
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clGreen
+    end
+    object StyleVencido: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clMaroon
+      Font.Height = -12
+      Font.Name = 'Calibri'
+      Font.Style = [fsBold]
+      TextColor = clMaroon
+    end
+  end
+  object qCentroCustos: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO pedido_compras'
+      
+        '  (empresa, fornecedor, representante, data_pedido, previsao_ent' +
+        'rega, data_compra, data_entrada, status)'
+      'VALUES'
+      
+        '  (:empresa, :fornecedor, :representante, :data_pedido, :previsa' +
+        'o_entrega, :data_compra, :data_entrada, :status)')
+    SQLDelete.Strings = (
+      'DELETE FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pedido_compras'
+      'SET'
+      
+        '  empresa = :empresa, fornecedor = :fornecedor, representante = ' +
+        ':representante, data_pedido = :data_pedido, previsao_entrega = :' +
+        'previsao_entrega, data_compra = :data_compra, data_entrada = :da' +
+        'ta_entrada, status = :status'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, fornecedor, representante, data_pedido, previsao' +
+        '_entrega, data_compra, data_entrada, status FROM pedido_compras'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pedido_compras'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, empresa, descricao, chave'
+      '  FROM centro_custos where debito = true and inativo = false;')
+    Left = 440
+  end
+  object dsCentroCustos: TUniDataSource
+    DataSet = qCentroCustos
+    Left = 480
+  end
+  object qTipoConta: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO pedido_compras'
+      
+        '  (empresa, fornecedor, representante, data_pedido, previsao_ent' +
+        'rega, data_compra, data_entrada, status)'
+      'VALUES'
+      
+        '  (:empresa, :fornecedor, :representante, :data_pedido, :previsa' +
+        'o_entrega, :data_compra, :data_entrada, :status)')
+    SQLDelete.Strings = (
+      'DELETE FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pedido_compras'
+      'SET'
+      
+        '  empresa = :empresa, fornecedor = :fornecedor, representante = ' +
+        ':representante, data_pedido = :data_pedido, previsao_entrega = :' +
+        'previsao_entrega, data_compra = :data_compra, data_entrada = :da' +
+        'ta_entrada, status = :status'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, fornecedor, representante, data_pedido, previsao' +
+        '_entrega, data_compra, data_entrada, status FROM pedido_compras'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pedido_compras'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, descricao'
+      '  FROM tipo_contas;')
+    Left = 560
+  end
+  object dsTipoConta: TUniDataSource
+    DataSet = qTipoConta
+    Left = 600
+  end
+  object qTipoPagamento: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO pedido_compras'
+      
+        '  (empresa, fornecedor, representante, data_pedido, previsao_ent' +
+        'rega, data_compra, data_entrada, status)'
+      'VALUES'
+      
+        '  (:empresa, :fornecedor, :representante, :data_pedido, :previsa' +
+        'o_entrega, :data_compra, :data_entrada, :status)')
+    SQLDelete.Strings = (
+      'DELETE FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pedido_compras'
+      'SET'
+      
+        '  empresa = :empresa, fornecedor = :fornecedor, representante = ' +
+        ':representante, data_pedido = :data_pedido, previsao_entrega = :' +
+        'previsao_entrega, data_compra = :data_compra, data_entrada = :da' +
+        'ta_entrada, status = :status'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pedido_compras'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, fornecedor, representante, data_pedido, previsao' +
+        '_entrega, data_compra, data_entrada, status FROM pedido_compras'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pedido_compras'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      
+        'SELECT codigo, descricao, segunda_via, comissionada, mov_cont_re' +
+        'ceber, '
+      
+        '       tef, cheque, mov_cont_bancaria, registra_venda, cartao, p' +
+        'erc_operadora, '
+      
+        '       controlar_cheque, nro_parcela_max, requer_autorizacao, cr' +
+        'edito, '
+      '       debito_dias, inativo'
+      '  FROM tipo_pagamentos'
+      ' WHERE pagamento = true;')
+    Left = 680
+  end
+  object dsTipoPagamento: TUniDataSource
+    DataSet = qTipoPagamento
+    Left = 720
+  end
+  object qPagamentos: TUniQuery
+    Tag = 7100
+    Connection = Connection.Conn
+    SQL.Strings = (
+      
+        'SELECT codigo, caixa, turno, data_movimento, operador_sistema, m' +
+        'otivo, '
+      
+        '       valor, cupom, data_hora, tipo, operador_caixa, tipo_pagam' +
+        'ento, '
+      '       conta, observacao'
+      '  FROM caixa_movimento'
+      ' where conta = :codigo;')
+    MasterSource = ds
+    MasterFields = 'codigo'
+    DetailFields = 'conta'
+    ReadOnly = True
+    Left = 96
+    Top = 240
+    ParamData = <
+      item
+        DataType = ftUnknown
+        Name = 'codigo'
+        Value = nil
+      end>
+  end
+  object dsPagamentos: TUniDataSource
+    DataSet = qPagamentos
+    Left = 168
+    Top = 240
+  end
+end

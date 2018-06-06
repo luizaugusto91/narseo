@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\sefaz\unSEFAZ.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\sefaz\unSEFAZ.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.094375</prop>
+        <prop prop-type="OrigDateTime">42769.0740740741</prop>
+        <prop prop-type="XlatDateTime">42769.0740740741</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">132</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:Sefaz.OldCreateOrder" resname="O:Sefaz.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TSefaz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.Height" resname="O:Sefaz.Height">
+        <source>387</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TSefaz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.Width" resname="O:Sefaz.Width">
+        <source>630</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TSefaz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.MAIL" resname="O:Sefaz.O:ACBrNFe.MAIL">
+        <source>ACBrMail</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.SSLLib" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.SSLLib">
+        <source>libCapicomDelphiSoap</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.FormatoAlerta" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.FormatoAlerta">
+        <source>'TAG:%TAGNIVEL% ID:%ID%/%TAG%(%DESCRICAO%) - %MSG%.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.IncluirQRCodeXMLNFCe" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Geral.IncluirQRCodeXMLNFCe">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SepararPorCNPJ" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SepararPorCNPJ">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SepararPorMes" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SepararPorMes">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SalvarEvento" resname="O:Sefaz.O:ACBrNFe.Configuracoes.Arquivos.SalvarEvento">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.UF" resname="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.UF">
+        <source>'SP'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.AguardarConsultaRet" resname="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.AguardarConsultaRet">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.QuebradeLinha" resname="O:Sefaz.O:ACBrNFe.Configuracoes.WebServices.QuebradeLinha">
+        <source>'|'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.DANFE" resname="O:Sefaz.O:ACBrNFe.DANFE">
+        <source>ACBrNFeDANFeRL</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Left" resname="O:Sefaz.O:ACBrNFe.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFe.Top" resname="O:Sefaz.O:ACBrNFe.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TACBrNFe</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.infCFe_versaoDadosEnt" resname="O:Sefaz.O:ACBrSAT.Config.infCFe_versaoDadosEnt">
+        <source>0.06</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.ide_numeroCaixa" resname="O:Sefaz.O:ACBrSAT.Config.ide_numeroCaixa">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.ide_tpAmb" resname="O:Sefaz.O:ACBrSAT.Config.ide_tpAmb">
+        <source>taHomologacao</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.emit_cRegTrib" resname="O:Sefaz.O:ACBrSAT.Config.emit_cRegTrib">
+        <source>RTSimplesNacional</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.emit_cRegTribISSQN" resname="O:Sefaz.O:ACBrSAT.Config.emit_cRegTribISSQN">
+        <source>RTISSMicroempresaMunicipal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.emit_indRatISSQN" resname="O:Sefaz.O:ACBrSAT.Config.emit_indRatISSQN">
+        <source>irSim</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.EhUTF8" resname="O:Sefaz.O:ACBrSAT.Config.EhUTF8">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Config.PaginaDeCodigo" resname="O:Sefaz.O:ACBrSAT.Config.PaginaDeCodigo">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.ConfigArquivos.PrefixoArqCFe" resname="O:Sefaz.O:ACBrSAT.ConfigArquivos.PrefixoArqCFe">
+        <source>'AD'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.ConfigArquivos.PrefixoArqCFeCanc" resname="O:Sefaz.O:ACBrSAT.ConfigArquivos.PrefixoArqCFeCanc">
+        <source>'ADC'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Rede.tipoInter" resname="O:Sefaz.O:ACBrSAT.Rede.tipoInter">
+        <source>infETHE</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Rede.seg" resname="O:Sefaz.O:ACBrSAT.Rede.seg">
+        <source>segNONE</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Rede.tipoLan" resname="O:Sefaz.O:ACBrSAT.Rede.tipoLan">
+        <source>lanDHCP</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Rede.proxy" resname="O:Sefaz.O:ACBrSAT.Rede.proxy">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Rede.proxy_porta" resname="O:Sefaz.O:ACBrSAT.Rede.proxy_porta">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Left" resname="O:Sefaz.O:ACBrSAT.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrSAT.Top" resname="O:Sefaz.O:ACBrSAT.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TACBrSAT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ACBrNFe" resname="O:Sefaz.O:ACBrNFeDANFeRL.ACBrNFe">
+        <source>ACBrNFe</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.Sistema" resname="O:Sefaz.O:ACBrNFeDANFeRL.Sistema">
+        <source>'Union - Gerenciamento Integrado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MostrarPreview" resname="O:Sefaz.O:ACBrNFeDANFeRL.MostrarPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MostrarStatus" resname="O:Sefaz.O:ACBrNFeDANFeRL.MostrarStatus">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TipoDANFE" resname="O:Sefaz.O:ACBrNFeDANFeRL.TipoDANFE">
+        <source>tiRetrato</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.NumCopias" resname="O:Sefaz.O:ACBrNFeDANFeRL.NumCopias">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ImprimeNomeFantasia" resname="O:Sefaz.O:ACBrNFeDANFeRL.ImprimeNomeFantasia">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirDescPorc" resname="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirDescPorc">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979167</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirTotalLiquido" resname="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirTotalLiquido">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MargemInferior" resname="O:Sefaz.O:ACBrNFeDANFeRL.MargemInferior">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MargemSuperior" resname="O:Sefaz.O:ACBrNFeDANFeRL.MargemSuperior">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MargemEsquerda" resname="O:Sefaz.O:ACBrNFeDANFeRL.MargemEsquerda">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.MargemDireita" resname="O:Sefaz.O:ACBrNFeDANFeRL.MargemDireita">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais.Formato" resname="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais.Formato">
+        <source>tdetInteger</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._qCom" resname="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._qCom">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._vUnCom" resname="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._vUnCom">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._Mask_qCom" resname="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._Mask_qCom">
+        <source>'###,###,###,##0.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._Mask_vUnCom" resname="O:Sefaz.O:ACBrNFeDANFeRL.CasasDecimais._Mask_vUnCom">
+        <source>'###,###,###,##0.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ExibirResumoCanhoto" resname="O:Sefaz.O:ACBrNFeDANFeRL.ExibirResumoCanhoto">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.FormularioContinuo" resname="O:Sefaz.O:ACBrNFeDANFeRL.FormularioContinuo">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoFonte_DemaisCampos" resname="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoFonte_DemaisCampos">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ProdutosPorPagina" resname="O:Sefaz.O:ACBrNFeDANFeRL.ProdutosPorPagina">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirDetalhamentoEspecifico" resname="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirDetalhamentoEspecifico">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.NFeCancelada" resname="O:Sefaz.O:ACBrNFeDANFeRL.NFeCancelada">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirItens" resname="O:Sefaz.O:ACBrNFeDANFeRL.ImprimirItens">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ViaConsumidor" resname="O:Sefaz.O:ACBrNFeDANFeRL.ViaConsumidor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoLogoHeight" resname="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoLogoHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoLogoWidth" resname="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoLogoWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.RecuoEndereco" resname="O:Sefaz.O:ACBrNFeDANFeRL.RecuoEndereco">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.RecuoEmpresa" resname="O:Sefaz.O:ACBrNFeDANFeRL.RecuoEmpresa">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.LogoemCima" resname="O:Sefaz.O:ACBrNFeDANFeRL.LogoemCima">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoFonteEndereco" resname="O:Sefaz.O:ACBrNFeDANFeRL.TamanhoFonteEndereco">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.RecuoLogo" resname="O:Sefaz.O:ACBrNFeDANFeRL.RecuoLogo">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.TributosSeparadamente" resname="O:Sefaz.O:ACBrNFeDANFeRL.TributosSeparadamente">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.PosCanhoto" resname="O:Sefaz.O:ACBrNFeDANFeRL.PosCanhoto">
+        <source>prRodape</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.LarguraCodProd" resname="O:Sefaz.O:ACBrNFeDANFeRL.LarguraCodProd">
+        <source>54</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ExibirEAN" resname="O:Sefaz.O:ACBrNFeDANFeRL.ExibirEAN">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.QuebraLinhaEmDetalhamentoEspecifico" resname="O:Sefaz.O:ACBrNFeDANFeRL.QuebraLinhaEmDetalhamentoEspecifico">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.ExibeCampoFatura" resname="O:Sefaz.O:ACBrNFeDANFeRL.ExibeCampoFatura">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.AlternaCoresProdutos" resname="O:Sefaz.O:ACBrNFeDANFeRL.AlternaCoresProdutos">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.Left" resname="O:Sefaz.O:ACBrNFeDANFeRL.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFeRL.Top" resname="O:Sefaz.O:ACBrNFeDANFeRL.Top">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TACBrNFeDANFeRL</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.Host" resname="O:Sefaz.O:ACBrMail.Host">
+        <source>'127.0.0.1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.Port" resname="O:Sefaz.O:ACBrMail.Port">
+        <source>'25'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.SetSSL" resname="O:Sefaz.O:ACBrMail.SetSSL">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.SetTLS" resname="O:Sefaz.O:ACBrMail.SetTLS">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.Attempts" resname="O:Sefaz.O:ACBrMail.Attempts">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.DefaultCharset" resname="O:Sefaz.O:ACBrMail.DefaultCharset">
+        <source>UTF_8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.IDECharset" resname="O:Sefaz.O:ACBrMail.IDECharset">
+        <source>CP1252</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.Left" resname="O:Sefaz.O:ACBrMail.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrMail.Top" resname="O:Sefaz.O:ACBrMail.Top">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TACBrMail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.Sistema" resname="O:Sefaz.O:ACBrNFeDANFEFR.Sistema">
+        <source>'Union - Gerenciamento Integrado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MostrarPreview" resname="O:Sefaz.O:ACBrNFeDANFEFR.MostrarPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MostrarStatus" resname="O:Sefaz.O:ACBrNFeDANFEFR.MostrarStatus">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TipoDANFE" resname="O:Sefaz.O:ACBrNFeDANFEFR.TipoDANFE">
+        <source>tiSemGeracao</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.NumCopias" resname="O:Sefaz.O:ACBrNFeDANFEFR.NumCopias">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimeNomeFantasia" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimeNomeFantasia">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDescPorc" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDescPorc">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirTotalLiquido" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirTotalLiquido">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MargemInferior" resname="O:Sefaz.O:ACBrNFeDANFEFR.MargemInferior">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MargemSuperior" resname="O:Sefaz.O:ACBrNFeDANFEFR.MargemSuperior">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MargemEsquerda" resname="O:Sefaz.O:ACBrNFeDANFEFR.MargemEsquerda">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.MargemDireita" resname="O:Sefaz.O:ACBrNFeDANFEFR.MargemDireita">
+        <source>0.5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais.Formato" resname="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais.Formato">
+        <source>tdetInteger</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._qCom" resname="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._qCom">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._vUnCom" resname="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._vUnCom">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._Mask_qCom" resname="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._Mask_qCom">
+        <source>'###,###,###,##0.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._Mask_vUnCom" resname="O:Sefaz.O:ACBrNFeDANFEFR.CasasDecimais._Mask_vUnCom">
+        <source>'###,###,###,##0.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ExibirResumoCanhoto" resname="O:Sefaz.O:ACBrNFeDANFEFR.ExibirResumoCanhoto">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.FormularioContinuo" resname="O:Sefaz.O:ACBrNFeDANFEFR.FormularioContinuo">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ExpandirLogoMarca" resname="O:Sefaz.O:ACBrNFeDANFEFR.ExpandirLogoMarca">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoFonte_DemaisCampos" resname="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoFonte_DemaisCampos">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ProdutosPorPagina" resname="O:Sefaz.O:ACBrNFeDANFEFR.ProdutosPorPagina">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDetalhamentoEspecifico" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDetalhamentoEspecifico">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.NFeCancelada" resname="O:Sefaz.O:ACBrNFeDANFEFR.NFeCancelada">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirItens" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirItens">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ViaConsumidor" resname="O:Sefaz.O:ACBrNFeDANFEFR.ViaConsumidor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoLogoHeight" resname="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoLogoHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoLogoWidth" resname="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoLogoWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.RecuoEndereco" resname="O:Sefaz.O:ACBrNFeDANFEFR.RecuoEndereco">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.RecuoEmpresa" resname="O:Sefaz.O:ACBrNFeDANFEFR.RecuoEmpresa">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.LogoemCima" resname="O:Sefaz.O:ACBrNFeDANFEFR.LogoemCima">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoFonteEndereco" resname="O:Sefaz.O:ACBrNFeDANFEFR.TamanhoFonteEndereco">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.RecuoLogo" resname="O:Sefaz.O:ACBrNFeDANFEFR.RecuoLogo">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TributosSeparadamente" resname="O:Sefaz.O:ACBrNFeDANFEFR.TributosSeparadamente">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.EspessuraBorda" resname="O:Sefaz.O:ACBrNFeDANFEFR.EspessuraBorda">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ExibirTotalTributosItem" resname="O:Sefaz.O:ACBrNFeDANFEFR.ExibirTotalTributosItem">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ExibeCampoFatura" resname="O:Sefaz.O:ACBrNFeDANFEFR.ExibeCampoFatura">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.TributosPercentual" resname="O:Sefaz.O:ACBrNFeDANFEFR.TributosPercentual">
+        <source>ptValorProdutos</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirUnQtVlComercial" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirUnQtVlComercial">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.Detalhado" resname="O:Sefaz.O:ACBrNFeDANFEFR.Detalhado">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.DescricaoViaEstabelec" resname="O:Sefaz.O:ACBrNFeDANFEFR.DescricaoViaEstabelec">
+        <source>'Via do Consumidor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ExpandirDadosAdicionaisAuto" resname="O:Sefaz.O:ACBrNFeDANFEFR.ExpandirDadosAdicionaisAuto">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDadosArma" resname="O:Sefaz.O:ACBrNFeDANFEFR.ImprimirDadosArma">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.QuebraLinhaEmDetalhamentoEspecifico" resname="O:Sefaz.O:ACBrNFeDANFEFR.QuebraLinhaEmDetalhamentoEspecifico">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.IncorporarBackgroundPdf" resname="O:Sefaz.O:ACBrNFeDANFEFR.IncorporarBackgroundPdf">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.IncorporarFontesPdf" resname="O:Sefaz.O:ACBrNFeDANFEFR.IncorporarFontesPdf">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.Left" resname="O:Sefaz.O:ACBrNFeDANFEFR.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:Sefaz.O:ACBrNFeDANFEFR.Top" resname="O:Sefaz.O:ACBrNFeDANFEFR.Top">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0943979514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TACBrNFeDANFEFR</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

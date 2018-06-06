@@ -1,0 +1,35 @@
+inherited frmCadRegrasPrecos: TfrmCadRegrasPrecos
+  Caption = 'frmCadRegrasPrecos'
+  ClientHeight = 350
+  ClientWidth = 800
+  ExplicitWidth = 806
+  ExplicitHeight = 379
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 315
+    Width = 800
+    inherited btnCancelar: TButton
+      Left = 523
+    end
+    inherited btnSalvar: TButton
+      Left = 616
+    end
+    inherited btnFechar: TButton
+      Left = 709
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 790
+    Height = 263
+  end
+  inherited pnlHelp: TPanel
+    Width = 791
+    inherited mmoHelp: TMemo
+      Width = 744
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+  end
+end

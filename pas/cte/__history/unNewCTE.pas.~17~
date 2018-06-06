@@ -1,0 +1,106 @@
+unit unNewCTE;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unNew, Data.DB, DBAccess, Uni, MemDS,
+  Vcl.ImgList, cxGraphics, Vcl.StdCtrls, Vcl.ExtCtrls, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, cxCalendar, cxDBEdit,
+  cxDropDownEdit, cxCalc, cxTextEdit, cxMaskEdit, cxSpinEdit, cxLookupEdit,
+  cxDBLookupEdit, cxDBLookupComboBox, cxMemo, cxImageComboBox;
+
+type
+  TfrmNewCTE = class(TfrmNew)
+    lblCodigo: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    lbl1: TLabel;
+    edtremetente: TcxDBSpinEdit;
+    lbl2: TLabel;
+    edtdestinatario: TcxDBSpinEdit;
+    lbl3: TLabel;
+    edtlocal_coleta: TcxDBSpinEdit;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    edtnota: TcxDBSpinEdit;
+    lbl6: TLabel;
+    edtvalor_nf: TcxDBCalcEdit;
+    lbl7: TLabel;
+    edtdata_nfe: TcxDBDateEdit;
+    lbl8: TLabel;
+    edtnf_serie: TcxDBSpinEdit;
+    lbl10: TLabel;
+    edtfrota: TcxDBSpinEdit;
+    grpObservacoes: TGroupBox;
+    mmoObservacoes: TcxDBMemo;
+    cbbremetente: TcxDBLookupComboBox;
+    cbbdestinatario: TcxDBLookupComboBox;
+    cbblocal_coleta: TcxDBLookupComboBox;
+    cbbOperacao: TcxDBLookupComboBox;
+    cbbFrota: TcxDBLookupComboBox;
+    qPessoas: TUniQuery;
+    dsPessoas: TUniDataSource;
+    lbl11: TLabel;
+    edtlocal_entrega: TcxDBSpinEdit;
+    cbblocal_entrega: TcxDBLookupComboBox;
+    cbb1: TcxDBImageComboBox;
+    qCidade: TUniQuery;
+    dsCidade: TUniDataSource;
+    qOperacacoes: TUniQuery;
+    dsOperacoes: TUniDataSource;
+    qFrota: TUniQuery;
+    dsFrota: TUniDataSource;
+    lbl12: TLabel;
+    edtnatureza_operacao: TcxDBTextEdit;
+    qParametros: TUniQuery;
+    procedure FormShow(Sender: TObject);
+    procedure btnAvancarClick(Sender: TObject);
+    procedure edtnatureza_operacaoEnter(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmNewCTE: TfrmNewCTE;
+
+implementation
+
+{$R *.dfm}
+
+uses unCadCTE;
+
+procedure TfrmNewCTE.btnAvancarClick(Sender: TObject);
+begin
+  ds.DataSet.FieldByName('status').AsString := 'P';
+  inherited;
+  ActAvancar(TfrmCadCTE,frmCadCTE);
+  Close;
+end;
+
+procedure TfrmNewCTE.edtnatureza_operacaoEnter(Sender: TObject);
+begin
+  inherited;
+  grpContentEnter(Sender);
+  if ds.DataSet.FieldByName('natureza_operacao').AsString = '' then
+    begin
+      ds.DataSet.FieldByName('natureza_operacao').AsString := '5.353';
+    end;
+end;
+
+procedure TfrmNewCTE.FormShow(Sender: TObject);
+begin
+
+  qSQL.ParamByName('sequencial').AsString := 'cte_codigo_seq';
+  inherited;
+  ds.DataSet.FieldByName('data_registro').AsDateTime := Date;
+  edtremetente.SetFocus;
+end;
+
+end.

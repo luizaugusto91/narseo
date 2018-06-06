@@ -1,0 +1,329 @@
+object Developer: TDeveloper
+  OldCreateOrder = False
+  Height = 403
+  Width = 593
+  object PostgreSQLUniProvider: TPostgreSQLUniProvider
+    Left = 72
+    Top = 24
+  end
+  object Conn: TUniConnection
+    ProviderName = 'PostgreSQL'
+    Port = 5432
+    Database = 'narseo'
+    DefaultTransaction = UniTransaction
+    Debug = True
+    Username = 'client'
+    Server = '104.197.215.78'
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 72
+    EncryptedPassword = '9CFF93FF96FF9AFF91FF8BFF'
+  end
+  object UniTransaction: TUniTransaction
+    DefaultConnection = Conn
+    Left = 72
+    Top = 120
+  end
+  object UniEncryptor: TUniEncryptor
+    HashAlgorithm = haMD5
+    Left = 72
+    Top = 168
+  end
+  object UniDump: TUniDump
+    Connection = Conn
+    Left = 72
+    Top = 264
+  end
+  object UniAlerter: TUniAlerter
+    Connection = Conn
+    Transaction = UniTransaction
+    Left = 72
+    Top = 216
+  end
+  object UniLoader: TUniLoader
+    Connection = Conn
+    Left = 72
+    Top = 312
+  end
+  object qBasic: TUniQuery
+    Connection = Conn
+    Transaction = UniTransaction
+    UpdateTransaction = UniTransaction
+    SQL.Strings = (
+      'select 1')
+    Left = 176
+    Top = 24
+  end
+  object qRegistro: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO pessoas'
+      
+        '  (tipopessoa, nome, fantasia, apelido, cnpj, ie, im, endereco, ' +
+        'endereco_numero, complemento, referencia, bairro, cep, cidade, u' +
+        'f, pais, telefone, celular, empresa, email, site)'
+      'VALUES'
+      
+        '  (:tipopessoa, :nome, :fantasia, :apelido, :cnpj, :ie, :im, :en' +
+        'dereco, :endereco_numero, :complemento, :referencia, :bairro, :c' +
+        'ep, :cidade, :uf, :pais, :telefone, :celular, :empresa, :email, ' +
+        ':site)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoas'
+      'SET'
+      
+        '  tipopessoa = :tipopessoa, nome = :nome, fantasia = :fantasia, ' +
+        'apelido = :apelido, cnpj = :cnpj, ie = :ie, im = :im, endereco =' +
+        ' :endereco, endereco_numero = :endereco_numero, complemento = :c' +
+        'omplemento, referencia = :referencia, bairro = :bairro, cep = :c' +
+        'ep, cidade = :cidade, uf = :uf, pais = :pais, telefone = :telefo' +
+        'ne, celular = :celular, empresa = :empresa, email = :email, site' +
+        ' = :site'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoas'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT tipopessoa, nome, fantasia, apelido, cnpj, ie, im, endere' +
+        'co, endereco_numero, complemento, referencia, bairro, cep, cidad' +
+        'e, uf, pais, telefone, celular, empresa, email, site FROM pessoa' +
+        's'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoas'
+      ''
+      ') t')
+    Connection = Conn
+    Transaction = UniTransaction
+    UpdateTransaction = UniTransaction
+    SQL.Strings = (
+      
+        'SELECT codigo, datacadastro, tipopessoa, nome, fantasia, apelido' +
+        ', cnpj, '
+      
+        '       ie, im, datanascimento, sexo, endereco, endereco_numero, ' +
+        'complemento, '
+      
+        '       referencia, bairro, cep, cidade, uf, pais, telefone, celu' +
+        'lar, '
+      '       empresa, email, site, obs, alerta, inativo, sync'
+      '  FROM pessoas;')
+    Left = 176
+    Top = 72
+    object FieldRegistrocodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object FieldRegistrodatacadastro: TDateField
+      FieldName = 'datacadastro'
+      Required = True
+    end
+    object FieldRegistrotipopessoa: TIntegerField
+      FieldName = 'tipopessoa'
+      Required = True
+    end
+    object FieldRegistronome: TStringField
+      FieldName = 'nome'
+      Required = True
+      Size = 250
+    end
+    object FieldRegistrofantasia: TStringField
+      FieldName = 'fantasia'
+      Size = 250
+    end
+    object FieldRegistroapelido: TStringField
+      FieldName = 'apelido'
+      Size = 30
+    end
+    object FieldRegistrocnpj: TStringField
+      FieldName = 'cnpj'
+      Required = True
+      Size = 50
+    end
+    object FieldRegistroie: TStringField
+      FieldName = 'ie'
+      Size = 50
+    end
+    object FieldRegistroim: TStringField
+      FieldName = 'im'
+      Size = 50
+    end
+    object FieldRegistrodatanascimento: TDateField
+      FieldName = 'datanascimento'
+    end
+    object FieldRegistrosexo: TStringField
+      FieldName = 'sexo'
+      Size = 1
+    end
+    object FieldRegistroendereco: TStringField
+      FieldName = 'endereco'
+      Required = True
+      Size = 250
+    end
+    object FieldRegistroendereco_numero: TStringField
+      FieldName = 'endereco_numero'
+      Required = True
+      FixedChar = True
+    end
+    object FieldRegistrocomplemento: TStringField
+      FieldName = 'complemento'
+      Size = 100
+    end
+    object FieldRegistroreferencia: TStringField
+      FieldName = 'referencia'
+      Size = 150
+    end
+    object FieldRegistrobairro: TStringField
+      FieldName = 'bairro'
+      Required = True
+      Size = 200
+    end
+    object FieldRegistrocep: TStringField
+      FieldName = 'cep'
+      Required = True
+      Size = 15
+    end
+    object FieldRegistrocidade: TIntegerField
+      FieldName = 'cidade'
+      Required = True
+    end
+    object FieldRegistrouf: TStringField
+      FieldName = 'uf'
+      Required = True
+      Size = 2
+    end
+    object FieldRegistropais: TIntegerField
+      FieldName = 'pais'
+      Required = True
+    end
+    object FieldRegistrotelefone: TStringField
+      FieldName = 'telefone'
+    end
+    object FieldRegistrocelular: TStringField
+      FieldName = 'celular'
+    end
+    object FieldRegistroempresa: TStringField
+      FieldName = 'empresa'
+    end
+    object FieldRegistroemail: TStringField
+      FieldName = 'email'
+      Size = 60
+    end
+    object FieldRegistrosite: TStringField
+      FieldName = 'site'
+      Size = 60
+    end
+    object qRegistroobs: TMemoField
+      FieldName = 'obs'
+      BlobType = ftMemo
+    end
+    object FieldRegistroalerta: TStringField
+      FieldName = 'alerta'
+      Size = 255
+    end
+    object FieldRegistroinativo: TBooleanField
+      FieldName = 'inativo'
+    end
+    object FieldRegistrosync: TStringField
+      FieldName = 'sync'
+      Size = 10
+    end
+  end
+  object qCheckKey: TUniQuery
+    Connection = Conn
+    Transaction = UniTransaction
+    UpdateTransaction = UniTransaction
+    SQL.Strings = (
+      'select client_checkkey(:chave);')
+    Left = 240
+    Top = 24
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'chave'
+        ParamType = ptInput
+        Value = nil
+      end>
+  end
+  object qclient_check: TUniQuery
+    Connection = Conn
+    Transaction = UniTransaction
+    UpdateTransaction = UniTransaction
+    SQL.Strings = (
+      'select client_check(:cgc);')
+    Left = 240
+    Top = 72
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'cgc'
+        ParamType = ptInput
+        Value = nil
+      end>
+  end
+  object qterminais: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO pessoa_clientes'
+      
+        '  (data_inicial, data_final, client_hash, terminal_hash, inativo' +
+        ', pessoa)'
+      'VALUES'
+      
+        '  (:data_inicial, :data_final, :client_hash, :terminal_hash, :in' +
+        'ativo, :pessoa)')
+    SQLUpdate.Strings = (
+      'UPDATE pessoa_clientes'
+      'SET'
+      
+        '  data_inicial = :data_inicial, data_final = :data_final, client' +
+        '_hash = :client_hash, terminal_hash = :terminal_hash, inativo = ' +
+        ':inativo, pessoa = :pessoa'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLRefresh.Strings = (
+      
+        'SELECT data_inicial, data_final, client_hash, terminal_hash, ina' +
+        'tivo, pessoa FROM pessoa_clientes'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoa_clientes'
+      ''
+      ') t')
+    Connection = Conn
+    Transaction = UniTransaction
+    UpdateTransaction = UniTransaction
+    SQL.Strings = (
+      
+        'SELECT codigo, data_inicial, data_final, client_hash, terminal_h' +
+        'ash, '
+      '       server_hash, inativo, pessoa'
+      '  FROM pessoa_clientes'
+      ' WHERE pessoa = :pessoa and terminal_hash = :terminal;')
+    Left = 176
+    Top = 120
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'pessoa'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftString
+        Name = 'terminal'
+        ParamType = ptInput
+        Value = nil
+      end>
+  end
+end

@@ -1,0 +1,56 @@
+unit unGridCaixaAdmConferencia;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unGrid, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxStyles, dxSkinsCore, dxSkinDarkSide,
+  dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle, dxSkinOffice2007Black,
+  dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink,
+  dxSkinOffice2007Silver, dxSkinOffice2010Black, dxSkinOffice2010Blue,
+  dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
+  dxSkinOffice2013White, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, Datasnap.DBClient,
+  Vcl.Menus, cxClasses, DBAccess, Uni, MemDS, Vcl.ImgList,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
+  cxGridCustomView, cxGrid, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TfrmGridCaixaAdmConferencia = class(TfrmGrid)
+    Viewcodigo: TcxGridDBColumn;
+    Viewdata_caixa: TcxGridDBColumn;
+    Viewturno: TcxGridDBColumn;
+    Viewempresa: TcxGridDBColumn;
+    Viewcd_operador_sistema: TcxGridDBColumn;
+    Viewoperador_sistema: TcxGridDBColumn;
+    Viewabertura: TcxGridDBColumn;
+    Viewfechamento: TcxGridDBColumn;
+    Viewconferencia: TcxGridDBColumn;
+    Viewcd_pessoa_conferente: TcxGridDBColumn;
+    Viewpessoa_conferente: TcxGridDBColumn;
+    Viewtroco_inicial: TcxGridDBColumn;
+    Viewtroco_final: TcxGridDBColumn;
+    Viewconferido: TcxGridDBColumn;
+    Viewsangria: TcxGridDBColumn;
+    Viewreforco: TcxGridDBColumn;
+    Viewdespesas: TcxGridDBColumn;
+    Viewrecebimentos: TcxGridDBColumn;
+    Viewcd_operador_caixa: TcxGridDBColumn;
+    Viewoperador_caixa: TcxGridDBColumn;
+    Viewobs: TcxGridDBColumn;
+    Viewmanual: TcxGridDBColumn;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmGridCaixaAdmConferencia: TfrmGridCaixaAdmConferencia;
+
+implementation
+
+{$R *.dfm}
+
+end.

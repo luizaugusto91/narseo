@@ -1,0 +1,77 @@
+unit unRelatorioCTe;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unRelatorios, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.ComCtrls, dxCore,
+  cxDateUtils, cxTextEdit, cxMaskEdit, cxDropDownEdit, cxCalendar, cxGroupBox,
+  cxRadioGroup, Data.DB, DBAccess, Uni, MemDS, Vcl.ImgList, Vcl.StdCtrls,
+  dxGDIPlusClasses, cxImage, Vcl.ExtCtrls, frxClass, frxDBSet, System.DateUtils;
+
+type
+  TfrmRelatorioCTe = class(TfrmRelatorio)
+    rgRelatorio: TcxRadioGroup;
+    grpPeriodo: TcxGroupBox;
+    lblDTInicio: TLabel;
+    lblDTFinal: TLabel;
+    edtDTInicio: TcxDateEdit;
+    edtDTFinal: TcxDateEdit;
+    RepCTe: TfrxReport;
+    FRDataSetCTe: TfrxDBDataset;
+    FRDataSetEmpresa: TfrxDBDataset;
+    procedure btnImprimirClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRelatorioCTe: TfrmRelatorioCTe;
+
+implementation
+
+{$R *.dfm}
+uses unReport;
+
+procedure TfrmRelatorioCTe.btnImprimirClick(Sender: TObject);
+var
+  Filtro, Datas, Registros: string;
+begin
+  inherited;
+  Filtro := '';
+  // Verifica a data do relatório
+  {if (edtDTInicio.Date = StrToDate('00/00/0000')) or (edtDTFinal.Date = StrToDate('00/00/0000')) then
+    begin
+      Datas := '';
+    end
+  else`}
+    begin
+      Datas := ' data_registro ' + QuotedStr(FormatDateTime('YYYY-MM-DD',edtDTInicio.Date)) + ' and ' + QuotedStr(FormatDateTime('YYYY-MM-DD',edtDTFinal.Date));
+      Filtro := Filtro + ' AND ' + Datas;
+    end;
+
+  // Verifica o tipo de registro
+  if rgRelatorio.ItemIndex <> null then
+    begin
+      Registros := QuotedStr(rgRelatorio.Properties.Items.Items[0].Value);
+      Filtro := Filtro + ' AND ' + Registros;
+    end;
+end;
+
+procedure TfrmRelatorioCTe.FormShow(Sender: TObject);
+begin
+  inherited;
+  edtDTInicio.Date := StartOfTheMonth(Date);
+  edtDTFinal.Date := EndOfTheMonth(Date);
+end;
+
+end.

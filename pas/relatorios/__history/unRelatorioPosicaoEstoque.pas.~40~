@@ -1,0 +1,223 @@
+unit unRelatorioPosicaoEstoque;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unRelatorios, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Data.DB, DBAccess, Uni,
+  MemDS, Vcl.ImgList, Vcl.StdCtrls, dxGDIPlusClasses, cxImage, Vcl.ExtCtrls,
+  cxGroupBox, cxRadioGroup, Vcl.ComCtrls, dxCore, cxDateUtils, cxTextEdit,
+  cxMaskEdit, cxDropDownEdit, cxCalendar, frxClass, frxDBSet, cxLookupEdit,
+  cxDBLookupEdit, cxDBLookupComboBox, unSystem;
+
+type
+  TfrmRelatorioPosicaoEstoque = class(TfrmRelatorio)
+    rgRelatorio: TcxRadioGroup;
+    grpFiltros: TcxGroupBox;
+    grpPeriodo: TcxGroupBox;
+    grpGrupo: TcxGroupBox;
+    grpCategoria: TcxGroupBox;
+    lblDTInicio: TLabel;
+    lblDTFinal: TLabel;
+    edtDTInicio: TcxDateEdit;
+    edtDTFinal: TcxDateEdit;
+    FRDataSetEmpresa: TfrxDBDataset;
+    FRDataSetConsulta: TfrxDBDataset;
+    RepPosicaoEstoque: TfrxReport;
+    edtCategoria: TcxTextEdit;
+    edtGrupo: TcxTextEdit;
+    cbbGrupo: TcxLookupComboBox;
+    cbbCategria: TcxLookupComboBox;
+    qGrupo: TUniQuery;
+    qCategoria: TUniQuery;
+    dsGrupo: TUniDataSource;
+    dsCategoria: TUniDataSource;
+    procedure rgRelatorioExit(Sender: TObject);
+    procedure btnImprimirClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure btnFecharClick(Sender: TObject);
+    procedure cbbGrupoPropertiesCloseUp(Sender: TObject);
+    procedure edtCategoriaKeyPress(Sender: TObject; var Key: Char);
+    procedure edtGrupoKeyPress(Sender: TObject; var Key: Char);
+    procedure edtCategoriaExit(Sender: TObject);
+    procedure edtGrupoExit(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    condicional :String;
+    SQL, POSSQL: String;
+  end;
+
+var
+  frmRelatorioPosicaoEstoque: TfrmRelatorioPosicaoEstoque;
+
+implementation
+
+{$R *.dfm}
+
+uses unReport, unParametros, unGridCategoriaProdutos, unGridGrupoProdutos;
+
+procedure TfrmRelatorioPosicaoEstoque.btnFecharClick(Sender: TObject);
+begin
+  inherited;
+  Close;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.btnImprimirClick(Sender: TObject);
+begin
+  inherited;
+  if rgRelatorio.ItemIndex = 1 then
+    begin
+      if edtDTFinal.Date <> Date then
+        begin
+          condicional := ' origem = ' + QuotedStr('REG') + ' AND vwe.data_estoque BETWEEN ' + QuotedStr(DateToStr(edtDTInicio.Date)) + ' AND '  + QuotedStr(DateToStr(edtDTFinal.Date)) + ' ';
+        end
+      else
+        begin
+          condicional := ' vwe.data_estoque BETWEEN ' + QuotedStr(DateToStr(edtDTInicio.Date)) + ' AND '  + QuotedStr(DateToStr(edtDTFinal.Date)) + ' ';
+        end;
+    end
+  else
+    begin
+      condicional := ' origem = ' + QuotedStr('DIA') + ' ';
+    end;
+  if edtGrupo.Text <> '' then
+    begin
+      condicional := condicional + ' AND pd.grupo = ' + edtGrupo.Text;
+    end;
+  if edtCategoria.Text <> '' then
+    begin
+      condicional := condicional + ' AND pd.categoria = ' + edtCategoria.Text;
+    end;
+  qConsulta.Close;
+  qConsulta.SQL.Clear;
+  qConsulta.SQL.Text := SQL + condicional + POSSQL;
+  qConsulta.ParamByName('empresa').asInteger := Parametros.cdsParametros.fieldbyname('empresa').asInteger;
+  qConsulta.Open;
+  Report.qEmpresa.ParamByName('codigo').asInteger := Parametros.cdsParametros.fieldbyname('empresa').asInteger;
+  Report.qEmpresa.Open;
+  RepPosicaoEstoque.ShowReport();
+  qConsulta.Close;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.cbbGrupoPropertiesCloseUp(
+  Sender: TObject);
+begin
+  inherited;
+  // Define o codigo a ser utilizado no EDIT
+  if cbbCategria.ItemIndex = -1 then
+    begin
+      qGrupo.Locate('descricao',cbbGrupo.Text,[loCaseInsensitive]);
+      edtGrupo.Text := qCategoria.FieldByName('codigo').AsString;
+    end;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.edtCategoriaExit(Sender: TObject);
+begin
+  inherited;
+  if cbbCategria.ItemIndex = -1 then
+    begin
+      qCategoria.Locate('codigo',StrToInt(edtCategoria.Text),[loCaseInsensitive]);
+      cbbCategria.Text := qCategoria.FieldByName('categoria').AsString;
+    end;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.edtCategoriaKeyPress(Sender: TObject;
+  var Key: Char);
+begin
+  inherited;
+  if (Key = #13) then
+    begin
+      if (edtCategoria.Text <> '') then
+        begin
+          cbbCategria.SetFocus;
+        end
+      else
+        begin
+          CriaFormulario(TfrmGridCategoriaProdutos,0,'CONSULTA',frmGridCategoriaProdutos);
+          if Parametros.Find.eValido = True then
+            begin
+              edtCategoria.Text := IntToStr(Parametros.Find.eChave);
+              cbbCategria.ItemIndex := Parametros.Find.eChave;
+            end;
+        end;
+    end;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.edtGrupoExit(Sender: TObject);
+begin
+  inherited;
+  if cbbGrupo.ItemIndex = -1 then
+    begin
+      qGrupo.Locate('codigo',StrToInt(edtGrupo.Text),[loCaseInsensitive]);
+      cbbGrupo.Text := qGrupo.FieldByName('descricao').AsString;
+    end;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.edtGrupoKeyPress(Sender: TObject;
+  var Key: Char);
+begin
+  inherited;
+  if (Key = #13) then
+    begin
+      if (edtGrupo.Text <> '') then
+        begin
+          cbbGrupo.SetFocus;
+        end
+      else
+        begin
+          CriaFormulario(TfrmGridGrupoProdutos,0,'CONSULTA',frmGridGrupoProdutos);
+          if Parametros.Find.eValido = True then
+            begin
+              edtGrupo.Text := IntToStr(Parametros.Find.eChave);
+              cbbGrupo.ItemIndex := Parametros.Find.eChave;
+            end;
+        end;
+    end;
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.FormCreate(Sender: TObject);
+begin
+  inherited;
+  SQL := ' SELECT vwe.codigo, '+
+         '	vwe.empresa,                '+
+         '	vwe.produto,                '+
+         '	vwe.categoria,              '+
+         '	vwe.data_atualizacao,       '+
+         '	vwe.total_geral,            '+
+         '	vwe.total_disponivel,       '+
+         '	vwe.total_anterior,         '+
+         '	vwe.total_empenhado,        '+
+         '	vwe.origem,                 '+
+         '	vwe.status                  '+
+         '   FROM vw_estoque_geral vwe '+
+         '   LEFT JOIN produtos pd on pd.codigo = vwe.codigo '+
+         '   WHERE vwe.empresa = :empresa AND pd.molde = FALSE and ';
+ POSSQL := '   ORDER BY vwe.categoria, vwe.produto ASC; ';
+end;
+
+procedure TfrmRelatorioPosicaoEstoque.rgRelatorioExit(Sender: TObject);
+begin
+  inherited;
+  if rgRelatorio.ItemIndex = 0 then
+    begin
+      condicional := 'vwe.data_estoque = current_date';
+      grpPeriodo.Enabled := False;
+      edtDTInicio.Clear;
+      edtDTFinal.Clear;
+    end
+  else
+    begin
+      grpPeriodo.Enabled := True;
+      edtDTInicio.SetFocus;
+    end;
+end;
+
+end.

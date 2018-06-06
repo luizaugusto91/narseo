@@ -1,0 +1,53 @@
+unit unEstoqueMovimentoManual;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unSystem, unParametros, unConnection,
+  unMaster, Data.DB, MemDS, DBAccess, Uni, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.StdCtrls, Vcl.ImgList,
+  Vcl.ExtCtrls, cxGroupBox, cxRadioGroup, cxDBEdit, cxTextEdit, cxMaskEdit,
+  cxSpinEdit;
+
+type
+  TfrmEstoqueMovimentoManual = class(TFMaster)
+    cxRadioGroup1: TcxRadioGroup;
+    pnlBotton: TPanel;
+    Label26: TLabel;
+    Label27: TLabel;
+    imgHelp: TImage;
+    btnCancelar: TButton;
+    btnSalvar: TButton;
+    btnFechar: TButton;
+    ImageList16: TcxImageList;
+    qConsulta: TUniQuery;
+    ds: TUniDataSource;
+    grpDetalhes: TGroupBox;
+    lblProduto: TLabel;
+    edtCodigo: TcxDBSpinEdit;
+    edtNome: TcxDBTextEdit;
+  private
+    { Private declarations }
+    procedure OpenQuery;
+  public
+    Settings: TFormMode;
+    QueryID: Integer;
+    { Public declarations }
+    procedure ValidaCamposObrigatorios(Query: TUniQuery);
+    procedure Focus;
+  end;
+
+var
+  frmEstoqueMovimentoManual: TfrmEstoqueMovimentoManual;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,304 @@
+unit unSystemUpdate;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, IdBaseComponent, IdComponent,
+  IdTCPConnection, IdTCPClient, IdExplicitTLSClientServerBase, IdFTP,
+  Vcl.StdCtrls, Vcl.Buttons, Vcl.ComCtrls, unSystem, unParametros, cxGraphics,
+  cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit,
+  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinBlueprint, dxSkinCaramel,
+  dxSkinCoffee, dxSkinDarkRoom, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
+  dxSkinDevExpressStyle, dxSkinFoggy, dxSkinGlassOceans, dxSkinHighContrast,
+  dxSkiniMaginary, dxSkinLilian, dxSkinLiquidSky, dxSkinLondonLiquidSky,
+  dxSkinMcSkin, dxSkinMetropolis, dxSkinMetropolisDark, dxSkinMoneyTwins,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, dxSkinPumpkin, dxSkinSeven,
+  dxSkinSevenClassic, dxSkinSharp, dxSkinSharpPlus, dxSkinSilver,
+  dxSkinSpringTime, dxSkinStardust, dxSkinSummer2008, dxSkinTheAsphaltWorld,
+  dxSkinsDefaultPainters, dxSkinValentine, dxSkinVS2010, dxSkinWhiteprint,
+  dxSkinXmas2008Blue, dxGDIPlusClasses, cxImage, Vcl.ExtCtrls;
+
+type
+  TfrmSystemUpdate = class(TForm)
+    pnl1: TPanel;
+    lblt1: TLabel;
+    lblt2: TLabel;
+    pnl2: TPanel;
+    lblCopy: TLabel;
+    btnSalvar: TButton;
+    btnUpdate: TButton;
+    pnlEsquerdo: TPanel;
+    imgTagLogo: TcxImage;
+    pnlDireito: TPanel;
+    grpConfig: TGroupBox;
+    lblStatus: TLabel;
+    pbUpdate: TProgressBar;
+    idftp: TIdFTP;
+    lbl2: TLabel;
+    procedure idftpWorkBegin(ASender: TObject; AWorkMode: TWorkMode;
+      AWorkCountMax: Int64);
+    procedure idftpWork(ASender: TObject; AWorkMode: TWorkMode;
+      AWorkCount: Int64);
+    procedure btnUpdateClick(Sender: TObject);
+    procedure btnSalvarClick(Sender: TObject);
+  private
+    { Private declarations }
+    FnTamanhoTotal: integer;
+  public
+    { Public declarations }
+    function ConectarAoServidorFTP: boolean;
+    function ObterNumeroVersaoLocal: smallint;
+    function ObterNumeroVersaoFTP: smallint;
+    function VerificarExisteConexaoComInternet: boolean;
+    procedure BaixarAtualizacao;
+    procedure DescompactarAtualizacao;
+    procedure AtualizarNumeroVersao;
+  end;
+
+var
+  frmSystemUpdate: TfrmSystemUpdate;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  IdException, IniFiles, ShellAPI, WinInet;
+
+{ TfrmSystemUpdate }
+
+procedure TfrmSystemUpdate.AtualizarNumeroVersao;
+var
+  oArquivoLocal, oArquivoFTP: TIniFile;
+  sNumeroNovaVersao: string;
+begin
+  // abre os dois arquivos INI
+  oArquivoFTP := TIniFile.Create(Parametros.SystemConfig.ASSystemPath + '/services/VersaoFTP.ini');
+  oArquivoLocal := TIniFile.Create(Parametros.SystemConfig.ASSystemPath + '/services/VersaoLocal.ini');
+  try
+    // obtém o número da nova versão no arquivo "VersaoFTP.ini"...
+    sNumeroNovaVersao := oArquivoFTP.ReadString('VersaoFTP', 'Numero', EmptyStr);
+
+    // ... e grava este número no arquivo "VersaoLocal.ini"
+    oArquivoLocal.WriteString('VersaoLocal', 'Numero', sNumeroNovaVersao);
+  finally
+    FreeAndNil(oArquivoFTP);
+    FreeAndNil(oArquivoLocal);
+  end;
+end;
+
+procedure TfrmSystemUpdate.BaixarAtualizacao;
+begin
+  try
+    // deleta o arquivo "Atualizacao.rar", caso exista,
+    // evitando erro de arquivo já existente
+    if FileExists(Parametros.SystemConfig.ASSystemPath + '/services/Client.rar') then
+      DeleteFile(Parametros.SystemConfig.ASSystemPath + '/services/Client.rar');
+
+    // obtém o tamanho da atualização e preenche a variável "FnTamanhoTotal"
+    FnTamanhoTotal := IdFTP.Size('update/Client.rar');
+
+    // faz o download do arquivo "Atualizacao.rar"
+    IdFTP.Get('update/Client.rar',
+      Parametros.SystemConfig.ASSystemPath + '/services/Client.rar', True, True);
+  except
+    On E:Exception do
+    begin
+      // ignora a exceção "Connection Closed Gracefully"
+      if E is EIdConnClosedGracefully then
+        Exit;
+
+      ShowMessage('Erro ao baixar a atualização: ' + E.Message);
+
+      // interrompe a atualização
+      Abort;
+    end;
+  end;
+end;
+
+procedure TfrmSystemUpdate.btnUpdateClick(Sender: TObject);
+var
+  nNumeroVersaoLocal, nNumeroVersaoFTP: smallint;
+begin
+  lblStatus.Caption := 'Verificando conexão com servidor...';
+  if not VerificarExisteConexaoComInternet then
+    begin
+      lblStatus.Caption := 'Não há conexão com a internet para poder prosseguir.';
+      Exit;
+    end;
+  if not ConectarAoServidorFTP then
+    Exit;
+
+  lblStatus.Caption := 'Verificando versão do sistema...';
+  nNumeroVersaoLocal := ObterNumeroVersaoLocal;
+  nNumeroVersaoFTP := ObterNumeroVersaoFTP;
+
+  if nNumeroVersaoLocal < nNumeroVersaoFTP then
+    begin
+      lblStatus.Caption := 'Baixando arquivo de atualização...';
+      BaixarAtualizacao;
+      lblStatus.Caption := 'Atualizando sistema...';
+      DescompactarAtualizacao;
+      lblStatus.Caption := 'Registrando alterações...';
+      AtualizarNumeroVersao;
+
+      ShowMessage('O sistema foi atualizado com sucesso!');
+      lblStatus.Caption := 'O sistema foi atualizado com sucesso!';
+    end
+  else
+    begin
+      ShowMessage('O sistema já está atualizado.');
+      lblStatus.Caption := 'O sistema já está atualizado.';
+    end;
+  btnUpdate.Enabled := False;
+  btnSalvar.Enabled := True;
+end;
+
+procedure TfrmSystemUpdate.btnSalvarClick(Sender: TObject);
+begin
+  Close;
+end;
+
+function TfrmSystemUpdate.ConectarAoServidorFTP: boolean;
+begin
+  // desconecta, caso tenha sido conectado anteriormente
+  if IdFTP.Connected then
+    IdFTP.Disconnect;
+  try
+    IdFTP.Connect;
+    result := True;
+  except
+    On E:Exception do
+    begin
+      ShowMessage('Erro ao acessar o servidor de atualização: ' + E.Message);
+      result := False;
+    end;
+  end;
+end;
+
+procedure TfrmSystemUpdate.DescompactarAtualizacao;
+var
+  sNomeArquivoAtualizacao: string;
+begin
+  // deleta o backup anterior, ou melhor, da versão anterior,
+  // evitando erro de arquivo já existente
+  if FileExists(Parametros.SystemConfig.ASSystemPath + '/services/NarseoClient_bkp.exe') then
+    DeleteFile(Parametros.SystemConfig.ASSystemPath + '/services/NarseoClient_bkp.exe');
+
+  // Renomeia o executável atual (desatualizado) para "Sistema_Backup.exe"
+  if FileExists(Parametros.SystemConfig.ASSystemPath + '/NarseoClient.exe') then
+    RenameFile(Parametros.SystemConfig.ASSystemPath + '/NarseoClient.exe',Parametros.SystemConfig.ASSystemPath + '/NarseoClient_bkp.exe');
+
+  // Move o arquivo de backup
+  if FileExists(Parametros.SystemConfig.ASSystemPath + '/NarseoClient_bkp.exe') then
+    begin
+      //copia o arquivo original para o novo arquivo
+      CopyFile(PWideChar(Parametros.SystemConfig.ASSystemPath + '/NarseoClient_bkp.exe'),
+        PWideChar(Parametros.SystemConfig.ASSystemPath + '/services/NarseoClient_bkp.exe'), True);
+      //deleta o arquivo original
+      DeleteFile(Parametros.SystemConfig.ASSystemPath + '/NarseoClient_bkp.exe');
+    end;
+
+  // armazena o nome do arquivo de atualização em uma variável
+  sNomeArquivoAtualizacao := Parametros.SystemConfig.ASSystemPath + '/services/Client.rar';
+
+  // executa a linha de comando do 7-Zip para descompactar o arquivo baixado
+  ShellExecute(0, nil, '7z',  PWideChar(' e -aoa ' +
+    sNomeArquivoAtualizacao + ' -o' + Parametros.SystemConfig.ASSystemPath), '', SW_SHOW);
+end;
+
+procedure TfrmSystemUpdate.idftpWork(ASender: TObject; AWorkMode: TWorkMode;
+  AWorkCount: Int64);
+var
+  nTamanhoTotal, nTransmitidos, nPorcentagem: real;
+begin
+  if FnTamanhoTotal = 0 then
+    Exit;
+
+  Application.ProcessMessages;
+
+  // obtém o tamanho total do arquivo em bytes
+  nTamanhoTotal := FnTamanhoTotal div 1024;
+
+  // obtém a quantidade de bytes já baixados
+  nTransmitidos := AWorkCount div 1024;
+
+  // calcula a porcentagem de download
+  nPorcentagem := (nTransmitidos * 100) / nTamanhoTotal;
+
+  // atualiza o componente TLabel com a porcentagem
+  lblStatus.Caption := 'Download em ' + Format('%s%%', [FormatFloat('##0', nPorcentagem)]) + ' .Baixados ' + Format('%s KB de %s KB', [FormatFloat('##,###,##0', nTransmitidos), FormatFloat('##,###,##0', nTamanhoTotal)]);
+  //  Label1.Caption := Format('%s KB de %s KB', [FormatFloat('##,###,##0', nTransmitidos), FormatFloat('##,###,##0', nTamanhoTotal)]);
+
+  // atualiza a barra de preenchimento do componente TProgressBar
+  pbUpdate.Position := AWorkCount div 1024;
+end;
+
+procedure TfrmSystemUpdate.idftpWorkBegin(ASender: TObject;
+  AWorkMode: TWorkMode; AWorkCountMax: Int64);
+begin
+  pbUpdate.Max := FnTamanhoTotal div 1024;
+end;
+
+function TfrmSystemUpdate.ObterNumeroVersaoFTP: smallint;
+var
+  sNumeroVersao: string;
+  oArquivoINI: TIniFile;
+begin
+  // deleta o arquivo "VersaoFTP.ini" do computador, caso exista,
+  // evitando erro de arquivo já existente
+  if FileExists(Parametros.SystemConfig.ASSystemPath + '/services/VersaoFTP.ini') then
+    DeleteFile(Parametros.SystemConfig.ASSystemPath + '/services/VersaoFTP.ini');
+
+  // baixa o arquivo "VersaoFTP.ini" para o computador
+  IdFTP.Get('update/VersaoFTP.ini', Parametros.SystemConfig.ASSystemPath + '/services/VersaoFTP.ini', True, True);
+
+  // abre o arquivo "VersaoFTP.ini"
+  oArquivoINI := TIniFile.Create(Parametros.SystemConfig.ASSystemPath + '/services/VersaoFTP.ini');
+  try
+    // lê o número da versão
+    sNumeroVersao := oArquivoINI.ReadString('VersaoFTP', 'Numero', EmptyStr);
+
+    // retira os pontos (exemplo: de "1.0.1" para "101")
+    sNumeroVersao := StringReplace(sNumeroVersao, '.', EmptyStr, [rfReplaceAll]);
+
+    // converte o número da versão para número
+    result := StrToIntDef(sNumeroVersao, 0);
+  finally
+    FreeAndNil(oArquivoINI);
+  end;
+end;
+
+function TfrmSystemUpdate.ObterNumeroVersaoLocal: smallint;
+var
+  sNumeroVersao: string;
+  oArquivoINI: TIniFile;
+begin
+  // abre o arquivo "VersaoLocal.ini"
+  oArquivoINI := TIniFile.Create(Parametros.SystemConfig.ASSystemPath + '/services/VersaoLocal.ini');
+  try
+    // lê o número da versão
+    sNumeroVersao := oArquivoINI.ReadString('VersaoLocal', 'Numero', EmptyStr);
+
+    // retira os pontos (exemplo: de "1.0.0" para "100")
+    sNumeroVersao := StringReplace(sNumeroVersao, '.', EmptyStr, [rfReplaceAll]);
+
+    // converte o número da versão para número
+    result := StrToIntDef(sNumeroVersao, 0);
+  finally
+    FreeAndNil(oArquivoINI);
+  end;
+end;
+
+function TfrmSystemUpdate.VerificarExisteConexaoComInternet: boolean;
+var
+  nFlags: Cardinal;
+begin
+  result := InternetGetConnectedState(@nFlags, 0);
+end;
+
+end.

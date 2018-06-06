@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">W32ResourceDLL.Personality</Option>
+      <Option Name="ProjectType">ResourceDLL</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{EAD7C04E-B188-4DAB-8392-AA9F907CD3D3}</Option>
+    </Option>
+  </PersonalityInfo>
+  <W32ResourceDLL.Personality>
+    <Source>
+      <Source Name="MainSource">Croxx.dpr</Source>
+    </Source>
+    <Options>
+      <Options Name="BaseLang">1046</Options>
+      <Options Name="TargetName">..\..\exe\Croxx.PTB</Options>
+      <Options Name="BRCC_IncludePath"></Options>
+      <Options Name="Company"></Options>
+      <Options Name="Configuration"></Options>
+      <Options Name="Copyright"></Options>
+      <Options Name="Description"></Options>
+      <Options Name="Trademark"></Options>
+      <Options Name="Product"></Options>
+      <Options Name="ProductVersion"></Options>
+      <Options Name="Title"></Options>
+      <Options Name="FileVersion"></Options>
+      <Options Name="Evidence"></Options>
+      <Options Name="KeyFile"></Options>
+      <Options Name="KeyName"></Options>
+    </Options>
+    <FileList>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\ativos\unCadFrota.dfm" ContainerId="W32Form" ModuleName="unCadFrota.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\ativos\unCadTipoFrota.dfm" ContainerId="W32Form" ModuleName="unCadTipoFrota.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\ativos\unGridFrota.dfm" ContainerId="W32Form" ModuleName="unGridFrota.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\ativos\unGridTipoFrota.dfm" ContainerId="W32Form" ModuleName="unGridTipoFrota.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\conexao\unConnection.dfm" ContainerId="W32Form" ModuleName="unConnection.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unCad.dfm" ContainerId="W32Form" ModuleName="unCad.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unGrid.dfm" ContainerId="W32Form" ModuleName="unGrid.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unMaster.dfm" ContainerId="W32Form" ModuleName="unMaster.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unNew.dfm" ContainerId="W32Form" ModuleName="unNew.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unQuery.dfm" ContainerId="W32Form" ModuleName="unQuery.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unSave.dfm" ContainerId="W32Form" ModuleName="unSave.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unSystemHelp.dfm" ContainerId="W32Form" ModuleName="unSystemHelp.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\essenciais\unSystemSplash.dfm" ContainerId="W32Form" ModuleName="unSystemSplash.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\localidades\unCEP.dfm" ContainerId="W32Form" ModuleName="unCEP.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unCadConfigEmpresa.dfm" ContainerId="W32Form" ModuleName="unCadConfigEmpresa.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unCadConfigHost.dfm" ContainerId="W32Form" ModuleName="unCadConfigHost.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unCadSystemBreak.dfm" ContainerId="W32Form" ModuleName="unCadSystemBreak.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unGridConfigEmpresa.dfm" ContainerId="W32Form" ModuleName="unGridConfigEmpresa.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unGridSystemBreak.dfm" ContainerId="W32Form" ModuleName="unGridSystemBreak.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unParametros.dfm" ContainerId="W32Form" ModuleName="unParametros.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unSystemBreak.dfm" ContainerId="W32Form" ModuleName="unSystemBreak.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\parametros\unSystemConfig.dfm" ContainerId="W32Form" ModuleName="unSystemConfig.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadCargoPessoas.dfm" ContainerId="W32Form" ModuleName="unCadCargoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadCategoriaPessoas.dfm" ContainerId="W32Form" ModuleName="unCadCategoriaPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadDepartamentoPessoas.dfm" ContainerId="W32Form" ModuleName="unCadDepartamentoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadFornecedorProduto.dfm" ContainerId="W32Form" ModuleName="unCadFornecedorProduto.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadGrupoPessoas.dfm" ContainerId="W32Form" ModuleName="unCadGrupoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoa.dfm" ContainerId="W32Form" ModuleName="unCadPessoa.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaCliente.dfm" ContainerId="W32Form" ModuleName="unCadPessoaCliente.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaFornecedor.dfm" ContainerId="W32Form" ModuleName="unCadPessoaFornecedor.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaFuncionario.dfm" ContainerId="W32Form" ModuleName="unCadPessoaFuncionario.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaRepresentante.dfm" ContainerId="W32Form" ModuleName="unCadPessoaRepresentante.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unCadPessoaTransportadora.dfm" ContainerId="W32Form" ModuleName="unCadPessoaTransportadora.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridCargoPessoas.dfm" ContainerId="W32Form" ModuleName="unGridCargoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridCategoriaPessoas.dfm" ContainerId="W32Form" ModuleName="unGridCategoriaPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridDepartamentoPessoas.dfm" ContainerId="W32Form" ModuleName="unGridDepartamentoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridGrupoPessoas.dfm" ContainerId="W32Form" ModuleName="unGridGrupoPessoas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridPessoaCliente.dfm" ContainerId="W32Form" ModuleName="unGridPessoaCliente.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridPessoaFornecedor.dfm" ContainerId="W32Form" ModuleName="unGridPessoaFornecedor.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridPessoaFuncionario.dfm" ContainerId="W32Form" ModuleName="unGridPessoaFuncionario.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridPessoaRepresentante.dfm" ContainerId="W32Form" ModuleName="unGridPessoaRepresentante.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\pessoas\unGridPessoaTransportadora.dfm" ContainerId="W32Form" ModuleName="unGridPessoaTransportadora.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadCategoriaProdutos.dfm" ContainerId="W32Form" ModuleName="unCadCategoriaProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadDepositos.dfm" ContainerId="W32Form" ModuleName="unCadDepositos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadGrupoProdutos.dfm" ContainerId="W32Form" ModuleName="unCadGrupoProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadMarcaProdutos.dfm" ContainerId="W32Form" ModuleName="unCadMarcaProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadModeloProdutos.dfm" ContainerId="W32Form" ModuleName="unCadModeloProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadPedidoCompraProdutos.dfm" ContainerId="W32Form" ModuleName="unCadPedidoCompraProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadPedidoCompras.dfm" ContainerId="W32Form" ModuleName="unCadPedidoCompras.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadProdutoCodigoBarras.dfm" ContainerId="W32Form" ModuleName="unCadProdutoCodigoBarras.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadProdutoFornecedor.dfm" ContainerId="W32Form" ModuleName="unCadProdutoFornecedor.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadProdutos.dfm" ContainerId="W32Form" ModuleName="unCadProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadServicos.dfm" ContainerId="W32Form" ModuleName="unCadServicos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unCadTanques.dfm" ContainerId="W32Form" ModuleName="unCadTanques.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unDMProdutoConsultas.dfm" ContainerId="W32Form" ModuleName="unDMProdutoConsultas.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridCategoriaProdutos.dfm" ContainerId="W32Form" ModuleName="unGridCategoriaProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridDepositos.dfm" ContainerId="W32Form" ModuleName="unGridDepositos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridGrupoProdutos.dfm" ContainerId="W32Form" ModuleName="unGridGrupoProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridMarcaProdutos.dfm" ContainerId="W32Form" ModuleName="unGridMarcaProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridModeloProdutos.dfm" ContainerId="W32Form" ModuleName="unGridModeloProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridPedidoCompras.dfm" ContainerId="W32Form" ModuleName="unGridPedidoCompras.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridProdutos.dfm" ContainerId="W32Form" ModuleName="unGridProdutos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridServicos.dfm" ContainerId="W32Form" ModuleName="unGridServicos.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unGridTanques.dfm" ContainerId="W32Form" ModuleName="unGridTanques.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\produtos\unNewPedidoCompras.dfm" ContainerId="W32Form" ModuleName="unNewPedidoCompras.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\sefaz\unSEFAZ.dfm" ContainerId="W32Form" ModuleName="unSEFAZ.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\seguranca\unCadGrupoUsuarios.dfm" ContainerId="W32Form" ModuleName="unCadGrupoUsuarios.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\seguranca\unConfigGrupoUsuario.dfm" ContainerId="W32Form" ModuleName="unConfigGrupoUsuario.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\seguranca\unGridGrupoUsuarios.dfm" ContainerId="W32Form" ModuleName="unGridGrupoUsuarios.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\seguranca\unGridPermissoesGrupo.dfm" ContainerId="W32Form" ModuleName="unGridPermissoesGrupo.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\seguranca\unSystemLogin.dfm" ContainerId="W32Form" ModuleName="unSystemLogin.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\pas\unAplicacao.dfm" ContainerId="W32Form" ModuleName="unAplicacao.dfm"/>
+      <File FileName="C\Arquivos\Projetos\Croxx\basic\exe\Croxx_DRC.rc" ContainerId="W32RC" ModuleName="Croxx_DRC.rc"/>
+    </FileList>
+  </W32ResourceDLL.Personality>
+</BorlandProject>

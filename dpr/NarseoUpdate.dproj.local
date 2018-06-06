@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/08/23 00:47:52.000.542,=C:\Users\Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/11/06 10:26:56.000.497,=C:\Users\Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/11/06 10:27:45.000.928,C:\Users\Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Arquivos\Projetos\Narseo - New\basic\pas\update\unUpdate.pas</Transaction>
+    <Transaction>2017/11/06 10:27:45.000.928,C:\Users\Augusto\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Arquivos\Projetos\Narseo - New\basic\pas\update\unUpdate.dfm</Transaction>
+    <Transaction>2017/11/06 10:28:05.000.285,C:\Users\Augusto\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Arquivos\Projetos\Narseo - New\basic\dpr\NarseoUpdate.dproj</Transaction>
+    <Transaction>2017/11/06 10:31:13.000.097,=C:\Arquivos\Projetos\Narseo - New\basic\pas\update\unSystemUpdate.pas</Transaction>
+    <Transaction>2017/11/06 10:32:55.000.432,=C:\Arquivos\Projetos\Narseo - New\basic\pas\parametros\unParametros.pas</Transaction>
+    <Transaction>2017/11/06 10:33:09.000.418,=C:\Arquivos\Projetos\Narseo - New\basic\lib\unSQL.pas</Transaction>
+    <Transaction>2017/11/06 10:33:09.000.351,=C:\Arquivos\Projetos\Narseo - New\basic\lib\unFields.pas</Transaction>
+    <Transaction>2017/11/06 10:33:09.000.384,=C:\Arquivos\Projetos\Narseo - New\basic\lib\unNetwork.pas</Transaction>
+    <Transaction>2017/11/06 10:33:09.000.319,=C:\Arquivos\Projetos\Narseo - New\basic\lib\unEndereco.pas</Transaction>
+    <Transaction>2017/11/06 10:33:09.000.455,=C:\Arquivos\Projetos\Narseo - New\basic\lib\unSystem.pas</Transaction>
+    <Transaction>2017/11/06 10:33:33.000.902,C:\Arquivos\Projetos\Narseo - New\basic\pas\update\unUpdate.pas=</Transaction>
+    <Transaction>2017/11/06 10:39:27.000.980,=C:\Arquivos\Projetos\Narseo - New\basic\pas\essenciais\unMaster.pas</Transaction>
+    <Transaction>2017/11/06 11:03:36.000.263,=C:\Arquivos\Projetos\Narseo - New\basic\dpr\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

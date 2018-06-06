@@ -1,0 +1,329 @@
+inherited frmCadEstoqueMovimentoManual: TfrmCadEstoqueMovimentoManual
+  BorderIcons = [biSystemMenu]
+  Caption = 'Estoque: Movimento Manual'
+  ClientHeight = 311
+  ExplicitWidth = 506
+  ExplicitHeight = 340
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 276
+    ExplicitTop = 334
+  end
+  inherited grpContent: TGroupBox
+    Height = 224
+    ExplicitHeight = 282
+    object lblProduto: TLabel
+      Left = 9
+      Top = 55
+      Width = 48
+      Height = 15
+      Caption = 'Produto:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblEstoqueAtual: TLabel
+      Left = 9
+      Top = 84
+      Width = 79
+      Height = 15
+      Caption = 'Estoque Atual:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblQuantidade: TLabel
+      Left = 210
+      Top = 84
+      Width = 148
+      Height = 15
+      Caption = 'Quantidade a movimentar:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblTipoMovimento: TLabel
+      Left = 9
+      Top = 26
+      Width = 112
+      Height = 15
+      Caption = 'Tipo de Movimento:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 61
+      Top = 52
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = dsProduto
+      Properties.ReadOnly = True
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtNome: TcxDBTextEdit
+      Left = 115
+      Top = 52
+      DataBinding.DataField = 'produto'
+      DataBinding.DataSource = dsProduto
+      Properties.CharCase = ecUpperCase
+      Properties.ReadOnly = True
+      TabOrder = 1
+      Width = 363
+    end
+    object edtEstoqueAtual: TcxDBCalcEdit
+      Left = 94
+      Top = 81
+      DataBinding.DataField = 'total_disponovel'
+      DataBinding.DataSource = dsProduto
+      Properties.ReadOnly = True
+      TabOrder = 2
+      Width = 110
+    end
+    object edtQuantidade: TcxDBCalcEdit
+      Left = 364
+      Top = 81
+      DataBinding.DataField = 'quantidade'
+      DataBinding.DataSource = ds
+      Properties.ReadOnly = False
+      TabOrder = 3
+      Width = 114
+    end
+    object grpDescricao: TGroupBox
+      AlignWithMargins = True
+      Left = 7
+      Top = 112
+      Width = 476
+      Height = 105
+      Margins.Left = 5
+      Margins.Right = 5
+      Margins.Bottom = 5
+      Align = alBottom
+      Caption = ' Descri'#231#227'o da movimenta'#231#227'o '
+      TabOrder = 4
+      ExplicitTop = 73
+      ExplicitWidth = 462
+      object mmoDescricao: TcxDBMemo
+        AlignWithMargins = True
+        Left = 5
+        Top = 20
+        Align = alClient
+        DataBinding.DataField = 'descricao'
+        DataBinding.DataSource = ds
+        ParentColor = True
+        Style.BorderStyle = ebsNone
+        TabOrder = 0
+        ExplicitWidth = 452
+        Height = 80
+        Width = 466
+      end
+    end
+    object cbbTipoMovimento: TcxDBLookupComboBox
+      Left = 127
+      Top = 23
+      Properties.ListColumns = <>
+      TabOrder = 5
+      Width = 351
+    end
+  end
+  inherited ds: TUniDataSource
+    Left = 208
+    Top = 240
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO produto_movimento_manual'
+      
+        '  (empresa, produto, data_movimento, tipo_movimento, quantidade,' +
+        ' descricao)'
+      'VALUES'
+      
+        '  (:empresa, :produto, :data_movimento, :tipo_movimento, :quanti' +
+        'dade, :descricao)')
+    SQLDelete.Strings = (
+      'DELETE FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE produto_movimento_manual'
+      'SET'
+      
+        '  empresa = :empresa, produto = :produto, data_movimento = :data' +
+        '_movimento, tipo_movimento = :tipo_movimento, quantidade = :quan' +
+        'tidade, descricao = :descricao'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, produto, data_movimento, tipo_movimento, quantid' +
+        'ade, descricao FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM produto_movimento_manual'
+      ''
+      ') t')
+    SQL.Strings = (
+      
+        'SELECT codigo, empresa, produto, data_movimento, tipo_movimento,' +
+        ' quantidade, '
+      '       descricao'
+      '  FROM produto_movimento_manual'
+      ' WHERE codigo = :codigo;')
+    Left = 168
+    Top = 240
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 15728764
+  end
+  object qProduto: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO produto_movimento_manual'
+      
+        '  (empresa, produto, data_movimento, tipo_movimento, quantidade,' +
+        ' descricao)'
+      'VALUES'
+      
+        '  (:empresa, :produto, :data_movimento, :tipo_movimento, :quanti' +
+        'dade, :descricao)')
+    SQLDelete.Strings = (
+      'DELETE FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE produto_movimento_manual'
+      'SET'
+      
+        '  empresa = :empresa, produto = :produto, data_movimento = :data' +
+        '_movimento, tipo_movimento = :tipo_movimento, quantidade = :quan' +
+        'tidade, descricao = :descricao'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, produto, data_movimento, tipo_movimento, quantid' +
+        'ade, descricao FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM produto_movimento_manual'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT vwe.codigo, '
+      #9'vwe.empresa, '
+      #9'vwe.cd_estoque, '
+      #9'vwe.categoria,'
+      #9'vwe.produto, '
+      #9'vwe.data_atualizacao, '
+      #9'vwe.total_geral, '
+      #9'vwe.total_disponovel, '
+      #9'vwe.total_anterior, '
+      #9'vwe.total_emprenhado'
+      '   FROM vw_estoque vwe'
+      '  WHERE vwe.codigo = :codigo AND empresa = :empresa'
+      '  ORDER BY vwe.categoria, vwe.produto ASC;')
+    Left = 240
+    ParamData = <
+      item
+        DataType = ftInteger
+        Name = 'codigo'
+        ParamType = ptInput
+        Value = nil
+      end
+      item
+        DataType = ftInteger
+        Name = 'empresa'
+        ParamType = ptInput
+        Value = nil
+      end>
+  end
+  object dsProduto: TUniDataSource
+    DataSet = qProduto
+    Left = 280
+  end
+  object qTipoMovimento: TUniQuery
+    Tag = 7000
+    SQLInsert.Strings = (
+      'INSERT INTO produto_movimento_manual'
+      
+        '  (empresa, produto, data_movimento, tipo_movimento, quantidade,' +
+        ' descricao)'
+      'VALUES'
+      
+        '  (:empresa, :produto, :data_movimento, :tipo_movimento, :quanti' +
+        'dade, :descricao)')
+    SQLDelete.Strings = (
+      'DELETE FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE produto_movimento_manual'
+      'SET'
+      
+        '  empresa = :empresa, produto = :produto, data_movimento = :data' +
+        '_movimento, tipo_movimento = :tipo_movimento, quantidade = :quan' +
+        'tidade, descricao = :descricao'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT empresa, produto, data_movimento, tipo_movimento, quantid' +
+        'ade, descricao FROM produto_movimento_manual'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM produto_movimento_manual'
+      ''
+      ') t')
+    Connection = Connection.Conn
+    SQL.Strings = (
+      'SELECT codigo, descricao, operacao, funcao, bloqueado'
+      '  FROM tipo_movimento_produto'
+      ' WHERE bloqueado = FALSE'
+      ' ORDER BY descricao')
+    Left = 304
+    Top = 248
+  end
+  object dsTipoMovimento: TUniDataSource
+    DataSet = qTipoMovimento
+    Left = 344
+    Top = 248
+  end
+end

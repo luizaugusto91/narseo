@@ -1,0 +1,423 @@
+unit unFinanceiroVendas;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, unMaster, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, dxSkinsCore,
+  dxSkinDarkSide, dxSkinDevExpressDarkStyle, dxSkinDevExpressStyle,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, Vcl.StdCtrls, Vcl.ExtCtrls,
+  Data.DB, DBAccess, Uni, MemDS, Vcl.ImgList, dxGDIPlusClasses, cxImage, unSystem,
+  unParametros, unConnection, cxStyles, dxSkinscxPCPainter, cxCustomData,
+  cxFilter, cxData, cxDataStorage, cxNavigator, cxDBData, cxGridCustomTableView,
+  cxGridTableView, cxGridDBTableView, cxGridLevel, cxClasses, cxGridCustomView,
+  cxGrid, Datasnap.DBClient, cxTextEdit, cxCurrencyEdit, cxDBEdit,
+  cxDropDownEdit, cxLookupEdit, cxDBLookupEdit, cxDBLookupComboBox, cxSpinEdit,
+  cxMaskEdit, cxCalendar;
+
+type
+  TfrmFinanceiroVendas = class(TFMaster)
+    pnlHelp: TPanel;
+    imgIconHelp: TcxImage;
+    mmoHelp: TMemo;
+    ImageList16: TcxImageList;
+    qConsulta: TUniQuery;
+    ds: TUniDataSource;
+    pnlBotton: TPanel;
+    Label26: TLabel;
+    Label27: TLabel;
+    imgHelp: TImage;
+    btnCancelar: TButton;
+    btnSalvar: TButton;
+    btnFechar: TButton;
+    grpContent: TGroupBox;
+    grpParcelas: TGroupBox;
+    qConsultacodigo: TIntegerField;
+    qConsultaempresa: TIntegerField;
+    qConsultacliente: TIntegerField;
+    qConsultarepresentante: TIntegerField;
+    qConsultadata_venda: TDateTimeField;
+    qConsultadata_entrega: TDateField;
+    qConsultatotal_pedido: TCurrencyField;
+    qConsultatotal_produtos: TCurrencyField;
+    lblTotalProdutos: TLabel;
+    edttotal_produtos: TcxDBCurrencyEdit;
+    lblTotalPedido: TLabel;
+    edttotal_pedido: TcxDBCurrencyEdit;
+    cdsFaturas: TClientDataSet;
+    cdsFaturasparcela: TAutoIncField;
+    cdsFaturastotal_parcelas: TIntegerField;
+    cdsFaturasvalor_parcela: TCurrencyField;
+    cdsFaturasvalor_total: TCurrencyField;
+    cdsFaturasvencimento: TDateField;
+    Grid: TcxGrid;
+    View: TcxGridDBTableView;
+    Master: TcxGridLevel;
+    ColumnParcela: TcxGridDBColumn;
+    ColumnValor: TcxGridDBColumn;
+    ColumnParcelas: TcxGridDBColumn;
+    ColumnTotal: TcxGridDBColumn;
+    ColumnVencimento: TcxGridDBColumn;
+    dsFaturas: TDataSource;
+    qConsultatipo_pagamento: TIntegerField;
+    lblTipoPagamento: TLabel;
+    edttipo_pagamento: TcxDBSpinEdit;
+    edtParcelas: TcxSpinEdit;
+    lblParcelas: TLabel;
+    btnGerar: TButton;
+    cbbtipo_pagamento: TcxDBLookupComboBox;
+    btnRemover: TButton;
+    qTipoPagamento: TUniQuery;
+    dsTipoPagamento: TUniDataSource;
+    qPagamento: TUniQuery;
+    qPagamentocodigo: TIntegerField;
+    qPagamentodescricao: TStringField;
+    qPagamentosegunda_via: TBooleanField;
+    qPagamentocomissionada: TBooleanField;
+    qPagamentomov_cont_receber: TBooleanField;
+    qPagamentotef: TBooleanField;
+    qPagamentocheque: TBooleanField;
+    qPagamentomov_cont_bancaria: TBooleanField;
+    qPagamentoregistra_venda: TBooleanField;
+    qPagamentocartao: TBooleanField;
+    qPagamentoperc_operadora: TFloatField;
+    qPagamentocontrolar_cheque: TBooleanField;
+    qPagamentonro_parcela_max: TIntegerField;
+    qPagamentorequer_autorizacao: TBooleanField;
+    qPagamentocredito: TBooleanField;
+    qPagamentodebito_dias: TIntegerField;
+    qPagamentoinativo: TBooleanField;
+    qSQL: TUniQuery;
+    qConsultacupom: TIntegerField;
+    qContasReceber: TUniQuery;
+    IntegerField1: TIntegerField;
+    IntegerField2: TIntegerField;
+    qConsultadata_registro: TDateTimeField;
+    qConsultadata_movimento: TDateField;
+    qConsultatipo_conta: TIntegerField;
+    qConsultavenda: TIntegerField;
+    qConsultausuario: TIntegerField;
+    qConsultavalor: TCurrencyField;
+    qConsultaparcela: TIntegerField;
+    qConsultatotal_parcelas: TIntegerField;
+    IntegerField3: TIntegerField;
+    qConsultacentro_custo: TMemoField;
+    qConsultavencimento: TDateField;
+    qConsultavalor_corrigido: TCurrencyField;
+    qConsultajuros_porc: TFloatField;
+    qConsultajuros_valor: TCurrencyField;
+    qConsultadesconto_porc: TFloatField;
+    qConsultadesconto_valor: TCurrencyField;
+    qConsultadocumento: TStringField;
+    qConsultadata_recebimento: TDateField;
+    qConsultajuros_dia: TFloatField;
+    qConsultacarencia: TIntegerField;
+    qConsultapessoa: TIntegerField;
+    qConsultadescricao: TStringField;
+    qConsultacondicao_pagamento: TIntegerField;
+    qConsultastatus: TStringField;
+    qConsultaquitada: TBooleanField;
+    qConsultamulta: TFloatField;
+    qConsultaobservacoes: TMemoField;
+    qConsultanfe: TIntegerField;
+    qConsultacnpj: TMemoField;
+    qConsultamesclado_para: TIntegerField;
+    qConsultatipo: TIntegerField;
+    IntegerField4: TIntegerField;
+    qConsultafatura: TBooleanField;
+    qConsultagerado_titulo: TBooleanField;
+    qConsultagerar_boleto: TBooleanField;
+    qConsultamao_de_obra: TBooleanField;
+    qConsultacd_fatura: TLargeintField;
+    qConsultaobs_comanda: TMemoField;
+    qConsultacomanda: TIntegerField;
+    qConsultapara_quitar: TBooleanField;
+    qConsultaparcial: TIntegerField;
+    qConsultavalor_original: TFloatField;
+    qConsultafatura_acresc: TFloatField;
+    qConsultafatura_cred: TFloatField;
+    qConsultafatura_desc: TFloatField;
+    qConsultafatura_tipo: TIntegerField;
+    qConsultanunca_titulo: TBooleanField;
+    qConsultaconta_original: TIntegerField;
+    qPagamentopagamento: TBooleanField;
+    qPagamentobaixa: TBooleanField;
+    qConsultaliquidado: TBooleanField;
+    qVP: TUniQuery;
+    qVPcodigo: TIntegerField;
+    qVPvenda: TIntegerField;
+    qVPforma: TIntegerField;
+    qVPvalor_parcela: TCurrencyField;
+    qVPnumero_parcela: TIntegerField;
+    qVPvalor_total: TCurrencyField;
+    qVPtotal_parcelas: TIntegerField;
+    qVPdata_regristro: TDateTimeField;
+    qVPdata_pagamento: TDateTimeField;
+    qVPliquidado: TBooleanField;
+    qVPcaixa: TIntegerField;
+    qVPusuario: TIntegerField;
+    procedure FormShow(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure cbbtipo_pagamentoExit(Sender: TObject);
+    procedure btnFecharClick(Sender: TObject);
+    procedure btnGerarClick(Sender: TObject);
+    procedure btnRemoverClick(Sender: TObject);
+    procedure btnSalvarClick(Sender: TObject);
+    procedure ViewCellDblClick(Sender: TcxCustomGridTableView;
+      ACellViewInfo: TcxGridTableDataCellViewInfo; AButton: TMouseButton;
+      AShift: TShiftState; var AHandled: Boolean);
+    procedure ViewKeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmFinanceiroVendas: TfrmFinanceiroVendas;
+
+implementation
+
+{$R *.dfm}
+
+uses unCadVendas;
+
+procedure TfrmFinanceiroVendas.btnFecharClick(Sender: TObject);
+begin
+  inherited;
+  Close;
+end;
+
+procedure TfrmFinanceiroVendas.btnGerarClick(Sender: TObject);
+var
+  I, Parcelas: Integer;
+  ValParcela, Total: Currency;
+begin
+  inherited;
+  Total := qConsultatotal_pedido.AsCurrency;
+  Parcelas := edtParcelas.Value;
+  ValParcela := Total / Parcelas;
+  if qPagamento.Active = False then
+    begin
+      qPagamento.ParamByName('codigo').AsInteger := qConsultatipo_pagamento.AsInteger;
+      qPagamento.Open;
+    end;
+  try
+    if cdsFaturas.Active = True then
+      begin
+        cdsFaturas.EmptyDataSet;
+        cdsFaturas.Close;
+      end;
+    cdsFaturas.CreateDataSet;
+    for I := 1 to edtParcelas.Value do
+      begin
+        cdsFaturas.Insert;
+        cdsFaturasvalor_parcela.AsCurrency := ValParcela;
+        cdsFaturastotal_parcelas.AsInteger := Parcelas;
+        cdsFaturasvalor_total.AsCurrency := Total;
+        cdsFaturas.Post;
+      end;
+  finally
+    btnRemover.Enabled := True;
+    btnGerar.Enabled := False;
+  end;
+end;
+
+procedure TfrmFinanceiroVendas.btnRemoverClick(Sender: TObject);
+begin
+  inherited;
+  try
+    if cdsFaturas.Active = True then
+      begin
+        cdsFaturas.EmptyDataSet;
+        cdsFaturas.Close;
+      end;
+  finally
+    btnRemover.Enabled := False;
+    btnGerar.Enabled := True;
+  end;
+end;
+
+procedure TfrmFinanceiroVendas.btnSalvarClick(Sender: TObject);
+var
+  Caixa: Integer;
+begin
+  qSQL.SQL.Clear;
+  qSQL.SQL.Text := 'SELECT codigo FROM caixa WHERE data_caixa = CURRENT_DATE AND fechamento IS NULL AND conferido = FALSE;';
+  qSQL.Open;
+  if qSQL.RecordCount = 0 then
+    begin
+      qSQL.Close;
+      Aviso('INFO','Informação','Não foi encontrado caixa aberto para a data de hoje. A operação sera cancelada.');
+      Abort;
+    end
+  else
+    begin
+      Caixa := qSQL.FieldByName('codigo').AsInteger;
+      qSQL.Close;
+      if Pergunta('INFO','Informação','Tem certeza que deseja aplicar o pagamento?','SN') = ID_YES then
+        begin
+          // Gera as parcelas no contas a receber!
+          try
+            try
+              // Registra o pagamento
+              cdsFaturas.First;
+              qVP.Close;
+              qVP.ParamByName('codigo').AsInteger := ds.DataSet.FieldByName('codigo').AsInteger;
+              qVP.Open;
+              while cdsFaturas.Eof = false do
+                begin
+                  qVP.Insert;
+                  qVPvenda.AsInteger := ds.DataSet.FieldByName('codigo').AsInteger;
+                  qVPforma.AsInteger := ds.DataSet.FieldByName('tipo_pagamento').AsInteger;
+                  qVPnumero_parcela.AsInteger := cdsFaturasparcela.AsInteger;
+                  qVPvalor_parcela.AsCurrency := cdsFaturasvalor_parcela.AsCurrency;
+                  qVPtotal_parcelas.AsInteger := cdsFaturastotal_parcelas.AsInteger;
+                  qVPvalor_total.AsCurrency := cdsFaturasvalor_total.AsCurrency;
+                  qVPdata_regristro.AsDateTime := Now;
+                  if qPagamentopagamento.AsBoolean = True then
+                    begin
+                      qVPdata_pagamento.AsDateTime := Now;
+                      qVPliquidado.AsBoolean := True;
+                    end
+                  else
+                    begin
+                      qVPdata_pagamento.AsDateTime := Now;
+                      qVPliquidado.AsBoolean := False;
+                    end;
+                  qVPusuario.AsInteger := Parametros.cdsParametros.FieldByName('pessoa').AsInteger;
+                  qVPcaixa.AsInteger := Caixa;
+                  qVP.Post;
+                  cdsFaturas.Next;
+                end;
+              // Registra o cupom de venda
+              if qPagamentoregistra_venda.AsBoolean = True then
+                begin
+                  qSQL.Close;
+                  qSQL.SQL.Clear;
+                  qSQL.SQL.Text := 'SELECT gera_cupom_venda(:venda, :pgto)';
+                  qSQL.ParamByName('venda').AsInteger := qConsultacodigo.AsInteger;
+                  qSQL.ParamByName('pgto').AsInteger := qConsultatipo_pagamento.AsInteger;
+                  qSQL.Open;
+                  qConsulta.Edit;
+                  qConsultacupom.asInteger := qSQL.FieldByName('gera_cupom_venda').AsInteger;
+                  if qPagamentopagamento.AsBoolean = True then
+                    qConsultaliquidado.AsBoolean := True;
+                  qConsulta.Post;
+                end;
+              // Registra o contas a receber
+              if qPagamentomov_cont_receber.AsBoolean = True then
+                begin
+                  qContasReceber.Open;
+                  cdsFaturas.First;
+                  while cdsFaturas.Eof = false do
+                    begin
+                      qContasReceber.Insert;
+                      // qContasReceber.FieldByName('').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('empresa').AsInteger        := Parametros.cdsParametros.FieldByName('empresa').AsInteger;
+                      qContasReceber.FieldByName('venda').AsInteger          := qConsulta.FieldByName('codigo').AsInteger;
+                      qContasReceber.FieldByName('data_movimento').AsInteger := Now;
+                      qContasReceber.FieldByName('tipo_conta').AsInteger     := Parametros.cdsRegrasNegocio.FieldByName('vendas_tipoconta').AsInteger;
+                      qContasReceber.FieldByName('usuario').AsInteger        := Parametros.cdsParametros.FieldByName('pessoa').AsInteger;
+                      qContasReceber.FieldByName('valor').AsCurrency         := qConsulta.FieldByName('').AsCurrency;
+                      qContasReceber.FieldByName('parcela').AsInteger        := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('total_parcelas').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('tipo_pagamento').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('centro_custo').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('vencimento').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('valor_corrigido').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('juros_porc').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('juros_valor').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('desconto_porc').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('desconto_valor').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('documento').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('data_recebimento').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('juros_dia').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('carencia').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('pessoa').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('descricao').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('condicao_pagamento').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('status').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('quitada').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('multa').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('observacoes').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('cupom').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('fatura').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('gerado_titulo').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.FieldByName('gerar_boleto').AsInteger := qConsulta.FieldByName('').AsInteger;
+                      qContasReceber.Post;
+                      cdsFaturas.Next;
+                    end;
+                end;
+            finally
+              frmCadVendas.Finalizado := True;
+              Close;
+            end;
+          except
+            Aviso('ERRO','Erro','Não foi possivel gerar o parcelamento para a venda selecionada.');
+          end;
+        end;
+      inherited;
+    end;
+end;
+
+procedure TfrmFinanceiroVendas.cbbtipo_pagamentoExit(Sender: TObject);
+begin
+  inherited;
+  // Define o maximo de parcelas possiveis para o tipo de pagamento
+  qPagamento.Close;
+  qPagamento.ParamByName('codigo').AsInteger := ds.DataSet.FieldByName('tipo_pagamento').AsInteger;
+  qPagamento.Open;
+  edtParcelas.Properties.MaxValue := qPagamento.FieldByName('nro_parcela_max').AsFloat;
+end;
+
+procedure TfrmFinanceiroVendas.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  inherited;
+  if Key = 112 then
+    begin
+      if pnlHelp.Visible = False then
+        begin
+          Self.ClientHeight := Self.ClientHeight + 44;
+          pnlHelp.Visible := True
+        end
+      else
+        begin
+          Self.ClientHeight := Self.ClientHeight - 44;
+          pnlHelp.Visible := False
+        end;
+    end;
+end;
+
+procedure TfrmFinanceiroVendas.FormShow(Sender: TObject);
+begin
+  inherited;
+  Self.ClientHeight := Self.ClientHeight - 44;
+  qConsulta.ParamByName('codigo').AsInteger := Settings.ID;
+  ds.DataSet.Open;
+  Caption := 'Financeiro: Venda ['+ds.DataSet.FieldByName('codigo').AsString+']';
+  dsTipoPagamento.DataSet.Open;
+  // Valida o ClientDataSet
+end;
+
+procedure TfrmFinanceiroVendas.ViewCellDblClick(Sender: TcxCustomGridTableView;
+  ACellViewInfo: TcxGridTableDataCellViewInfo; AButton: TMouseButton;
+  AShift: TShiftState; var AHandled: Boolean);
+begin
+  inherited;
+  cdsFaturas.Edit;
+end;
+
+procedure TfrmFinanceiroVendas.ViewKeyPress(Sender: TObject; var Key: Char);
+begin
+  inherited;
+  if Key = #13 then
+    cdsFaturas.Post;
+end;
+
+end.

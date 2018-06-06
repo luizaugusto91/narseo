@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\Arquivos\Projetos\Croxx\basic\pas\essenciais\unNew.dfm" source-language="pt-BR" target-language="pt-BR" datatype="delphiform" tool="ETM v10.0" ts="C:\Arquivos\Projetos\Croxx\basic\pas\essenciais\unNew.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42769.0940972222</prop>
+        <prop prop-type="OrigDateTime">42744.6235416667</prop>
+        <prop prop-type="XlatDateTime">42744.6235416667</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">120</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:frmNew.Left" resname="O:frmNew.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Top" resname="O:frmNew.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Caption" resname="O:frmNew.Caption">
+        <source>'frmNew'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.ClientHeight" resname="O:frmNew.ClientHeight">
+        <source>233</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.ClientWidth" resname="O:frmNew.ClientWidth">
+        <source>521</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Color" resname="O:frmNew.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Font.Charset" resname="O:frmNew.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Font.Color" resname="O:frmNew.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Font.Height" resname="O:frmNew.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Font.Name" resname="O:frmNew.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Font.Style" resname="O:frmNew.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.OldCreateOrder" resname="O:frmNew.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.Position" resname="O:frmNew.Position">
+        <source>poMainFormCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.OnShow" resname="O:frmNew.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.PixelsPerInch" resname="O:frmNew.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.TextHeight" resname="O:frmNew.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TfrmNew</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.Left" resname="O:frmNew.O:pnlBotton.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.Top" resname="O:frmNew.O:pnlBotton.Top">
+        <source>198</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.Width" resname="O:frmNew.O:pnlBotton.Width">
+        <source>521</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.Height" resname="O:frmNew.O:pnlBotton.Height">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129282</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.Align" resname="O:frmNew.O:pnlBotton.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.BevelOuter" resname="O:frmNew.O:pnlBotton.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.ParentBackground" resname="O:frmNew.O:pnlBotton.ParentBackground">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.TabOrder" resname="O:frmNew.O:pnlBotton.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.ExplicitWidth" resname="O:frmNew.O:pnlBotton.ExplicitWidth">
+        <source>470</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.DesignSize[0]" resname="O:frmNew.O:pnlBotton.DesignSize[0]">
+        <source>521</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.DesignSize[1]" resname="O:frmNew.O:pnlBotton.DesignSize[1]">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Left" resname="O:frmNew.O:pnlBotton.O:Label26.Left">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Top" resname="O:frmNew.O:pnlBotton.O:Label26.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Width" resname="O:frmNew.O:pnlBotton.O:Label26.Width">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Height" resname="O:frmNew.O:pnlBotton.O:Label26.Height">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Caption" resname="O:frmNew.O:pnlBotton.O:Label26.Caption">
+        <source>'Ajuda |'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Font.Charset" resname="O:frmNew.O:pnlBotton.O:Label26.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Font.Color" resname="O:frmNew.O:pnlBotton.O:Label26.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Font.Height" resname="O:frmNew.O:pnlBotton.O:Label26.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Font.Name" resname="O:frmNew.O:pnlBotton.O:Label26.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.Font.Style" resname="O:frmNew.O:pnlBotton.O:Label26.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label26.ParentFont" resname="O:frmNew.O:pnlBotton.O:Label26.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Left" resname="O:frmNew.O:pnlBotton.O:Label27.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Top" resname="O:frmNew.O:pnlBotton.O:Label27.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Width" resname="O:frmNew.O:pnlBotton.O:Label27.Width">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Height" resname="O:frmNew.O:pnlBotton.O:Label27.Height">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Caption" resname="O:frmNew.O:pnlBotton.O:Label27.Caption">
+        <source>'F1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Font.Charset" resname="O:frmNew.O:pnlBotton.O:Label27.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Font.Color" resname="O:frmNew.O:pnlBotton.O:Label27.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Font.Height" resname="O:frmNew.O:pnlBotton.O:Label27.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Font.Name" resname="O:frmNew.O:pnlBotton.O:Label27.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.Font.Style" resname="O:frmNew.O:pnlBotton.O:Label27.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Label27.ParentFont" resname="O:frmNew.O:pnlBotton.O:Label27.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Left" resname="O:frmNew.O:pnlBotton.O:Image2.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Top" resname="O:frmNew.O:pnlBotton.O:Image2.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Width" resname="O:frmNew.O:pnlBotton.O:Image2.Width">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Height" resname="O:frmNew.O:pnlBotton.O:Image2.Height">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.AutoSize" resname="O:frmNew.O:pnlBotton.O:Image2.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Picture.Data" resname="O:frmNew.O:pnlBotton.O:Image2.Picture.Data">
+        <source>07544269746D617062030000424D620300000000000042000000280000001400000014000000010010000300000020030000120B0000120B00000000000000000000007C0000E00300001F000000FF7FFF7FFF7FFF7FFF7FFD7B7363CB4A653A24362436663EED52976FFE7FFF7FFE7FFF7FFF7FFF7FFF7FFF7FFF7FFF7F53632436A025C025023244364436012EC025C0258842986FFF7FFF7FFF7FFF7FFF7FFF7FFD7FCB4EC025E12DA746E94AC846A742A746C84AE94A653EC025E12D5263FF7FFF7FFF7FFF7FFF7FCC4EA02544360A4F853E012EE029C025C025E1290232C846E94EE12DE0297467FF7FFF7FFF7F5263C025443A0A4F2232E129E12DE12D653E443AE12DE12DE029653A094FE12D2232BA73FF7FFC7B453A012E0A4F2332E12D022EE12D653AAF678E5F2332E12D022EE129853EC84AC025CB4EFF7F7363E029EA4EA742E129022E022EE12D23362B57094F0232022E022E022EE12DE94A44362232DB77EC4E012E515F4436023202320232023202328642653E022E023202320232012E653EC746E02975678742653A305B2232233623320232023223326D5F6D5F0232023202320232022E4436E94AE029305B863E87422F5B223223362336233623320232C94AAF67C84A022E2232023202322336E94E012E0F57A846663E2F5B22322336233623362336233623364D5BB067853E0232223202324336E94E012E315F0C53443A515F443643364436443644364436012E2F5BFF7F515F223223362232853EC84A22329467736743362F5BC94A233644364436653AB973DA73FE7BFF7F0E572336443623362E5BA846853EDA73DB77C74687427263443A44364436643A2E5B976F976B0D57443A443A2336A8467163643A0D57FF7FFF7F7163853EEC52705F443A4436443A4336433643364336443A433686429267A842C646B76FFF7FFF7FFD7B2C57A5420C537263A84644364336443644364336643AEB4E9367C84AC6467263FF7FFF7FFE7FFF7FDC772D57C646CA4A515F515F0F57EC4EEC522E5B72632F5BA846E74A7163FE7FFE7FFE7FFF7FFF7FFF7FDC7B505F094FC746EA4E0D572E5B2E5B0C53C84AC7460A539467FF7FFF7FFF7FFF7FFF7FFF7FFE7FFE7FFF7FB87371632C57094F084F094F0A534D5B7367DB77FF7FFF7FFF7FFF7FFF7FFF7FFF7FFF7FFE7FFE7FFF7FFF7FFE7BDA77D973D973DB77FE7FFF7FFF7FFE7FFF7FFF7FFF7FFF7F</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:Image2.Transparent" resname="O:frmNew.O:pnlBotton.O:Image2.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Left" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Left">
+        <source>337</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Top" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Top">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Width" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Width">
+        <source>87</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Height" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Anchors" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Anchors">
+        <source>[akTop, akRight]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Caption" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.HotImageIndex" resname="O:frmNew.O:pnlBotton.O:btnCancelar.HotImageIndex">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.ImageIndex" resname="O:frmNew.O:pnlBotton.O:btnCancelar.ImageIndex">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.ImageMargins.Left" resname="O:frmNew.O:pnlBotton.O:btnCancelar.ImageMargins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129398</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.Images" resname="O:frmNew.O:pnlBotton.O:btnCancelar.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.TabOrder" resname="O:frmNew.O:pnlBotton.O:btnCancelar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnCancelar.OnClick" resname="O:frmNew.O:pnlBotton.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Left" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Left">
+        <source>430</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Top" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Top">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Width" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Width">
+        <source>87</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Height" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Anchors" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Anchors">
+        <source>[akTop, akRight]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Caption" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Caption">
+        <source>'Avançar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Enabled" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.HotImageIndex" resname="O:frmNew.O:pnlBotton.O:btnAvancar.HotImageIndex">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.ImageIndex" resname="O:frmNew.O:pnlBotton.O:btnAvancar.ImageIndex">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.ImageMargins.Left" resname="O:frmNew.O:pnlBotton.O:btnAvancar.ImageMargins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.Images" resname="O:frmNew.O:pnlBotton.O:btnAvancar.Images">
+        <source>ImageList16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.TabOrder" resname="O:frmNew.O:pnlBotton.O:btnAvancar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.OnClick" resname="O:frmNew.O:pnlBotton.O:btnAvancar.OnClick">
+        <source>btnAvancarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:pnlBotton.O:btnAvancar.ExplicitLeft" resname="O:frmNew.O:pnlBotton.O:btnAvancar.ExplicitLeft">
+        <source>379</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.AlignWithMargins" resname="O:frmNew.O:grpContent.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Left" resname="O:frmNew.O:grpContent.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Top" resname="O:frmNew.O:grpContent.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Width" resname="O:frmNew.O:grpContent.Width">
+        <source>511</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Height" resname="O:frmNew.O:grpContent.Height">
+        <source>195</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Margins.Left" resname="O:frmNew.O:grpContent.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Margins.Right" resname="O:frmNew.O:grpContent.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Margins.Bottom" resname="O:frmNew.O:grpContent.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Align" resname="O:frmNew.O:grpContent.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.Caption" resname="O:frmNew.O:grpContent.Caption">
+        <source>' Detalhes '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.TabOrder" resname="O:frmNew.O:grpContent.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.OnEnter" resname="O:frmNew.O:grpContent.OnEnter">
+        <source>grpContentEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.ExplicitWidth" resname="O:frmNew.O:grpContent.ExplicitWidth">
+        <source>460</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:grpContent.ExplicitHeight" resname="O:frmNew.O:grpContent.ExplicitHeight">
+        <source>222</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.FormatVersion" resname="O:frmNew.O:ImageList16.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.DesignInfo" resname="O:frmNew.O:ImageList16.DesignInfo">
+        <source>12386492</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[0].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[0].Image.Data">
+        <source>36040000424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000000000000091A33502059AAFF174079FF000000570000004D00000021000000000000000000000000000000000000000000000000000000000000000000000000040B15221D529DEF235FB1FF163C72FF000000430000003E0000003A000000260000000800000000000000000000000000000000000000000000000000000000174484D3215EB1FF2964B4FF15396DFF0000002E00000029000000230000001E000000180000000500000000000000000000000000000000000000002360B3FF1E54A0FF2564B7FF326EBCFF14386AFF000000380000002E0000002400000018000000092360B3FF00000000000000000000000000000000000000002564B7FF2159A6FF296ABDFF3B77C2FF133565FF000000380000002E0000002400000018000000090E8544FF007300FF00000000000000000000000000000000647388FF245EAAFF2C6FC2FF406EA7FF394A62FF000000380000002E0000002400000018005F00A4009900FF007300FF000000000000000000000000000000002A6ABEFF2763AFFF2F74C8FF5A7696FF4E5F77FF000000380000002E000000240039006F009900FF6BC970FF007300FF007300FF007300FF007300FF007300FF2C6DC1FF2966B4FF3279CDFF5491D5FF143667FF000000380000002E00390077009900FF57C05BFF4ABC4FFF58C35EFF5FC666FF66CA6EFF75D07DFF007300FF2D70C3FF2B6AB7FF347DD0FF5C99DBFF143667FF000000380000002E009900FF7ECE80FF42B846FF36B43BFF3EB844FF46BC4CFF50C157FF66CA6EFF007300FF2F72C6FF2D6CBAFF3780D3FF64A0E0FF143667FF000000380000002E00390077009900FF80CF82FF71CA74FF6CC870FF77CD7CFF7ED082FF68C96EFF007300FF3074C8FF2E6EBCFF3882D6FF61A0E1FF143667FF000000380000002E000000240039006F009900FF84D086FF009900FF009900FF009900FF009900FF009900FF66768BFF2F70BEFF3F88D9FF89BFEEFF234970BF000000380000002E0000002400000018005F00A4009900FF009900FF000000000000000000000000000000003176CAFF3374C0FF77B2E8FF557692BF00010146000000380000002E000000240000001800000009128C4CFF009900FF000000000000000000000000000000003277CBFF4C8CCFFF3C71A7DE0001014600010146000000380000002E0000002400000018000000093277CBFF00000000000000000000000000000000000000003277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF3277CBFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[1].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[1].Image.Data">
+        <source>36040000424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000400000009000000090000000900000009000000090000000900000009000000090000000900000009000000040000000000000000000000000000000200000015000000290000002C0000002C0000002C0000002C0000002C0000002C0000002C0000002C00000029000000150000000200000000000000000000000400000019000A0046002D00A3004500E4004F00FF0000002C0000002C0000002C0000002C0000002C0000002A0000001900000004000000000000000000000001001A0050005300F605750EFF0A8C1BFF005701FF0000000300000003000000030000000300000003000000030000000300000001000000000000000000070012005700ED07861AFF099220FF0E9A28FF026203FF00000000000000000000000000000000000D0024000D0024000000000000000000000000000000000039008D048013FF15A939FF13A737FF0C8F21FF016A03FF000000000000000000000000001700390A7514F00C7817F000170039000000000000000000000000006000D811A435FF13AB3CFF089222FF005800C6000D001E0000000000000000002500540E8518F810A233FF10A233FF149125F9022B03590000000000000000007700F61CBA4DFF1EBE50FF02850EFF001A003600000000000000000036006F037F05FF0D9B27FF13B244FF13B244FF0D9B27FF08880FFF0036006F00000000007F00F626C95CFF27CA5EFF008502FF0002000300000000000000000000000000000000008501FF27CA5EFF27CA5EFF008400FF000000000000000000000000007800D825CA5BFF23CB5EFF0A9E16FF000C0015000000000000000000000000000A0012079912FF26CD60FF27CD60FF008900F60000000000000000000000000059009614BB43FF1ECC61FF2ACE5AFF036805A9001E003300040006000B00120058009319BE44FF1CCB60FF18C354FF008300DB000000000000000000000000001E003001A001FC2AD568FF1ED166FF31D765FF13B82EFF06A80CFF07A911FF1BC448FF37DE72FF2DD86CFF01B12FFF005D009300000000000000000000000000000000005B008A03B628FF2AD86BFF25D76CFF28D96DFF37DF72FF36DF72FF22D66BFF32DC6FFF08C24CFF00A500F90018002400000000000000000000000000000000000000000061008D00B512FF1ACD50FF36DE6EFF41E576FF38E173FF21D564FF02BF3AFF00AC00F9003E005A000000000000000000000000000000000000000000000000000000000022003000690093009200CC00B400FC00B600FF009C00DB006D0099001E002A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[2].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[2].Image.Data">
+        <source>36040000424D36040000000000003600000028000000100000001000000001002000000000000004000000000000000000000000000000000000000000000000000000000000000000000000001B00000022020B0830020907290000001600000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001904140F4F1E916CF40A32256E00000035000000330000002C00000022000000190000000000000000000000000000000000000000000000000000000004110D1D1D8F6AEC2CCB9FFE1E9C75F30A34265600000000000000000000000000000000000000000000000000000000000000000000000000000000030E0B181C8D69E928C99DFD20D2A6FF28D0A4FF1D906DEF03100C1B0000000000000000000000000000000000000000000000000000000000000000020C09141C8B68E625CDA1FB20D2A6FFFFFFFFFF1FD1A6FF24BB91FC187A5BC800010001000000000000000000000000000000000000000000000000020907101B8966E223CA9FF920D2A6FF2EDAB0FF29AA83FF2EDAB0FF21D2A7FF1EA17AF30E46347400000000000000000000000000000000000000000107050C1C8A66E421C89DF61FD1A6FF42E1BBFF1F9C73EF1968509D1E9C73F12EDAB0FF22CFA4FF1D9470F10519132A0000000000000000000000000000000032A582FF2EDAB0FF21D0A5FF7CF2D6FF22A478F008271D3A000000000C3B2B581E9E74F12EDAB0FF20C398FE1C8966DC010403060000000000000000000000000B241D3832A582FF8DF8E0FF29AC83F50A3023430000000000000000000000000A33264C1E9E75F01FCB9FFF1FAC84F4135D4591000000000000000000000000000000000B241D3832A582FF08291E390000000000000000000000000000000000000000092D214320A278F01FC89CFF1FA078F108281E3F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008261C3922A278EF20C195FF219B73E8020A070F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000721193122A479ED21B287FB197456AE00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000061C142923A178EB25AC7FFF0C3A2B58000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000517112223A177EA24A57AF5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004130E1C229C74E3000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030F0B16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[3].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[3].Image.Data">
+        <source>36040000424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000600000004000000000000002C00000029000000240000001C0000002C00000029000000240000001C000000150000000000000000000000000000000000000000000000200000002C0004094C063387C30841B5F2063DBCFF063EBEFF073EBDFF0840B1F0062C72B900000041000000390000002C0000002000000000000000000000000003183D4E0842B8F30748C8FF0850CFFF0851D0FF0952CFFF0851D0FF084FCFFF0745C4FF0841AFE5020F2630000000000000000000000000000000000422546A0846C2FE0851D0FF0951CCFF0D53CDFF306CD4FF477CD9FF2564D2FF0D53CCFF0951CCFF084ECDFF0845BFFA0314303D0000000000000000010A181E0947BFF90B55D2FF0B51CBFF0353D7FF044ECBFFABACACFFCCCDCDFFFFFFFFFFC3D5F3FF2D6AD3FF0A51CBFF0B53CFFF0845B6EC0002040500000000073686AA0D55D1FF3374DAFF60A0F0FF0555D9FF0857D9FF044ECBFFABACACFFCCCDCDFFFFFFFFFFEBF1FBFF2D6AD3FF0A52CCFF0D52CCFF062C6B8700000000094BBDF0135ED6FF0D54CFFF044ECBFF2E7EE5FF0B59DAFF0D5BDAFF044ECBFFABACACFFCCCDCDFFFFFFFFFFB0C7EFFF0D54CEFF135CD2FF0944A7D3000000000F58D0FF1660D7FF3B74D6FFFFFFFFFF044ECBFF3281E6FF105EDCFF1361DDFF044ECBFFABACACFFCCCDCDFFF6F9FDFF0E54CDFF1660D5FF0B50C1F100000000135FD4FF1864DBFF4C80DAFFFFFFFFFFFFFFFFFF044ECBFF3886E8FF1664DDFF1967DFFF044ECBFFABACACFFCCCDCDFF175ACFFF1963DAFF115ACCFB000000001460D6FF2471E2FF2867D3FFE0E0E0FFFFFFFFFFFFFFFFFF044ECBFF3E8AEBFF1C69E0FF206CE0FF044ECBFFABACACFF0E55CFFF2470E0FF0F58C4EF000000000C51B4DA2D7AE6FF105CD7FFB2BDD0FFE0E0E0FFFFFFFFFFFFFFFFFF044ECBFF4390ECFF226EE1FF2470E2FF044ECBFF105BD6FF2A76E1FF0A479DBF0000000007336F852774E2FF2273E9FF2868D5FFC0C4CAFFE0E0E0FFFFFFFFFFFFFFFFFF044ECBFF4994EDFF2671E2FF2873E3FF2573E8FF216FDDFF052248570000000001050B0D105FC9EE3985ECFF1A6BE5FF1B60D3FFA5ADB9FFAFB1B2FFB4B5B5FFB2B6BCFF044ECBFF73AFF5FF1B6BE5FF3581E8FF0C53AFD1000000000000000000000000031730391A6BD8F93F8CEEFF297AEDFF1563DFFF125DD8FF1059D3FF125DD8FF1563DFFF3E89EFFF3C89EBFF1664CAEC020C191E00000000000000000000000000000000021021270F54ACCB3784EAFF4591F0FF559EF5FF529CF5FF559FF5FF4691F0FF3382E7FF0C4895B00108121500000000000000000000000000000000000000000000000000010303062A59690F4FA1BD2073D8F82779E1FF1F6ED0F00D4A98B30520424E0000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[4].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[4].Image.Data">
+        <source>36040000424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000D000000100000001600000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001900000022000000351A352880359F70FF000000330000002C000000220000001900000000000000000000000000000000000000000000000000000000000000000000000009251A3834A072FF33A172FF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009251A3832A373FF3DD7A8FF31A273FF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009251A382FA576FF3DD7A8FF1FCF9DFF2EA575FF0000000000000000000000000000000000000000000000000000000000000000000000000000000009251A382BA877FF3DD7A8FF10BF8FFF1FD29FFF2BA878FF2CA978FF2CA878FF2CA978FF2CA878FF2CA878FF2CA877FF2CA877FF000000000000000009251A3828AB7AFF3DD7A8FF0FC392FF10BF8FFF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF2BDAAAFF29AC7BFF0000000009251A3825AF7DFF3DD7A8FF0ECE9BFF0ED4A0FF0FCC99FF0FC796FF0FC795FF0FC795FF0FC795FF0FC795FF0FC796FF0FC795FF2BDCACFF25AF7EFF0000000021B280FF31E0B0FF0FCE9CFF0ED7A2FF0ED7A3FF0ED7A3FF0ED7A3FF0ED7A2FF0ED7A3FF0ED7A3FF0FD7A3FF0ED7A3FF0ED7A3FF3EE4B7FF22B280FF0000000005291E381EB583FF49E8BDFF0FDAA5FF0FDAA6FF0EDAA6FF0EDAA6FF0EDAA6FF0ED9A6FF0FDAA6FF0ED9A6FF0FDAA5FF0EDAA6FF4DE8BEFF1EB583FF000000000000000005291E381BB886FF62EFC8FF0FDDA9FF0FDDA9FF4DEABFFFF5F9F7FF91F9D9FF91F9D9FF91F9D9FF91F9D9FF91F9D9FFF5F9F7FF1BB886FF00000000000000000000000005291E3817BC88FF79F4D1FF10DFACFF4DEBC1FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0000000000000000000000000000000005291E3815BF8BFF8AF8D7FF91F9D9FF15BE8BFF00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005291E3812C18DFFF5F9F7FF12C18DFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005291E380FC38FFF10C38FFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005291E380EC590FF0000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ImageList16.ImageInfo[5].Image.Data" resname="O:frmNew.O:ImageList16.ImageInfo[5].Image.Data">
+        <source>36040000424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000D000000100000001600000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000001900000022000000351515125C359F70FF09251A600000002C0000002200000019000000000000000000000000000000000000000000000000000000000000000000000000000000000000000033A172FF34A072FF09251A380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000031A273FF3DD7A8FF32A373FF09251A380000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002EA575FF1FCF9DFF3DD7A8FF2FA576FF09251A38000000000000000000000000000000002CA877FF2CA877FF2CA878FF2CA878FF2CA978FF2CA878FF2CA978FF2BA878FF1FD29FFF10BF8FFF3DD7A8FF2BA877FF09251A3800000000000000000000000029AC7BFF2BDAAAFF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF3DD7A8FF10BF8FFF0FC392FF3DD7A8FF28AB7AFF09251A38000000000000000025AF7EFF2BDCACFF0FC795FF0FC796FF0FC795FF0FC795FF0FC795FF0FC795FF0FC796FF0FCC99FF0ED4A0FF0ECE9BFF3DD7A8FF25AF7DFF09251A380000000022B280FF3EE4B7FF0ED7A3FF0ED7A3FF0FD7A3FF0ED7A3FF0ED7A3FF0ED7A2FF0ED7A3FF0ED7A3FF0ED7A3FF0ED7A2FF0FCE9CFF31E0B0FF21B280FF000000001EB583FF4DE8BEFF0EDAA6FF0FDAA5FF0ED9A6FF0FDAA6FF0ED9A6FF0EDAA6FF0EDAA6FF0EDAA6FF0FDAA6FF0FDAA5FF49E8BDFF1EB583FF05291E38000000001BB886FFF5F9F7FF91F9D9FF91F9D9FF91F9D9FF91F9D9FF91F9D9FFF5F9F7FF4DEABFFF0FDDA9FF0FDDA9FF62EFC8FF1BB886FF05291E3800000000000000000EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF0EC590FF4DEBC1FF10DFACFF79F4D1FF17BC88FF05291E380000000000000000000000000000000000000000000000000000000000000000000000000000000015BE8BFF91F9D9FF8AF8D7FF15BF8BFF05291E38000000000000000000000000000000000000000000000000000000000000000000000000000000000000000012C18DFFF5F9F7FF12C18DFF05291E3800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010C38FFF0FC38FFF05291E38000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000EC590FF05291E3800000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qConsulta.Tag" resname="O:frmNew.O:qConsulta.Tag">
+        <source>7000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qConsulta.Connection" resname="O:frmNew.O:qConsulta.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qConsulta.SQL.Strings[0]" resname="O:frmNew.O:qConsulta.SQL.Strings[0]">
+        <source>'select 1;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qConsulta.Left" resname="O:frmNew.O:qConsulta.Left">
+        <source>88</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.0941129514</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qConsulta.Top" resname="O:frmNew.O:qConsulta.Top">
+        <source>189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ds.DataSet" resname="O:frmNew.O:ds.DataSet">
+        <source>qConsulta</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ds.Left" resname="O:frmNew.O:ds.Left">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:ds.Top" resname="O:frmNew.O:ds.Top">
+        <source>189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TUniDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.Connection" resname="O:frmNew.O:qSQL.Connection">
+        <source>Connection.Conn</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.SQL.Strings[0]" resname="O:frmNew.O:qSQL.SQL.Strings[0]">
+        <source>'SELECT nextval(:sequencial) as pkey'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.Left" resname="O:frmNew.O:qSQL.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.Top" resname="O:frmNew.O:qSQL.Top">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.ParamData[0].DataType" resname="O:frmNew.O:qSQL.ParamData[0].DataType">
+        <source>ftString</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.ParamData[0].Name" resname="O:frmNew.O:qSQL.ParamData[0].Name">
+        <source>'sequencial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.ParamData[0].ParamType" resname="O:frmNew.O:qSQL.ParamData[0].ParamType">
+        <source>ptInput</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:frmNew.O:qSQL.ParamData[0].Value" resname="O:frmNew.O:qSQL.ParamData[0].Value">
+        <source>nil</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42769.094112963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">C:TUniQuery</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

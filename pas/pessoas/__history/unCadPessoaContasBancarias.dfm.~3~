@@ -1,0 +1,335 @@
+inherited frmCadPessoaContasBancarias: TfrmCadPessoaContasBancarias
+  Caption = 'Associar contas bancarias'
+  ClientHeight = 177
+  ClientWidth = 716
+  ExplicitWidth = 722
+  ExplicitHeight = 206
+  PixelsPerInch = 96
+  TextHeight = 15
+  inherited pnlBotton: TPanel
+    Top = 142
+    Width = 716
+    TabOrder = 2
+    inherited btnCancelar: TButton
+      Left = 439
+    end
+    inherited btnSalvar: TButton
+      Left = 532
+    end
+    inherited btnFechar: TButton
+      Left = 625
+    end
+  end
+  inherited grpContent: TGroupBox
+    Width = 706
+    Height = 90
+    ExplicitLeft = 223
+    ExplicitTop = 180
+    object lblCodigo: TLabel
+      Left = 10
+      Top = 24
+      Width = 41
+      Height = 15
+      Caption = 'C'#243'digo:'
+      FocusControl = edtCodigo
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblbanco: TLabel
+      Left = 111
+      Top = 24
+      Width = 36
+      Height = 15
+      Caption = 'Banco:'
+      FocusControl = edtbanco
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lbltipo_conta: TLabel
+      Left = 479
+      Top = 24
+      Width = 76
+      Height = 15
+      Caption = 'Tipo de conta:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblAgencia: TLabel
+      Left = 10
+      Top = 53
+      Width = 46
+      Height = 15
+      Caption = 'Agencia:'
+      FocusControl = edtagencia_num
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblagenciaCod: TLabel
+      Left = 128
+      Top = 53
+      Width = 5
+      Height = 15
+      Caption = '-'
+      FocusControl = edtagencia_cod
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblconta: TLabel
+      Left = 165
+      Top = 53
+      Width = 34
+      Height = 15
+      Caption = 'Conta:'
+      FocusControl = edtconta_num
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblcontaCod: TLabel
+      Left = 271
+      Top = 53
+      Width = 5
+      Height = 15
+      Caption = '-'
+      FocusControl = edtconta_cod
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object edtCodigo: TcxDBSpinEdit
+      Left = 57
+      Top = 21
+      DataBinding.DataField = 'codigo'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      Style.Color = clBtnFace
+      TabOrder = 0
+      Width = 48
+    end
+    object edtbanco: TcxDBSpinEdit
+      Left = 153
+      Top = 21
+      DataBinding.DataField = 'banco'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 1
+      Width = 50
+    end
+    object cbbbanco: TcxDBLookupComboBox
+      Left = 209
+      Top = 21
+      DataBinding.DataField = 'banco'
+      DataBinding.DataSource = ds
+      Properties.ListColumns = <>
+      TabOrder = 2
+      Width = 264
+    end
+    object cbbtipo_conta: TcxDBImageComboBox
+      Left = 561
+      Top = 20
+      Properties.Items = <
+        item
+          Description = 'Conta Poupan'#231'a'
+          ImageIndex = 0
+          Value = 'CP'
+        end
+        item
+          Description = 'Conta Corrente'
+          Value = 'CC'
+        end>
+      TabOrder = 3
+      Width = 133
+    end
+    object edtagencia_num: TcxDBSpinEdit
+      Left = 62
+      Top = 50
+      DataBinding.DataField = 'agencia_num'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 4
+      Width = 60
+    end
+    object edtagencia_cod: TcxDBSpinEdit
+      Left = 139
+      Top = 50
+      DataBinding.DataField = 'agencia_cod'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 5
+      Width = 20
+    end
+    object edtconta_num: TcxDBSpinEdit
+      Left = 205
+      Top = 50
+      DataBinding.DataField = 'conta_num'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 6
+      Width = 60
+    end
+    object edtconta_cod: TcxDBSpinEdit
+      Left = 282
+      Top = 50
+      DataBinding.DataField = 'conta_cod'
+      DataBinding.DataSource = ds
+      Properties.SpinButtons.Visible = False
+      TabOrder = 7
+      Width = 20
+    end
+    object cbbconta_principal: TcxDBCheckBox
+      Left = 308
+      Top = 50
+      Caption = 'Conta principal'
+      DataBinding.DataField = 'conta_principal'
+      DataBinding.DataSource = ds
+      TabOrder = 8
+      Width = 116
+    end
+    object cbbContaInativa: TcxDBCheckBox
+      Left = 430
+      Top = 50
+      Caption = 'Conta inativa'
+      DataBinding.DataField = 'conta_inativa'
+      DataBinding.DataSource = ds
+      TabOrder = 9
+      Width = 121
+    end
+  end
+  inherited pnlHelp: TPanel
+    Width = 707
+    TabOrder = 1
+    inherited mmoHelp: TMemo
+      Width = 660
+    end
+  end
+  inherited ds: TUniDataSource
+    Left = 528
+    Top = 0
+  end
+  inherited qConsulta: TUniQuery
+    SQLInsert.Strings = (
+      'INSERT INTO pessoa_contabancaria'
+      
+        '  (pessoa, banco, tipo_conta, agencia_num, agencia_cod, conta_nu' +
+        'm, conta_cod, conta_principal, conta_inativa)'
+      'VALUES'
+      
+        '  (:pessoa, :banco, :tipo_conta, :agencia_num, :agencia_cod, :co' +
+        'nta_num, :conta_cod, :conta_principal, :conta_inativa)')
+    SQLDelete.Strings = (
+      'DELETE FROM pessoa_contabancaria'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLUpdate.Strings = (
+      'UPDATE pessoa_contabancaria'
+      'SET'
+      
+        '  banco = :banco, tipo_conta = :tipo_conta, agencia_num = :agenc' +
+        'ia_num, agencia_cod = :agencia_cod, conta_num = :conta_num, cont' +
+        'a_cod = :conta_cod, conta_principal = :conta_principal, conta_in' +
+        'ativa = :conta_inativa'
+      'WHERE'
+      '  codigo = :Old_codigo')
+    SQLLock.Strings = (
+      'SELECT * FROM pessoa_contabancaria'
+      'WHERE'
+      '  codigo = :Old_codigo'
+      'FOR UPDATE NOWAIT')
+    SQLRefresh.Strings = (
+      
+        'SELECT pessoa, banco, tipo_conta, agencia_num, agencia_cod, cont' +
+        'a_num, conta_cod, conta_principal, conta_inativa FROM pessoa_con' +
+        'tabancaria'
+      'WHERE'
+      '  codigo = :codigo')
+    SQLRecCount.Strings = (
+      'SELECT count(*) FROM ('
+      'SELECT * FROM pessoa_contabancaria'
+      ''
+      ') t')
+    SQL.Strings = (
+      'SELECT '#9'pcb.codigo, '
+      #9'pcb.pessoa, '
+      #9'pcb.banco, '
+      #9'pcb.tipo_conta, '
+      #9'pcb.agencia_num, '
+      #9'pcb.agencia_cod,        '
+      #9'pcb.conta_num, '
+      #9'pcb.conta_cod, '
+      #9'pcb.conta_principal, '
+      #9'pcb.conta_inativa'
+      '  FROM  pessoa_contabancaria pcb'
+      ' WHERE  pcb.pessoa = :codigo;')
+    Left = 488
+    Top = 0
+    object qConsultacodigo: TIntegerField
+      FieldName = 'codigo'
+    end
+    object qConsultapessoa: TIntegerField
+      FieldName = 'pessoa'
+      Required = True
+    end
+    object qConsultabanco: TIntegerField
+      FieldName = 'banco'
+    end
+    object qConsultatipo_conta: TStringField
+      FieldName = 'tipo_conta'
+      Required = True
+      FixedChar = True
+      Size = 2
+    end
+    object qConsultaagencia_num: TIntegerField
+      FieldName = 'agencia_num'
+      Required = True
+    end
+    object qConsultaagencia_cod: TIntegerField
+      FieldName = 'agencia_cod'
+      Required = True
+    end
+    object qConsultaconta_num: TIntegerField
+      FieldName = 'conta_num'
+      Required = True
+    end
+    object qConsultaconta_cod: TIntegerField
+      FieldName = 'conta_cod'
+      Required = True
+    end
+    object qConsultaconta_principal: TBooleanField
+      FieldName = 'conta_principal'
+    end
+    object qConsultaconta_inativa: TBooleanField
+      FieldName = 'conta_inativa'
+      Required = True
+    end
+  end
+  inherited ImageList16: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 444
+  end
+end
